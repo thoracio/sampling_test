@@ -1,0 +1,557 @@
+"src/utilities.ml" 6 54 58 "src/utilities.ml" 6 54 69
+type(
+  string * string
+)
+ident(
+  def actual_date "src/utilities.ml" 17 534 534 "src/utilities.ml" 1 0 -1
+)
+"src/utilities.ml" 7 72 78 "src/utilities.ml" 7 72 79
+type(
+  BatUnix.tm
+)
+ident(
+  def t "src/utilities.ml" 8 121 123 "src/utilities.ml" 15 515 532
+)
+"src/utilities.ml" 7 72 82 "src/utilities.ml" 7 72 99
+type(
+  float -> BatUnix.tm
+)
+ident(
+  ext_ref BatUnix.localtime
+)
+"src/utilities.ml" 7 72 101 "src/utilities.ml" 7 72 113
+type(
+  unit -> float
+)
+ident(
+  ext_ref BatUnix.time
+)
+"src/utilities.ml" 7 72 114 "src/utilities.ml" 7 72 116
+type(
+  unit
+)
+"src/utilities.ml" 7 72 100 "src/utilities.ml" 7 72 117
+call(
+  stack
+)
+type(
+  float
+)
+"src/utilities.ml" 7 72 82 "src/utilities.ml" 7 72 117
+call(
+  stack
+)
+type(
+  BatUnix.tm
+)
+"src/utilities.ml" 8 121 128 "src/utilities.ml" 8 121 131
+type(
+  int
+)
+ident(
+  def day "src/utilities.ml" 9 184 186 "src/utilities.ml" 15 515 532
+)
+"src/utilities.ml" 8 121 133 "src/utilities.ml" 8 121 138
+type(
+  int
+)
+ident(
+  def month "src/utilities.ml" 9 184 186 "src/utilities.ml" 15 515 532
+)
+"src/utilities.ml" 8 121 140 "src/utilities.ml" 8 121 144
+type(
+  int
+)
+ident(
+  def year "src/utilities.ml" 9 184 186 "src/utilities.ml" 15 515 532
+)
+"src/utilities.ml" 8 121 127 "src/utilities.ml" 8 121 145
+type(
+  int * int * int
+)
+"src/utilities.ml" 8 121 149 "src/utilities.ml" 8 121 150
+type(
+  BatUnix.tm
+)
+ident(
+  int_ref t "src/utilities.ml" 7 72 78 "src/utilities.ml" 7 72 79
+)
+"src/utilities.ml" 8 121 149 "src/utilities.ml" 8 121 158
+type(
+  int
+)
+"src/utilities.ml" 8 121 160 "src/utilities.ml" 8 121 161
+type(
+  BatUnix.tm
+)
+ident(
+  int_ref t "src/utilities.ml" 7 72 78 "src/utilities.ml" 7 72 79
+)
+"src/utilities.ml" 8 121 160 "src/utilities.ml" 8 121 168
+type(
+  int
+)
+"src/utilities.ml" 8 121 170 "src/utilities.ml" 8 121 171
+type(
+  BatUnix.tm
+)
+ident(
+  int_ref t "src/utilities.ml" 7 72 78 "src/utilities.ml" 7 72 79
+)
+"src/utilities.ml" 8 121 170 "src/utilities.ml" 8 121 179
+type(
+  int
+)
+"src/utilities.ml" 8 121 148 "src/utilities.ml" 8 121 180
+type(
+  int * int * int
+)
+"src/utilities.ml" 9 184 190 "src/utilities.ml" 9 184 197
+type(
+  string
+)
+ident(
+  def str_day "src/utilities.ml" 10 221 223 "src/utilities.ml" 15 515 532
+)
+"src/utilities.ml" 9 184 200 "src/utilities.ml" 9 184 213
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/utilities.ml" 9 184 214 "src/utilities.ml" 9 184 217
+type(
+  int
+)
+ident(
+  int_ref day "src/utilities.ml" 8 121 128 "src/utilities.ml" 8 121 131
+)
+"src/utilities.ml" 9 184 200 "src/utilities.ml" 9 184 217
+call(
+  stack
+)
+type(
+  string
+)
+"src/utilities.ml" 10 221 227 "src/utilities.ml" 10 221 234
+type(
+  string
+)
+ident(
+  def str_mon "src/utilities.ml" 11 264 266 "src/utilities.ml" 15 515 532
+)
+"src/utilities.ml" 10 221 237 "src/utilities.ml" 10 221 250
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/utilities.ml" 10 221 252 "src/utilities.ml" 10 221 257
+type(
+  int
+)
+ident(
+  int_ref month "src/utilities.ml" 8 121 133 "src/utilities.ml" 8 121 138
+)
+"src/utilities.ml" 10 221 257 "src/utilities.ml" 10 221 258
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/utilities.ml" 10 221 258 "src/utilities.ml" 10 221 259
+type(
+  int
+)
+"src/utilities.ml" 10 221 251 "src/utilities.ml" 10 221 260
+type(
+  int
+)
+"src/utilities.ml" 10 221 237 "src/utilities.ml" 10 221 260
+call(
+  stack
+)
+type(
+  string
+)
+"src/utilities.ml" 11 264 270 "src/utilities.ml" 11 264 278
+type(
+  string
+)
+ident(
+  def str_year "src/utilities.ml" 12 310 312 "src/utilities.ml" 15 515 532
+)
+"src/utilities.ml" 11 264 281 "src/utilities.ml" 11 264 294
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/utilities.ml" 11 264 296 "src/utilities.ml" 11 264 300
+type(
+  int
+)
+ident(
+  int_ref year "src/utilities.ml" 8 121 140 "src/utilities.ml" 8 121 144
+)
+"src/utilities.ml" 11 264 300 "src/utilities.ml" 11 264 301
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/utilities.ml" 11 264 301 "src/utilities.ml" 11 264 305
+type(
+  int
+)
+"src/utilities.ml" 11 264 295 "src/utilities.ml" 11 264 306
+type(
+  int
+)
+"src/utilities.ml" 11 264 281 "src/utilities.ml" 11 264 306
+call(
+  stack
+)
+type(
+  string
+)
+"src/utilities.ml" 12 310 316 "src/utilities.ml" 12 310 323
+type(
+  string
+)
+ident(
+  def ac_date "src/utilities.ml" 13 379 381 "src/utilities.ml" 15 515 532
+)
+"src/utilities.ml" 12 310 326 "src/utilities.ml" 12 310 342
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref BatString.concat
+)
+"src/utilities.ml" 12 310 343 "src/utilities.ml" 12 310 346
+type(
+  string
+)
+"src/utilities.ml" 12 310 348 "src/utilities.ml" 12 310 355
+type(
+  string
+)
+ident(
+  int_ref str_day "src/utilities.ml" 9 184 190 "src/utilities.ml" 9 184 197
+)
+"src/utilities.ml" 12 310 357 "src/utilities.ml" 12 310 364
+type(
+  string
+)
+ident(
+  int_ref str_mon "src/utilities.ml" 10 221 227 "src/utilities.ml" 10 221 234
+)
+"src/utilities.ml" 12 310 366 "src/utilities.ml" 12 310 374
+type(
+  string
+)
+ident(
+  int_ref str_year "src/utilities.ml" 11 264 270 "src/utilities.ml" 11 264 278
+)
+"src/utilities.ml" 12 310 347 "src/utilities.ml" 12 310 375
+type(
+  string list
+)
+"src/utilities.ml" 12 310 326 "src/utilities.ml" 12 310 375
+call(
+  stack
+)
+type(
+  string
+)
+"src/utilities.ml" 13 379 385 "src/utilities.ml" 13 379 392
+type(
+  string
+)
+ident(
+  def ac_time "src/utilities.ml" 15 515 517 "src/utilities.ml" 15 515 532
+)
+"src/utilities.ml" 13 379 395 "src/utilities.ml" 13 379 411
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref BatString.concat
+)
+"src/utilities.ml" 13 379 412 "src/utilities.ml" 13 379 415
+type(
+  string
+)
+"src/utilities.ml" 13 379 418 "src/utilities.ml" 13 379 431
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/utilities.ml" 13 379 432 "src/utilities.ml" 13 379 433
+type(
+  BatUnix.tm
+)
+ident(
+  int_ref t "src/utilities.ml" 7 72 78 "src/utilities.ml" 7 72 79
+)
+"src/utilities.ml" 13 379 432 "src/utilities.ml" 13 379 441
+type(
+  int
+)
+"src/utilities.ml" 13 379 417 "src/utilities.ml" 13 379 442
+call(
+  stack
+)
+type(
+  string
+)
+"src/utilities.ml" 14 444 461 "src/utilities.ml" 14 444 474
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/utilities.ml" 14 444 475 "src/utilities.ml" 14 444 476
+type(
+  BatUnix.tm
+)
+ident(
+  int_ref t "src/utilities.ml" 7 72 78 "src/utilities.ml" 7 72 79
+)
+"src/utilities.ml" 14 444 475 "src/utilities.ml" 14 444 483
+type(
+  int
+)
+"src/utilities.ml" 14 444 460 "src/utilities.ml" 14 444 484
+call(
+  stack
+)
+type(
+  string
+)
+"src/utilities.ml" 14 444 487 "src/utilities.ml" 14 444 500
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/utilities.ml" 14 444 501 "src/utilities.ml" 14 444 502
+type(
+  BatUnix.tm
+)
+ident(
+  int_ref t "src/utilities.ml" 7 72 78 "src/utilities.ml" 7 72 79
+)
+"src/utilities.ml" 14 444 501 "src/utilities.ml" 14 444 509
+type(
+  int
+)
+"src/utilities.ml" 14 444 486 "src/utilities.ml" 14 444 510
+call(
+  stack
+)
+type(
+  string
+)
+"src/utilities.ml" 13 379 416 "src/utilities.ml" 14 444 511
+type(
+  string list
+)
+"src/utilities.ml" 13 379 395 "src/utilities.ml" 14 444 511
+call(
+  stack
+)
+type(
+  string
+)
+"src/utilities.ml" 15 515 517 "src/utilities.ml" 15 515 524
+type(
+  string
+)
+ident(
+  int_ref ac_time "src/utilities.ml" 13 379 385 "src/utilities.ml" 13 379 392
+)
+"src/utilities.ml" 15 515 525 "src/utilities.ml" 15 515 532
+type(
+  string
+)
+ident(
+  int_ref ac_date "src/utilities.ml" 12 310 316 "src/utilities.ml" 12 310 323
+)
+"src/utilities.ml" 15 515 517 "src/utilities.ml" 15 515 532
+type(
+  string * string
+)
+"src/utilities.ml" 13 379 381 "src/utilities.ml" 15 515 532
+type(
+  string * string
+)
+"src/utilities.ml" 12 310 312 "src/utilities.ml" 15 515 532
+type(
+  string * string
+)
+"src/utilities.ml" 11 264 266 "src/utilities.ml" 15 515 532
+type(
+  string * string
+)
+"src/utilities.ml" 10 221 223 "src/utilities.ml" 15 515 532
+type(
+  string * string
+)
+"src/utilities.ml" 9 184 186 "src/utilities.ml" 15 515 532
+type(
+  string * string
+)
+"src/utilities.ml" 8 121 123 "src/utilities.ml" 15 515 532
+type(
+  string * string
+)
+"src/utilities.ml" 7 72 74 "src/utilities.ml" 15 515 532
+type(
+  string * string
+)
+"src/utilities.ml" 17 534 538 "src/utilities.ml" 17 534 545
+type(
+  text:string -> file:string -> unit
+)
+ident(
+  def to_file "src/utilities.ml" 22 720 739 "src/utilities.ml" 1 0 -1
+)
+"src/utilities.ml" 17 534 552 "src/utilities.ml" 17 534 554
+type(
+  string
+)
+ident(
+  def te "src/utilities.ml" 17 534 555 "src/utilities.ml" 22 720 739
+)
+"src/utilities.ml" 17 534 561 "src/utilities.ml" 17 534 565
+type(
+  string
+)
+ident(
+  def name "src/utilities.ml" 18 568 570 "src/utilities.ml" 22 720 739
+)
+"src/utilities.ml" 18 568 574 "src/utilities.ml" 18 568 575
+type(
+  string
+)
+ident(
+  def t "src/utilities.ml" 20 659 661 "src/utilities.ml" 22 720 739
+)
+"src/utilities.ml" 18 568 576 "src/utilities.ml" 18 568 577
+type(
+  string
+)
+ident(
+  def d "src/utilities.ml" 20 659 661 "src/utilities.ml" 22 720 739
+)
+"src/utilities.ml" 18 568 574 "src/utilities.ml" 18 568 577
+type(
+  string * string
+)
+"src/utilities.ml" 18 568 580 "src/utilities.ml" 18 568 591
+type(
+  string * string
+)
+ident(
+  int_ref actual_date "src/utilities.ml" 6 54 58 "src/utilities.ml" 6 54 69
+)
+"src/utilities.ml" 20 659 665 "src/utilities.ml" 20 659 672
+type(
+  out_channel
+)
+ident(
+  def channel "src/utilities.ml" 21 692 694 "src/utilities.ml" 22 720 739
+)
+"src/utilities.ml" 20 659 675 "src/utilities.ml" 20 659 683
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"src/utilities.ml" 20 659 684 "src/utilities.ml" 20 659 688
+type(
+  string
+)
+ident(
+  int_ref name "src/utilities.ml" 17 534 561 "src/utilities.ml" 17 534 565
+)
+"src/utilities.ml" 20 659 675 "src/utilities.ml" 20 659 688
+call(
+  stack
+)
+type(
+  out_channel
+)
+"src/utilities.ml" 21 692 694 "src/utilities.ml" 21 692 707
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/utilities.ml" 21 692 708 "src/utilities.ml" 21 692 715
+type(
+  out_channel
+)
+ident(
+  int_ref channel "src/utilities.ml" 20 659 665 "src/utilities.ml" 20 659 672
+)
+"src/utilities.ml" 21 692 716 "src/utilities.ml" 21 692 718
+type(
+  string
+)
+ident(
+  int_ref te "src/utilities.ml" 17 534 552 "src/utilities.ml" 17 534 554
+)
+"src/utilities.ml" 21 692 694 "src/utilities.ml" 21 692 718
+call(
+  stack
+)
+type(
+  unit
+)
+"src/utilities.ml" 22 720 722 "src/utilities.ml" 22 720 731
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"src/utilities.ml" 22 720 732 "src/utilities.ml" 22 720 739
+type(
+  out_channel
+)
+ident(
+  int_ref channel "src/utilities.ml" 20 659 665 "src/utilities.ml" 20 659 672
+)
+"src/utilities.ml" 22 720 722 "src/utilities.ml" 22 720 739
+call(
+  tail
+)
+type(
+  unit
+)
+"src/utilities.ml" 21 692 694 "src/utilities.ml" 22 720 739
+type(
+  unit
+)
+"src/utilities.ml" 20 659 661 "src/utilities.ml" 22 720 739
+type(
+  unit
+)
+"src/utilities.ml" 18 568 570 "src/utilities.ml" 22 720 739
+type(
+  unit
+)

@@ -1,0 +1,530 @@
+"src/choice.ml" 11 355 359 "src/choice.ml" 11 355 374
+type(
+  float -> float -> float
+)
+ident(
+  def midpoint_choice "src/choice.ml" 15 474 474 "src/choice.ml" 1 0 -1
+)
+"src/choice.ml" 11 355 375 "src/choice.ml" 11 355 376
+type(
+  float
+)
+ident(
+  def a "src/choice.ml" 11 355 377 "src/choice.ml" 11 355 391
+)
+"src/choice.ml" 11 355 377 "src/choice.ml" 11 355 378
+type(
+  float
+)
+ident(
+  def b "src/choice.ml" 11 355 381 "src/choice.ml" 11 355 391
+)
+"src/choice.ml" 11 355 382 "src/choice.ml" 11 355 383
+type(
+  float
+)
+ident(
+  int_ref a "src/choice.ml" 11 355 375 "src/choice.ml" 11 355 376
+)
+"src/choice.ml" 11 355 383 "src/choice.ml" 11 355 385
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/choice.ml" 11 355 385 "src/choice.ml" 11 355 386
+type(
+  float
+)
+ident(
+  int_ref b "src/choice.ml" 11 355 377 "src/choice.ml" 11 355 378
+)
+"src/choice.ml" 11 355 381 "src/choice.ml" 11 355 387
+type(
+  float
+)
+"src/choice.ml" 11 355 387 "src/choice.ml" 11 355 389
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/choice.ml" 11 355 389 "src/choice.ml" 11 355 391
+type(
+  float
+)
+"src/choice.ml" 11 355 381 "src/choice.ml" 11 355 391
+type(
+  float
+)
+"src/choice.ml" 15 474 478 "src/choice.ml" 15 474 503
+type(
+  float -> float -> float
+)
+ident(
+  def perturbed_midpoint_choice "src/choice.ml" 19 595 595 "src/choice.ml" 1 0 -1
+)
+"src/choice.ml" 15 474 504 "src/choice.ml" 15 474 505
+type(
+  float
+)
+ident(
+  def a "src/choice.ml" 15 474 506 "src/choice.ml" 17 533 593
+)
+"src/choice.ml" 15 474 506 "src/choice.ml" 15 474 507
+type(
+  float
+)
+ident(
+  def b "src/choice.ml" 16 510 512 "src/choice.ml" 17 533 593
+)
+"src/choice.ml" 16 510 512 "src/choice.ml" 16 510 528
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Random.self_init
+)
+"src/choice.ml" 16 510 529 "src/choice.ml" 16 510 531
+type(
+  unit
+)
+"src/choice.ml" 16 510 512 "src/choice.ml" 16 510 531
+call(
+  stack
+)
+type(
+  unit
+)
+"src/choice.ml" 17 533 536 "src/choice.ml" 17 533 539
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.min
+)
+"src/choice.ml" 17 533 540 "src/choice.ml" 17 533 541
+type(
+  float
+)
+ident(
+  int_ref a "src/choice.ml" 15 474 504 "src/choice.ml" 15 474 505
+)
+"src/choice.ml" 17 533 542 "src/choice.ml" 17 533 543
+type(
+  float
+)
+ident(
+  int_ref b "src/choice.ml" 15 474 506 "src/choice.ml" 15 474 507
+)
+"src/choice.ml" 17 533 535 "src/choice.ml" 17 533 544
+call(
+  stack
+)
+type(
+  float
+)
+"src/choice.ml" 17 533 544 "src/choice.ml" 17 533 546
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/choice.ml" 17 533 547 "src/choice.ml" 17 533 551
+type(
+  float
+)
+"src/choice.ml" 17 533 551 "src/choice.ml" 17 533 553
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/choice.ml" 17 533 554 "src/choice.ml" 17 533 566
+type(
+  float -> float
+)
+ident(
+  ext_ref Random.float
+)
+"src/choice.ml" 17 533 567 "src/choice.ml" 17 533 571
+type(
+  float
+)
+"src/choice.ml" 17 533 553 "src/choice.ml" 17 533 572
+call(
+  stack
+)
+type(
+  float
+)
+"src/choice.ml" 17 533 546 "src/choice.ml" 17 533 573
+type(
+  float
+)
+"src/choice.ml" 17 533 573 "src/choice.ml" 17 533 575
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/choice.ml" 17 533 576 "src/choice.ml" 17 533 585
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/choice.ml" 17 533 587 "src/choice.ml" 17 533 588
+type(
+  float
+)
+ident(
+  int_ref b "src/choice.ml" 15 474 506 "src/choice.ml" 15 474 507
+)
+"src/choice.ml" 17 533 588 "src/choice.ml" 17 533 590
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/choice.ml" 17 533 590 "src/choice.ml" 17 533 591
+type(
+  float
+)
+ident(
+  int_ref a "src/choice.ml" 15 474 504 "src/choice.ml" 15 474 505
+)
+"src/choice.ml" 17 533 586 "src/choice.ml" 17 533 592
+type(
+  float
+)
+"src/choice.ml" 17 533 575 "src/choice.ml" 17 533 593
+type(
+  float
+)
+"src/choice.ml" 17 533 546 "src/choice.ml" 17 533 593
+type(
+  float
+)
+"src/choice.ml" 17 533 535 "src/choice.ml" 17 533 593
+type(
+  float
+)
+"src/choice.ml" 16 510 512 "src/choice.ml" 17 533 593
+type(
+  float
+)
+"src/choice.ml" 19 595 599 "src/choice.ml" 19 595 628
+type(
+  float -> float -> float * float
+)
+ident(
+  def perturbed_three_points_choice "src/choice.ml" 25 850 859 "src/choice.ml" 1 0 -1
+)
+"src/choice.ml" 19 595 629 "src/choice.ml" 19 595 630
+type(
+  float
+)
+ident(
+  def a "src/choice.ml" 19 595 631 "src/choice.ml" 25 850 859
+)
+"src/choice.ml" 19 595 631 "src/choice.ml" 19 595 632
+type(
+  float
+)
+ident(
+  def b "src/choice.ml" 20 635 637 "src/choice.ml" 25 850 859
+)
+"src/choice.ml" 20 635 637 "src/choice.ml" 20 635 653
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Random.self_init
+)
+"src/choice.ml" 20 635 654 "src/choice.ml" 20 635 656
+type(
+  unit
+)
+"src/choice.ml" 20 635 637 "src/choice.ml" 20 635 656
+call(
+  stack
+)
+type(
+  unit
+)
+"src/choice.ml" 21 658 664 "src/choice.ml" 21 658 675
+type(
+  float
+)
+ident(
+  def ab_distance "src/choice.ml" 22 698 700 "src/choice.ml" 25 850 859
+)
+"src/choice.ml" 21 658 678 "src/choice.ml" 21 658 687
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/choice.ml" 21 658 689 "src/choice.ml" 21 658 690
+type(
+  float
+)
+ident(
+  int_ref b "src/choice.ml" 19 595 631 "src/choice.ml" 19 595 632
+)
+"src/choice.ml" 21 658 690 "src/choice.ml" 21 658 692
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/choice.ml" 21 658 692 "src/choice.ml" 21 658 693
+type(
+  float
+)
+ident(
+  int_ref a "src/choice.ml" 19 595 629 "src/choice.ml" 19 595 630
+)
+"src/choice.ml" 21 658 688 "src/choice.ml" 21 658 694
+type(
+  float
+)
+"src/choice.ml" 21 658 678 "src/choice.ml" 21 658 694
+type(
+  float
+)
+"src/choice.ml" 22 698 704 "src/choice.ml" 22 698 710
+type(
+  float
+)
+ident(
+  def ab_min "src/choice.ml" 23 724 726 "src/choice.ml" 25 850 859
+)
+"src/choice.ml" 22 698 713 "src/choice.ml" 22 698 716
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.min
+)
+"src/choice.ml" 22 698 717 "src/choice.ml" 22 698 718
+type(
+  float
+)
+ident(
+  int_ref a "src/choice.ml" 19 595 629 "src/choice.ml" 19 595 630
+)
+"src/choice.ml" 22 698 719 "src/choice.ml" 22 698 720
+type(
+  float
+)
+ident(
+  int_ref b "src/choice.ml" 19 595 631 "src/choice.ml" 19 595 632
+)
+"src/choice.ml" 22 698 713 "src/choice.ml" 22 698 720
+call(
+  stack
+)
+type(
+  float
+)
+"src/choice.ml" 23 724 730 "src/choice.ml" 23 724 732
+type(
+  float
+)
+ident(
+  def a1 "src/choice.ml" 24 786 788 "src/choice.ml" 25 850 859
+)
+"src/choice.ml" 23 724 734 "src/choice.ml" 23 724 740
+type(
+  float
+)
+ident(
+  int_ref ab_min "src/choice.ml" 22 698 704 "src/choice.ml" 22 698 710
+)
+"src/choice.ml" 23 724 740 "src/choice.ml" 23 724 742
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/choice.ml" 23 724 743 "src/choice.ml" 23 724 747
+type(
+  float
+)
+"src/choice.ml" 23 724 747 "src/choice.ml" 23 724 749
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/choice.ml" 23 724 750 "src/choice.ml" 23 724 762
+type(
+  float -> float
+)
+ident(
+  ext_ref Random.float
+)
+"src/choice.ml" 23 724 763 "src/choice.ml" 23 724 767
+type(
+  float
+)
+"src/choice.ml" 23 724 749 "src/choice.ml" 23 724 768
+call(
+  stack
+)
+type(
+  float
+)
+"src/choice.ml" 23 724 742 "src/choice.ml" 23 724 769
+type(
+  float
+)
+"src/choice.ml" 23 724 769 "src/choice.ml" 23 724 771
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/choice.ml" 23 724 771 "src/choice.ml" 23 724 782
+type(
+  float
+)
+ident(
+  int_ref ab_distance "src/choice.ml" 21 658 664 "src/choice.ml" 21 658 675
+)
+"src/choice.ml" 23 724 742 "src/choice.ml" 23 724 782
+type(
+  float
+)
+"src/choice.ml" 23 724 734 "src/choice.ml" 23 724 782
+type(
+  float
+)
+"src/choice.ml" 24 786 792 "src/choice.ml" 24 786 794
+type(
+  float
+)
+ident(
+  def a2 "src/choice.ml" 25 850 852 "src/choice.ml" 25 850 859
+)
+"src/choice.ml" 24 786 797 "src/choice.ml" 24 786 803
+type(
+  float
+)
+ident(
+  int_ref ab_min "src/choice.ml" 22 698 704 "src/choice.ml" 22 698 710
+)
+"src/choice.ml" 24 786 803 "src/choice.ml" 24 786 805
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/choice.ml" 24 786 806 "src/choice.ml" 24 786 810
+type(
+  float
+)
+"src/choice.ml" 24 786 811 "src/choice.ml" 24 786 813
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/choice.ml" 24 786 814 "src/choice.ml" 24 786 826
+type(
+  float -> float
+)
+ident(
+  ext_ref Random.float
+)
+"src/choice.ml" 24 786 827 "src/choice.ml" 24 786 831
+type(
+  float
+)
+"src/choice.ml" 24 786 813 "src/choice.ml" 24 786 832
+call(
+  stack
+)
+type(
+  float
+)
+"src/choice.ml" 24 786 805 "src/choice.ml" 24 786 833
+type(
+  float
+)
+"src/choice.ml" 24 786 833 "src/choice.ml" 24 786 835
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/choice.ml" 24 786 835 "src/choice.ml" 24 786 846
+type(
+  float
+)
+ident(
+  int_ref ab_distance "src/choice.ml" 21 658 664 "src/choice.ml" 21 658 675
+)
+"src/choice.ml" 24 786 805 "src/choice.ml" 24 786 846
+type(
+  float
+)
+"src/choice.ml" 24 786 797 "src/choice.ml" 24 786 846
+type(
+  float
+)
+"src/choice.ml" 25 850 853 "src/choice.ml" 25 850 855
+type(
+  float
+)
+ident(
+  int_ref a1 "src/choice.ml" 23 724 730 "src/choice.ml" 23 724 732
+)
+"src/choice.ml" 25 850 856 "src/choice.ml" 25 850 858
+type(
+  float
+)
+ident(
+  int_ref a2 "src/choice.ml" 24 786 792 "src/choice.ml" 24 786 794
+)
+"src/choice.ml" 25 850 852 "src/choice.ml" 25 850 859
+type(
+  float * float
+)
+"src/choice.ml" 24 786 788 "src/choice.ml" 25 850 859
+type(
+  float * float
+)
+"src/choice.ml" 23 724 726 "src/choice.ml" 25 850 859
+type(
+  float * float
+)
+"src/choice.ml" 22 698 700 "src/choice.ml" 25 850 859
+type(
+  float * float
+)
+"src/choice.ml" 21 658 660 "src/choice.ml" 25 850 859
+type(
+  float * float
+)
+"src/choice.ml" 20 635 637 "src/choice.ml" 25 850 859
+type(
+  float * float
+)

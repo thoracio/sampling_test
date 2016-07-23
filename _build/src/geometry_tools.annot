@@ -1,0 +1,7584 @@
+"src/geometry_tools.ml" 12 269 273 "src/geometry_tools.ml" 12 269 288
+type(
+  x:float -> y:float -> point_2D
+)
+ident(
+  def create_point_2D "src/geometry_tools.ml" 14 313 313 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 12 269 292 "src/geometry_tools.ml" 12 269 293
+type(
+  float
+)
+ident(
+  def a "src/geometry_tools.ml" 12 269 294 "src/geometry_tools.ml" 12 269 311
+)
+"src/geometry_tools.ml" 12 269 297 "src/geometry_tools.ml" 12 269 298
+type(
+  float
+)
+ident(
+  def b "src/geometry_tools.ml" 12 269 301 "src/geometry_tools.ml" 12 269 311
+)
+"src/geometry_tools.ml" 12 269 304 "src/geometry_tools.ml" 12 269 305
+type(
+  float
+)
+ident(
+  int_ref a "src/geometry_tools.ml" 12 269 292 "src/geometry_tools.ml" 12 269 293
+)
+"src/geometry_tools.ml" 12 269 309 "src/geometry_tools.ml" 12 269 310
+type(
+  float
+)
+ident(
+  int_ref b "src/geometry_tools.ml" 12 269 297 "src/geometry_tools.ml" 12 269 298
+)
+"src/geometry_tools.ml" 12 269 301 "src/geometry_tools.ml" 12 269 311
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 14 313 317 "src/geometry_tools.ml" 14 313 326
+type(
+  point_2D -> point_2D -> bool
+)
+ident(
+  def equals_2D "src/geometry_tools.ml" 16 359 359 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 14 313 327 "src/geometry_tools.ml" 14 313 329
+type(
+  point_2D
+)
+ident(
+  def p1 "src/geometry_tools.ml" 14 313 330 "src/geometry_tools.ml" 14 313 357
+)
+"src/geometry_tools.ml" 14 313 330 "src/geometry_tools.ml" 14 313 332
+type(
+  point_2D
+)
+ident(
+  def p2 "src/geometry_tools.ml" 14 313 335 "src/geometry_tools.ml" 14 313 357
+)
+"src/geometry_tools.ml" 14 313 335 "src/geometry_tools.ml" 14 313 337
+type(
+  point_2D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 14 313 327 "src/geometry_tools.ml" 14 313 329
+)
+"src/geometry_tools.ml" 14 313 335 "src/geometry_tools.ml" 14 313 339
+type(
+  float
+)
+"src/geometry_tools.ml" 14 313 339 "src/geometry_tools.ml" 14 313 340
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 14 313 340 "src/geometry_tools.ml" 14 313 342
+type(
+  point_2D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 14 313 330 "src/geometry_tools.ml" 14 313 332
+)
+"src/geometry_tools.ml" 14 313 340 "src/geometry_tools.ml" 14 313 344
+type(
+  float
+)
+"src/geometry_tools.ml" 14 313 335 "src/geometry_tools.ml" 14 313 344
+type(
+  bool
+)
+"src/geometry_tools.ml" 14 313 345 "src/geometry_tools.ml" 14 313 347
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 14 313 348 "src/geometry_tools.ml" 14 313 350
+type(
+  point_2D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 14 313 327 "src/geometry_tools.ml" 14 313 329
+)
+"src/geometry_tools.ml" 14 313 348 "src/geometry_tools.ml" 14 313 352
+type(
+  float
+)
+"src/geometry_tools.ml" 14 313 352 "src/geometry_tools.ml" 14 313 353
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 14 313 353 "src/geometry_tools.ml" 14 313 355
+type(
+  point_2D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 14 313 330 "src/geometry_tools.ml" 14 313 332
+)
+"src/geometry_tools.ml" 14 313 353 "src/geometry_tools.ml" 14 313 357
+type(
+  float
+)
+"src/geometry_tools.ml" 14 313 348 "src/geometry_tools.ml" 14 313 357
+type(
+  bool
+)
+"src/geometry_tools.ml" 14 313 335 "src/geometry_tools.ml" 14 313 357
+type(
+  bool
+)
+"src/geometry_tools.ml" 16 359 363 "src/geometry_tools.ml" 16 359 375
+type(
+  point_2D -> bool
+)
+ident(
+  def is_origin_2D "src/geometry_tools.ml" 19 465 465 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 16 359 376 "src/geometry_tools.ml" 16 359 377
+type(
+  point_2D
+)
+ident(
+  def p "src/geometry_tools.ml" 16 359 380 "src/geometry_tools.ml" 16 359 404
+)
+"src/geometry_tools.ml" 16 359 380 "src/geometry_tools.ml" 16 359 389
+type(
+  point_2D -> point_2D -> bool
+)
+ident(
+  int_ref equals_2D "src/geometry_tools.ml" 14 313 317 "src/geometry_tools.ml" 14 313 326
+)
+"src/geometry_tools.ml" 16 359 390 "src/geometry_tools.ml" 16 359 391
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 16 359 376 "src/geometry_tools.ml" 16 359 377
+)
+"src/geometry_tools.ml" 16 359 395 "src/geometry_tools.ml" 16 359 397
+type(
+  float
+)
+"src/geometry_tools.ml" 16 359 401 "src/geometry_tools.ml" 16 359 403
+type(
+  float
+)
+"src/geometry_tools.ml" 16 359 392 "src/geometry_tools.ml" 16 359 404
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 16 359 380 "src/geometry_tools.ml" 16 359 404
+call(
+  tail
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 19 465 469 "src/geometry_tools.ml" 19 465 477
+type(
+  point_2D -> float
+)
+ident(
+  def norm1_2D "src/geometry_tools.ml" 21 518 518 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 19 465 478 "src/geometry_tools.ml" 19 465 479
+type(
+  point_2D
+)
+ident(
+  def p "src/geometry_tools.ml" 19 465 482 "src/geometry_tools.ml" 19 465 516
+)
+"src/geometry_tools.ml" 19 465 483 "src/geometry_tools.ml" 19 465 492
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/geometry_tools.ml" 19 465 493 "src/geometry_tools.ml" 19 465 494
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 19 465 478 "src/geometry_tools.ml" 19 465 479
+)
+"src/geometry_tools.ml" 19 465 493 "src/geometry_tools.ml" 19 465 496
+type(
+  float
+)
+"src/geometry_tools.ml" 19 465 482 "src/geometry_tools.ml" 19 465 497
+type(
+  float
+)
+"src/geometry_tools.ml" 19 465 498 "src/geometry_tools.ml" 19 465 500
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 19 465 502 "src/geometry_tools.ml" 19 465 511
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/geometry_tools.ml" 19 465 512 "src/geometry_tools.ml" 19 465 513
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 19 465 478 "src/geometry_tools.ml" 19 465 479
+)
+"src/geometry_tools.ml" 19 465 512 "src/geometry_tools.ml" 19 465 515
+type(
+  float
+)
+"src/geometry_tools.ml" 19 465 501 "src/geometry_tools.ml" 19 465 516
+type(
+  float
+)
+"src/geometry_tools.ml" 19 465 482 "src/geometry_tools.ml" 19 465 516
+type(
+  float
+)
+"src/geometry_tools.ml" 21 518 522 "src/geometry_tools.ml" 21 518 530
+type(
+  point_2D -> float
+)
+ident(
+  def norm2_2D "src/geometry_tools.ml" 23 566 566 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 21 518 531 "src/geometry_tools.ml" 21 518 532
+type(
+  point_2D
+)
+ident(
+  def p "src/geometry_tools.ml" 21 518 535 "src/geometry_tools.ml" 21 518 564
+)
+"src/geometry_tools.ml" 21 518 535 "src/geometry_tools.ml" 21 518 539
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.sqrt
+)
+"src/geometry_tools.ml" 21 518 542 "src/geometry_tools.ml" 21 518 543
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 21 518 531 "src/geometry_tools.ml" 21 518 532
+)
+"src/geometry_tools.ml" 21 518 541 "src/geometry_tools.ml" 21 518 546
+type(
+  float
+)
+"src/geometry_tools.ml" 21 518 546 "src/geometry_tools.ml" 21 518 548
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"src/geometry_tools.ml" 21 518 548 "src/geometry_tools.ml" 21 518 550
+type(
+  float
+)
+"src/geometry_tools.ml" 21 518 541 "src/geometry_tools.ml" 21 518 550
+type(
+  float
+)
+"src/geometry_tools.ml" 21 518 551 "src/geometry_tools.ml" 21 518 553
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 21 518 555 "src/geometry_tools.ml" 21 518 556
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 21 518 531 "src/geometry_tools.ml" 21 518 532
+)
+"src/geometry_tools.ml" 21 518 554 "src/geometry_tools.ml" 21 518 559
+type(
+  float
+)
+"src/geometry_tools.ml" 21 518 559 "src/geometry_tools.ml" 21 518 561
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"src/geometry_tools.ml" 21 518 561 "src/geometry_tools.ml" 21 518 563
+type(
+  float
+)
+"src/geometry_tools.ml" 21 518 554 "src/geometry_tools.ml" 21 518 563
+type(
+  float
+)
+"src/geometry_tools.ml" 21 518 540 "src/geometry_tools.ml" 21 518 564
+type(
+  float
+)
+"src/geometry_tools.ml" 21 518 535 "src/geometry_tools.ml" 21 518 564
+type(
+  float
+)
+"src/geometry_tools.ml" 23 566 570 "src/geometry_tools.ml" 23 566 586
+type(
+  point_2D -> float
+)
+ident(
+  def norm_infinity_2D "src/geometry_tools.ml" 26 673 673 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 23 566 587 "src/geometry_tools.ml" 23 566 588
+type(
+  point_2D
+)
+ident(
+  def p "src/geometry_tools.ml" 23 566 591 "src/geometry_tools.ml" 23 566 627
+)
+"src/geometry_tools.ml" 23 566 591 "src/geometry_tools.ml" 23 566 594
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/geometry_tools.ml" 23 566 596 "src/geometry_tools.ml" 23 566 605
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/geometry_tools.ml" 23 566 606 "src/geometry_tools.ml" 23 566 607
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 23 566 587 "src/geometry_tools.ml" 23 566 588
+)
+"src/geometry_tools.ml" 23 566 606 "src/geometry_tools.ml" 23 566 609
+type(
+  float
+)
+"src/geometry_tools.ml" 23 566 595 "src/geometry_tools.ml" 23 566 610
+type(
+  float
+)
+"src/geometry_tools.ml" 23 566 613 "src/geometry_tools.ml" 23 566 622
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/geometry_tools.ml" 23 566 623 "src/geometry_tools.ml" 23 566 624
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 23 566 587 "src/geometry_tools.ml" 23 566 588
+)
+"src/geometry_tools.ml" 23 566 623 "src/geometry_tools.ml" 23 566 626
+type(
+  float
+)
+"src/geometry_tools.ml" 23 566 612 "src/geometry_tools.ml" 23 566 627
+type(
+  float
+)
+"src/geometry_tools.ml" 23 566 591 "src/geometry_tools.ml" 23 566 627
+call(
+  tail
+)
+type(
+  float
+)
+"src/geometry_tools.ml" 26 673 677 "src/geometry_tools.ml" 26 673 683
+type(
+  point_2D -> point_2D -> point_2D
+)
+ident(
+  def sum_2D "src/geometry_tools.ml" 28 741 741 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 26 673 684 "src/geometry_tools.ml" 26 673 686
+type(
+  point_2D
+)
+ident(
+  def p1 "src/geometry_tools.ml" 26 673 687 "src/geometry_tools.ml" 26 673 739
+)
+"src/geometry_tools.ml" 26 673 687 "src/geometry_tools.ml" 26 673 689
+type(
+  point_2D
+)
+ident(
+  def p2 "src/geometry_tools.ml" 26 673 692 "src/geometry_tools.ml" 26 673 739
+)
+"src/geometry_tools.ml" 26 673 692 "src/geometry_tools.ml" 26 673 707
+type(
+  x:float -> y:float -> point_2D
+)
+ident(
+  int_ref create_point_2D "src/geometry_tools.ml" 12 269 273 "src/geometry_tools.ml" 12 269 288
+)
+"src/geometry_tools.ml" 26 673 712 "src/geometry_tools.ml" 26 673 714
+type(
+  point_2D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 26 673 684 "src/geometry_tools.ml" 26 673 686
+)
+"src/geometry_tools.ml" 26 673 712 "src/geometry_tools.ml" 26 673 716
+type(
+  float
+)
+"src/geometry_tools.ml" 26 673 716 "src/geometry_tools.ml" 26 673 718
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 26 673 718 "src/geometry_tools.ml" 26 673 720
+type(
+  point_2D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 26 673 687 "src/geometry_tools.ml" 26 673 689
+)
+"src/geometry_tools.ml" 26 673 718 "src/geometry_tools.ml" 26 673 722
+type(
+  float
+)
+"src/geometry_tools.ml" 26 673 711 "src/geometry_tools.ml" 26 673 723
+type(
+  float
+)
+"src/geometry_tools.ml" 26 673 728 "src/geometry_tools.ml" 26 673 730
+type(
+  point_2D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 26 673 684 "src/geometry_tools.ml" 26 673 686
+)
+"src/geometry_tools.ml" 26 673 728 "src/geometry_tools.ml" 26 673 732
+type(
+  float
+)
+"src/geometry_tools.ml" 26 673 732 "src/geometry_tools.ml" 26 673 734
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 26 673 734 "src/geometry_tools.ml" 26 673 736
+type(
+  point_2D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 26 673 687 "src/geometry_tools.ml" 26 673 689
+)
+"src/geometry_tools.ml" 26 673 734 "src/geometry_tools.ml" 26 673 738
+type(
+  float
+)
+"src/geometry_tools.ml" 26 673 727 "src/geometry_tools.ml" 26 673 739
+type(
+  float
+)
+"src/geometry_tools.ml" 26 673 692 "src/geometry_tools.ml" 26 673 739
+call(
+  tail
+)
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 28 741 745 "src/geometry_tools.ml" 28 741 756
+type(
+  point_2D -> point_2D
+)
+ident(
+  def negative_2D "src/geometry_tools.ml" 30 800 800 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 28 741 757 "src/geometry_tools.ml" 28 741 758
+type(
+  point_2D
+)
+ident(
+  def p "src/geometry_tools.ml" 28 741 761 "src/geometry_tools.ml" 28 741 798
+)
+"src/geometry_tools.ml" 28 741 761 "src/geometry_tools.ml" 28 741 776
+type(
+  x:float -> y:float -> point_2D
+)
+ident(
+  int_ref create_point_2D "src/geometry_tools.ml" 12 269 273 "src/geometry_tools.ml" 12 269 288
+)
+"src/geometry_tools.ml" 28 741 781 "src/geometry_tools.ml" 28 741 783
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.( ~-. )
+)
+"src/geometry_tools.ml" 28 741 783 "src/geometry_tools.ml" 28 741 784
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 28 741 757 "src/geometry_tools.ml" 28 741 758
+)
+"src/geometry_tools.ml" 28 741 783 "src/geometry_tools.ml" 28 741 786
+type(
+  float
+)
+"src/geometry_tools.ml" 28 741 780 "src/geometry_tools.ml" 28 741 787
+type(
+  float
+)
+"src/geometry_tools.ml" 28 741 792 "src/geometry_tools.ml" 28 741 794
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.( ~-. )
+)
+"src/geometry_tools.ml" 28 741 794 "src/geometry_tools.ml" 28 741 795
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 28 741 757 "src/geometry_tools.ml" 28 741 758
+)
+"src/geometry_tools.ml" 28 741 794 "src/geometry_tools.ml" 28 741 797
+type(
+  float
+)
+"src/geometry_tools.ml" 28 741 791 "src/geometry_tools.ml" 28 741 798
+type(
+  float
+)
+"src/geometry_tools.ml" 28 741 761 "src/geometry_tools.ml" 28 741 798
+call(
+  tail
+)
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 30 800 804 "src/geometry_tools.ml" 30 800 812
+type(
+  point_2D -> point_2D -> point_2D
+)
+ident(
+  def minus_2D "src/geometry_tools.ml" 33 895 895 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 30 800 813 "src/geometry_tools.ml" 30 800 815
+type(
+  point_2D
+)
+ident(
+  def p1 "src/geometry_tools.ml" 30 800 816 "src/geometry_tools.ml" 30 800 847
+)
+"src/geometry_tools.ml" 30 800 816 "src/geometry_tools.ml" 30 800 818
+type(
+  point_2D
+)
+ident(
+  def p2 "src/geometry_tools.ml" 30 800 821 "src/geometry_tools.ml" 30 800 847
+)
+"src/geometry_tools.ml" 30 800 821 "src/geometry_tools.ml" 30 800 827
+type(
+  point_2D -> point_2D -> point_2D
+)
+ident(
+  int_ref sum_2D "src/geometry_tools.ml" 26 673 677 "src/geometry_tools.ml" 26 673 683
+)
+"src/geometry_tools.ml" 30 800 828 "src/geometry_tools.ml" 30 800 830
+type(
+  point_2D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 30 800 813 "src/geometry_tools.ml" 30 800 815
+)
+"src/geometry_tools.ml" 30 800 832 "src/geometry_tools.ml" 30 800 843
+type(
+  point_2D -> point_2D
+)
+ident(
+  int_ref negative_2D "src/geometry_tools.ml" 28 741 745 "src/geometry_tools.ml" 28 741 756
+)
+"src/geometry_tools.ml" 30 800 844 "src/geometry_tools.ml" 30 800 846
+type(
+  point_2D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 30 800 816 "src/geometry_tools.ml" 30 800 818
+)
+"src/geometry_tools.ml" 30 800 831 "src/geometry_tools.ml" 30 800 847
+call(
+  stack
+)
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 30 800 821 "src/geometry_tools.ml" 30 800 847
+call(
+  tail
+)
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 33 895 899 "src/geometry_tools.ml" 33 895 907
+type(
+  point_2D -> point_2D -> float
+)
+ident(
+  def dist1_2D "src/geometry_tools.ml" 35 943 943 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 33 895 908 "src/geometry_tools.ml" 33 895 910
+type(
+  point_2D
+)
+ident(
+  def p1 "src/geometry_tools.ml" 33 895 911 "src/geometry_tools.ml" 33 895 941
+)
+"src/geometry_tools.ml" 33 895 911 "src/geometry_tools.ml" 33 895 913
+type(
+  point_2D
+)
+ident(
+  def p2 "src/geometry_tools.ml" 33 895 916 "src/geometry_tools.ml" 33 895 941
+)
+"src/geometry_tools.ml" 33 895 916 "src/geometry_tools.ml" 33 895 924
+type(
+  point_2D -> float
+)
+ident(
+  int_ref norm1_2D "src/geometry_tools.ml" 19 465 469 "src/geometry_tools.ml" 19 465 477
+)
+"src/geometry_tools.ml" 33 895 926 "src/geometry_tools.ml" 33 895 934
+type(
+  point_2D -> point_2D -> point_2D
+)
+ident(
+  int_ref minus_2D "src/geometry_tools.ml" 30 800 804 "src/geometry_tools.ml" 30 800 812
+)
+"src/geometry_tools.ml" 33 895 935 "src/geometry_tools.ml" 33 895 937
+type(
+  point_2D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 33 895 908 "src/geometry_tools.ml" 33 895 910
+)
+"src/geometry_tools.ml" 33 895 938 "src/geometry_tools.ml" 33 895 940
+type(
+  point_2D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 33 895 911 "src/geometry_tools.ml" 33 895 913
+)
+"src/geometry_tools.ml" 33 895 925 "src/geometry_tools.ml" 33 895 941
+call(
+  stack
+)
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 33 895 916 "src/geometry_tools.ml" 33 895 941
+call(
+  tail
+)
+type(
+  float
+)
+"src/geometry_tools.ml" 35 943 947 "src/geometry_tools.ml" 35 943 955
+type(
+  point_2D -> point_2D -> float
+)
+ident(
+  def dist2_2D "src/geometry_tools.ml" 40 1081 1081 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 35 943 956 "src/geometry_tools.ml" 35 943 958
+type(
+  point_2D
+)
+ident(
+  def p1 "src/geometry_tools.ml" 35 943 959 "src/geometry_tools.ml" 35 943 989
+)
+"src/geometry_tools.ml" 35 943 959 "src/geometry_tools.ml" 35 943 961
+type(
+  point_2D
+)
+ident(
+  def p2 "src/geometry_tools.ml" 35 943 964 "src/geometry_tools.ml" 35 943 989
+)
+"src/geometry_tools.ml" 35 943 964 "src/geometry_tools.ml" 35 943 972
+type(
+  point_2D -> float
+)
+ident(
+  int_ref norm2_2D "src/geometry_tools.ml" 21 518 522 "src/geometry_tools.ml" 21 518 530
+)
+"src/geometry_tools.ml" 35 943 974 "src/geometry_tools.ml" 35 943 982
+type(
+  point_2D -> point_2D -> point_2D
+)
+ident(
+  int_ref minus_2D "src/geometry_tools.ml" 30 800 804 "src/geometry_tools.ml" 30 800 812
+)
+"src/geometry_tools.ml" 35 943 983 "src/geometry_tools.ml" 35 943 985
+type(
+  point_2D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 35 943 956 "src/geometry_tools.ml" 35 943 958
+)
+"src/geometry_tools.ml" 35 943 986 "src/geometry_tools.ml" 35 943 988
+type(
+  point_2D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 35 943 959 "src/geometry_tools.ml" 35 943 961
+)
+"src/geometry_tools.ml" 35 943 973 "src/geometry_tools.ml" 35 943 989
+call(
+  stack
+)
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 35 943 964 "src/geometry_tools.ml" 35 943 989
+call(
+  tail
+)
+type(
+  float
+)
+"src/geometry_tools.ml" 40 1081 1085 "src/geometry_tools.ml" 40 1081 1101
+type(
+  point_2D -> point_2D -> float
+)
+ident(
+  def dist2_variant_2D "src/geometry_tools.ml" 44 1160 1160 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 40 1081 1102 "src/geometry_tools.ml" 40 1081 1104
+type(
+  point_2D
+)
+ident(
+  def p1 "src/geometry_tools.ml" 40 1081 1105 "src/geometry_tools.ml" 42 1138 1158
+)
+"src/geometry_tools.ml" 40 1081 1105 "src/geometry_tools.ml" 40 1081 1107
+type(
+  point_2D
+)
+ident(
+  def p2 "src/geometry_tools.ml" 41 1110 1112 "src/geometry_tools.ml" 42 1138 1158
+)
+"src/geometry_tools.ml" 41 1110 1116 "src/geometry_tools.ml" 41 1110 1117
+type(
+  point_2D
+)
+ident(
+  def p "src/geometry_tools.ml" 42 1138 1140 "src/geometry_tools.ml" 42 1138 1158
+)
+"src/geometry_tools.ml" 41 1110 1120 "src/geometry_tools.ml" 41 1110 1128
+type(
+  point_2D -> point_2D -> point_2D
+)
+ident(
+  int_ref minus_2D "src/geometry_tools.ml" 30 800 804 "src/geometry_tools.ml" 30 800 812
+)
+"src/geometry_tools.ml" 41 1110 1129 "src/geometry_tools.ml" 41 1110 1131
+type(
+  point_2D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 40 1081 1102 "src/geometry_tools.ml" 40 1081 1104
+)
+"src/geometry_tools.ml" 41 1110 1132 "src/geometry_tools.ml" 41 1110 1134
+type(
+  point_2D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 40 1081 1105 "src/geometry_tools.ml" 40 1081 1107
+)
+"src/geometry_tools.ml" 41 1110 1120 "src/geometry_tools.ml" 41 1110 1134
+call(
+  stack
+)
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 42 1138 1140 "src/geometry_tools.ml" 42 1138 1141
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 41 1110 1116 "src/geometry_tools.ml" 41 1110 1117
+)
+"src/geometry_tools.ml" 42 1138 1140 "src/geometry_tools.ml" 42 1138 1143
+type(
+  float
+)
+"src/geometry_tools.ml" 42 1138 1143 "src/geometry_tools.ml" 42 1138 1145
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"src/geometry_tools.ml" 42 1138 1145 "src/geometry_tools.ml" 42 1138 1147
+type(
+  float
+)
+"src/geometry_tools.ml" 42 1138 1140 "src/geometry_tools.ml" 42 1138 1147
+type(
+  float
+)
+"src/geometry_tools.ml" 42 1138 1148 "src/geometry_tools.ml" 42 1138 1150
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 42 1138 1151 "src/geometry_tools.ml" 42 1138 1152
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 41 1110 1116 "src/geometry_tools.ml" 41 1110 1117
+)
+"src/geometry_tools.ml" 42 1138 1151 "src/geometry_tools.ml" 42 1138 1154
+type(
+  float
+)
+"src/geometry_tools.ml" 42 1138 1154 "src/geometry_tools.ml" 42 1138 1156
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"src/geometry_tools.ml" 42 1138 1156 "src/geometry_tools.ml" 42 1138 1158
+type(
+  float
+)
+"src/geometry_tools.ml" 42 1138 1151 "src/geometry_tools.ml" 42 1138 1158
+type(
+  float
+)
+"src/geometry_tools.ml" 42 1138 1140 "src/geometry_tools.ml" 42 1138 1158
+type(
+  float
+)
+"src/geometry_tools.ml" 41 1110 1112 "src/geometry_tools.ml" 42 1138 1158
+type(
+  float
+)
+"src/geometry_tools.ml" 44 1160 1164 "src/geometry_tools.ml" 44 1160 1180
+type(
+  point_2D -> point_2D -> float
+)
+ident(
+  def dist_infinity_2D "src/geometry_tools.ml" 48 1292 1292 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 44 1160 1181 "src/geometry_tools.ml" 44 1160 1183
+type(
+  point_2D
+)
+ident(
+  def p1 "src/geometry_tools.ml" 44 1160 1184 "src/geometry_tools.ml" 44 1160 1222
+)
+"src/geometry_tools.ml" 44 1160 1184 "src/geometry_tools.ml" 44 1160 1186
+type(
+  point_2D
+)
+ident(
+  def p2 "src/geometry_tools.ml" 44 1160 1189 "src/geometry_tools.ml" 44 1160 1222
+)
+"src/geometry_tools.ml" 44 1160 1189 "src/geometry_tools.ml" 44 1160 1205
+type(
+  point_2D -> float
+)
+ident(
+  int_ref norm_infinity_2D "src/geometry_tools.ml" 23 566 570 "src/geometry_tools.ml" 23 566 586
+)
+"src/geometry_tools.ml" 44 1160 1207 "src/geometry_tools.ml" 44 1160 1215
+type(
+  point_2D -> point_2D -> point_2D
+)
+ident(
+  int_ref minus_2D "src/geometry_tools.ml" 30 800 804 "src/geometry_tools.ml" 30 800 812
+)
+"src/geometry_tools.ml" 44 1160 1216 "src/geometry_tools.ml" 44 1160 1218
+type(
+  point_2D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 44 1160 1181 "src/geometry_tools.ml" 44 1160 1183
+)
+"src/geometry_tools.ml" 44 1160 1219 "src/geometry_tools.ml" 44 1160 1221
+type(
+  point_2D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 44 1160 1184 "src/geometry_tools.ml" 44 1160 1186
+)
+"src/geometry_tools.ml" 44 1160 1206 "src/geometry_tools.ml" 44 1160 1222
+call(
+  stack
+)
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 44 1160 1189 "src/geometry_tools.ml" 44 1160 1222
+call(
+  tail
+)
+type(
+  float
+)
+"src/geometry_tools.ml" 48 1292 1296 "src/geometry_tools.ml" 48 1292 1310
+type(
+  p_test:point_2D -> p_tester:point_2D -> bool
+)
+ident(
+  def is_multiple_2D "src/geometry_tools.ml" 59 1810 1810 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 48 1292 1319 "src/geometry_tools.ml" 48 1292 1325
+type(
+  point_2D
+)
+ident(
+  def p_test "src/geometry_tools.ml" 48 1292 1326 "src/geometry_tools.ml" 55 1624 1682
+)
+"src/geometry_tools.ml" 48 1292 1336 "src/geometry_tools.ml" 48 1292 1344
+type(
+  point_2D
+)
+ident(
+  def p_tester "src/geometry_tools.ml" 49 1347 1349 "src/geometry_tools.ml" 55 1624 1682
+)
+"src/geometry_tools.ml" 49 1347 1352 "src/geometry_tools.ml" 49 1347 1361
+type(
+  point_2D -> point_2D -> bool
+)
+ident(
+  int_ref equals_2D "src/geometry_tools.ml" 14 313 317 "src/geometry_tools.ml" 14 313 326
+)
+"src/geometry_tools.ml" 49 1347 1362 "src/geometry_tools.ml" 49 1347 1368
+type(
+  point_2D
+)
+ident(
+  int_ref p_test "src/geometry_tools.ml" 48 1292 1319 "src/geometry_tools.ml" 48 1292 1325
+)
+"src/geometry_tools.ml" 49 1347 1369 "src/geometry_tools.ml" 49 1347 1377
+type(
+  point_2D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 48 1292 1336 "src/geometry_tools.ml" 48 1292 1344
+)
+"src/geometry_tools.ml" 49 1347 1352 "src/geometry_tools.ml" 49 1347 1377
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 49 1347 1383 "src/geometry_tools.ml" 49 1347 1387
+type(
+  bool
+)
+"src/geometry_tools.ml" 50 1388 1398 "src/geometry_tools.ml" 50 1388 1410
+type(
+  point_2D -> bool
+)
+ident(
+  int_ref is_origin_2D "src/geometry_tools.ml" 16 359 363 "src/geometry_tools.ml" 16 359 375
+)
+"src/geometry_tools.ml" 50 1388 1411 "src/geometry_tools.ml" 50 1388 1417
+type(
+  point_2D
+)
+ident(
+  int_ref p_test "src/geometry_tools.ml" 48 1292 1319 "src/geometry_tools.ml" 48 1292 1325
+)
+"src/geometry_tools.ml" 50 1388 1398 "src/geometry_tools.ml" 50 1388 1417
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 50 1388 1423 "src/geometry_tools.ml" 50 1388 1427
+type(
+  bool
+)
+"src/geometry_tools.ml" 51 1428 1438 "src/geometry_tools.ml" 51 1428 1450
+type(
+  point_2D -> bool
+)
+ident(
+  int_ref is_origin_2D "src/geometry_tools.ml" 16 359 363 "src/geometry_tools.ml" 16 359 375
+)
+"src/geometry_tools.ml" 51 1428 1451 "src/geometry_tools.ml" 51 1428 1459
+type(
+  point_2D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 48 1292 1336 "src/geometry_tools.ml" 48 1292 1344
+)
+"src/geometry_tools.ml" 51 1428 1438 "src/geometry_tools.ml" 51 1428 1459
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 51 1428 1465 "src/geometry_tools.ml" 51 1428 1470
+type(
+  bool
+)
+"src/geometry_tools.ml" 52 1471 1481 "src/geometry_tools.ml" 52 1471 1489
+type(
+  point_2D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 48 1292 1336 "src/geometry_tools.ml" 48 1292 1344
+)
+"src/geometry_tools.ml" 52 1471 1481 "src/geometry_tools.ml" 52 1471 1491
+type(
+  float
+)
+"src/geometry_tools.ml" 52 1471 1491 "src/geometry_tools.ml" 52 1471 1492
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 52 1471 1492 "src/geometry_tools.ml" 52 1471 1494
+type(
+  float
+)
+"src/geometry_tools.ml" 52 1471 1481 "src/geometry_tools.ml" 52 1471 1494
+type(
+  bool
+)
+"src/geometry_tools.ml" 52 1471 1495 "src/geometry_tools.ml" 52 1471 1497
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 52 1471 1498 "src/geometry_tools.ml" 52 1471 1504
+type(
+  point_2D
+)
+ident(
+  int_ref p_test "src/geometry_tools.ml" 48 1292 1319 "src/geometry_tools.ml" 48 1292 1325
+)
+"src/geometry_tools.ml" 52 1471 1498 "src/geometry_tools.ml" 52 1471 1506
+type(
+  float
+)
+"src/geometry_tools.ml" 52 1471 1506 "src/geometry_tools.ml" 52 1471 1508
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/geometry_tools.ml" 52 1471 1508 "src/geometry_tools.ml" 52 1471 1510
+type(
+  float
+)
+"src/geometry_tools.ml" 52 1471 1498 "src/geometry_tools.ml" 52 1471 1510
+type(
+  bool
+)
+"src/geometry_tools.ml" 52 1471 1481 "src/geometry_tools.ml" 52 1471 1510
+type(
+  bool
+)
+"src/geometry_tools.ml" 52 1471 1516 "src/geometry_tools.ml" 52 1471 1521
+type(
+  bool
+)
+"src/geometry_tools.ml" 53 1522 1532 "src/geometry_tools.ml" 53 1522 1540
+type(
+  point_2D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 48 1292 1336 "src/geometry_tools.ml" 48 1292 1344
+)
+"src/geometry_tools.ml" 53 1522 1532 "src/geometry_tools.ml" 53 1522 1542
+type(
+  float
+)
+"src/geometry_tools.ml" 53 1522 1542 "src/geometry_tools.ml" 53 1522 1543
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 53 1522 1543 "src/geometry_tools.ml" 53 1522 1545
+type(
+  float
+)
+"src/geometry_tools.ml" 53 1522 1532 "src/geometry_tools.ml" 53 1522 1545
+type(
+  bool
+)
+"src/geometry_tools.ml" 53 1522 1546 "src/geometry_tools.ml" 53 1522 1548
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 53 1522 1549 "src/geometry_tools.ml" 53 1522 1555
+type(
+  point_2D
+)
+ident(
+  int_ref p_test "src/geometry_tools.ml" 48 1292 1319 "src/geometry_tools.ml" 48 1292 1325
+)
+"src/geometry_tools.ml" 53 1522 1549 "src/geometry_tools.ml" 53 1522 1557
+type(
+  float
+)
+"src/geometry_tools.ml" 53 1522 1557 "src/geometry_tools.ml" 53 1522 1559
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/geometry_tools.ml" 53 1522 1559 "src/geometry_tools.ml" 53 1522 1561
+type(
+  float
+)
+"src/geometry_tools.ml" 53 1522 1549 "src/geometry_tools.ml" 53 1522 1561
+type(
+  bool
+)
+"src/geometry_tools.ml" 53 1522 1532 "src/geometry_tools.ml" 53 1522 1561
+type(
+  bool
+)
+"src/geometry_tools.ml" 53 1522 1567 "src/geometry_tools.ml" 53 1522 1572
+type(
+  bool
+)
+"src/geometry_tools.ml" 54 1573 1583 "src/geometry_tools.ml" 54 1573 1591
+type(
+  point_2D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 48 1292 1336 "src/geometry_tools.ml" 48 1292 1344
+)
+"src/geometry_tools.ml" 54 1573 1583 "src/geometry_tools.ml" 54 1573 1593
+type(
+  float
+)
+"src/geometry_tools.ml" 54 1573 1593 "src/geometry_tools.ml" 54 1573 1594
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 54 1573 1594 "src/geometry_tools.ml" 54 1573 1596
+type(
+  float
+)
+"src/geometry_tools.ml" 54 1573 1583 "src/geometry_tools.ml" 54 1573 1596
+type(
+  bool
+)
+"src/geometry_tools.ml" 54 1573 1597 "src/geometry_tools.ml" 54 1573 1599
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/geometry_tools.ml" 54 1573 1600 "src/geometry_tools.ml" 54 1573 1608
+type(
+  point_2D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 48 1292 1336 "src/geometry_tools.ml" 48 1292 1344
+)
+"src/geometry_tools.ml" 54 1573 1600 "src/geometry_tools.ml" 54 1573 1610
+type(
+  float
+)
+"src/geometry_tools.ml" 54 1573 1610 "src/geometry_tools.ml" 54 1573 1611
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 54 1573 1611 "src/geometry_tools.ml" 54 1573 1613
+type(
+  float
+)
+"src/geometry_tools.ml" 54 1573 1600 "src/geometry_tools.ml" 54 1573 1613
+type(
+  bool
+)
+"src/geometry_tools.ml" 54 1573 1583 "src/geometry_tools.ml" 54 1573 1613
+type(
+  bool
+)
+"src/geometry_tools.ml" 54 1573 1619 "src/geometry_tools.ml" 54 1573 1623
+type(
+  bool
+)
+"src/geometry_tools.ml" 55 1624 1632 "src/geometry_tools.ml" 55 1624 1638
+type(
+  point_2D
+)
+ident(
+  int_ref p_test "src/geometry_tools.ml" 48 1292 1319 "src/geometry_tools.ml" 48 1292 1325
+)
+"src/geometry_tools.ml" 55 1624 1632 "src/geometry_tools.ml" 55 1624 1640
+type(
+  float
+)
+"src/geometry_tools.ml" 55 1624 1641 "src/geometry_tools.ml" 55 1624 1643
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geometry_tools.ml" 55 1624 1644 "src/geometry_tools.ml" 55 1624 1652
+type(
+  point_2D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 48 1292 1336 "src/geometry_tools.ml" 48 1292 1344
+)
+"src/geometry_tools.ml" 55 1624 1644 "src/geometry_tools.ml" 55 1624 1654
+type(
+  float
+)
+"src/geometry_tools.ml" 55 1624 1631 "src/geometry_tools.ml" 55 1624 1655
+type(
+  float
+)
+"src/geometry_tools.ml" 55 1624 1656 "src/geometry_tools.ml" 55 1624 1657
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 55 1624 1659 "src/geometry_tools.ml" 55 1624 1665
+type(
+  point_2D
+)
+ident(
+  int_ref p_test "src/geometry_tools.ml" 48 1292 1319 "src/geometry_tools.ml" 48 1292 1325
+)
+"src/geometry_tools.ml" 55 1624 1659 "src/geometry_tools.ml" 55 1624 1667
+type(
+  float
+)
+"src/geometry_tools.ml" 55 1624 1668 "src/geometry_tools.ml" 55 1624 1670
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geometry_tools.ml" 55 1624 1671 "src/geometry_tools.ml" 55 1624 1679
+type(
+  point_2D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 48 1292 1336 "src/geometry_tools.ml" 48 1292 1344
+)
+"src/geometry_tools.ml" 55 1624 1671 "src/geometry_tools.ml" 55 1624 1681
+type(
+  float
+)
+"src/geometry_tools.ml" 55 1624 1658 "src/geometry_tools.ml" 55 1624 1682
+type(
+  float
+)
+"src/geometry_tools.ml" 55 1624 1631 "src/geometry_tools.ml" 55 1624 1682
+type(
+  bool
+)
+"src/geometry_tools.ml" 54 1573 1580 "src/geometry_tools.ml" 55 1624 1682
+type(
+  bool
+)
+"src/geometry_tools.ml" 53 1522 1529 "src/geometry_tools.ml" 55 1624 1682
+type(
+  bool
+)
+"src/geometry_tools.ml" 52 1471 1478 "src/geometry_tools.ml" 55 1624 1682
+type(
+  bool
+)
+"src/geometry_tools.ml" 51 1428 1435 "src/geometry_tools.ml" 55 1624 1682
+type(
+  bool
+)
+"src/geometry_tools.ml" 50 1388 1395 "src/geometry_tools.ml" 55 1624 1682
+type(
+  bool
+)
+"src/geometry_tools.ml" 49 1347 1349 "src/geometry_tools.ml" 55 1624 1682
+type(
+  bool
+)
+"src/geometry_tools.ml" 59 1810 1814 "src/geometry_tools.ml" 59 1810 1826
+type(
+  point_2D -> point_2D -> bool
+)
+ident(
+  def collinear_2D "src/geometry_tools.ml" 71 2283 2283 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 59 1810 1827 "src/geometry_tools.ml" 59 1810 1834
+type(
+  point_2D
+)
+ident(
+  def vector1 "src/geometry_tools.ml" 59 1810 1835 "src/geometry_tools.ml" 67 2139 2194
+)
+"src/geometry_tools.ml" 59 1810 1835 "src/geometry_tools.ml" 59 1810 1842
+type(
+  point_2D
+)
+ident(
+  def vector2 "src/geometry_tools.ml" 60 1845 1847 "src/geometry_tools.ml" 67 2139 2194
+)
+"src/geometry_tools.ml" 60 1845 1850 "src/geometry_tools.ml" 60 1845 1862
+type(
+  point_2D -> bool
+)
+ident(
+  int_ref is_origin_2D "src/geometry_tools.ml" 16 359 363 "src/geometry_tools.ml" 16 359 375
+)
+"src/geometry_tools.ml" 60 1845 1863 "src/geometry_tools.ml" 60 1845 1870
+type(
+  point_2D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 59 1810 1827 "src/geometry_tools.ml" 59 1810 1834
+)
+"src/geometry_tools.ml" 60 1845 1850 "src/geometry_tools.ml" 60 1845 1870
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 60 1845 1871 "src/geometry_tools.ml" 60 1845 1873
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/geometry_tools.ml" 60 1845 1874 "src/geometry_tools.ml" 60 1845 1886
+type(
+  point_2D -> bool
+)
+ident(
+  int_ref is_origin_2D "src/geometry_tools.ml" 16 359 363 "src/geometry_tools.ml" 16 359 375
+)
+"src/geometry_tools.ml" 60 1845 1887 "src/geometry_tools.ml" 60 1845 1894
+type(
+  point_2D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 59 1810 1835 "src/geometry_tools.ml" 59 1810 1842
+)
+"src/geometry_tools.ml" 60 1845 1874 "src/geometry_tools.ml" 60 1845 1894
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 60 1845 1850 "src/geometry_tools.ml" 60 1845 1894
+type(
+  bool
+)
+"src/geometry_tools.ml" 60 1845 1900 "src/geometry_tools.ml" 60 1845 1905
+type(
+  bool
+)
+"src/geometry_tools.ml" 61 1906 1916 "src/geometry_tools.ml" 61 1906 1925
+type(
+  point_2D -> point_2D -> bool
+)
+ident(
+  int_ref equals_2D "src/geometry_tools.ml" 14 313 317 "src/geometry_tools.ml" 14 313 326
+)
+"src/geometry_tools.ml" 61 1906 1926 "src/geometry_tools.ml" 61 1906 1933
+type(
+  point_2D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 59 1810 1827 "src/geometry_tools.ml" 59 1810 1834
+)
+"src/geometry_tools.ml" 61 1906 1934 "src/geometry_tools.ml" 61 1906 1941
+type(
+  point_2D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 59 1810 1835 "src/geometry_tools.ml" 59 1810 1842
+)
+"src/geometry_tools.ml" 61 1906 1916 "src/geometry_tools.ml" 61 1906 1941
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 61 1906 1947 "src/geometry_tools.ml" 61 1906 1951
+type(
+  bool
+)
+"src/geometry_tools.ml" 62 1952 1963 "src/geometry_tools.ml" 62 1952 1970
+type(
+  point_2D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 59 1810 1827 "src/geometry_tools.ml" 59 1810 1834
+)
+"src/geometry_tools.ml" 62 1952 1963 "src/geometry_tools.ml" 62 1952 1972
+type(
+  float
+)
+"src/geometry_tools.ml" 62 1952 1972 "src/geometry_tools.ml" 62 1952 1973
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 62 1952 1973 "src/geometry_tools.ml" 62 1952 1975
+type(
+  float
+)
+"src/geometry_tools.ml" 62 1952 1963 "src/geometry_tools.ml" 62 1952 1975
+type(
+  bool
+)
+"src/geometry_tools.ml" 62 1952 1976 "src/geometry_tools.ml" 62 1952 1978
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 62 1952 1979 "src/geometry_tools.ml" 62 1952 1986
+type(
+  point_2D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 59 1810 1835 "src/geometry_tools.ml" 59 1810 1842
+)
+"src/geometry_tools.ml" 62 1952 1979 "src/geometry_tools.ml" 62 1952 1988
+type(
+  float
+)
+"src/geometry_tools.ml" 62 1952 1988 "src/geometry_tools.ml" 62 1952 1990
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/geometry_tools.ml" 62 1952 1990 "src/geometry_tools.ml" 62 1952 1992
+type(
+  float
+)
+"src/geometry_tools.ml" 62 1952 1979 "src/geometry_tools.ml" 62 1952 1992
+type(
+  bool
+)
+"src/geometry_tools.ml" 62 1952 1962 "src/geometry_tools.ml" 62 1952 1993
+type(
+  bool
+)
+"src/geometry_tools.ml" 62 1952 1994 "src/geometry_tools.ml" 62 1952 1996
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/geometry_tools.ml" 62 1952 1998 "src/geometry_tools.ml" 62 1952 2005
+type(
+  point_2D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 59 1810 1827 "src/geometry_tools.ml" 59 1810 1834
+)
+"src/geometry_tools.ml" 62 1952 1998 "src/geometry_tools.ml" 62 1952 2007
+type(
+  float
+)
+"src/geometry_tools.ml" 62 1952 2007 "src/geometry_tools.ml" 62 1952 2009
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/geometry_tools.ml" 62 1952 2009 "src/geometry_tools.ml" 62 1952 2011
+type(
+  float
+)
+"src/geometry_tools.ml" 62 1952 1998 "src/geometry_tools.ml" 62 1952 2011
+type(
+  bool
+)
+"src/geometry_tools.ml" 62 1952 2012 "src/geometry_tools.ml" 62 1952 2014
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 62 1952 2015 "src/geometry_tools.ml" 62 1952 2022
+type(
+  point_2D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 59 1810 1835 "src/geometry_tools.ml" 59 1810 1842
+)
+"src/geometry_tools.ml" 62 1952 2015 "src/geometry_tools.ml" 62 1952 2024
+type(
+  float
+)
+"src/geometry_tools.ml" 62 1952 2024 "src/geometry_tools.ml" 62 1952 2025
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 62 1952 2025 "src/geometry_tools.ml" 62 1952 2027
+type(
+  float
+)
+"src/geometry_tools.ml" 62 1952 2015 "src/geometry_tools.ml" 62 1952 2027
+type(
+  bool
+)
+"src/geometry_tools.ml" 62 1952 1997 "src/geometry_tools.ml" 62 1952 2028
+type(
+  bool
+)
+"src/geometry_tools.ml" 62 1952 1962 "src/geometry_tools.ml" 62 1952 2028
+type(
+  bool
+)
+"src/geometry_tools.ml" 63 2029 2036 "src/geometry_tools.ml" 63 2029 2041
+type(
+  bool
+)
+"src/geometry_tools.ml" 64 2042 2053 "src/geometry_tools.ml" 64 2042 2060
+type(
+  point_2D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 59 1810 1827 "src/geometry_tools.ml" 59 1810 1834
+)
+"src/geometry_tools.ml" 64 2042 2053 "src/geometry_tools.ml" 64 2042 2062
+type(
+  float
+)
+"src/geometry_tools.ml" 64 2042 2062 "src/geometry_tools.ml" 64 2042 2063
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 64 2042 2063 "src/geometry_tools.ml" 64 2042 2065
+type(
+  float
+)
+"src/geometry_tools.ml" 64 2042 2053 "src/geometry_tools.ml" 64 2042 2065
+type(
+  bool
+)
+"src/geometry_tools.ml" 64 2042 2066 "src/geometry_tools.ml" 64 2042 2068
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 64 2042 2069 "src/geometry_tools.ml" 64 2042 2076
+type(
+  point_2D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 59 1810 1835 "src/geometry_tools.ml" 59 1810 1842
+)
+"src/geometry_tools.ml" 64 2042 2069 "src/geometry_tools.ml" 64 2042 2078
+type(
+  float
+)
+"src/geometry_tools.ml" 64 2042 2078 "src/geometry_tools.ml" 64 2042 2080
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/geometry_tools.ml" 64 2042 2080 "src/geometry_tools.ml" 64 2042 2082
+type(
+  float
+)
+"src/geometry_tools.ml" 64 2042 2069 "src/geometry_tools.ml" 64 2042 2082
+type(
+  bool
+)
+"src/geometry_tools.ml" 64 2042 2052 "src/geometry_tools.ml" 64 2042 2083
+type(
+  bool
+)
+"src/geometry_tools.ml" 64 2042 2084 "src/geometry_tools.ml" 64 2042 2086
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/geometry_tools.ml" 64 2042 2088 "src/geometry_tools.ml" 64 2042 2095
+type(
+  point_2D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 59 1810 1827 "src/geometry_tools.ml" 59 1810 1834
+)
+"src/geometry_tools.ml" 64 2042 2088 "src/geometry_tools.ml" 64 2042 2097
+type(
+  float
+)
+"src/geometry_tools.ml" 64 2042 2097 "src/geometry_tools.ml" 64 2042 2099
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/geometry_tools.ml" 64 2042 2099 "src/geometry_tools.ml" 64 2042 2101
+type(
+  float
+)
+"src/geometry_tools.ml" 64 2042 2088 "src/geometry_tools.ml" 64 2042 2101
+type(
+  bool
+)
+"src/geometry_tools.ml" 64 2042 2102 "src/geometry_tools.ml" 64 2042 2104
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 64 2042 2105 "src/geometry_tools.ml" 64 2042 2112
+type(
+  point_2D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 59 1810 1835 "src/geometry_tools.ml" 59 1810 1842
+)
+"src/geometry_tools.ml" 64 2042 2105 "src/geometry_tools.ml" 64 2042 2114
+type(
+  float
+)
+"src/geometry_tools.ml" 64 2042 2114 "src/geometry_tools.ml" 64 2042 2115
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 64 2042 2115 "src/geometry_tools.ml" 64 2042 2117
+type(
+  float
+)
+"src/geometry_tools.ml" 64 2042 2105 "src/geometry_tools.ml" 64 2042 2117
+type(
+  bool
+)
+"src/geometry_tools.ml" 64 2042 2087 "src/geometry_tools.ml" 64 2042 2118
+type(
+  bool
+)
+"src/geometry_tools.ml" 64 2042 2052 "src/geometry_tools.ml" 64 2042 2118
+type(
+  bool
+)
+"src/geometry_tools.ml" 65 2119 2126 "src/geometry_tools.ml" 65 2119 2131
+type(
+  bool
+)
+"src/geometry_tools.ml" 67 2139 2144 "src/geometry_tools.ml" 67 2139 2151
+type(
+  point_2D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 59 1810 1827 "src/geometry_tools.ml" 59 1810 1834
+)
+"src/geometry_tools.ml" 67 2139 2144 "src/geometry_tools.ml" 67 2139 2153
+type(
+  float
+)
+"src/geometry_tools.ml" 67 2139 2154 "src/geometry_tools.ml" 67 2139 2156
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geometry_tools.ml" 67 2139 2157 "src/geometry_tools.ml" 67 2139 2164
+type(
+  point_2D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 59 1810 1835 "src/geometry_tools.ml" 59 1810 1842
+)
+"src/geometry_tools.ml" 67 2139 2157 "src/geometry_tools.ml" 67 2139 2166
+type(
+  float
+)
+"src/geometry_tools.ml" 67 2139 2143 "src/geometry_tools.ml" 67 2139 2167
+type(
+  float
+)
+"src/geometry_tools.ml" 67 2139 2168 "src/geometry_tools.ml" 67 2139 2169
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 67 2139 2171 "src/geometry_tools.ml" 67 2139 2178
+type(
+  point_2D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 59 1810 1827 "src/geometry_tools.ml" 59 1810 1834
+)
+"src/geometry_tools.ml" 67 2139 2171 "src/geometry_tools.ml" 67 2139 2180
+type(
+  float
+)
+"src/geometry_tools.ml" 67 2139 2181 "src/geometry_tools.ml" 67 2139 2183
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geometry_tools.ml" 67 2139 2184 "src/geometry_tools.ml" 67 2139 2191
+type(
+  point_2D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 59 1810 1835 "src/geometry_tools.ml" 59 1810 1842
+)
+"src/geometry_tools.ml" 67 2139 2184 "src/geometry_tools.ml" 67 2139 2193
+type(
+  float
+)
+"src/geometry_tools.ml" 67 2139 2170 "src/geometry_tools.ml" 67 2139 2194
+type(
+  float
+)
+"src/geometry_tools.ml" 67 2139 2143 "src/geometry_tools.ml" 67 2139 2194
+type(
+  bool
+)
+"src/geometry_tools.ml" 64 2042 2049 "src/geometry_tools.ml" 67 2139 2194
+type(
+  bool
+)
+"src/geometry_tools.ml" 62 1952 1959 "src/geometry_tools.ml" 67 2139 2194
+type(
+  bool
+)
+"src/geometry_tools.ml" 61 1906 1913 "src/geometry_tools.ml" 67 2139 2194
+type(
+  bool
+)
+"src/geometry_tools.ml" 60 1845 1847 "src/geometry_tools.ml" 67 2139 2194
+type(
+  bool
+)
+"src/geometry_tools.ml" 75 2423 2427 "src/geometry_tools.ml" 75 2423 2448
+type(
+  line_2D -> bool
+)
+ident(
+  def line_is_degenerate_2D "src/geometry_tools.ml" 78 2544 2544 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 75 2423 2449 "src/geometry_tools.ml" 75 2423 2451
+type(
+  line_2D
+)
+ident(
+  def li "src/geometry_tools.ml" 75 2423 2454 "src/geometry_tools.ml" 75 2423 2498
+)
+"src/geometry_tools.ml" 75 2423 2454 "src/geometry_tools.ml" 75 2423 2463
+type(
+  point_2D -> point_2D -> bool
+)
+ident(
+  int_ref equals_2D "src/geometry_tools.ml" 14 313 317 "src/geometry_tools.ml" 14 313 326
+)
+"src/geometry_tools.ml" 75 2423 2464 "src/geometry_tools.ml" 75 2423 2466
+type(
+  line_2D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 75 2423 2449 "src/geometry_tools.ml" 75 2423 2451
+)
+"src/geometry_tools.ml" 75 2423 2464 "src/geometry_tools.ml" 75 2423 2468
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 75 2423 2470 "src/geometry_tools.ml" 75 2423 2485
+type(
+  x:float -> y:float -> point_2D
+)
+ident(
+  int_ref create_point_2D "src/geometry_tools.ml" 12 269 273 "src/geometry_tools.ml" 12 269 288
+)
+"src/geometry_tools.ml" 75 2423 2489 "src/geometry_tools.ml" 75 2423 2491
+type(
+  float
+)
+"src/geometry_tools.ml" 75 2423 2495 "src/geometry_tools.ml" 75 2423 2497
+type(
+  float
+)
+"src/geometry_tools.ml" 75 2423 2469 "src/geometry_tools.ml" 75 2423 2498
+call(
+  stack
+)
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 75 2423 2454 "src/geometry_tools.ml" 75 2423 2498
+call(
+  tail
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 78 2544 2548 "src/geometry_tools.ml" 78 2544 2562
+type(
+  point:point_2D -> vector:point_2D -> line_2D
+)
+ident(
+  def create_line_2D "src/geometry_tools.ml" 80 2620 2620 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 78 2544 2570 "src/geometry_tools.ml" 78 2544 2577
+type(
+  point_2D
+)
+ident(
+  def p_point "src/geometry_tools.ml" 78 2544 2578 "src/geometry_tools.ml" 78 2544 2618
+)
+"src/geometry_tools.ml" 78 2544 2586 "src/geometry_tools.ml" 78 2544 2592
+type(
+  point_2D
+)
+ident(
+  def vector "src/geometry_tools.ml" 78 2544 2595 "src/geometry_tools.ml" 78 2544 2618
+)
+"src/geometry_tools.ml" 78 2544 2600 "src/geometry_tools.ml" 78 2544 2607
+type(
+  point_2D
+)
+ident(
+  int_ref p_point "src/geometry_tools.ml" 78 2544 2570 "src/geometry_tools.ml" 78 2544 2577
+)
+"src/geometry_tools.ml" 78 2544 2611 "src/geometry_tools.ml" 78 2544 2617
+type(
+  point_2D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 78 2544 2586 "src/geometry_tools.ml" 78 2544 2592
+)
+"src/geometry_tools.ml" 78 2544 2595 "src/geometry_tools.ml" 78 2544 2618
+type(
+  line_2D
+)
+"src/geometry_tools.ml" 80 2620 2624 "src/geometry_tools.ml" 80 2620 2638
+type(
+  point_2D -> unit
+)
+ident(
+  def print_point_2D "src/geometry_tools.ml" 82 2670 2670 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 80 2620 2639 "src/geometry_tools.ml" 80 2620 2640
+type(
+  point_2D
+)
+ident(
+  def p "src/geometry_tools.ml" 80 2620 2643 "src/geometry_tools.ml" 80 2620 2668
+)
+"src/geometry_tools.ml" 80 2620 2643 "src/geometry_tools.ml" 80 2620 2649
+type(
+  (float -> float -> unit, out_channel, unit) format ->
+  float -> float -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"src/geometry_tools.ml" 80 2620 2650 "src/geometry_tools.ml" 80 2620 2660
+type(
+  (float -> float -> unit, out_channel, unit) format
+)
+"src/geometry_tools.ml" 80 2620 2661 "src/geometry_tools.ml" 80 2620 2662
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 80 2620 2639 "src/geometry_tools.ml" 80 2620 2640
+)
+"src/geometry_tools.ml" 80 2620 2661 "src/geometry_tools.ml" 80 2620 2664
+type(
+  float
+)
+"src/geometry_tools.ml" 80 2620 2665 "src/geometry_tools.ml" 80 2620 2666
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 80 2620 2639 "src/geometry_tools.ml" 80 2620 2640
+)
+"src/geometry_tools.ml" 80 2620 2665 "src/geometry_tools.ml" 80 2620 2668
+type(
+  float
+)
+"src/geometry_tools.ml" 80 2620 2643 "src/geometry_tools.ml" 80 2620 2668
+call(
+  tail
+)
+type(
+  unit
+)
+"src/geometry_tools.ml" 82 2670 2674 "src/geometry_tools.ml" 82 2670 2687
+type(
+  line_2D -> unit
+)
+ident(
+  def print_line_2D "src/geometry_tools.ml" 88 2891 2891 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 82 2670 2688 "src/geometry_tools.ml" 82 2670 2690
+type(
+  line_2D
+)
+ident(
+  def li "src/geometry_tools.ml" 82 2670 2693 "src/geometry_tools.ml" 85 2805 2844
+)
+"src/geometry_tools.ml" 82 2670 2693 "src/geometry_tools.ml" 82 2670 2705
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"src/geometry_tools.ml" 82 2670 2706 "src/geometry_tools.ml" 82 2670 2714
+type(
+  string
+)
+"src/geometry_tools.ml" 82 2670 2693 "src/geometry_tools.ml" 82 2670 2714
+call(
+  stack
+)
+type(
+  unit
+)
+"src/geometry_tools.ml" 83 2716 2736 "src/geometry_tools.ml" 83 2716 2750
+type(
+  point_2D -> unit
+)
+ident(
+  int_ref print_point_2D "src/geometry_tools.ml" 80 2620 2624 "src/geometry_tools.ml" 80 2620 2638
+)
+"src/geometry_tools.ml" 83 2716 2751 "src/geometry_tools.ml" 83 2716 2753
+type(
+  line_2D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 82 2670 2688 "src/geometry_tools.ml" 82 2670 2690
+)
+"src/geometry_tools.ml" 83 2716 2751 "src/geometry_tools.ml" 83 2716 2757
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 83 2716 2736 "src/geometry_tools.ml" 83 2716 2757
+call(
+  stack
+)
+type(
+  unit
+)
+"src/geometry_tools.ml" 84 2759 2779 "src/geometry_tools.ml" 84 2759 2791
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"src/geometry_tools.ml" 84 2759 2792 "src/geometry_tools.ml" 84 2759 2803
+type(
+  string
+)
+"src/geometry_tools.ml" 84 2759 2779 "src/geometry_tools.ml" 84 2759 2803
+call(
+  stack
+)
+type(
+  unit
+)
+"src/geometry_tools.ml" 85 2805 2825 "src/geometry_tools.ml" 85 2805 2839
+type(
+  point_2D -> unit
+)
+ident(
+  int_ref print_point_2D "src/geometry_tools.ml" 80 2620 2624 "src/geometry_tools.ml" 80 2620 2638
+)
+"src/geometry_tools.ml" 85 2805 2840 "src/geometry_tools.ml" 85 2805 2842
+type(
+  line_2D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 82 2670 2688 "src/geometry_tools.ml" 82 2670 2690
+)
+"src/geometry_tools.ml" 85 2805 2840 "src/geometry_tools.ml" 85 2805 2844
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 85 2805 2825 "src/geometry_tools.ml" 85 2805 2844
+call(
+  tail
+)
+type(
+  unit
+)
+"src/geometry_tools.ml" 84 2759 2779 "src/geometry_tools.ml" 85 2805 2844
+type(
+  unit
+)
+"src/geometry_tools.ml" 83 2716 2736 "src/geometry_tools.ml" 85 2805 2844
+type(
+  unit
+)
+"src/geometry_tools.ml" 82 2670 2693 "src/geometry_tools.ml" 85 2805 2844
+type(
+  unit
+)
+"src/geometry_tools.ml" 88 2891 2895 "src/geometry_tools.ml" 88 2891 2916
+type(
+  point_2D -> line_2D -> bool
+)
+ident(
+  def point_belongs_line_2D "src/geometry_tools.ml" 97 3223 3223 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 88 2891 2917 "src/geometry_tools.ml" 88 2891 2918
+type(
+  point_2D
+)
+ident(
+  def p "src/geometry_tools.ml" 88 2891 2919 "src/geometry_tools.ml" 91 2995 3041
+)
+"src/geometry_tools.ml" 88 2891 2919 "src/geometry_tools.ml" 88 2891 2921
+type(
+  line_2D
+)
+ident(
+  def li "src/geometry_tools.ml" 89 2924 2926 "src/geometry_tools.ml" 91 2995 3041
+)
+"src/geometry_tools.ml" 89 2924 2929 "src/geometry_tools.ml" 89 2924 2950
+type(
+  line_2D -> bool
+)
+ident(
+  int_ref line_is_degenerate_2D "src/geometry_tools.ml" 75 2423 2427 "src/geometry_tools.ml" 75 2423 2448
+)
+"src/geometry_tools.ml" 89 2924 2951 "src/geometry_tools.ml" 89 2924 2953
+type(
+  line_2D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 88 2891 2919 "src/geometry_tools.ml" 88 2891 2921
+)
+"src/geometry_tools.ml" 89 2924 2929 "src/geometry_tools.ml" 89 2924 2953
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 89 2924 2959 "src/geometry_tools.ml" 89 2924 2964
+type(
+  bool
+)
+"src/geometry_tools.ml" 90 2965 2975 "src/geometry_tools.ml" 90 2965 2976
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 88 2891 2917 "src/geometry_tools.ml" 88 2891 2918
+)
+"src/geometry_tools.ml" 90 2965 2977 "src/geometry_tools.ml" 90 2965 2978
+type(
+  point_2D -> point_2D -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 90 2965 2978 "src/geometry_tools.ml" 90 2965 2980
+type(
+  line_2D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 88 2891 2919 "src/geometry_tools.ml" 88 2891 2921
+)
+"src/geometry_tools.ml" 90 2965 2978 "src/geometry_tools.ml" 90 2965 2984
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 90 2965 2975 "src/geometry_tools.ml" 90 2965 2984
+type(
+  bool
+)
+"src/geometry_tools.ml" 90 2965 2990 "src/geometry_tools.ml" 90 2965 2994
+type(
+  bool
+)
+"src/geometry_tools.ml" 91 2995 3002 "src/geometry_tools.ml" 91 2995 3016
+type(
+  p_test:point_2D -> p_tester:point_2D -> bool
+)
+ident(
+  int_ref is_multiple_2D "src/geometry_tools.ml" 48 1292 1296 "src/geometry_tools.ml" 48 1292 1310
+)
+"src/geometry_tools.ml" 91 2995 3018 "src/geometry_tools.ml" 91 2995 3026
+type(
+  point_2D -> point_2D -> point_2D
+)
+ident(
+  int_ref minus_2D "src/geometry_tools.ml" 30 800 804 "src/geometry_tools.ml" 30 800 812
+)
+"src/geometry_tools.ml" 91 2995 3027 "src/geometry_tools.ml" 91 2995 3028
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 88 2891 2917 "src/geometry_tools.ml" 88 2891 2918
+)
+"src/geometry_tools.ml" 91 2995 3029 "src/geometry_tools.ml" 91 2995 3031
+type(
+  line_2D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 88 2891 2919 "src/geometry_tools.ml" 88 2891 2921
+)
+"src/geometry_tools.ml" 91 2995 3029 "src/geometry_tools.ml" 91 2995 3035
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 91 2995 3017 "src/geometry_tools.ml" 91 2995 3036
+call(
+  stack
+)
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 91 2995 3037 "src/geometry_tools.ml" 91 2995 3039
+type(
+  line_2D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 88 2891 2919 "src/geometry_tools.ml" 88 2891 2921
+)
+"src/geometry_tools.ml" 91 2995 3037 "src/geometry_tools.ml" 91 2995 3041
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 91 2995 3002 "src/geometry_tools.ml" 91 2995 3041
+call(
+  tail
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 90 2965 2972 "src/geometry_tools.ml" 91 2995 3041
+type(
+  bool
+)
+"src/geometry_tools.ml" 89 2924 2926 "src/geometry_tools.ml" 91 2995 3041
+type(
+  bool
+)
+"src/geometry_tools.ml" 97 3223 3227 "src/geometry_tools.ml" 97 3223 3244
+type(
+  line_2D -> line_2D -> int
+)
+ident(
+  def relation_lines_2D "src/geometry_tools.ml" 108 3623 3623 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 97 3223 3245 "src/geometry_tools.ml" 97 3223 3248
+type(
+  line_2D
+)
+ident(
+  def li1 "src/geometry_tools.ml" 97 3223 3249 "src/geometry_tools.ml" 104 3540 3548
+)
+"src/geometry_tools.ml" 97 3223 3249 "src/geometry_tools.ml" 97 3223 3252
+type(
+  line_2D
+)
+ident(
+  def li2 "src/geometry_tools.ml" 98 3255 3257 "src/geometry_tools.ml" 104 3540 3548
+)
+"src/geometry_tools.ml" 98 3255 3260 "src/geometry_tools.ml" 98 3255 3281
+type(
+  line_2D -> bool
+)
+ident(
+  int_ref line_is_degenerate_2D "src/geometry_tools.ml" 75 2423 2427 "src/geometry_tools.ml" 75 2423 2448
+)
+"src/geometry_tools.ml" 98 3255 3282 "src/geometry_tools.ml" 98 3255 3285
+type(
+  line_2D
+)
+ident(
+  int_ref li1 "src/geometry_tools.ml" 97 3223 3245 "src/geometry_tools.ml" 97 3223 3248
+)
+"src/geometry_tools.ml" 98 3255 3260 "src/geometry_tools.ml" 98 3255 3285
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 98 3255 3286 "src/geometry_tools.ml" 98 3255 3288
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/geometry_tools.ml" 98 3255 3289 "src/geometry_tools.ml" 98 3255 3310
+type(
+  line_2D -> bool
+)
+ident(
+  int_ref line_is_degenerate_2D "src/geometry_tools.ml" 75 2423 2427 "src/geometry_tools.ml" 75 2423 2448
+)
+"src/geometry_tools.ml" 98 3255 3311 "src/geometry_tools.ml" 98 3255 3314
+type(
+  line_2D
+)
+ident(
+  int_ref li2 "src/geometry_tools.ml" 97 3223 3249 "src/geometry_tools.ml" 97 3223 3252
+)
+"src/geometry_tools.ml" 98 3255 3289 "src/geometry_tools.ml" 98 3255 3314
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 98 3255 3260 "src/geometry_tools.ml" 98 3255 3314
+type(
+  bool
+)
+"src/geometry_tools.ml" 99 3320 3324 "src/geometry_tools.ml" 99 3320 3332
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/geometry_tools.ml" 99 3320 3333 "src/geometry_tools.ml" 99 3320 3361
+type(
+  string
+)
+"src/geometry_tools.ml" 99 3320 3324 "src/geometry_tools.ml" 99 3320 3361
+call(
+  tail
+)
+type(
+  int
+)
+"src/geometry_tools.ml" 100 3362 3372 "src/geometry_tools.ml" 100 3362 3386
+type(
+  p_test:point_2D -> p_tester:point_2D -> bool
+)
+ident(
+  int_ref is_multiple_2D "src/geometry_tools.ml" 48 1292 1296 "src/geometry_tools.ml" 48 1292 1310
+)
+"src/geometry_tools.ml" 100 3362 3387 "src/geometry_tools.ml" 100 3362 3390
+type(
+  line_2D
+)
+ident(
+  int_ref li1 "src/geometry_tools.ml" 97 3223 3245 "src/geometry_tools.ml" 97 3223 3248
+)
+"src/geometry_tools.ml" 100 3362 3387 "src/geometry_tools.ml" 100 3362 3392
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 100 3362 3393 "src/geometry_tools.ml" 100 3362 3396
+type(
+  line_2D
+)
+ident(
+  int_ref li2 "src/geometry_tools.ml" 97 3223 3249 "src/geometry_tools.ml" 97 3223 3252
+)
+"src/geometry_tools.ml" 100 3362 3393 "src/geometry_tools.ml" 100 3362 3398
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 100 3362 3372 "src/geometry_tools.ml" 100 3362 3398
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 100 3362 3399 "src/geometry_tools.ml" 100 3362 3401
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 100 3362 3402 "src/geometry_tools.ml" 100 3362 3423
+type(
+  point_2D -> line_2D -> bool
+)
+ident(
+  int_ref point_belongs_line_2D "src/geometry_tools.ml" 88 2891 2895 "src/geometry_tools.ml" 88 2891 2916
+)
+"src/geometry_tools.ml" 100 3362 3424 "src/geometry_tools.ml" 100 3362 3427
+type(
+  line_2D
+)
+ident(
+  int_ref li1 "src/geometry_tools.ml" 97 3223 3245 "src/geometry_tools.ml" 97 3223 3248
+)
+"src/geometry_tools.ml" 100 3362 3424 "src/geometry_tools.ml" 100 3362 3431
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 100 3362 3432 "src/geometry_tools.ml" 100 3362 3435
+type(
+  line_2D
+)
+ident(
+  int_ref li2 "src/geometry_tools.ml" 97 3223 3249 "src/geometry_tools.ml" 97 3223 3252
+)
+"src/geometry_tools.ml" 100 3362 3402 "src/geometry_tools.ml" 100 3362 3435
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 100 3362 3372 "src/geometry_tools.ml" 100 3362 3435
+type(
+  bool
+)
+"src/geometry_tools.ml" 101 3441 3445 "src/geometry_tools.ml" 101 3441 3446
+type(
+  int
+)
+"src/geometry_tools.ml" 102 3447 3457 "src/geometry_tools.ml" 102 3447 3471
+type(
+  p_test:point_2D -> p_tester:point_2D -> bool
+)
+ident(
+  int_ref is_multiple_2D "src/geometry_tools.ml" 48 1292 1296 "src/geometry_tools.ml" 48 1292 1310
+)
+"src/geometry_tools.ml" 102 3447 3472 "src/geometry_tools.ml" 102 3447 3475
+type(
+  line_2D
+)
+ident(
+  int_ref li1 "src/geometry_tools.ml" 97 3223 3245 "src/geometry_tools.ml" 97 3223 3248
+)
+"src/geometry_tools.ml" 102 3447 3472 "src/geometry_tools.ml" 102 3447 3477
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 102 3447 3478 "src/geometry_tools.ml" 102 3447 3481
+type(
+  line_2D
+)
+ident(
+  int_ref li2 "src/geometry_tools.ml" 97 3223 3249 "src/geometry_tools.ml" 97 3223 3252
+)
+"src/geometry_tools.ml" 102 3447 3478 "src/geometry_tools.ml" 102 3447 3483
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 102 3447 3457 "src/geometry_tools.ml" 102 3447 3483
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 102 3447 3484 "src/geometry_tools.ml" 102 3447 3486
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 103 3487 3494 "src/geometry_tools.ml" 103 3487 3497
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/geometry_tools.ml" 103 3487 3498 "src/geometry_tools.ml" 103 3487 3519
+type(
+  point_2D -> line_2D -> bool
+)
+ident(
+  int_ref point_belongs_line_2D "src/geometry_tools.ml" 88 2891 2895 "src/geometry_tools.ml" 88 2891 2916
+)
+"src/geometry_tools.ml" 103 3487 3520 "src/geometry_tools.ml" 103 3487 3523
+type(
+  line_2D
+)
+ident(
+  int_ref li1 "src/geometry_tools.ml" 97 3223 3245 "src/geometry_tools.ml" 97 3223 3248
+)
+"src/geometry_tools.ml" 103 3487 3520 "src/geometry_tools.ml" 103 3487 3527
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 103 3487 3528 "src/geometry_tools.ml" 103 3487 3531
+type(
+  line_2D
+)
+ident(
+  int_ref li2 "src/geometry_tools.ml" 97 3223 3249 "src/geometry_tools.ml" 97 3223 3252
+)
+"src/geometry_tools.ml" 103 3487 3497 "src/geometry_tools.ml" 103 3487 3532
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 103 3487 3494 "src/geometry_tools.ml" 103 3487 3532
+type(
+  bool
+)
+"src/geometry_tools.ml" 102 3447 3457 "src/geometry_tools.ml" 103 3487 3532
+type(
+  bool
+)
+"src/geometry_tools.ml" 103 3487 3538 "src/geometry_tools.ml" 103 3487 3539
+type(
+  int
+)
+"src/geometry_tools.ml" 104 3540 3547 "src/geometry_tools.ml" 104 3540 3548
+type(
+  int
+)
+"src/geometry_tools.ml" 102 3447 3454 "src/geometry_tools.ml" 104 3540 3548
+type(
+  int
+)
+"src/geometry_tools.ml" 100 3362 3369 "src/geometry_tools.ml" 104 3540 3548
+type(
+  int
+)
+"src/geometry_tools.ml" 98 3255 3257 "src/geometry_tools.ml" 104 3540 3548
+type(
+  int
+)
+"src/geometry_tools.ml" 108 3623 3627 "src/geometry_tools.ml" 108 3623 3649
+type(
+  line_2D -> point_2D -> (point_2D -> point_2D -> 'a) -> 'a
+)
+ident(
+  def distance_line_point_2D "src/geometry_tools.ml" 125 4530 4530 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 108 3623 3650 "src/geometry_tools.ml" 108 3623 3652
+type(
+  line_2D
+)
+ident(
+  def li "src/geometry_tools.ml" 108 3623 3653 "src/geometry_tools.ml" 121 4371 4409
+)
+"src/geometry_tools.ml" 108 3623 3653 "src/geometry_tools.ml" 108 3623 3654
+type(
+  point_2D
+)
+ident(
+  def p "src/geometry_tools.ml" 108 3623 3655 "src/geometry_tools.ml" 121 4371 4409
+)
+"src/geometry_tools.ml" 108 3623 3655 "src/geometry_tools.ml" 108 3623 3659
+type(
+  point_2D -> point_2D -> 'a
+)
+ident(
+  def dist "src/geometry_tools.ml" 109 3662 3664 "src/geometry_tools.ml" 121 4371 4409
+)
+"src/geometry_tools.ml" 109 3662 3667 "src/geometry_tools.ml" 109 3662 3688
+type(
+  line_2D -> bool
+)
+ident(
+  int_ref line_is_degenerate_2D "src/geometry_tools.ml" 75 2423 2427 "src/geometry_tools.ml" 75 2423 2448
+)
+"src/geometry_tools.ml" 109 3662 3689 "src/geometry_tools.ml" 109 3662 3691
+type(
+  line_2D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 108 3623 3650 "src/geometry_tools.ml" 108 3623 3652
+)
+"src/geometry_tools.ml" 109 3662 3667 "src/geometry_tools.ml" 109 3662 3691
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 109 3662 3697 "src/geometry_tools.ml" 109 3662 3701
+type(
+  point_2D -> point_2D -> 'a
+)
+ident(
+  int_ref dist "src/geometry_tools.ml" 108 3623 3655 "src/geometry_tools.ml" 108 3623 3659
+)
+"src/geometry_tools.ml" 109 3662 3702 "src/geometry_tools.ml" 109 3662 3703
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 108 3623 3653 "src/geometry_tools.ml" 108 3623 3654
+)
+"src/geometry_tools.ml" 109 3662 3704 "src/geometry_tools.ml" 109 3662 3706
+type(
+  line_2D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 108 3623 3650 "src/geometry_tools.ml" 108 3623 3652
+)
+"src/geometry_tools.ml" 109 3662 3704 "src/geometry_tools.ml" 109 3662 3710
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 109 3662 3697 "src/geometry_tools.ml" 109 3662 3710
+call(
+  tail
+)
+type(
+  'a
+)
+"src/geometry_tools.ml" 112 3789 3797 "src/geometry_tools.ml" 112 3789 3803
+type(
+  point_2D
+)
+ident(
+  def vector "src/geometry_tools.ml" 113 3814 3818 "src/geometry_tools.ml" 121 4371 4409
+)
+"src/geometry_tools.ml" 112 3789 3806 "src/geometry_tools.ml" 112 3789 3808
+type(
+  line_2D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 108 3623 3650 "src/geometry_tools.ml" 108 3623 3652
+)
+"src/geometry_tools.ml" 112 3789 3806 "src/geometry_tools.ml" 112 3789 3810
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 113 3814 3822 "src/geometry_tools.ml" 113 3814 3829
+type(
+  float
+)
+ident(
+  def lambda1 "src/geometry_tools.ml" 114 3890 3894 "src/geometry_tools.ml" 121 4371 4409
+)
+"src/geometry_tools.ml" 113 3814 3833 "src/geometry_tools.ml" 113 3814 3839
+type(
+  point_2D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 112 3789 3797 "src/geometry_tools.ml" 112 3789 3803
+)
+"src/geometry_tools.ml" 113 3814 3833 "src/geometry_tools.ml" 113 3814 3841
+type(
+  float
+)
+"src/geometry_tools.ml" 113 3814 3841 "src/geometry_tools.ml" 113 3814 3843
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 113 3814 3844 "src/geometry_tools.ml" 113 3814 3845
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 108 3623 3653 "src/geometry_tools.ml" 108 3623 3654
+)
+"src/geometry_tools.ml" 113 3814 3844 "src/geometry_tools.ml" 113 3814 3847
+type(
+  float
+)
+"src/geometry_tools.ml" 113 3814 3847 "src/geometry_tools.ml" 113 3814 3849
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/geometry_tools.ml" 113 3814 3849 "src/geometry_tools.ml" 113 3814 3851
+type(
+  line_2D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 108 3623 3650 "src/geometry_tools.ml" 108 3623 3652
+)
+"src/geometry_tools.ml" 113 3814 3849 "src/geometry_tools.ml" 113 3814 3855
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 113 3814 3849 "src/geometry_tools.ml" 113 3814 3857
+type(
+  float
+)
+"src/geometry_tools.ml" 113 3814 3843 "src/geometry_tools.ml" 113 3814 3858
+type(
+  float
+)
+"src/geometry_tools.ml" 113 3814 3833 "src/geometry_tools.ml" 113 3814 3858
+type(
+  float
+)
+"src/geometry_tools.ml" 113 3814 3858 "src/geometry_tools.ml" 113 3814 3860
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 113 3814 3860 "src/geometry_tools.ml" 113 3814 3866
+type(
+  point_2D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 112 3789 3797 "src/geometry_tools.ml" 112 3789 3803
+)
+"src/geometry_tools.ml" 113 3814 3860 "src/geometry_tools.ml" 113 3814 3868
+type(
+  float
+)
+"src/geometry_tools.ml" 113 3814 3868 "src/geometry_tools.ml" 113 3814 3870
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 113 3814 3871 "src/geometry_tools.ml" 113 3814 3872
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 108 3623 3653 "src/geometry_tools.ml" 108 3623 3654
+)
+"src/geometry_tools.ml" 113 3814 3871 "src/geometry_tools.ml" 113 3814 3874
+type(
+  float
+)
+"src/geometry_tools.ml" 113 3814 3874 "src/geometry_tools.ml" 113 3814 3876
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/geometry_tools.ml" 113 3814 3876 "src/geometry_tools.ml" 113 3814 3878
+type(
+  line_2D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 108 3623 3650 "src/geometry_tools.ml" 108 3623 3652
+)
+"src/geometry_tools.ml" 113 3814 3876 "src/geometry_tools.ml" 113 3814 3882
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 113 3814 3876 "src/geometry_tools.ml" 113 3814 3884
+type(
+  float
+)
+"src/geometry_tools.ml" 113 3814 3870 "src/geometry_tools.ml" 113 3814 3885
+type(
+  float
+)
+"src/geometry_tools.ml" 113 3814 3860 "src/geometry_tools.ml" 113 3814 3885
+type(
+  float
+)
+"src/geometry_tools.ml" 113 3814 3832 "src/geometry_tools.ml" 113 3814 3886
+type(
+  float
+)
+"src/geometry_tools.ml" 114 3890 3898 "src/geometry_tools.ml" 114 3890 3905
+type(
+  float
+)
+ident(
+  def lambda2 "src/geometry_tools.ml" 115 3947 3951 "src/geometry_tools.ml" 121 4371 4409
+)
+"src/geometry_tools.ml" 114 3890 3908 "src/geometry_tools.ml" 114 3890 3910
+type(
+  float
+)
+"src/geometry_tools.ml" 114 3890 3910 "src/geometry_tools.ml" 114 3890 3912
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geometry_tools.ml" 114 3890 3914 "src/geometry_tools.ml" 114 3890 3920
+type(
+  point_2D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 112 3789 3797 "src/geometry_tools.ml" 112 3789 3803
+)
+"src/geometry_tools.ml" 114 3890 3914 "src/geometry_tools.ml" 114 3890 3922
+type(
+  float
+)
+"src/geometry_tools.ml" 114 3890 3922 "src/geometry_tools.ml" 114 3890 3924
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"src/geometry_tools.ml" 114 3890 3924 "src/geometry_tools.ml" 114 3890 3926
+type(
+  float
+)
+"src/geometry_tools.ml" 114 3890 3914 "src/geometry_tools.ml" 114 3890 3926
+type(
+  float
+)
+"src/geometry_tools.ml" 114 3890 3927 "src/geometry_tools.ml" 114 3890 3929
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 114 3890 3930 "src/geometry_tools.ml" 114 3890 3936
+type(
+  point_2D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 112 3789 3797 "src/geometry_tools.ml" 112 3789 3803
+)
+"src/geometry_tools.ml" 114 3890 3930 "src/geometry_tools.ml" 114 3890 3938
+type(
+  float
+)
+"src/geometry_tools.ml" 114 3890 3938 "src/geometry_tools.ml" 114 3890 3940
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"src/geometry_tools.ml" 114 3890 3940 "src/geometry_tools.ml" 114 3890 3942
+type(
+  float
+)
+"src/geometry_tools.ml" 114 3890 3930 "src/geometry_tools.ml" 114 3890 3942
+type(
+  float
+)
+"src/geometry_tools.ml" 114 3890 3912 "src/geometry_tools.ml" 114 3890 3943
+type(
+  float
+)
+"src/geometry_tools.ml" 114 3890 3908 "src/geometry_tools.ml" 114 3890 3943
+type(
+  float
+)
+"src/geometry_tools.ml" 115 3947 3955 "src/geometry_tools.ml" 115 3947 3961
+type(
+  float
+)
+ident(
+  def lambda "src/geometry_tools.ml" 119 4245 4249 "src/geometry_tools.ml" 121 4371 4409
+)
+"src/geometry_tools.ml" 115 3947 3964 "src/geometry_tools.ml" 115 3947 3971
+type(
+  float
+)
+ident(
+  int_ref lambda1 "src/geometry_tools.ml" 113 3814 3822 "src/geometry_tools.ml" 113 3814 3829
+)
+"src/geometry_tools.ml" 115 3947 3971 "src/geometry_tools.ml" 115 3947 3973
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 115 3947 3974 "src/geometry_tools.ml" 115 3947 3981
+type(
+  float
+)
+ident(
+  int_ref lambda2 "src/geometry_tools.ml" 114 3890 3898 "src/geometry_tools.ml" 114 3890 3905
+)
+"src/geometry_tools.ml" 115 3947 3964 "src/geometry_tools.ml" 115 3947 3981
+type(
+  float
+)
+"src/geometry_tools.ml" 119 4245 4253 "src/geometry_tools.ml" 119 4245 4264
+type(
+  point_2D
+)
+ident(
+  def p_intermedi "src/geometry_tools.ml" 121 4371 4375 "src/geometry_tools.ml" 121 4371 4409
+)
+"src/geometry_tools.ml" 119 4245 4268 "src/geometry_tools.ml" 119 4245 4283
+type(
+  x:float -> y:float -> point_2D
+)
+ident(
+  int_ref create_point_2D "src/geometry_tools.ml" 12 269 273 "src/geometry_tools.ml" 12 269 288
+)
+"src/geometry_tools.ml" 119 4245 4288 "src/geometry_tools.ml" 119 4245 4294
+type(
+  float
+)
+ident(
+  int_ref lambda "src/geometry_tools.ml" 115 3947 3955 "src/geometry_tools.ml" 115 3947 3961
+)
+"src/geometry_tools.ml" 119 4245 4294 "src/geometry_tools.ml" 119 4245 4296
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 119 4245 4296 "src/geometry_tools.ml" 119 4245 4302
+type(
+  point_2D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 112 3789 3797 "src/geometry_tools.ml" 112 3789 3803
+)
+"src/geometry_tools.ml" 119 4245 4296 "src/geometry_tools.ml" 119 4245 4304
+type(
+  float
+)
+"src/geometry_tools.ml" 119 4245 4287 "src/geometry_tools.ml" 119 4245 4305
+type(
+  float
+)
+"src/geometry_tools.ml" 120 4306 4349 "src/geometry_tools.ml" 120 4306 4355
+type(
+  float
+)
+ident(
+  int_ref lambda "src/geometry_tools.ml" 115 3947 3955 "src/geometry_tools.ml" 115 3947 3961
+)
+"src/geometry_tools.ml" 120 4306 4355 "src/geometry_tools.ml" 120 4306 4357
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 120 4306 4357 "src/geometry_tools.ml" 120 4306 4363
+type(
+  point_2D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 112 3789 3797 "src/geometry_tools.ml" 112 3789 3803
+)
+"src/geometry_tools.ml" 120 4306 4357 "src/geometry_tools.ml" 120 4306 4365
+type(
+  float
+)
+"src/geometry_tools.ml" 120 4306 4348 "src/geometry_tools.ml" 120 4306 4366
+type(
+  float
+)
+"src/geometry_tools.ml" 119 4245 4267 "src/geometry_tools.ml" 120 4306 4367
+call(
+  stack
+)
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 121 4371 4375 "src/geometry_tools.ml" 121 4371 4379
+type(
+  point_2D -> point_2D -> 'a
+)
+ident(
+  int_ref dist "src/geometry_tools.ml" 108 3623 3655 "src/geometry_tools.ml" 108 3623 3659
+)
+"src/geometry_tools.ml" 121 4371 4381 "src/geometry_tools.ml" 121 4371 4387
+type(
+  point_2D -> point_2D -> point_2D
+)
+ident(
+  int_ref sum_2D "src/geometry_tools.ml" 26 673 677 "src/geometry_tools.ml" 26 673 683
+)
+"src/geometry_tools.ml" 121 4371 4388 "src/geometry_tools.ml" 121 4371 4390
+type(
+  line_2D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 108 3623 3650 "src/geometry_tools.ml" 108 3623 3652
+)
+"src/geometry_tools.ml" 121 4371 4388 "src/geometry_tools.ml" 121 4371 4394
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 121 4371 4395 "src/geometry_tools.ml" 121 4371 4406
+type(
+  point_2D
+)
+ident(
+  int_ref p_intermedi "src/geometry_tools.ml" 119 4245 4253 "src/geometry_tools.ml" 119 4245 4264
+)
+"src/geometry_tools.ml" 121 4371 4380 "src/geometry_tools.ml" 121 4371 4407
+call(
+  stack
+)
+type(
+  point_2D
+)
+"src/geometry_tools.ml" 121 4371 4408 "src/geometry_tools.ml" 121 4371 4409
+type(
+  point_2D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 108 3623 3653 "src/geometry_tools.ml" 108 3623 3654
+)
+"src/geometry_tools.ml" 121 4371 4375 "src/geometry_tools.ml" 121 4371 4409
+call(
+  tail
+)
+type(
+  'a
+)
+"src/geometry_tools.ml" 119 4245 4249 "src/geometry_tools.ml" 121 4371 4409
+type(
+  'a
+)
+"src/geometry_tools.ml" 115 3947 3951 "src/geometry_tools.ml" 121 4371 4409
+type(
+  'a
+)
+"src/geometry_tools.ml" 114 3890 3894 "src/geometry_tools.ml" 121 4371 4409
+type(
+  'a
+)
+"src/geometry_tools.ml" 113 3814 3818 "src/geometry_tools.ml" 121 4371 4409
+type(
+  'a
+)
+"src/geometry_tools.ml" 112 3789 3793 "src/geometry_tools.ml" 121 4371 4409
+type(
+  'a
+)
+"src/geometry_tools.ml" 109 3662 3664 "src/geometry_tools.ml" 121 4371 4409
+type(
+  'a
+)
+"src/geometry_tools.ml" 125 4530 4534 "src/geometry_tools.ml" 125 4530 4549
+type(
+  point_2D -> point_2D -> float
+)
+ident(
+  def angle_vector_2D "src/geometry_tools.ml" 136 4855 4855 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 125 4530 4550 "src/geometry_tools.ml" 125 4530 4552
+type(
+  point_2D
+)
+ident(
+  def v1 "src/geometry_tools.ml" 125 4530 4553 "src/geometry_tools.ml" 128 4680 4757
+)
+"src/geometry_tools.ml" 125 4530 4553 "src/geometry_tools.ml" 125 4530 4555
+type(
+  point_2D
+)
+ident(
+  def v2 "src/geometry_tools.ml" 126 4558 4562 "src/geometry_tools.ml" 128 4680 4757
+)
+"src/geometry_tools.ml" 126 4558 4565 "src/geometry_tools.ml" 126 4558 4577
+type(
+  point_2D -> bool
+)
+ident(
+  int_ref is_origin_2D "src/geometry_tools.ml" 16 359 363 "src/geometry_tools.ml" 16 359 375
+)
+"src/geometry_tools.ml" 126 4558 4578 "src/geometry_tools.ml" 126 4558 4580
+type(
+  point_2D
+)
+ident(
+  int_ref v1 "src/geometry_tools.ml" 125 4530 4550 "src/geometry_tools.ml" 125 4530 4552
+)
+"src/geometry_tools.ml" 126 4558 4565 "src/geometry_tools.ml" 126 4558 4580
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 126 4558 4581 "src/geometry_tools.ml" 126 4558 4583
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/geometry_tools.ml" 126 4558 4584 "src/geometry_tools.ml" 126 4558 4596
+type(
+  point_2D -> bool
+)
+ident(
+  int_ref is_origin_2D "src/geometry_tools.ml" 16 359 363 "src/geometry_tools.ml" 16 359 375
+)
+"src/geometry_tools.ml" 126 4558 4597 "src/geometry_tools.ml" 126 4558 4599
+type(
+  point_2D
+)
+ident(
+  int_ref v2 "src/geometry_tools.ml" 125 4530 4553 "src/geometry_tools.ml" 125 4530 4555
+)
+"src/geometry_tools.ml" 126 4558 4584 "src/geometry_tools.ml" 126 4558 4599
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 126 4558 4565 "src/geometry_tools.ml" 126 4558 4599
+type(
+  bool
+)
+"src/geometry_tools.ml" 127 4605 4611 "src/geometry_tools.ml" 127 4605 4619
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/geometry_tools.ml" 127 4605 4620 "src/geometry_tools.ml" 127 4605 4679
+type(
+  string
+)
+"src/geometry_tools.ml" 127 4605 4611 "src/geometry_tools.ml" 127 4605 4679
+call(
+  tail
+)
+type(
+  float
+)
+"src/geometry_tools.ml" 128 4680 4689 "src/geometry_tools.ml" 128 4680 4693
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.acos
+)
+"src/geometry_tools.ml" 128 4680 4695 "src/geometry_tools.ml" 128 4680 4697
+type(
+  point_2D
+)
+ident(
+  int_ref v1 "src/geometry_tools.ml" 125 4530 4550 "src/geometry_tools.ml" 125 4530 4552
+)
+"src/geometry_tools.ml" 128 4680 4695 "src/geometry_tools.ml" 128 4680 4699
+type(
+  float
+)
+"src/geometry_tools.ml" 128 4680 4699 "src/geometry_tools.ml" 128 4680 4701
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 128 4680 4701 "src/geometry_tools.ml" 128 4680 4703
+type(
+  point_2D
+)
+ident(
+  int_ref v2 "src/geometry_tools.ml" 125 4530 4553 "src/geometry_tools.ml" 125 4530 4555
+)
+"src/geometry_tools.ml" 128 4680 4701 "src/geometry_tools.ml" 128 4680 4705
+type(
+  float
+)
+"src/geometry_tools.ml" 128 4680 4695 "src/geometry_tools.ml" 128 4680 4705
+type(
+  float
+)
+"src/geometry_tools.ml" 128 4680 4706 "src/geometry_tools.ml" 128 4680 4708
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 128 4680 4709 "src/geometry_tools.ml" 128 4680 4711
+type(
+  point_2D
+)
+ident(
+  int_ref v1 "src/geometry_tools.ml" 125 4530 4550 "src/geometry_tools.ml" 125 4530 4552
+)
+"src/geometry_tools.ml" 128 4680 4709 "src/geometry_tools.ml" 128 4680 4713
+type(
+  float
+)
+"src/geometry_tools.ml" 128 4680 4713 "src/geometry_tools.ml" 128 4680 4715
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 128 4680 4715 "src/geometry_tools.ml" 128 4680 4717
+type(
+  point_2D
+)
+ident(
+  int_ref v2 "src/geometry_tools.ml" 125 4530 4553 "src/geometry_tools.ml" 125 4530 4555
+)
+"src/geometry_tools.ml" 128 4680 4715 "src/geometry_tools.ml" 128 4680 4719
+type(
+  float
+)
+"src/geometry_tools.ml" 128 4680 4709 "src/geometry_tools.ml" 128 4680 4719
+type(
+  float
+)
+"src/geometry_tools.ml" 128 4680 4694 "src/geometry_tools.ml" 128 4680 4720
+type(
+  float
+)
+"src/geometry_tools.ml" 128 4680 4721 "src/geometry_tools.ml" 128 4680 4723
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geometry_tools.ml" 128 4680 4726 "src/geometry_tools.ml" 128 4680 4734
+type(
+  point_2D -> float
+)
+ident(
+  int_ref norm2_2D "src/geometry_tools.ml" 21 518 522 "src/geometry_tools.ml" 21 518 530
+)
+"src/geometry_tools.ml" 128 4680 4735 "src/geometry_tools.ml" 128 4680 4737
+type(
+  point_2D
+)
+ident(
+  int_ref v1 "src/geometry_tools.ml" 125 4530 4550 "src/geometry_tools.ml" 125 4530 4552
+)
+"src/geometry_tools.ml" 128 4680 4725 "src/geometry_tools.ml" 128 4680 4738
+call(
+  stack
+)
+type(
+  float
+)
+"src/geometry_tools.ml" 128 4680 4739 "src/geometry_tools.ml" 128 4680 4741
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 128 4680 4743 "src/geometry_tools.ml" 128 4680 4751
+type(
+  point_2D -> float
+)
+ident(
+  int_ref norm2_2D "src/geometry_tools.ml" 21 518 522 "src/geometry_tools.ml" 21 518 530
+)
+"src/geometry_tools.ml" 128 4680 4752 "src/geometry_tools.ml" 128 4680 4754
+type(
+  point_2D
+)
+ident(
+  int_ref v2 "src/geometry_tools.ml" 125 4530 4553 "src/geometry_tools.ml" 125 4530 4555
+)
+"src/geometry_tools.ml" 128 4680 4742 "src/geometry_tools.ml" 128 4680 4755
+call(
+  stack
+)
+type(
+  float
+)
+"src/geometry_tools.ml" 128 4680 4724 "src/geometry_tools.ml" 128 4680 4756
+type(
+  float
+)
+"src/geometry_tools.ml" 128 4680 4693 "src/geometry_tools.ml" 128 4680 4757
+type(
+  float
+)
+"src/geometry_tools.ml" 128 4680 4689 "src/geometry_tools.ml" 128 4680 4757
+type(
+  float
+)
+"src/geometry_tools.ml" 126 4558 4562 "src/geometry_tools.ml" 128 4680 4757
+type(
+  float
+)
+"src/geometry_tools.ml" 138 4934 4938 "src/geometry_tools.ml" 138 4934 4953
+type(
+  x:float -> y:float -> z:float -> point_3D
+)
+ident(
+  def create_point_3D "src/geometry_tools.ml" 140 4988 4988 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 138 4934 4957 "src/geometry_tools.ml" 138 4934 4958
+type(
+  float
+)
+ident(
+  def a "src/geometry_tools.ml" 138 4934 4959 "src/geometry_tools.ml" 138 4934 4986
+)
+"src/geometry_tools.ml" 138 4934 4962 "src/geometry_tools.ml" 138 4934 4963
+type(
+  float
+)
+ident(
+  def b "src/geometry_tools.ml" 138 4934 4964 "src/geometry_tools.ml" 138 4934 4986
+)
+"src/geometry_tools.ml" 138 4934 4967 "src/geometry_tools.ml" 138 4934 4968
+type(
+  float
+)
+ident(
+  def c "src/geometry_tools.ml" 138 4934 4971 "src/geometry_tools.ml" 138 4934 4986
+)
+"src/geometry_tools.ml" 138 4934 4974 "src/geometry_tools.ml" 138 4934 4975
+type(
+  float
+)
+ident(
+  int_ref a "src/geometry_tools.ml" 138 4934 4957 "src/geometry_tools.ml" 138 4934 4958
+)
+"src/geometry_tools.ml" 138 4934 4979 "src/geometry_tools.ml" 138 4934 4980
+type(
+  float
+)
+ident(
+  int_ref b "src/geometry_tools.ml" 138 4934 4962 "src/geometry_tools.ml" 138 4934 4963
+)
+"src/geometry_tools.ml" 138 4934 4984 "src/geometry_tools.ml" 138 4934 4985
+type(
+  float
+)
+ident(
+  int_ref c "src/geometry_tools.ml" 138 4934 4967 "src/geometry_tools.ml" 138 4934 4968
+)
+"src/geometry_tools.ml" 138 4934 4971 "src/geometry_tools.ml" 138 4934 4986
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 140 4988 4992 "src/geometry_tools.ml" 140 4988 5001
+type(
+  point_3D -> point_3D -> bool
+)
+ident(
+  def equals_3D "src/geometry_tools.ml" 142 5047 5047 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 140 4988 5002 "src/geometry_tools.ml" 140 4988 5004
+type(
+  point_3D
+)
+ident(
+  def p1 "src/geometry_tools.ml" 140 4988 5005 "src/geometry_tools.ml" 140 4988 5045
+)
+"src/geometry_tools.ml" 140 4988 5005 "src/geometry_tools.ml" 140 4988 5007
+type(
+  point_3D
+)
+ident(
+  def p2 "src/geometry_tools.ml" 140 4988 5010 "src/geometry_tools.ml" 140 4988 5045
+)
+"src/geometry_tools.ml" 140 4988 5010 "src/geometry_tools.ml" 140 4988 5012
+type(
+  point_3D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 140 4988 5002 "src/geometry_tools.ml" 140 4988 5004
+)
+"src/geometry_tools.ml" 140 4988 5010 "src/geometry_tools.ml" 140 4988 5014
+type(
+  float
+)
+"src/geometry_tools.ml" 140 4988 5014 "src/geometry_tools.ml" 140 4988 5015
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 140 4988 5015 "src/geometry_tools.ml" 140 4988 5017
+type(
+  point_3D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 140 4988 5005 "src/geometry_tools.ml" 140 4988 5007
+)
+"src/geometry_tools.ml" 140 4988 5015 "src/geometry_tools.ml" 140 4988 5019
+type(
+  float
+)
+"src/geometry_tools.ml" 140 4988 5010 "src/geometry_tools.ml" 140 4988 5019
+type(
+  bool
+)
+"src/geometry_tools.ml" 140 4988 5020 "src/geometry_tools.ml" 140 4988 5022
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 140 4988 5023 "src/geometry_tools.ml" 140 4988 5025
+type(
+  point_3D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 140 4988 5002 "src/geometry_tools.ml" 140 4988 5004
+)
+"src/geometry_tools.ml" 140 4988 5023 "src/geometry_tools.ml" 140 4988 5027
+type(
+  float
+)
+"src/geometry_tools.ml" 140 4988 5027 "src/geometry_tools.ml" 140 4988 5028
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 140 4988 5028 "src/geometry_tools.ml" 140 4988 5030
+type(
+  point_3D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 140 4988 5005 "src/geometry_tools.ml" 140 4988 5007
+)
+"src/geometry_tools.ml" 140 4988 5028 "src/geometry_tools.ml" 140 4988 5032
+type(
+  float
+)
+"src/geometry_tools.ml" 140 4988 5023 "src/geometry_tools.ml" 140 4988 5032
+type(
+  bool
+)
+"src/geometry_tools.ml" 140 4988 5033 "src/geometry_tools.ml" 140 4988 5035
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 140 4988 5036 "src/geometry_tools.ml" 140 4988 5038
+type(
+  point_3D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 140 4988 5002 "src/geometry_tools.ml" 140 4988 5004
+)
+"src/geometry_tools.ml" 140 4988 5036 "src/geometry_tools.ml" 140 4988 5040
+type(
+  float
+)
+"src/geometry_tools.ml" 140 4988 5040 "src/geometry_tools.ml" 140 4988 5041
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 140 4988 5041 "src/geometry_tools.ml" 140 4988 5043
+type(
+  point_3D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 140 4988 5005 "src/geometry_tools.ml" 140 4988 5007
+)
+"src/geometry_tools.ml" 140 4988 5041 "src/geometry_tools.ml" 140 4988 5045
+type(
+  float
+)
+"src/geometry_tools.ml" 140 4988 5036 "src/geometry_tools.ml" 140 4988 5045
+type(
+  bool
+)
+"src/geometry_tools.ml" 140 4988 5023 "src/geometry_tools.ml" 140 4988 5045
+type(
+  bool
+)
+"src/geometry_tools.ml" 140 4988 5010 "src/geometry_tools.ml" 140 4988 5045
+type(
+  bool
+)
+"src/geometry_tools.ml" 142 5047 5051 "src/geometry_tools.ml" 142 5047 5063
+type(
+  point_3D -> bool
+)
+ident(
+  def is_origin_3D "src/geometry_tools.ml" 145 5159 5159 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 142 5047 5064 "src/geometry_tools.ml" 142 5047 5065
+type(
+  point_3D
+)
+ident(
+  def p "src/geometry_tools.ml" 142 5047 5068 "src/geometry_tools.ml" 142 5047 5098
+)
+"src/geometry_tools.ml" 142 5047 5068 "src/geometry_tools.ml" 142 5047 5077
+type(
+  point_3D -> point_3D -> bool
+)
+ident(
+  int_ref equals_3D "src/geometry_tools.ml" 140 4988 4992 "src/geometry_tools.ml" 140 4988 5001
+)
+"src/geometry_tools.ml" 142 5047 5078 "src/geometry_tools.ml" 142 5047 5079
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 142 5047 5064 "src/geometry_tools.ml" 142 5047 5065
+)
+"src/geometry_tools.ml" 142 5047 5083 "src/geometry_tools.ml" 142 5047 5085
+type(
+  float
+)
+"src/geometry_tools.ml" 142 5047 5089 "src/geometry_tools.ml" 142 5047 5091
+type(
+  float
+)
+"src/geometry_tools.ml" 142 5047 5095 "src/geometry_tools.ml" 142 5047 5097
+type(
+  float
+)
+"src/geometry_tools.ml" 142 5047 5080 "src/geometry_tools.ml" 142 5047 5098
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 142 5047 5068 "src/geometry_tools.ml" 142 5047 5098
+call(
+  tail
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 145 5159 5163 "src/geometry_tools.ml" 145 5159 5171
+type(
+  point_3D -> float
+)
+ident(
+  def norm1_3D "src/geometry_tools.ml" 147 5231 5231 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 145 5159 5172 "src/geometry_tools.ml" 145 5159 5173
+type(
+  point_3D
+)
+ident(
+  def p "src/geometry_tools.ml" 145 5159 5176 "src/geometry_tools.ml" 145 5159 5229
+)
+"src/geometry_tools.ml" 145 5159 5177 "src/geometry_tools.ml" 145 5159 5186
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/geometry_tools.ml" 145 5159 5187 "src/geometry_tools.ml" 145 5159 5188
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 145 5159 5172 "src/geometry_tools.ml" 145 5159 5173
+)
+"src/geometry_tools.ml" 145 5159 5187 "src/geometry_tools.ml" 145 5159 5190
+type(
+  float
+)
+"src/geometry_tools.ml" 145 5159 5176 "src/geometry_tools.ml" 145 5159 5191
+type(
+  float
+)
+"src/geometry_tools.ml" 145 5159 5192 "src/geometry_tools.ml" 145 5159 5194
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 145 5159 5196 "src/geometry_tools.ml" 145 5159 5205
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/geometry_tools.ml" 145 5159 5206 "src/geometry_tools.ml" 145 5159 5207
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 145 5159 5172 "src/geometry_tools.ml" 145 5159 5173
+)
+"src/geometry_tools.ml" 145 5159 5206 "src/geometry_tools.ml" 145 5159 5209
+type(
+  float
+)
+"src/geometry_tools.ml" 145 5159 5195 "src/geometry_tools.ml" 145 5159 5210
+type(
+  float
+)
+"src/geometry_tools.ml" 145 5159 5176 "src/geometry_tools.ml" 145 5159 5210
+type(
+  float
+)
+"src/geometry_tools.ml" 145 5159 5211 "src/geometry_tools.ml" 145 5159 5213
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 145 5159 5215 "src/geometry_tools.ml" 145 5159 5224
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/geometry_tools.ml" 145 5159 5225 "src/geometry_tools.ml" 145 5159 5226
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 145 5159 5172 "src/geometry_tools.ml" 145 5159 5173
+)
+"src/geometry_tools.ml" 145 5159 5225 "src/geometry_tools.ml" 145 5159 5228
+type(
+  float
+)
+"src/geometry_tools.ml" 145 5159 5214 "src/geometry_tools.ml" 145 5159 5229
+type(
+  float
+)
+"src/geometry_tools.ml" 145 5159 5176 "src/geometry_tools.ml" 145 5159 5229
+type(
+  float
+)
+"src/geometry_tools.ml" 147 5231 5235 "src/geometry_tools.ml" 147 5231 5243
+type(
+  point_3D -> float
+)
+ident(
+  def norm2_3D "src/geometry_tools.ml" 149 5292 5292 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 147 5231 5244 "src/geometry_tools.ml" 147 5231 5245
+type(
+  point_3D
+)
+ident(
+  def p "src/geometry_tools.ml" 147 5231 5248 "src/geometry_tools.ml" 147 5231 5290
+)
+"src/geometry_tools.ml" 147 5231 5248 "src/geometry_tools.ml" 147 5231 5252
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.sqrt
+)
+"src/geometry_tools.ml" 147 5231 5255 "src/geometry_tools.ml" 147 5231 5256
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 147 5231 5244 "src/geometry_tools.ml" 147 5231 5245
+)
+"src/geometry_tools.ml" 147 5231 5254 "src/geometry_tools.ml" 147 5231 5259
+type(
+  float
+)
+"src/geometry_tools.ml" 147 5231 5259 "src/geometry_tools.ml" 147 5231 5261
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"src/geometry_tools.ml" 147 5231 5261 "src/geometry_tools.ml" 147 5231 5263
+type(
+  float
+)
+"src/geometry_tools.ml" 147 5231 5254 "src/geometry_tools.ml" 147 5231 5263
+type(
+  float
+)
+"src/geometry_tools.ml" 147 5231 5264 "src/geometry_tools.ml" 147 5231 5266
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 147 5231 5268 "src/geometry_tools.ml" 147 5231 5269
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 147 5231 5244 "src/geometry_tools.ml" 147 5231 5245
+)
+"src/geometry_tools.ml" 147 5231 5267 "src/geometry_tools.ml" 147 5231 5272
+type(
+  float
+)
+"src/geometry_tools.ml" 147 5231 5272 "src/geometry_tools.ml" 147 5231 5274
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"src/geometry_tools.ml" 147 5231 5274 "src/geometry_tools.ml" 147 5231 5276
+type(
+  float
+)
+"src/geometry_tools.ml" 147 5231 5267 "src/geometry_tools.ml" 147 5231 5276
+type(
+  float
+)
+"src/geometry_tools.ml" 147 5231 5254 "src/geometry_tools.ml" 147 5231 5276
+type(
+  float
+)
+"src/geometry_tools.ml" 147 5231 5277 "src/geometry_tools.ml" 147 5231 5279
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 147 5231 5281 "src/geometry_tools.ml" 147 5231 5282
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 147 5231 5244 "src/geometry_tools.ml" 147 5231 5245
+)
+"src/geometry_tools.ml" 147 5231 5280 "src/geometry_tools.ml" 147 5231 5285
+type(
+  float
+)
+"src/geometry_tools.ml" 147 5231 5285 "src/geometry_tools.ml" 147 5231 5287
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"src/geometry_tools.ml" 147 5231 5287 "src/geometry_tools.ml" 147 5231 5289
+type(
+  float
+)
+"src/geometry_tools.ml" 147 5231 5280 "src/geometry_tools.ml" 147 5231 5289
+type(
+  float
+)
+"src/geometry_tools.ml" 147 5231 5253 "src/geometry_tools.ml" 147 5231 5290
+type(
+  float
+)
+"src/geometry_tools.ml" 147 5231 5248 "src/geometry_tools.ml" 147 5231 5290
+type(
+  float
+)
+"src/geometry_tools.ml" 149 5292 5296 "src/geometry_tools.ml" 149 5292 5312
+type(
+  point_3D -> float
+)
+ident(
+  def norm_infinity_3D "src/geometry_tools.ml" 153 5445 5445 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 149 5292 5313 "src/geometry_tools.ml" 149 5292 5314
+type(
+  point_3D
+)
+ident(
+  def p "src/geometry_tools.ml" 149 5292 5317 "src/geometry_tools.ml" 150 5337 5399
+)
+"src/geometry_tools.ml" 149 5292 5317 "src/geometry_tools.ml" 149 5292 5320
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/geometry_tools.ml" 149 5292 5322 "src/geometry_tools.ml" 149 5292 5331
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/geometry_tools.ml" 149 5292 5332 "src/geometry_tools.ml" 149 5292 5333
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 149 5292 5313 "src/geometry_tools.ml" 149 5292 5314
+)
+"src/geometry_tools.ml" 149 5292 5332 "src/geometry_tools.ml" 149 5292 5335
+type(
+  float
+)
+"src/geometry_tools.ml" 149 5292 5321 "src/geometry_tools.ml" 149 5292 5336
+type(
+  float
+)
+"src/geometry_tools.ml" 150 5337 5363 "src/geometry_tools.ml" 150 5337 5366
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/geometry_tools.ml" 150 5337 5368 "src/geometry_tools.ml" 150 5337 5377
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/geometry_tools.ml" 150 5337 5378 "src/geometry_tools.ml" 150 5337 5379
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 149 5292 5313 "src/geometry_tools.ml" 149 5292 5314
+)
+"src/geometry_tools.ml" 150 5337 5378 "src/geometry_tools.ml" 150 5337 5381
+type(
+  float
+)
+"src/geometry_tools.ml" 150 5337 5367 "src/geometry_tools.ml" 150 5337 5382
+type(
+  float
+)
+"src/geometry_tools.ml" 150 5337 5384 "src/geometry_tools.ml" 150 5337 5393
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/geometry_tools.ml" 150 5337 5394 "src/geometry_tools.ml" 150 5337 5395
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 149 5292 5313 "src/geometry_tools.ml" 149 5292 5314
+)
+"src/geometry_tools.ml" 150 5337 5394 "src/geometry_tools.ml" 150 5337 5397
+type(
+  float
+)
+"src/geometry_tools.ml" 150 5337 5383 "src/geometry_tools.ml" 150 5337 5398
+type(
+  float
+)
+"src/geometry_tools.ml" 150 5337 5362 "src/geometry_tools.ml" 150 5337 5399
+call(
+  stack
+)
+type(
+  float
+)
+"src/geometry_tools.ml" 149 5292 5317 "src/geometry_tools.ml" 150 5337 5399
+call(
+  tail
+)
+type(
+  float
+)
+"src/geometry_tools.ml" 153 5445 5449 "src/geometry_tools.ml" 153 5445 5455
+type(
+  point_3D -> point_3D -> point_3D
+)
+ident(
+  def sum_3D "src/geometry_tools.ml" 156 5531 5531 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 153 5445 5456 "src/geometry_tools.ml" 153 5445 5458
+type(
+  point_3D
+)
+ident(
+  def p1 "src/geometry_tools.ml" 153 5445 5459 "src/geometry_tools.ml" 154 5464 5529
+)
+"src/geometry_tools.ml" 153 5445 5459 "src/geometry_tools.ml" 153 5445 5461
+type(
+  point_3D
+)
+ident(
+  def p2 "src/geometry_tools.ml" 154 5464 5466 "src/geometry_tools.ml" 154 5464 5529
+)
+"src/geometry_tools.ml" 154 5464 5466 "src/geometry_tools.ml" 154 5464 5481
+type(
+  x:float -> y:float -> z:float -> point_3D
+)
+ident(
+  int_ref create_point_3D "src/geometry_tools.ml" 138 4934 4938 "src/geometry_tools.ml" 138 4934 4953
+)
+"src/geometry_tools.ml" 154 5464 5486 "src/geometry_tools.ml" 154 5464 5488
+type(
+  point_3D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 153 5445 5456 "src/geometry_tools.ml" 153 5445 5458
+)
+"src/geometry_tools.ml" 154 5464 5486 "src/geometry_tools.ml" 154 5464 5490
+type(
+  float
+)
+"src/geometry_tools.ml" 154 5464 5490 "src/geometry_tools.ml" 154 5464 5492
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 154 5464 5492 "src/geometry_tools.ml" 154 5464 5494
+type(
+  point_3D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 153 5445 5459 "src/geometry_tools.ml" 153 5445 5461
+)
+"src/geometry_tools.ml" 154 5464 5492 "src/geometry_tools.ml" 154 5464 5496
+type(
+  float
+)
+"src/geometry_tools.ml" 154 5464 5485 "src/geometry_tools.ml" 154 5464 5497
+type(
+  float
+)
+"src/geometry_tools.ml" 154 5464 5502 "src/geometry_tools.ml" 154 5464 5504
+type(
+  point_3D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 153 5445 5456 "src/geometry_tools.ml" 153 5445 5458
+)
+"src/geometry_tools.ml" 154 5464 5502 "src/geometry_tools.ml" 154 5464 5506
+type(
+  float
+)
+"src/geometry_tools.ml" 154 5464 5506 "src/geometry_tools.ml" 154 5464 5508
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 154 5464 5508 "src/geometry_tools.ml" 154 5464 5510
+type(
+  point_3D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 153 5445 5459 "src/geometry_tools.ml" 153 5445 5461
+)
+"src/geometry_tools.ml" 154 5464 5508 "src/geometry_tools.ml" 154 5464 5512
+type(
+  float
+)
+"src/geometry_tools.ml" 154 5464 5501 "src/geometry_tools.ml" 154 5464 5513
+type(
+  float
+)
+"src/geometry_tools.ml" 154 5464 5518 "src/geometry_tools.ml" 154 5464 5520
+type(
+  point_3D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 153 5445 5456 "src/geometry_tools.ml" 153 5445 5458
+)
+"src/geometry_tools.ml" 154 5464 5518 "src/geometry_tools.ml" 154 5464 5522
+type(
+  float
+)
+"src/geometry_tools.ml" 154 5464 5522 "src/geometry_tools.ml" 154 5464 5524
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 154 5464 5524 "src/geometry_tools.ml" 154 5464 5526
+type(
+  point_3D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 153 5445 5459 "src/geometry_tools.ml" 153 5445 5461
+)
+"src/geometry_tools.ml" 154 5464 5524 "src/geometry_tools.ml" 154 5464 5528
+type(
+  float
+)
+"src/geometry_tools.ml" 154 5464 5517 "src/geometry_tools.ml" 154 5464 5529
+type(
+  float
+)
+"src/geometry_tools.ml" 154 5464 5466 "src/geometry_tools.ml" 154 5464 5529
+call(
+  tail
+)
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 156 5531 5535 "src/geometry_tools.ml" 156 5531 5546
+type(
+  point_3D -> point_3D
+)
+ident(
+  def negative_3D "src/geometry_tools.ml" 158 5601 5601 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 156 5531 5547 "src/geometry_tools.ml" 156 5531 5548
+type(
+  point_3D
+)
+ident(
+  def p "src/geometry_tools.ml" 156 5531 5551 "src/geometry_tools.ml" 156 5531 5599
+)
+"src/geometry_tools.ml" 156 5531 5551 "src/geometry_tools.ml" 156 5531 5566
+type(
+  x:float -> y:float -> z:float -> point_3D
+)
+ident(
+  int_ref create_point_3D "src/geometry_tools.ml" 138 4934 4938 "src/geometry_tools.ml" 138 4934 4953
+)
+"src/geometry_tools.ml" 156 5531 5571 "src/geometry_tools.ml" 156 5531 5573
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.( ~-. )
+)
+"src/geometry_tools.ml" 156 5531 5573 "src/geometry_tools.ml" 156 5531 5574
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 156 5531 5547 "src/geometry_tools.ml" 156 5531 5548
+)
+"src/geometry_tools.ml" 156 5531 5573 "src/geometry_tools.ml" 156 5531 5576
+type(
+  float
+)
+"src/geometry_tools.ml" 156 5531 5570 "src/geometry_tools.ml" 156 5531 5577
+type(
+  float
+)
+"src/geometry_tools.ml" 156 5531 5582 "src/geometry_tools.ml" 156 5531 5584
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.( ~-. )
+)
+"src/geometry_tools.ml" 156 5531 5584 "src/geometry_tools.ml" 156 5531 5585
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 156 5531 5547 "src/geometry_tools.ml" 156 5531 5548
+)
+"src/geometry_tools.ml" 156 5531 5584 "src/geometry_tools.ml" 156 5531 5587
+type(
+  float
+)
+"src/geometry_tools.ml" 156 5531 5581 "src/geometry_tools.ml" 156 5531 5588
+type(
+  float
+)
+"src/geometry_tools.ml" 156 5531 5593 "src/geometry_tools.ml" 156 5531 5595
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.( ~-. )
+)
+"src/geometry_tools.ml" 156 5531 5595 "src/geometry_tools.ml" 156 5531 5596
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 156 5531 5547 "src/geometry_tools.ml" 156 5531 5548
+)
+"src/geometry_tools.ml" 156 5531 5595 "src/geometry_tools.ml" 156 5531 5598
+type(
+  float
+)
+"src/geometry_tools.ml" 156 5531 5592 "src/geometry_tools.ml" 156 5531 5599
+type(
+  float
+)
+"src/geometry_tools.ml" 156 5531 5551 "src/geometry_tools.ml" 156 5531 5599
+call(
+  tail
+)
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 158 5601 5605 "src/geometry_tools.ml" 158 5601 5613
+type(
+  point_3D -> point_3D -> point_3D
+)
+ident(
+  def minus_3D "src/geometry_tools.ml" 161 5696 5696 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 158 5601 5614 "src/geometry_tools.ml" 158 5601 5616
+type(
+  point_3D
+)
+ident(
+  def p1 "src/geometry_tools.ml" 158 5601 5617 "src/geometry_tools.ml" 158 5601 5648
+)
+"src/geometry_tools.ml" 158 5601 5617 "src/geometry_tools.ml" 158 5601 5619
+type(
+  point_3D
+)
+ident(
+  def p2 "src/geometry_tools.ml" 158 5601 5622 "src/geometry_tools.ml" 158 5601 5648
+)
+"src/geometry_tools.ml" 158 5601 5622 "src/geometry_tools.ml" 158 5601 5628
+type(
+  point_3D -> point_3D -> point_3D
+)
+ident(
+  int_ref sum_3D "src/geometry_tools.ml" 153 5445 5449 "src/geometry_tools.ml" 153 5445 5455
+)
+"src/geometry_tools.ml" 158 5601 5629 "src/geometry_tools.ml" 158 5601 5631
+type(
+  point_3D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 158 5601 5614 "src/geometry_tools.ml" 158 5601 5616
+)
+"src/geometry_tools.ml" 158 5601 5633 "src/geometry_tools.ml" 158 5601 5644
+type(
+  point_3D -> point_3D
+)
+ident(
+  int_ref negative_3D "src/geometry_tools.ml" 156 5531 5535 "src/geometry_tools.ml" 156 5531 5546
+)
+"src/geometry_tools.ml" 158 5601 5645 "src/geometry_tools.ml" 158 5601 5647
+type(
+  point_3D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 158 5601 5617 "src/geometry_tools.ml" 158 5601 5619
+)
+"src/geometry_tools.ml" 158 5601 5632 "src/geometry_tools.ml" 158 5601 5648
+call(
+  stack
+)
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 158 5601 5622 "src/geometry_tools.ml" 158 5601 5648
+call(
+  tail
+)
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 161 5696 5700 "src/geometry_tools.ml" 161 5696 5708
+type(
+  point_3D -> point_3D -> float
+)
+ident(
+  def dist1_3D "src/geometry_tools.ml" 163 5744 5744 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 161 5696 5709 "src/geometry_tools.ml" 161 5696 5711
+type(
+  point_3D
+)
+ident(
+  def p1 "src/geometry_tools.ml" 161 5696 5712 "src/geometry_tools.ml" 161 5696 5742
+)
+"src/geometry_tools.ml" 161 5696 5712 "src/geometry_tools.ml" 161 5696 5714
+type(
+  point_3D
+)
+ident(
+  def p2 "src/geometry_tools.ml" 161 5696 5717 "src/geometry_tools.ml" 161 5696 5742
+)
+"src/geometry_tools.ml" 161 5696 5717 "src/geometry_tools.ml" 161 5696 5725
+type(
+  point_3D -> float
+)
+ident(
+  int_ref norm1_3D "src/geometry_tools.ml" 145 5159 5163 "src/geometry_tools.ml" 145 5159 5171
+)
+"src/geometry_tools.ml" 161 5696 5727 "src/geometry_tools.ml" 161 5696 5735
+type(
+  point_3D -> point_3D -> point_3D
+)
+ident(
+  int_ref minus_3D "src/geometry_tools.ml" 158 5601 5605 "src/geometry_tools.ml" 158 5601 5613
+)
+"src/geometry_tools.ml" 161 5696 5736 "src/geometry_tools.ml" 161 5696 5738
+type(
+  point_3D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 161 5696 5709 "src/geometry_tools.ml" 161 5696 5711
+)
+"src/geometry_tools.ml" 161 5696 5739 "src/geometry_tools.ml" 161 5696 5741
+type(
+  point_3D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 161 5696 5712 "src/geometry_tools.ml" 161 5696 5714
+)
+"src/geometry_tools.ml" 161 5696 5726 "src/geometry_tools.ml" 161 5696 5742
+call(
+  stack
+)
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 161 5696 5717 "src/geometry_tools.ml" 161 5696 5742
+call(
+  tail
+)
+type(
+  float
+)
+"src/geometry_tools.ml" 163 5744 5748 "src/geometry_tools.ml" 163 5744 5756
+type(
+  point_3D -> point_3D -> float
+)
+ident(
+  def dist2_3D "src/geometry_tools.ml" 168 5882 5882 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 163 5744 5757 "src/geometry_tools.ml" 163 5744 5759
+type(
+  point_3D
+)
+ident(
+  def p1 "src/geometry_tools.ml" 163 5744 5760 "src/geometry_tools.ml" 163 5744 5790
+)
+"src/geometry_tools.ml" 163 5744 5760 "src/geometry_tools.ml" 163 5744 5762
+type(
+  point_3D
+)
+ident(
+  def p2 "src/geometry_tools.ml" 163 5744 5765 "src/geometry_tools.ml" 163 5744 5790
+)
+"src/geometry_tools.ml" 163 5744 5765 "src/geometry_tools.ml" 163 5744 5773
+type(
+  point_3D -> float
+)
+ident(
+  int_ref norm2_3D "src/geometry_tools.ml" 147 5231 5235 "src/geometry_tools.ml" 147 5231 5243
+)
+"src/geometry_tools.ml" 163 5744 5775 "src/geometry_tools.ml" 163 5744 5783
+type(
+  point_3D -> point_3D -> point_3D
+)
+ident(
+  int_ref minus_3D "src/geometry_tools.ml" 158 5601 5605 "src/geometry_tools.ml" 158 5601 5613
+)
+"src/geometry_tools.ml" 163 5744 5784 "src/geometry_tools.ml" 163 5744 5786
+type(
+  point_3D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 163 5744 5757 "src/geometry_tools.ml" 163 5744 5759
+)
+"src/geometry_tools.ml" 163 5744 5787 "src/geometry_tools.ml" 163 5744 5789
+type(
+  point_3D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 163 5744 5760 "src/geometry_tools.ml" 163 5744 5762
+)
+"src/geometry_tools.ml" 163 5744 5774 "src/geometry_tools.ml" 163 5744 5790
+call(
+  stack
+)
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 163 5744 5765 "src/geometry_tools.ml" 163 5744 5790
+call(
+  tail
+)
+type(
+  float
+)
+"src/geometry_tools.ml" 168 5882 5886 "src/geometry_tools.ml" 168 5882 5902
+type(
+  point_3D -> point_3D -> float
+)
+ident(
+  def dist2_variant_3D "src/geometry_tools.ml" 172 5978 5978 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 168 5882 5903 "src/geometry_tools.ml" 168 5882 5905
+type(
+  point_3D
+)
+ident(
+  def p1 "src/geometry_tools.ml" 168 5882 5906 "src/geometry_tools.ml" 170 5939 5976
+)
+"src/geometry_tools.ml" 168 5882 5906 "src/geometry_tools.ml" 168 5882 5908
+type(
+  point_3D
+)
+ident(
+  def p2 "src/geometry_tools.ml" 169 5911 5913 "src/geometry_tools.ml" 170 5939 5976
+)
+"src/geometry_tools.ml" 169 5911 5917 "src/geometry_tools.ml" 169 5911 5918
+type(
+  point_3D
+)
+ident(
+  def p "src/geometry_tools.ml" 170 5939 5941 "src/geometry_tools.ml" 170 5939 5976
+)
+"src/geometry_tools.ml" 169 5911 5921 "src/geometry_tools.ml" 169 5911 5929
+type(
+  point_3D -> point_3D -> point_3D
+)
+ident(
+  int_ref minus_3D "src/geometry_tools.ml" 158 5601 5605 "src/geometry_tools.ml" 158 5601 5613
+)
+"src/geometry_tools.ml" 169 5911 5930 "src/geometry_tools.ml" 169 5911 5932
+type(
+  point_3D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 168 5882 5903 "src/geometry_tools.ml" 168 5882 5905
+)
+"src/geometry_tools.ml" 169 5911 5933 "src/geometry_tools.ml" 169 5911 5935
+type(
+  point_3D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 168 5882 5906 "src/geometry_tools.ml" 168 5882 5908
+)
+"src/geometry_tools.ml" 169 5911 5921 "src/geometry_tools.ml" 169 5911 5935
+call(
+  stack
+)
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 170 5939 5942 "src/geometry_tools.ml" 170 5939 5943
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 169 5911 5917 "src/geometry_tools.ml" 169 5911 5918
+)
+"src/geometry_tools.ml" 170 5939 5941 "src/geometry_tools.ml" 170 5939 5946
+type(
+  float
+)
+"src/geometry_tools.ml" 170 5939 5946 "src/geometry_tools.ml" 170 5939 5948
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"src/geometry_tools.ml" 170 5939 5948 "src/geometry_tools.ml" 170 5939 5950
+type(
+  float
+)
+"src/geometry_tools.ml" 170 5939 5941 "src/geometry_tools.ml" 170 5939 5950
+type(
+  float
+)
+"src/geometry_tools.ml" 170 5939 5951 "src/geometry_tools.ml" 170 5939 5953
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 170 5939 5955 "src/geometry_tools.ml" 170 5939 5956
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 169 5911 5917 "src/geometry_tools.ml" 169 5911 5918
+)
+"src/geometry_tools.ml" 170 5939 5954 "src/geometry_tools.ml" 170 5939 5959
+type(
+  float
+)
+"src/geometry_tools.ml" 170 5939 5959 "src/geometry_tools.ml" 170 5939 5961
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"src/geometry_tools.ml" 170 5939 5961 "src/geometry_tools.ml" 170 5939 5963
+type(
+  float
+)
+"src/geometry_tools.ml" 170 5939 5954 "src/geometry_tools.ml" 170 5939 5963
+type(
+  float
+)
+"src/geometry_tools.ml" 170 5939 5941 "src/geometry_tools.ml" 170 5939 5963
+type(
+  float
+)
+"src/geometry_tools.ml" 170 5939 5964 "src/geometry_tools.ml" 170 5939 5966
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 170 5939 5968 "src/geometry_tools.ml" 170 5939 5969
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 169 5911 5917 "src/geometry_tools.ml" 169 5911 5918
+)
+"src/geometry_tools.ml" 170 5939 5967 "src/geometry_tools.ml" 170 5939 5972
+type(
+  float
+)
+"src/geometry_tools.ml" 170 5939 5972 "src/geometry_tools.ml" 170 5939 5974
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"src/geometry_tools.ml" 170 5939 5974 "src/geometry_tools.ml" 170 5939 5976
+type(
+  float
+)
+"src/geometry_tools.ml" 170 5939 5967 "src/geometry_tools.ml" 170 5939 5976
+type(
+  float
+)
+"src/geometry_tools.ml" 170 5939 5941 "src/geometry_tools.ml" 170 5939 5976
+type(
+  float
+)
+"src/geometry_tools.ml" 169 5911 5913 "src/geometry_tools.ml" 170 5939 5976
+type(
+  float
+)
+"src/geometry_tools.ml" 172 5978 5982 "src/geometry_tools.ml" 172 5978 5998
+type(
+  point_3D -> point_3D -> float
+)
+ident(
+  def dist_infinity_3D "src/geometry_tools.ml" 176 6110 6110 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 172 5978 5999 "src/geometry_tools.ml" 172 5978 6001
+type(
+  point_3D
+)
+ident(
+  def p1 "src/geometry_tools.ml" 172 5978 6002 "src/geometry_tools.ml" 172 5978 6040
+)
+"src/geometry_tools.ml" 172 5978 6002 "src/geometry_tools.ml" 172 5978 6004
+type(
+  point_3D
+)
+ident(
+  def p2 "src/geometry_tools.ml" 172 5978 6007 "src/geometry_tools.ml" 172 5978 6040
+)
+"src/geometry_tools.ml" 172 5978 6007 "src/geometry_tools.ml" 172 5978 6023
+type(
+  point_3D -> float
+)
+ident(
+  int_ref norm_infinity_3D "src/geometry_tools.ml" 149 5292 5296 "src/geometry_tools.ml" 149 5292 5312
+)
+"src/geometry_tools.ml" 172 5978 6025 "src/geometry_tools.ml" 172 5978 6033
+type(
+  point_3D -> point_3D -> point_3D
+)
+ident(
+  int_ref minus_3D "src/geometry_tools.ml" 158 5601 5605 "src/geometry_tools.ml" 158 5601 5613
+)
+"src/geometry_tools.ml" 172 5978 6034 "src/geometry_tools.ml" 172 5978 6036
+type(
+  point_3D
+)
+ident(
+  int_ref p1 "src/geometry_tools.ml" 172 5978 5999 "src/geometry_tools.ml" 172 5978 6001
+)
+"src/geometry_tools.ml" 172 5978 6037 "src/geometry_tools.ml" 172 5978 6039
+type(
+  point_3D
+)
+ident(
+  int_ref p2 "src/geometry_tools.ml" 172 5978 6002 "src/geometry_tools.ml" 172 5978 6004
+)
+"src/geometry_tools.ml" 172 5978 6024 "src/geometry_tools.ml" 172 5978 6040
+call(
+  stack
+)
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 172 5978 6007 "src/geometry_tools.ml" 172 5978 6040
+call(
+  tail
+)
+type(
+  float
+)
+"src/geometry_tools.ml" 176 6110 6114 "src/geometry_tools.ml" 176 6110 6128
+type(
+  p_test:point_3D -> p_tester:point_3D -> bool
+)
+ident(
+  def is_multiple_3D "src/geometry_tools.ml" 189 6758 6758 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 176 6110 6137 "src/geometry_tools.ml" 176 6110 6143
+type(
+  point_3D
+)
+ident(
+  def p_test "src/geometry_tools.ml" 176 6110 6144 "src/geometry_tools.ml" 185 6572 6630
+)
+"src/geometry_tools.ml" 176 6110 6154 "src/geometry_tools.ml" 176 6110 6162
+type(
+  point_3D
+)
+ident(
+  def p_tester "src/geometry_tools.ml" 177 6165 6167 "src/geometry_tools.ml" 185 6572 6630
+)
+"src/geometry_tools.ml" 177 6165 6170 "src/geometry_tools.ml" 177 6165 6179
+type(
+  point_3D -> point_3D -> bool
+)
+ident(
+  int_ref equals_3D "src/geometry_tools.ml" 140 4988 4992 "src/geometry_tools.ml" 140 4988 5001
+)
+"src/geometry_tools.ml" 177 6165 6180 "src/geometry_tools.ml" 177 6165 6186
+type(
+  point_3D
+)
+ident(
+  int_ref p_test "src/geometry_tools.ml" 176 6110 6137 "src/geometry_tools.ml" 176 6110 6143
+)
+"src/geometry_tools.ml" 177 6165 6187 "src/geometry_tools.ml" 177 6165 6195
+type(
+  point_3D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 176 6110 6154 "src/geometry_tools.ml" 176 6110 6162
+)
+"src/geometry_tools.ml" 177 6165 6170 "src/geometry_tools.ml" 177 6165 6195
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 177 6165 6201 "src/geometry_tools.ml" 177 6165 6205
+type(
+  bool
+)
+"src/geometry_tools.ml" 178 6206 6216 "src/geometry_tools.ml" 178 6206 6228
+type(
+  point_3D -> bool
+)
+ident(
+  int_ref is_origin_3D "src/geometry_tools.ml" 142 5047 5051 "src/geometry_tools.ml" 142 5047 5063
+)
+"src/geometry_tools.ml" 178 6206 6229 "src/geometry_tools.ml" 178 6206 6235
+type(
+  point_3D
+)
+ident(
+  int_ref p_test "src/geometry_tools.ml" 176 6110 6137 "src/geometry_tools.ml" 176 6110 6143
+)
+"src/geometry_tools.ml" 178 6206 6216 "src/geometry_tools.ml" 178 6206 6235
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 178 6206 6241 "src/geometry_tools.ml" 178 6206 6245
+type(
+  bool
+)
+"src/geometry_tools.ml" 179 6246 6256 "src/geometry_tools.ml" 179 6246 6268
+type(
+  point_3D -> bool
+)
+ident(
+  int_ref is_origin_3D "src/geometry_tools.ml" 142 5047 5051 "src/geometry_tools.ml" 142 5047 5063
+)
+"src/geometry_tools.ml" 179 6246 6269 "src/geometry_tools.ml" 179 6246 6277
+type(
+  point_3D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 176 6110 6154 "src/geometry_tools.ml" 176 6110 6162
+)
+"src/geometry_tools.ml" 179 6246 6256 "src/geometry_tools.ml" 179 6246 6277
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 179 6246 6283 "src/geometry_tools.ml" 179 6246 6288
+type(
+  bool
+)
+"src/geometry_tools.ml" 180 6289 6299 "src/geometry_tools.ml" 180 6289 6307
+type(
+  point_3D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 176 6110 6154 "src/geometry_tools.ml" 176 6110 6162
+)
+"src/geometry_tools.ml" 180 6289 6299 "src/geometry_tools.ml" 180 6289 6309
+type(
+  float
+)
+"src/geometry_tools.ml" 180 6289 6309 "src/geometry_tools.ml" 180 6289 6310
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 180 6289 6310 "src/geometry_tools.ml" 180 6289 6312
+type(
+  float
+)
+"src/geometry_tools.ml" 180 6289 6299 "src/geometry_tools.ml" 180 6289 6312
+type(
+  bool
+)
+"src/geometry_tools.ml" 180 6289 6313 "src/geometry_tools.ml" 180 6289 6315
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 180 6289 6316 "src/geometry_tools.ml" 180 6289 6322
+type(
+  point_3D
+)
+ident(
+  int_ref p_test "src/geometry_tools.ml" 176 6110 6137 "src/geometry_tools.ml" 176 6110 6143
+)
+"src/geometry_tools.ml" 180 6289 6316 "src/geometry_tools.ml" 180 6289 6324
+type(
+  float
+)
+"src/geometry_tools.ml" 180 6289 6324 "src/geometry_tools.ml" 180 6289 6326
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/geometry_tools.ml" 180 6289 6326 "src/geometry_tools.ml" 180 6289 6328
+type(
+  float
+)
+"src/geometry_tools.ml" 180 6289 6316 "src/geometry_tools.ml" 180 6289 6328
+type(
+  bool
+)
+"src/geometry_tools.ml" 180 6289 6299 "src/geometry_tools.ml" 180 6289 6328
+type(
+  bool
+)
+"src/geometry_tools.ml" 180 6289 6334 "src/geometry_tools.ml" 180 6289 6339
+type(
+  bool
+)
+"src/geometry_tools.ml" 181 6340 6350 "src/geometry_tools.ml" 181 6340 6358
+type(
+  point_3D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 176 6110 6154 "src/geometry_tools.ml" 176 6110 6162
+)
+"src/geometry_tools.ml" 181 6340 6350 "src/geometry_tools.ml" 181 6340 6360
+type(
+  float
+)
+"src/geometry_tools.ml" 181 6340 6360 "src/geometry_tools.ml" 181 6340 6361
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 181 6340 6361 "src/geometry_tools.ml" 181 6340 6363
+type(
+  float
+)
+"src/geometry_tools.ml" 181 6340 6350 "src/geometry_tools.ml" 181 6340 6363
+type(
+  bool
+)
+"src/geometry_tools.ml" 181 6340 6364 "src/geometry_tools.ml" 181 6340 6366
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 181 6340 6367 "src/geometry_tools.ml" 181 6340 6373
+type(
+  point_3D
+)
+ident(
+  int_ref p_test "src/geometry_tools.ml" 176 6110 6137 "src/geometry_tools.ml" 176 6110 6143
+)
+"src/geometry_tools.ml" 181 6340 6367 "src/geometry_tools.ml" 181 6340 6375
+type(
+  float
+)
+"src/geometry_tools.ml" 181 6340 6375 "src/geometry_tools.ml" 181 6340 6377
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/geometry_tools.ml" 181 6340 6377 "src/geometry_tools.ml" 181 6340 6379
+type(
+  float
+)
+"src/geometry_tools.ml" 181 6340 6367 "src/geometry_tools.ml" 181 6340 6379
+type(
+  bool
+)
+"src/geometry_tools.ml" 181 6340 6350 "src/geometry_tools.ml" 181 6340 6379
+type(
+  bool
+)
+"src/geometry_tools.ml" 181 6340 6385 "src/geometry_tools.ml" 181 6340 6390
+type(
+  bool
+)
+"src/geometry_tools.ml" 182 6391 6401 "src/geometry_tools.ml" 182 6391 6409
+type(
+  point_3D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 176 6110 6154 "src/geometry_tools.ml" 176 6110 6162
+)
+"src/geometry_tools.ml" 182 6391 6401 "src/geometry_tools.ml" 182 6391 6411
+type(
+  float
+)
+"src/geometry_tools.ml" 182 6391 6411 "src/geometry_tools.ml" 182 6391 6412
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 182 6391 6412 "src/geometry_tools.ml" 182 6391 6414
+type(
+  float
+)
+"src/geometry_tools.ml" 182 6391 6401 "src/geometry_tools.ml" 182 6391 6414
+type(
+  bool
+)
+"src/geometry_tools.ml" 182 6391 6415 "src/geometry_tools.ml" 182 6391 6417
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 182 6391 6418 "src/geometry_tools.ml" 182 6391 6424
+type(
+  point_3D
+)
+ident(
+  int_ref p_test "src/geometry_tools.ml" 176 6110 6137 "src/geometry_tools.ml" 176 6110 6143
+)
+"src/geometry_tools.ml" 182 6391 6418 "src/geometry_tools.ml" 182 6391 6426
+type(
+  float
+)
+"src/geometry_tools.ml" 182 6391 6426 "src/geometry_tools.ml" 182 6391 6428
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/geometry_tools.ml" 182 6391 6428 "src/geometry_tools.ml" 182 6391 6430
+type(
+  float
+)
+"src/geometry_tools.ml" 182 6391 6418 "src/geometry_tools.ml" 182 6391 6430
+type(
+  bool
+)
+"src/geometry_tools.ml" 182 6391 6401 "src/geometry_tools.ml" 182 6391 6430
+type(
+  bool
+)
+"src/geometry_tools.ml" 182 6391 6436 "src/geometry_tools.ml" 182 6391 6441
+type(
+  bool
+)
+"src/geometry_tools.ml" 183 6442 6452 "src/geometry_tools.ml" 183 6442 6460
+type(
+  point_3D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 176 6110 6154 "src/geometry_tools.ml" 176 6110 6162
+)
+"src/geometry_tools.ml" 183 6442 6452 "src/geometry_tools.ml" 183 6442 6462
+type(
+  float
+)
+"src/geometry_tools.ml" 183 6442 6462 "src/geometry_tools.ml" 183 6442 6463
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 183 6442 6463 "src/geometry_tools.ml" 183 6442 6465
+type(
+  float
+)
+"src/geometry_tools.ml" 183 6442 6452 "src/geometry_tools.ml" 183 6442 6465
+type(
+  bool
+)
+"src/geometry_tools.ml" 183 6442 6466 "src/geometry_tools.ml" 183 6442 6468
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/geometry_tools.ml" 183 6442 6469 "src/geometry_tools.ml" 183 6442 6477
+type(
+  point_3D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 176 6110 6154 "src/geometry_tools.ml" 176 6110 6162
+)
+"src/geometry_tools.ml" 183 6442 6469 "src/geometry_tools.ml" 183 6442 6479
+type(
+  float
+)
+"src/geometry_tools.ml" 183 6442 6479 "src/geometry_tools.ml" 183 6442 6480
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 183 6442 6480 "src/geometry_tools.ml" 183 6442 6482
+type(
+  float
+)
+"src/geometry_tools.ml" 183 6442 6469 "src/geometry_tools.ml" 183 6442 6482
+type(
+  bool
+)
+"src/geometry_tools.ml" 183 6442 6483 "src/geometry_tools.ml" 183 6442 6485
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/geometry_tools.ml" 183 6442 6486 "src/geometry_tools.ml" 183 6442 6494
+type(
+  point_3D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 176 6110 6154 "src/geometry_tools.ml" 176 6110 6162
+)
+"src/geometry_tools.ml" 183 6442 6486 "src/geometry_tools.ml" 183 6442 6496
+type(
+  float
+)
+"src/geometry_tools.ml" 183 6442 6496 "src/geometry_tools.ml" 183 6442 6497
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 183 6442 6497 "src/geometry_tools.ml" 183 6442 6499
+type(
+  float
+)
+"src/geometry_tools.ml" 183 6442 6486 "src/geometry_tools.ml" 183 6442 6499
+type(
+  bool
+)
+"src/geometry_tools.ml" 183 6442 6469 "src/geometry_tools.ml" 183 6442 6499
+type(
+  bool
+)
+"src/geometry_tools.ml" 183 6442 6452 "src/geometry_tools.ml" 183 6442 6499
+type(
+  bool
+)
+"src/geometry_tools.ml" 183 6442 6505 "src/geometry_tools.ml" 183 6442 6509
+type(
+  bool
+)
+"src/geometry_tools.ml" 184 6510 6518 "src/geometry_tools.ml" 184 6510 6524
+type(
+  point_3D
+)
+ident(
+  int_ref p_test "src/geometry_tools.ml" 176 6110 6137 "src/geometry_tools.ml" 176 6110 6143
+)
+"src/geometry_tools.ml" 184 6510 6518 "src/geometry_tools.ml" 184 6510 6526
+type(
+  float
+)
+"src/geometry_tools.ml" 184 6510 6527 "src/geometry_tools.ml" 184 6510 6529
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geometry_tools.ml" 184 6510 6530 "src/geometry_tools.ml" 184 6510 6538
+type(
+  point_3D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 176 6110 6154 "src/geometry_tools.ml" 176 6110 6162
+)
+"src/geometry_tools.ml" 184 6510 6530 "src/geometry_tools.ml" 184 6510 6540
+type(
+  float
+)
+"src/geometry_tools.ml" 184 6510 6517 "src/geometry_tools.ml" 184 6510 6541
+type(
+  float
+)
+"src/geometry_tools.ml" 184 6510 6542 "src/geometry_tools.ml" 184 6510 6543
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 184 6510 6545 "src/geometry_tools.ml" 184 6510 6551
+type(
+  point_3D
+)
+ident(
+  int_ref p_test "src/geometry_tools.ml" 176 6110 6137 "src/geometry_tools.ml" 176 6110 6143
+)
+"src/geometry_tools.ml" 184 6510 6545 "src/geometry_tools.ml" 184 6510 6553
+type(
+  float
+)
+"src/geometry_tools.ml" 184 6510 6554 "src/geometry_tools.ml" 184 6510 6556
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geometry_tools.ml" 184 6510 6557 "src/geometry_tools.ml" 184 6510 6565
+type(
+  point_3D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 176 6110 6154 "src/geometry_tools.ml" 176 6110 6162
+)
+"src/geometry_tools.ml" 184 6510 6557 "src/geometry_tools.ml" 184 6510 6567
+type(
+  float
+)
+"src/geometry_tools.ml" 184 6510 6544 "src/geometry_tools.ml" 184 6510 6568
+type(
+  float
+)
+"src/geometry_tools.ml" 184 6510 6517 "src/geometry_tools.ml" 184 6510 6568
+type(
+  bool
+)
+"src/geometry_tools.ml" 184 6510 6569 "src/geometry_tools.ml" 184 6510 6571
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 185 6572 6580 "src/geometry_tools.ml" 185 6572 6586
+type(
+  point_3D
+)
+ident(
+  int_ref p_test "src/geometry_tools.ml" 176 6110 6137 "src/geometry_tools.ml" 176 6110 6143
+)
+"src/geometry_tools.ml" 185 6572 6580 "src/geometry_tools.ml" 185 6572 6588
+type(
+  float
+)
+"src/geometry_tools.ml" 185 6572 6589 "src/geometry_tools.ml" 185 6572 6591
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geometry_tools.ml" 185 6572 6592 "src/geometry_tools.ml" 185 6572 6600
+type(
+  point_3D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 176 6110 6154 "src/geometry_tools.ml" 176 6110 6162
+)
+"src/geometry_tools.ml" 185 6572 6592 "src/geometry_tools.ml" 185 6572 6602
+type(
+  float
+)
+"src/geometry_tools.ml" 185 6572 6579 "src/geometry_tools.ml" 185 6572 6603
+type(
+  float
+)
+"src/geometry_tools.ml" 185 6572 6604 "src/geometry_tools.ml" 185 6572 6605
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 185 6572 6607 "src/geometry_tools.ml" 185 6572 6613
+type(
+  point_3D
+)
+ident(
+  int_ref p_test "src/geometry_tools.ml" 176 6110 6137 "src/geometry_tools.ml" 176 6110 6143
+)
+"src/geometry_tools.ml" 185 6572 6607 "src/geometry_tools.ml" 185 6572 6615
+type(
+  float
+)
+"src/geometry_tools.ml" 185 6572 6616 "src/geometry_tools.ml" 185 6572 6618
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geometry_tools.ml" 185 6572 6619 "src/geometry_tools.ml" 185 6572 6627
+type(
+  point_3D
+)
+ident(
+  int_ref p_tester "src/geometry_tools.ml" 176 6110 6154 "src/geometry_tools.ml" 176 6110 6162
+)
+"src/geometry_tools.ml" 185 6572 6619 "src/geometry_tools.ml" 185 6572 6629
+type(
+  float
+)
+"src/geometry_tools.ml" 185 6572 6606 "src/geometry_tools.ml" 185 6572 6630
+type(
+  float
+)
+"src/geometry_tools.ml" 185 6572 6579 "src/geometry_tools.ml" 185 6572 6630
+type(
+  bool
+)
+"src/geometry_tools.ml" 184 6510 6517 "src/geometry_tools.ml" 185 6572 6630
+type(
+  bool
+)
+"src/geometry_tools.ml" 183 6442 6449 "src/geometry_tools.ml" 185 6572 6630
+type(
+  bool
+)
+"src/geometry_tools.ml" 182 6391 6398 "src/geometry_tools.ml" 185 6572 6630
+type(
+  bool
+)
+"src/geometry_tools.ml" 181 6340 6347 "src/geometry_tools.ml" 185 6572 6630
+type(
+  bool
+)
+"src/geometry_tools.ml" 180 6289 6296 "src/geometry_tools.ml" 185 6572 6630
+type(
+  bool
+)
+"src/geometry_tools.ml" 179 6246 6253 "src/geometry_tools.ml" 185 6572 6630
+type(
+  bool
+)
+"src/geometry_tools.ml" 178 6206 6213 "src/geometry_tools.ml" 185 6572 6630
+type(
+  bool
+)
+"src/geometry_tools.ml" 177 6165 6167 "src/geometry_tools.ml" 185 6572 6630
+type(
+  bool
+)
+"src/geometry_tools.ml" 189 6758 6762 "src/geometry_tools.ml" 189 6758 6774
+type(
+  point_3D -> point_3D -> bool
+)
+ident(
+  def collinear_3D "src/geometry_tools.ml" 204 7380 7380 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 189 6758 6775 "src/geometry_tools.ml" 189 6758 6782
+type(
+  point_3D
+)
+ident(
+  def vector1 "src/geometry_tools.ml" 189 6758 6783 "src/geometry_tools.ml" 200 7236 7291
+)
+"src/geometry_tools.ml" 189 6758 6783 "src/geometry_tools.ml" 189 6758 6790
+type(
+  point_3D
+)
+ident(
+  def vector2 "src/geometry_tools.ml" 190 6793 6795 "src/geometry_tools.ml" 200 7236 7291
+)
+"src/geometry_tools.ml" 190 6793 6798 "src/geometry_tools.ml" 190 6793 6810
+type(
+  point_3D -> bool
+)
+ident(
+  int_ref is_origin_3D "src/geometry_tools.ml" 142 5047 5051 "src/geometry_tools.ml" 142 5047 5063
+)
+"src/geometry_tools.ml" 190 6793 6811 "src/geometry_tools.ml" 190 6793 6818
+type(
+  point_3D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 189 6758 6775 "src/geometry_tools.ml" 189 6758 6782
+)
+"src/geometry_tools.ml" 190 6793 6798 "src/geometry_tools.ml" 190 6793 6818
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 190 6793 6819 "src/geometry_tools.ml" 190 6793 6821
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/geometry_tools.ml" 190 6793 6822 "src/geometry_tools.ml" 190 6793 6834
+type(
+  point_3D -> bool
+)
+ident(
+  int_ref is_origin_3D "src/geometry_tools.ml" 142 5047 5051 "src/geometry_tools.ml" 142 5047 5063
+)
+"src/geometry_tools.ml" 190 6793 6835 "src/geometry_tools.ml" 190 6793 6842
+type(
+  point_3D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 189 6758 6783 "src/geometry_tools.ml" 189 6758 6790
+)
+"src/geometry_tools.ml" 190 6793 6822 "src/geometry_tools.ml" 190 6793 6842
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 190 6793 6798 "src/geometry_tools.ml" 190 6793 6842
+type(
+  bool
+)
+"src/geometry_tools.ml" 190 6793 6848 "src/geometry_tools.ml" 190 6793 6853
+type(
+  bool
+)
+"src/geometry_tools.ml" 191 6854 6864 "src/geometry_tools.ml" 191 6854 6873
+type(
+  point_3D -> point_3D -> bool
+)
+ident(
+  int_ref equals_3D "src/geometry_tools.ml" 140 4988 4992 "src/geometry_tools.ml" 140 4988 5001
+)
+"src/geometry_tools.ml" 191 6854 6874 "src/geometry_tools.ml" 191 6854 6881
+type(
+  point_3D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 189 6758 6775 "src/geometry_tools.ml" 189 6758 6782
+)
+"src/geometry_tools.ml" 191 6854 6882 "src/geometry_tools.ml" 191 6854 6889
+type(
+  point_3D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 189 6758 6783 "src/geometry_tools.ml" 189 6758 6790
+)
+"src/geometry_tools.ml" 191 6854 6864 "src/geometry_tools.ml" 191 6854 6889
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 191 6854 6895 "src/geometry_tools.ml" 191 6854 6899
+type(
+  bool
+)
+"src/geometry_tools.ml" 192 6900 6911 "src/geometry_tools.ml" 192 6900 6918
+type(
+  point_3D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 189 6758 6775 "src/geometry_tools.ml" 189 6758 6782
+)
+"src/geometry_tools.ml" 192 6900 6911 "src/geometry_tools.ml" 192 6900 6920
+type(
+  float
+)
+"src/geometry_tools.ml" 192 6900 6920 "src/geometry_tools.ml" 192 6900 6921
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 192 6900 6921 "src/geometry_tools.ml" 192 6900 6923
+type(
+  float
+)
+"src/geometry_tools.ml" 192 6900 6911 "src/geometry_tools.ml" 192 6900 6923
+type(
+  bool
+)
+"src/geometry_tools.ml" 192 6900 6924 "src/geometry_tools.ml" 192 6900 6926
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 192 6900 6927 "src/geometry_tools.ml" 192 6900 6934
+type(
+  point_3D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 189 6758 6783 "src/geometry_tools.ml" 189 6758 6790
+)
+"src/geometry_tools.ml" 192 6900 6927 "src/geometry_tools.ml" 192 6900 6936
+type(
+  float
+)
+"src/geometry_tools.ml" 192 6900 6936 "src/geometry_tools.ml" 192 6900 6938
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/geometry_tools.ml" 192 6900 6938 "src/geometry_tools.ml" 192 6900 6940
+type(
+  float
+)
+"src/geometry_tools.ml" 192 6900 6927 "src/geometry_tools.ml" 192 6900 6940
+type(
+  bool
+)
+"src/geometry_tools.ml" 192 6900 6910 "src/geometry_tools.ml" 192 6900 6941
+type(
+  bool
+)
+"src/geometry_tools.ml" 192 6900 6942 "src/geometry_tools.ml" 192 6900 6944
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/geometry_tools.ml" 192 6900 6946 "src/geometry_tools.ml" 192 6900 6953
+type(
+  point_3D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 189 6758 6775 "src/geometry_tools.ml" 189 6758 6782
+)
+"src/geometry_tools.ml" 192 6900 6946 "src/geometry_tools.ml" 192 6900 6955
+type(
+  float
+)
+"src/geometry_tools.ml" 192 6900 6955 "src/geometry_tools.ml" 192 6900 6957
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/geometry_tools.ml" 192 6900 6957 "src/geometry_tools.ml" 192 6900 6959
+type(
+  float
+)
+"src/geometry_tools.ml" 192 6900 6946 "src/geometry_tools.ml" 192 6900 6959
+type(
+  bool
+)
+"src/geometry_tools.ml" 192 6900 6960 "src/geometry_tools.ml" 192 6900 6962
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 192 6900 6963 "src/geometry_tools.ml" 192 6900 6970
+type(
+  point_3D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 189 6758 6783 "src/geometry_tools.ml" 189 6758 6790
+)
+"src/geometry_tools.ml" 192 6900 6963 "src/geometry_tools.ml" 192 6900 6972
+type(
+  float
+)
+"src/geometry_tools.ml" 192 6900 6972 "src/geometry_tools.ml" 192 6900 6973
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 192 6900 6973 "src/geometry_tools.ml" 192 6900 6975
+type(
+  float
+)
+"src/geometry_tools.ml" 192 6900 6963 "src/geometry_tools.ml" 192 6900 6975
+type(
+  bool
+)
+"src/geometry_tools.ml" 192 6900 6945 "src/geometry_tools.ml" 192 6900 6976
+type(
+  bool
+)
+"src/geometry_tools.ml" 192 6900 6910 "src/geometry_tools.ml" 192 6900 6976
+type(
+  bool
+)
+"src/geometry_tools.ml" 193 6977 6984 "src/geometry_tools.ml" 193 6977 6989
+type(
+  bool
+)
+"src/geometry_tools.ml" 194 6990 7001 "src/geometry_tools.ml" 194 6990 7008
+type(
+  point_3D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 189 6758 6775 "src/geometry_tools.ml" 189 6758 6782
+)
+"src/geometry_tools.ml" 194 6990 7001 "src/geometry_tools.ml" 194 6990 7010
+type(
+  float
+)
+"src/geometry_tools.ml" 194 6990 7010 "src/geometry_tools.ml" 194 6990 7011
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 194 6990 7011 "src/geometry_tools.ml" 194 6990 7013
+type(
+  float
+)
+"src/geometry_tools.ml" 194 6990 7001 "src/geometry_tools.ml" 194 6990 7013
+type(
+  bool
+)
+"src/geometry_tools.ml" 194 6990 7014 "src/geometry_tools.ml" 194 6990 7016
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 194 6990 7017 "src/geometry_tools.ml" 194 6990 7024
+type(
+  point_3D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 189 6758 6783 "src/geometry_tools.ml" 189 6758 6790
+)
+"src/geometry_tools.ml" 194 6990 7017 "src/geometry_tools.ml" 194 6990 7026
+type(
+  float
+)
+"src/geometry_tools.ml" 194 6990 7026 "src/geometry_tools.ml" 194 6990 7028
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/geometry_tools.ml" 194 6990 7028 "src/geometry_tools.ml" 194 6990 7030
+type(
+  float
+)
+"src/geometry_tools.ml" 194 6990 7017 "src/geometry_tools.ml" 194 6990 7030
+type(
+  bool
+)
+"src/geometry_tools.ml" 194 6990 7000 "src/geometry_tools.ml" 194 6990 7031
+type(
+  bool
+)
+"src/geometry_tools.ml" 194 6990 7032 "src/geometry_tools.ml" 194 6990 7034
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/geometry_tools.ml" 194 6990 7036 "src/geometry_tools.ml" 194 6990 7043
+type(
+  point_3D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 189 6758 6775 "src/geometry_tools.ml" 189 6758 6782
+)
+"src/geometry_tools.ml" 194 6990 7036 "src/geometry_tools.ml" 194 6990 7045
+type(
+  float
+)
+"src/geometry_tools.ml" 194 6990 7045 "src/geometry_tools.ml" 194 6990 7047
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/geometry_tools.ml" 194 6990 7047 "src/geometry_tools.ml" 194 6990 7049
+type(
+  float
+)
+"src/geometry_tools.ml" 194 6990 7036 "src/geometry_tools.ml" 194 6990 7049
+type(
+  bool
+)
+"src/geometry_tools.ml" 194 6990 7050 "src/geometry_tools.ml" 194 6990 7052
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 194 6990 7053 "src/geometry_tools.ml" 194 6990 7060
+type(
+  point_3D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 189 6758 6783 "src/geometry_tools.ml" 189 6758 6790
+)
+"src/geometry_tools.ml" 194 6990 7053 "src/geometry_tools.ml" 194 6990 7062
+type(
+  float
+)
+"src/geometry_tools.ml" 194 6990 7062 "src/geometry_tools.ml" 194 6990 7063
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 194 6990 7063 "src/geometry_tools.ml" 194 6990 7065
+type(
+  float
+)
+"src/geometry_tools.ml" 194 6990 7053 "src/geometry_tools.ml" 194 6990 7065
+type(
+  bool
+)
+"src/geometry_tools.ml" 194 6990 7035 "src/geometry_tools.ml" 194 6990 7066
+type(
+  bool
+)
+"src/geometry_tools.ml" 194 6990 7000 "src/geometry_tools.ml" 194 6990 7066
+type(
+  bool
+)
+"src/geometry_tools.ml" 195 7067 7074 "src/geometry_tools.ml" 195 7067 7079
+type(
+  bool
+)
+"src/geometry_tools.ml" 196 7080 7091 "src/geometry_tools.ml" 196 7080 7098
+type(
+  point_3D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 189 6758 6775 "src/geometry_tools.ml" 189 6758 6782
+)
+"src/geometry_tools.ml" 196 7080 7091 "src/geometry_tools.ml" 196 7080 7100
+type(
+  float
+)
+"src/geometry_tools.ml" 196 7080 7100 "src/geometry_tools.ml" 196 7080 7101
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 196 7080 7101 "src/geometry_tools.ml" 196 7080 7103
+type(
+  float
+)
+"src/geometry_tools.ml" 196 7080 7091 "src/geometry_tools.ml" 196 7080 7103
+type(
+  bool
+)
+"src/geometry_tools.ml" 196 7080 7104 "src/geometry_tools.ml" 196 7080 7106
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 196 7080 7107 "src/geometry_tools.ml" 196 7080 7114
+type(
+  point_3D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 189 6758 6783 "src/geometry_tools.ml" 189 6758 6790
+)
+"src/geometry_tools.ml" 196 7080 7107 "src/geometry_tools.ml" 196 7080 7116
+type(
+  float
+)
+"src/geometry_tools.ml" 196 7080 7116 "src/geometry_tools.ml" 196 7080 7118
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/geometry_tools.ml" 196 7080 7118 "src/geometry_tools.ml" 196 7080 7120
+type(
+  float
+)
+"src/geometry_tools.ml" 196 7080 7107 "src/geometry_tools.ml" 196 7080 7120
+type(
+  bool
+)
+"src/geometry_tools.ml" 196 7080 7090 "src/geometry_tools.ml" 196 7080 7121
+type(
+  bool
+)
+"src/geometry_tools.ml" 196 7080 7122 "src/geometry_tools.ml" 196 7080 7124
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/geometry_tools.ml" 196 7080 7126 "src/geometry_tools.ml" 196 7080 7133
+type(
+  point_3D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 189 6758 6775 "src/geometry_tools.ml" 189 6758 6782
+)
+"src/geometry_tools.ml" 196 7080 7126 "src/geometry_tools.ml" 196 7080 7135
+type(
+  float
+)
+"src/geometry_tools.ml" 196 7080 7135 "src/geometry_tools.ml" 196 7080 7137
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/geometry_tools.ml" 196 7080 7137 "src/geometry_tools.ml" 196 7080 7139
+type(
+  float
+)
+"src/geometry_tools.ml" 196 7080 7126 "src/geometry_tools.ml" 196 7080 7139
+type(
+  bool
+)
+"src/geometry_tools.ml" 196 7080 7140 "src/geometry_tools.ml" 196 7080 7142
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 196 7080 7143 "src/geometry_tools.ml" 196 7080 7150
+type(
+  point_3D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 189 6758 6783 "src/geometry_tools.ml" 189 6758 6790
+)
+"src/geometry_tools.ml" 196 7080 7143 "src/geometry_tools.ml" 196 7080 7152
+type(
+  float
+)
+"src/geometry_tools.ml" 196 7080 7152 "src/geometry_tools.ml" 196 7080 7153
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 196 7080 7153 "src/geometry_tools.ml" 196 7080 7155
+type(
+  float
+)
+"src/geometry_tools.ml" 196 7080 7143 "src/geometry_tools.ml" 196 7080 7155
+type(
+  bool
+)
+"src/geometry_tools.ml" 196 7080 7125 "src/geometry_tools.ml" 196 7080 7156
+type(
+  bool
+)
+"src/geometry_tools.ml" 196 7080 7090 "src/geometry_tools.ml" 196 7080 7156
+type(
+  bool
+)
+"src/geometry_tools.ml" 197 7157 7164 "src/geometry_tools.ml" 197 7157 7169
+type(
+  bool
+)
+"src/geometry_tools.ml" 199 7177 7182 "src/geometry_tools.ml" 199 7177 7189
+type(
+  point_3D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 189 6758 6775 "src/geometry_tools.ml" 189 6758 6782
+)
+"src/geometry_tools.ml" 199 7177 7182 "src/geometry_tools.ml" 199 7177 7191
+type(
+  float
+)
+"src/geometry_tools.ml" 199 7177 7192 "src/geometry_tools.ml" 199 7177 7194
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geometry_tools.ml" 199 7177 7195 "src/geometry_tools.ml" 199 7177 7202
+type(
+  point_3D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 189 6758 6783 "src/geometry_tools.ml" 189 6758 6790
+)
+"src/geometry_tools.ml" 199 7177 7195 "src/geometry_tools.ml" 199 7177 7204
+type(
+  float
+)
+"src/geometry_tools.ml" 199 7177 7181 "src/geometry_tools.ml" 199 7177 7205
+type(
+  float
+)
+"src/geometry_tools.ml" 199 7177 7206 "src/geometry_tools.ml" 199 7177 7207
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 199 7177 7209 "src/geometry_tools.ml" 199 7177 7216
+type(
+  point_3D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 189 6758 6775 "src/geometry_tools.ml" 189 6758 6782
+)
+"src/geometry_tools.ml" 199 7177 7209 "src/geometry_tools.ml" 199 7177 7218
+type(
+  float
+)
+"src/geometry_tools.ml" 199 7177 7219 "src/geometry_tools.ml" 199 7177 7221
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geometry_tools.ml" 199 7177 7222 "src/geometry_tools.ml" 199 7177 7229
+type(
+  point_3D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 189 6758 6783 "src/geometry_tools.ml" 189 6758 6790
+)
+"src/geometry_tools.ml" 199 7177 7222 "src/geometry_tools.ml" 199 7177 7231
+type(
+  float
+)
+"src/geometry_tools.ml" 199 7177 7208 "src/geometry_tools.ml" 199 7177 7232
+type(
+  float
+)
+"src/geometry_tools.ml" 199 7177 7181 "src/geometry_tools.ml" 199 7177 7232
+type(
+  bool
+)
+"src/geometry_tools.ml" 199 7177 7233 "src/geometry_tools.ml" 199 7177 7235
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 200 7236 7241 "src/geometry_tools.ml" 200 7236 7248
+type(
+  point_3D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 189 6758 6775 "src/geometry_tools.ml" 189 6758 6782
+)
+"src/geometry_tools.ml" 200 7236 7241 "src/geometry_tools.ml" 200 7236 7250
+type(
+  float
+)
+"src/geometry_tools.ml" 200 7236 7251 "src/geometry_tools.ml" 200 7236 7253
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geometry_tools.ml" 200 7236 7254 "src/geometry_tools.ml" 200 7236 7261
+type(
+  point_3D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 189 6758 6783 "src/geometry_tools.ml" 189 6758 6790
+)
+"src/geometry_tools.ml" 200 7236 7254 "src/geometry_tools.ml" 200 7236 7263
+type(
+  float
+)
+"src/geometry_tools.ml" 200 7236 7240 "src/geometry_tools.ml" 200 7236 7264
+type(
+  float
+)
+"src/geometry_tools.ml" 200 7236 7265 "src/geometry_tools.ml" 200 7236 7266
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 200 7236 7268 "src/geometry_tools.ml" 200 7236 7275
+type(
+  point_3D
+)
+ident(
+  int_ref vector1 "src/geometry_tools.ml" 189 6758 6775 "src/geometry_tools.ml" 189 6758 6782
+)
+"src/geometry_tools.ml" 200 7236 7268 "src/geometry_tools.ml" 200 7236 7277
+type(
+  float
+)
+"src/geometry_tools.ml" 200 7236 7278 "src/geometry_tools.ml" 200 7236 7280
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geometry_tools.ml" 200 7236 7281 "src/geometry_tools.ml" 200 7236 7288
+type(
+  point_3D
+)
+ident(
+  int_ref vector2 "src/geometry_tools.ml" 189 6758 6783 "src/geometry_tools.ml" 189 6758 6790
+)
+"src/geometry_tools.ml" 200 7236 7281 "src/geometry_tools.ml" 200 7236 7290
+type(
+  float
+)
+"src/geometry_tools.ml" 200 7236 7267 "src/geometry_tools.ml" 200 7236 7291
+type(
+  float
+)
+"src/geometry_tools.ml" 200 7236 7240 "src/geometry_tools.ml" 200 7236 7291
+type(
+  bool
+)
+"src/geometry_tools.ml" 199 7177 7181 "src/geometry_tools.ml" 200 7236 7291
+type(
+  bool
+)
+"src/geometry_tools.ml" 196 7080 7087 "src/geometry_tools.ml" 200 7236 7291
+type(
+  bool
+)
+"src/geometry_tools.ml" 194 6990 6997 "src/geometry_tools.ml" 200 7236 7291
+type(
+  bool
+)
+"src/geometry_tools.ml" 192 6900 6907 "src/geometry_tools.ml" 200 7236 7291
+type(
+  bool
+)
+"src/geometry_tools.ml" 191 6854 6861 "src/geometry_tools.ml" 200 7236 7291
+type(
+  bool
+)
+"src/geometry_tools.ml" 190 6793 6795 "src/geometry_tools.ml" 200 7236 7291
+type(
+  bool
+)
+"src/geometry_tools.ml" 208 7520 7524 "src/geometry_tools.ml" 208 7520 7545
+type(
+  line_3D -> bool
+)
+ident(
+  def line_is_degenerate_3D "src/geometry_tools.ml" 212 7649 7649 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 208 7520 7546 "src/geometry_tools.ml" 208 7520 7548
+type(
+  line_3D
+)
+ident(
+  def li "src/geometry_tools.ml" 209 7551 7553 "src/geometry_tools.ml" 209 7551 7603
+)
+"src/geometry_tools.ml" 209 7551 7553 "src/geometry_tools.ml" 209 7551 7562
+type(
+  point_3D -> point_3D -> bool
+)
+ident(
+  int_ref equals_3D "src/geometry_tools.ml" 140 4988 4992 "src/geometry_tools.ml" 140 4988 5001
+)
+"src/geometry_tools.ml" 209 7551 7563 "src/geometry_tools.ml" 209 7551 7565
+type(
+  line_3D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 208 7520 7546 "src/geometry_tools.ml" 208 7520 7548
+)
+"src/geometry_tools.ml" 209 7551 7563 "src/geometry_tools.ml" 209 7551 7567
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 209 7551 7569 "src/geometry_tools.ml" 209 7551 7584
+type(
+  x:float -> y:float -> z:float -> point_3D
+)
+ident(
+  int_ref create_point_3D "src/geometry_tools.ml" 138 4934 4938 "src/geometry_tools.ml" 138 4934 4953
+)
+"src/geometry_tools.ml" 209 7551 7588 "src/geometry_tools.ml" 209 7551 7590
+type(
+  float
+)
+"src/geometry_tools.ml" 209 7551 7594 "src/geometry_tools.ml" 209 7551 7596
+type(
+  float
+)
+"src/geometry_tools.ml" 209 7551 7600 "src/geometry_tools.ml" 209 7551 7602
+type(
+  float
+)
+"src/geometry_tools.ml" 209 7551 7568 "src/geometry_tools.ml" 209 7551 7603
+call(
+  stack
+)
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 209 7551 7553 "src/geometry_tools.ml" 209 7551 7603
+call(
+  tail
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 212 7649 7653 "src/geometry_tools.ml" 212 7649 7667
+type(
+  point:point_3D -> vector:point_3D -> line_3D
+)
+ident(
+  def create_line_3D "src/geometry_tools.ml" 214 7725 7725 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 212 7649 7675 "src/geometry_tools.ml" 212 7649 7682
+type(
+  point_3D
+)
+ident(
+  def p_point "src/geometry_tools.ml" 212 7649 7683 "src/geometry_tools.ml" 212 7649 7723
+)
+"src/geometry_tools.ml" 212 7649 7691 "src/geometry_tools.ml" 212 7649 7697
+type(
+  point_3D
+)
+ident(
+  def vector "src/geometry_tools.ml" 212 7649 7700 "src/geometry_tools.ml" 212 7649 7723
+)
+"src/geometry_tools.ml" 212 7649 7705 "src/geometry_tools.ml" 212 7649 7712
+type(
+  point_3D
+)
+ident(
+  int_ref p_point "src/geometry_tools.ml" 212 7649 7675 "src/geometry_tools.ml" 212 7649 7682
+)
+"src/geometry_tools.ml" 212 7649 7716 "src/geometry_tools.ml" 212 7649 7722
+type(
+  point_3D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 212 7649 7691 "src/geometry_tools.ml" 212 7649 7697
+)
+"src/geometry_tools.ml" 212 7649 7700 "src/geometry_tools.ml" 212 7649 7723
+type(
+  line_3D
+)
+"src/geometry_tools.ml" 214 7725 7729 "src/geometry_tools.ml" 214 7725 7743
+type(
+  point_3D -> unit
+)
+ident(
+  def print_point_3D "src/geometry_tools.ml" 216 7783 7783 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 214 7725 7744 "src/geometry_tools.ml" 214 7725 7745
+type(
+  point_3D
+)
+ident(
+  def p "src/geometry_tools.ml" 214 7725 7748 "src/geometry_tools.ml" 214 7725 7781
+)
+"src/geometry_tools.ml" 214 7725 7748 "src/geometry_tools.ml" 214 7725 7754
+type(
+  (float -> float -> float -> unit, out_channel, unit) format ->
+  float -> float -> float -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"src/geometry_tools.ml" 214 7725 7755 "src/geometry_tools.ml" 214 7725 7769
+type(
+  (float -> float -> float -> unit, out_channel, unit) format
+)
+"src/geometry_tools.ml" 214 7725 7770 "src/geometry_tools.ml" 214 7725 7771
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 214 7725 7744 "src/geometry_tools.ml" 214 7725 7745
+)
+"src/geometry_tools.ml" 214 7725 7770 "src/geometry_tools.ml" 214 7725 7773
+type(
+  float
+)
+"src/geometry_tools.ml" 214 7725 7774 "src/geometry_tools.ml" 214 7725 7775
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 214 7725 7744 "src/geometry_tools.ml" 214 7725 7745
+)
+"src/geometry_tools.ml" 214 7725 7774 "src/geometry_tools.ml" 214 7725 7777
+type(
+  float
+)
+"src/geometry_tools.ml" 214 7725 7778 "src/geometry_tools.ml" 214 7725 7779
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 214 7725 7744 "src/geometry_tools.ml" 214 7725 7745
+)
+"src/geometry_tools.ml" 214 7725 7778 "src/geometry_tools.ml" 214 7725 7781
+type(
+  float
+)
+"src/geometry_tools.ml" 214 7725 7748 "src/geometry_tools.ml" 214 7725 7781
+call(
+  tail
+)
+type(
+  unit
+)
+"src/geometry_tools.ml" 216 7783 7787 "src/geometry_tools.ml" 216 7783 7800
+type(
+  line_3D -> unit
+)
+ident(
+  def print_line_3D "src/geometry_tools.ml" 222 8004 8004 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 216 7783 7801 "src/geometry_tools.ml" 216 7783 7803
+type(
+  line_3D
+)
+ident(
+  def li "src/geometry_tools.ml" 216 7783 7806 "src/geometry_tools.ml" 219 7918 7957
+)
+"src/geometry_tools.ml" 216 7783 7806 "src/geometry_tools.ml" 216 7783 7818
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"src/geometry_tools.ml" 216 7783 7819 "src/geometry_tools.ml" 216 7783 7827
+type(
+  string
+)
+"src/geometry_tools.ml" 216 7783 7806 "src/geometry_tools.ml" 216 7783 7827
+call(
+  stack
+)
+type(
+  unit
+)
+"src/geometry_tools.ml" 217 7829 7849 "src/geometry_tools.ml" 217 7829 7863
+type(
+  point_3D -> unit
+)
+ident(
+  int_ref print_point_3D "src/geometry_tools.ml" 214 7725 7729 "src/geometry_tools.ml" 214 7725 7743
+)
+"src/geometry_tools.ml" 217 7829 7864 "src/geometry_tools.ml" 217 7829 7866
+type(
+  line_3D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 216 7783 7801 "src/geometry_tools.ml" 216 7783 7803
+)
+"src/geometry_tools.ml" 217 7829 7864 "src/geometry_tools.ml" 217 7829 7870
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 217 7829 7849 "src/geometry_tools.ml" 217 7829 7870
+call(
+  stack
+)
+type(
+  unit
+)
+"src/geometry_tools.ml" 218 7872 7892 "src/geometry_tools.ml" 218 7872 7904
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"src/geometry_tools.ml" 218 7872 7905 "src/geometry_tools.ml" 218 7872 7916
+type(
+  string
+)
+"src/geometry_tools.ml" 218 7872 7892 "src/geometry_tools.ml" 218 7872 7916
+call(
+  stack
+)
+type(
+  unit
+)
+"src/geometry_tools.ml" 219 7918 7938 "src/geometry_tools.ml" 219 7918 7952
+type(
+  point_3D -> unit
+)
+ident(
+  int_ref print_point_3D "src/geometry_tools.ml" 214 7725 7729 "src/geometry_tools.ml" 214 7725 7743
+)
+"src/geometry_tools.ml" 219 7918 7953 "src/geometry_tools.ml" 219 7918 7955
+type(
+  line_3D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 216 7783 7801 "src/geometry_tools.ml" 216 7783 7803
+)
+"src/geometry_tools.ml" 219 7918 7953 "src/geometry_tools.ml" 219 7918 7957
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 219 7918 7938 "src/geometry_tools.ml" 219 7918 7957
+call(
+  tail
+)
+type(
+  unit
+)
+"src/geometry_tools.ml" 218 7872 7892 "src/geometry_tools.ml" 219 7918 7957
+type(
+  unit
+)
+"src/geometry_tools.ml" 217 7829 7849 "src/geometry_tools.ml" 219 7918 7957
+type(
+  unit
+)
+"src/geometry_tools.ml" 216 7783 7806 "src/geometry_tools.ml" 219 7918 7957
+type(
+  unit
+)
+"src/geometry_tools.ml" 222 8004 8008 "src/geometry_tools.ml" 222 8004 8029
+type(
+  point_3D -> line_3D -> bool
+)
+ident(
+  def point_belongs_line_3D "src/geometry_tools.ml" 231 8336 8336 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 222 8004 8030 "src/geometry_tools.ml" 222 8004 8031
+type(
+  point_3D
+)
+ident(
+  def p "src/geometry_tools.ml" 222 8004 8032 "src/geometry_tools.ml" 225 8108 8154
+)
+"src/geometry_tools.ml" 222 8004 8032 "src/geometry_tools.ml" 222 8004 8034
+type(
+  line_3D
+)
+ident(
+  def li "src/geometry_tools.ml" 223 8037 8039 "src/geometry_tools.ml" 225 8108 8154
+)
+"src/geometry_tools.ml" 223 8037 8042 "src/geometry_tools.ml" 223 8037 8063
+type(
+  line_3D -> bool
+)
+ident(
+  int_ref line_is_degenerate_3D "src/geometry_tools.ml" 208 7520 7524 "src/geometry_tools.ml" 208 7520 7545
+)
+"src/geometry_tools.ml" 223 8037 8064 "src/geometry_tools.ml" 223 8037 8066
+type(
+  line_3D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 222 8004 8032 "src/geometry_tools.ml" 222 8004 8034
+)
+"src/geometry_tools.ml" 223 8037 8042 "src/geometry_tools.ml" 223 8037 8066
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 223 8037 8072 "src/geometry_tools.ml" 223 8037 8077
+type(
+  bool
+)
+"src/geometry_tools.ml" 224 8078 8088 "src/geometry_tools.ml" 224 8078 8089
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 222 8004 8030 "src/geometry_tools.ml" 222 8004 8031
+)
+"src/geometry_tools.ml" 224 8078 8090 "src/geometry_tools.ml" 224 8078 8091
+type(
+  point_3D -> point_3D -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/geometry_tools.ml" 224 8078 8091 "src/geometry_tools.ml" 224 8078 8093
+type(
+  line_3D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 222 8004 8032 "src/geometry_tools.ml" 222 8004 8034
+)
+"src/geometry_tools.ml" 224 8078 8091 "src/geometry_tools.ml" 224 8078 8097
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 224 8078 8088 "src/geometry_tools.ml" 224 8078 8097
+type(
+  bool
+)
+"src/geometry_tools.ml" 224 8078 8103 "src/geometry_tools.ml" 224 8078 8107
+type(
+  bool
+)
+"src/geometry_tools.ml" 225 8108 8115 "src/geometry_tools.ml" 225 8108 8129
+type(
+  p_test:point_3D -> p_tester:point_3D -> bool
+)
+ident(
+  int_ref is_multiple_3D "src/geometry_tools.ml" 176 6110 6114 "src/geometry_tools.ml" 176 6110 6128
+)
+"src/geometry_tools.ml" 225 8108 8131 "src/geometry_tools.ml" 225 8108 8139
+type(
+  point_3D -> point_3D -> point_3D
+)
+ident(
+  int_ref minus_3D "src/geometry_tools.ml" 158 5601 5605 "src/geometry_tools.ml" 158 5601 5613
+)
+"src/geometry_tools.ml" 225 8108 8140 "src/geometry_tools.ml" 225 8108 8141
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 222 8004 8030 "src/geometry_tools.ml" 222 8004 8031
+)
+"src/geometry_tools.ml" 225 8108 8142 "src/geometry_tools.ml" 225 8108 8144
+type(
+  line_3D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 222 8004 8032 "src/geometry_tools.ml" 222 8004 8034
+)
+"src/geometry_tools.ml" 225 8108 8142 "src/geometry_tools.ml" 225 8108 8148
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 225 8108 8130 "src/geometry_tools.ml" 225 8108 8149
+call(
+  stack
+)
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 225 8108 8150 "src/geometry_tools.ml" 225 8108 8152
+type(
+  line_3D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 222 8004 8032 "src/geometry_tools.ml" 222 8004 8034
+)
+"src/geometry_tools.ml" 225 8108 8150 "src/geometry_tools.ml" 225 8108 8154
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 225 8108 8115 "src/geometry_tools.ml" 225 8108 8154
+call(
+  tail
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 224 8078 8085 "src/geometry_tools.ml" 225 8108 8154
+type(
+  bool
+)
+"src/geometry_tools.ml" 223 8037 8039 "src/geometry_tools.ml" 225 8108 8154
+type(
+  bool
+)
+"src/geometry_tools.ml" 231 8336 8340 "src/geometry_tools.ml" 231 8336 8357
+type(
+  line_3D -> line_3D -> int
+)
+ident(
+  def relation_lines_3D "src/geometry_tools.ml" 242 8736 8736 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 231 8336 8358 "src/geometry_tools.ml" 231 8336 8361
+type(
+  line_3D
+)
+ident(
+  def li1 "src/geometry_tools.ml" 231 8336 8362 "src/geometry_tools.ml" 238 8653 8661
+)
+"src/geometry_tools.ml" 231 8336 8362 "src/geometry_tools.ml" 231 8336 8365
+type(
+  line_3D
+)
+ident(
+  def li2 "src/geometry_tools.ml" 232 8368 8370 "src/geometry_tools.ml" 238 8653 8661
+)
+"src/geometry_tools.ml" 232 8368 8373 "src/geometry_tools.ml" 232 8368 8394
+type(
+  line_3D -> bool
+)
+ident(
+  int_ref line_is_degenerate_3D "src/geometry_tools.ml" 208 7520 7524 "src/geometry_tools.ml" 208 7520 7545
+)
+"src/geometry_tools.ml" 232 8368 8395 "src/geometry_tools.ml" 232 8368 8398
+type(
+  line_3D
+)
+ident(
+  int_ref li1 "src/geometry_tools.ml" 231 8336 8358 "src/geometry_tools.ml" 231 8336 8361
+)
+"src/geometry_tools.ml" 232 8368 8373 "src/geometry_tools.ml" 232 8368 8398
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 232 8368 8399 "src/geometry_tools.ml" 232 8368 8401
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/geometry_tools.ml" 232 8368 8402 "src/geometry_tools.ml" 232 8368 8423
+type(
+  line_3D -> bool
+)
+ident(
+  int_ref line_is_degenerate_3D "src/geometry_tools.ml" 208 7520 7524 "src/geometry_tools.ml" 208 7520 7545
+)
+"src/geometry_tools.ml" 232 8368 8424 "src/geometry_tools.ml" 232 8368 8427
+type(
+  line_3D
+)
+ident(
+  int_ref li2 "src/geometry_tools.ml" 231 8336 8362 "src/geometry_tools.ml" 231 8336 8365
+)
+"src/geometry_tools.ml" 232 8368 8402 "src/geometry_tools.ml" 232 8368 8427
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 232 8368 8373 "src/geometry_tools.ml" 232 8368 8427
+type(
+  bool
+)
+"src/geometry_tools.ml" 233 8433 8437 "src/geometry_tools.ml" 233 8433 8445
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/geometry_tools.ml" 233 8433 8446 "src/geometry_tools.ml" 233 8433 8474
+type(
+  string
+)
+"src/geometry_tools.ml" 233 8433 8437 "src/geometry_tools.ml" 233 8433 8474
+call(
+  tail
+)
+type(
+  int
+)
+"src/geometry_tools.ml" 234 8475 8485 "src/geometry_tools.ml" 234 8475 8499
+type(
+  p_test:point_3D -> p_tester:point_3D -> bool
+)
+ident(
+  int_ref is_multiple_3D "src/geometry_tools.ml" 176 6110 6114 "src/geometry_tools.ml" 176 6110 6128
+)
+"src/geometry_tools.ml" 234 8475 8500 "src/geometry_tools.ml" 234 8475 8503
+type(
+  line_3D
+)
+ident(
+  int_ref li1 "src/geometry_tools.ml" 231 8336 8358 "src/geometry_tools.ml" 231 8336 8361
+)
+"src/geometry_tools.ml" 234 8475 8500 "src/geometry_tools.ml" 234 8475 8505
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 234 8475 8506 "src/geometry_tools.ml" 234 8475 8509
+type(
+  line_3D
+)
+ident(
+  int_ref li2 "src/geometry_tools.ml" 231 8336 8362 "src/geometry_tools.ml" 231 8336 8365
+)
+"src/geometry_tools.ml" 234 8475 8506 "src/geometry_tools.ml" 234 8475 8511
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 234 8475 8485 "src/geometry_tools.ml" 234 8475 8511
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 234 8475 8512 "src/geometry_tools.ml" 234 8475 8514
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 234 8475 8515 "src/geometry_tools.ml" 234 8475 8536
+type(
+  point_3D -> line_3D -> bool
+)
+ident(
+  int_ref point_belongs_line_3D "src/geometry_tools.ml" 222 8004 8008 "src/geometry_tools.ml" 222 8004 8029
+)
+"src/geometry_tools.ml" 234 8475 8537 "src/geometry_tools.ml" 234 8475 8540
+type(
+  line_3D
+)
+ident(
+  int_ref li1 "src/geometry_tools.ml" 231 8336 8358 "src/geometry_tools.ml" 231 8336 8361
+)
+"src/geometry_tools.ml" 234 8475 8537 "src/geometry_tools.ml" 234 8475 8544
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 234 8475 8545 "src/geometry_tools.ml" 234 8475 8548
+type(
+  line_3D
+)
+ident(
+  int_ref li2 "src/geometry_tools.ml" 231 8336 8362 "src/geometry_tools.ml" 231 8336 8365
+)
+"src/geometry_tools.ml" 234 8475 8515 "src/geometry_tools.ml" 234 8475 8548
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 234 8475 8485 "src/geometry_tools.ml" 234 8475 8548
+type(
+  bool
+)
+"src/geometry_tools.ml" 235 8554 8558 "src/geometry_tools.ml" 235 8554 8559
+type(
+  int
+)
+"src/geometry_tools.ml" 236 8560 8570 "src/geometry_tools.ml" 236 8560 8584
+type(
+  p_test:point_3D -> p_tester:point_3D -> bool
+)
+ident(
+  int_ref is_multiple_3D "src/geometry_tools.ml" 176 6110 6114 "src/geometry_tools.ml" 176 6110 6128
+)
+"src/geometry_tools.ml" 236 8560 8585 "src/geometry_tools.ml" 236 8560 8588
+type(
+  line_3D
+)
+ident(
+  int_ref li1 "src/geometry_tools.ml" 231 8336 8358 "src/geometry_tools.ml" 231 8336 8361
+)
+"src/geometry_tools.ml" 236 8560 8585 "src/geometry_tools.ml" 236 8560 8590
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 236 8560 8591 "src/geometry_tools.ml" 236 8560 8594
+type(
+  line_3D
+)
+ident(
+  int_ref li2 "src/geometry_tools.ml" 231 8336 8362 "src/geometry_tools.ml" 231 8336 8365
+)
+"src/geometry_tools.ml" 236 8560 8591 "src/geometry_tools.ml" 236 8560 8596
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 236 8560 8570 "src/geometry_tools.ml" 236 8560 8596
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 236 8560 8597 "src/geometry_tools.ml" 236 8560 8599
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/geometry_tools.ml" 237 8600 8607 "src/geometry_tools.ml" 237 8600 8610
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/geometry_tools.ml" 237 8600 8611 "src/geometry_tools.ml" 237 8600 8632
+type(
+  point_3D -> line_3D -> bool
+)
+ident(
+  int_ref point_belongs_line_3D "src/geometry_tools.ml" 222 8004 8008 "src/geometry_tools.ml" 222 8004 8029
+)
+"src/geometry_tools.ml" 237 8600 8633 "src/geometry_tools.ml" 237 8600 8636
+type(
+  line_3D
+)
+ident(
+  int_ref li1 "src/geometry_tools.ml" 231 8336 8358 "src/geometry_tools.ml" 231 8336 8361
+)
+"src/geometry_tools.ml" 237 8600 8633 "src/geometry_tools.ml" 237 8600 8640
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 237 8600 8641 "src/geometry_tools.ml" 237 8600 8644
+type(
+  line_3D
+)
+ident(
+  int_ref li2 "src/geometry_tools.ml" 231 8336 8362 "src/geometry_tools.ml" 231 8336 8365
+)
+"src/geometry_tools.ml" 237 8600 8610 "src/geometry_tools.ml" 237 8600 8645
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 237 8600 8607 "src/geometry_tools.ml" 237 8600 8645
+type(
+  bool
+)
+"src/geometry_tools.ml" 236 8560 8570 "src/geometry_tools.ml" 237 8600 8645
+type(
+  bool
+)
+"src/geometry_tools.ml" 237 8600 8651 "src/geometry_tools.ml" 237 8600 8652
+type(
+  int
+)
+"src/geometry_tools.ml" 238 8653 8660 "src/geometry_tools.ml" 238 8653 8661
+type(
+  int
+)
+"src/geometry_tools.ml" 236 8560 8567 "src/geometry_tools.ml" 238 8653 8661
+type(
+  int
+)
+"src/geometry_tools.ml" 234 8475 8482 "src/geometry_tools.ml" 238 8653 8661
+type(
+  int
+)
+"src/geometry_tools.ml" 232 8368 8370 "src/geometry_tools.ml" 238 8653 8661
+type(
+  int
+)
+"src/geometry_tools.ml" 242 8736 8740 "src/geometry_tools.ml" 242 8736 8762
+type(
+  line_3D -> point_3D -> (point_3D -> point_3D -> 'a) -> 'a
+)
+ident(
+  def distance_line_point_3D "src/geometry_tools.ml" 261 9767 9767 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 242 8736 8763 "src/geometry_tools.ml" 242 8736 8765
+type(
+  line_3D
+)
+ident(
+  def li "src/geometry_tools.ml" 242 8736 8766 "src/geometry_tools.ml" 257 9608 9646
+)
+"src/geometry_tools.ml" 242 8736 8766 "src/geometry_tools.ml" 242 8736 8767
+type(
+  point_3D
+)
+ident(
+  def p "src/geometry_tools.ml" 242 8736 8768 "src/geometry_tools.ml" 257 9608 9646
+)
+"src/geometry_tools.ml" 242 8736 8768 "src/geometry_tools.ml" 242 8736 8772
+type(
+  point_3D -> point_3D -> 'a
+)
+ident(
+  def dist "src/geometry_tools.ml" 243 8775 8777 "src/geometry_tools.ml" 257 9608 9646
+)
+"src/geometry_tools.ml" 243 8775 8780 "src/geometry_tools.ml" 243 8775 8801
+type(
+  line_3D -> bool
+)
+ident(
+  int_ref line_is_degenerate_3D "src/geometry_tools.ml" 208 7520 7524 "src/geometry_tools.ml" 208 7520 7545
+)
+"src/geometry_tools.ml" 243 8775 8802 "src/geometry_tools.ml" 243 8775 8804
+type(
+  line_3D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 242 8736 8763 "src/geometry_tools.ml" 242 8736 8765
+)
+"src/geometry_tools.ml" 243 8775 8780 "src/geometry_tools.ml" 243 8775 8804
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 243 8775 8810 "src/geometry_tools.ml" 243 8775 8814
+type(
+  point_3D -> point_3D -> 'a
+)
+ident(
+  int_ref dist "src/geometry_tools.ml" 242 8736 8768 "src/geometry_tools.ml" 242 8736 8772
+)
+"src/geometry_tools.ml" 243 8775 8815 "src/geometry_tools.ml" 243 8775 8816
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 242 8736 8766 "src/geometry_tools.ml" 242 8736 8767
+)
+"src/geometry_tools.ml" 243 8775 8817 "src/geometry_tools.ml" 243 8775 8819
+type(
+  line_3D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 242 8736 8763 "src/geometry_tools.ml" 242 8736 8765
+)
+"src/geometry_tools.ml" 243 8775 8817 "src/geometry_tools.ml" 243 8775 8823
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 243 8775 8810 "src/geometry_tools.ml" 243 8775 8823
+call(
+  tail
+)
+type(
+  'a
+)
+"src/geometry_tools.ml" 246 8902 8910 "src/geometry_tools.ml" 246 8902 8916
+type(
+  point_3D
+)
+ident(
+  def vector "src/geometry_tools.ml" 247 8927 8931 "src/geometry_tools.ml" 257 9608 9646
+)
+"src/geometry_tools.ml" 246 8902 8919 "src/geometry_tools.ml" 246 8902 8921
+type(
+  line_3D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 242 8736 8763 "src/geometry_tools.ml" 242 8736 8765
+)
+"src/geometry_tools.ml" 246 8902 8919 "src/geometry_tools.ml" 246 8902 8923
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 247 8927 8935 "src/geometry_tools.ml" 247 8927 8942
+type(
+  float
+)
+ident(
+  def lambda1 "src/geometry_tools.ml" 249 9050 9054 "src/geometry_tools.ml" 257 9608 9646
+)
+"src/geometry_tools.ml" 247 8927 8946 "src/geometry_tools.ml" 247 8927 8952
+type(
+  point_3D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 246 8902 8910 "src/geometry_tools.ml" 246 8902 8916
+)
+"src/geometry_tools.ml" 247 8927 8946 "src/geometry_tools.ml" 247 8927 8954
+type(
+  float
+)
+"src/geometry_tools.ml" 247 8927 8954 "src/geometry_tools.ml" 247 8927 8956
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 247 8927 8957 "src/geometry_tools.ml" 247 8927 8958
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 242 8736 8766 "src/geometry_tools.ml" 242 8736 8767
+)
+"src/geometry_tools.ml" 247 8927 8957 "src/geometry_tools.ml" 247 8927 8960
+type(
+  float
+)
+"src/geometry_tools.ml" 247 8927 8960 "src/geometry_tools.ml" 247 8927 8962
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/geometry_tools.ml" 247 8927 8962 "src/geometry_tools.ml" 247 8927 8964
+type(
+  line_3D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 242 8736 8763 "src/geometry_tools.ml" 242 8736 8765
+)
+"src/geometry_tools.ml" 247 8927 8962 "src/geometry_tools.ml" 247 8927 8968
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 247 8927 8962 "src/geometry_tools.ml" 247 8927 8970
+type(
+  float
+)
+"src/geometry_tools.ml" 247 8927 8956 "src/geometry_tools.ml" 247 8927 8971
+type(
+  float
+)
+"src/geometry_tools.ml" 247 8927 8946 "src/geometry_tools.ml" 247 8927 8971
+type(
+  float
+)
+"src/geometry_tools.ml" 247 8927 8971 "src/geometry_tools.ml" 247 8927 8973
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 247 8927 8973 "src/geometry_tools.ml" 247 8927 8979
+type(
+  point_3D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 246 8902 8910 "src/geometry_tools.ml" 246 8902 8916
+)
+"src/geometry_tools.ml" 247 8927 8973 "src/geometry_tools.ml" 247 8927 8981
+type(
+  float
+)
+"src/geometry_tools.ml" 247 8927 8981 "src/geometry_tools.ml" 247 8927 8983
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 247 8927 8984 "src/geometry_tools.ml" 247 8927 8985
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 242 8736 8766 "src/geometry_tools.ml" 242 8736 8767
+)
+"src/geometry_tools.ml" 247 8927 8984 "src/geometry_tools.ml" 247 8927 8987
+type(
+  float
+)
+"src/geometry_tools.ml" 247 8927 8987 "src/geometry_tools.ml" 247 8927 8989
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/geometry_tools.ml" 247 8927 8989 "src/geometry_tools.ml" 247 8927 8991
+type(
+  line_3D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 242 8736 8763 "src/geometry_tools.ml" 242 8736 8765
+)
+"src/geometry_tools.ml" 247 8927 8989 "src/geometry_tools.ml" 247 8927 8995
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 247 8927 8989 "src/geometry_tools.ml" 247 8927 8997
+type(
+  float
+)
+"src/geometry_tools.ml" 247 8927 8983 "src/geometry_tools.ml" 247 8927 8998
+type(
+  float
+)
+"src/geometry_tools.ml" 247 8927 8973 "src/geometry_tools.ml" 247 8927 8998
+type(
+  float
+)
+"src/geometry_tools.ml" 247 8927 8946 "src/geometry_tools.ml" 247 8927 8998
+type(
+  float
+)
+"src/geometry_tools.ml" 248 8999 9018 "src/geometry_tools.ml" 248 8999 9020
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 248 8999 9020 "src/geometry_tools.ml" 248 8999 9026
+type(
+  point_3D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 246 8902 8910 "src/geometry_tools.ml" 246 8902 8916
+)
+"src/geometry_tools.ml" 248 8999 9020 "src/geometry_tools.ml" 248 8999 9028
+type(
+  float
+)
+"src/geometry_tools.ml" 248 8999 9028 "src/geometry_tools.ml" 248 8999 9030
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 248 8999 9031 "src/geometry_tools.ml" 248 8999 9032
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 242 8736 8766 "src/geometry_tools.ml" 242 8736 8767
+)
+"src/geometry_tools.ml" 248 8999 9031 "src/geometry_tools.ml" 248 8999 9034
+type(
+  float
+)
+"src/geometry_tools.ml" 248 8999 9034 "src/geometry_tools.ml" 248 8999 9036
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/geometry_tools.ml" 248 8999 9036 "src/geometry_tools.ml" 248 8999 9038
+type(
+  line_3D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 242 8736 8763 "src/geometry_tools.ml" 242 8736 8765
+)
+"src/geometry_tools.ml" 248 8999 9036 "src/geometry_tools.ml" 248 8999 9042
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 248 8999 9036 "src/geometry_tools.ml" 248 8999 9044
+type(
+  float
+)
+"src/geometry_tools.ml" 248 8999 9030 "src/geometry_tools.ml" 248 8999 9045
+type(
+  float
+)
+"src/geometry_tools.ml" 248 8999 9020 "src/geometry_tools.ml" 248 8999 9045
+type(
+  float
+)
+"src/geometry_tools.ml" 247 8927 8945 "src/geometry_tools.ml" 248 8999 9046
+type(
+  float
+)
+"src/geometry_tools.ml" 249 9050 9058 "src/geometry_tools.ml" 249 9050 9065
+type(
+  float
+)
+ident(
+  def lambda2 "src/geometry_tools.ml" 250 9123 9127 "src/geometry_tools.ml" 257 9608 9646
+)
+"src/geometry_tools.ml" 249 9050 9068 "src/geometry_tools.ml" 249 9050 9070
+type(
+  float
+)
+"src/geometry_tools.ml" 249 9050 9070 "src/geometry_tools.ml" 249 9050 9072
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geometry_tools.ml" 249 9050 9074 "src/geometry_tools.ml" 249 9050 9080
+type(
+  point_3D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 246 8902 8910 "src/geometry_tools.ml" 246 8902 8916
+)
+"src/geometry_tools.ml" 249 9050 9074 "src/geometry_tools.ml" 249 9050 9082
+type(
+  float
+)
+"src/geometry_tools.ml" 249 9050 9082 "src/geometry_tools.ml" 249 9050 9084
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"src/geometry_tools.ml" 249 9050 9084 "src/geometry_tools.ml" 249 9050 9086
+type(
+  float
+)
+"src/geometry_tools.ml" 249 9050 9074 "src/geometry_tools.ml" 249 9050 9086
+type(
+  float
+)
+"src/geometry_tools.ml" 249 9050 9087 "src/geometry_tools.ml" 249 9050 9089
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 249 9050 9090 "src/geometry_tools.ml" 249 9050 9096
+type(
+  point_3D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 246 8902 8910 "src/geometry_tools.ml" 246 8902 8916
+)
+"src/geometry_tools.ml" 249 9050 9090 "src/geometry_tools.ml" 249 9050 9098
+type(
+  float
+)
+"src/geometry_tools.ml" 249 9050 9098 "src/geometry_tools.ml" 249 9050 9100
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"src/geometry_tools.ml" 249 9050 9100 "src/geometry_tools.ml" 249 9050 9102
+type(
+  float
+)
+"src/geometry_tools.ml" 249 9050 9090 "src/geometry_tools.ml" 249 9050 9102
+type(
+  float
+)
+"src/geometry_tools.ml" 249 9050 9074 "src/geometry_tools.ml" 249 9050 9102
+type(
+  float
+)
+"src/geometry_tools.ml" 249 9050 9103 "src/geometry_tools.ml" 249 9050 9105
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 249 9050 9106 "src/geometry_tools.ml" 249 9050 9112
+type(
+  point_3D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 246 8902 8910 "src/geometry_tools.ml" 246 8902 8916
+)
+"src/geometry_tools.ml" 249 9050 9106 "src/geometry_tools.ml" 249 9050 9114
+type(
+  float
+)
+"src/geometry_tools.ml" 249 9050 9114 "src/geometry_tools.ml" 249 9050 9116
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( ** )
+)
+"src/geometry_tools.ml" 249 9050 9116 "src/geometry_tools.ml" 249 9050 9118
+type(
+  float
+)
+"src/geometry_tools.ml" 249 9050 9106 "src/geometry_tools.ml" 249 9050 9118
+type(
+  float
+)
+"src/geometry_tools.ml" 249 9050 9072 "src/geometry_tools.ml" 249 9050 9119
+type(
+  float
+)
+"src/geometry_tools.ml" 249 9050 9068 "src/geometry_tools.ml" 249 9050 9119
+type(
+  float
+)
+"src/geometry_tools.ml" 250 9123 9131 "src/geometry_tools.ml" 250 9123 9137
+type(
+  float
+)
+ident(
+  def lambda "src/geometry_tools.ml" 254 9421 9425 "src/geometry_tools.ml" 257 9608 9646
+)
+"src/geometry_tools.ml" 250 9123 9140 "src/geometry_tools.ml" 250 9123 9147
+type(
+  float
+)
+ident(
+  int_ref lambda1 "src/geometry_tools.ml" 247 8927 8935 "src/geometry_tools.ml" 247 8927 8942
+)
+"src/geometry_tools.ml" 250 9123 9147 "src/geometry_tools.ml" 250 9123 9149
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 250 9123 9150 "src/geometry_tools.ml" 250 9123 9157
+type(
+  float
+)
+ident(
+  int_ref lambda2 "src/geometry_tools.ml" 249 9050 9058 "src/geometry_tools.ml" 249 9050 9065
+)
+"src/geometry_tools.ml" 250 9123 9140 "src/geometry_tools.ml" 250 9123 9157
+type(
+  float
+)
+"src/geometry_tools.ml" 254 9421 9429 "src/geometry_tools.ml" 254 9421 9440
+type(
+  point_3D
+)
+ident(
+  def p_intermedi "src/geometry_tools.ml" 257 9608 9612 "src/geometry_tools.ml" 257 9608 9646
+)
+"src/geometry_tools.ml" 254 9421 9444 "src/geometry_tools.ml" 254 9421 9459
+type(
+  x:float -> y:float -> z:float -> point_3D
+)
+ident(
+  int_ref create_point_3D "src/geometry_tools.ml" 138 4934 4938 "src/geometry_tools.ml" 138 4934 4953
+)
+"src/geometry_tools.ml" 254 9421 9464 "src/geometry_tools.ml" 254 9421 9470
+type(
+  float
+)
+ident(
+  int_ref lambda "src/geometry_tools.ml" 250 9123 9131 "src/geometry_tools.ml" 250 9123 9137
+)
+"src/geometry_tools.ml" 254 9421 9470 "src/geometry_tools.ml" 254 9421 9472
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 254 9421 9472 "src/geometry_tools.ml" 254 9421 9478
+type(
+  point_3D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 246 8902 8910 "src/geometry_tools.ml" 246 8902 8916
+)
+"src/geometry_tools.ml" 254 9421 9472 "src/geometry_tools.ml" 254 9421 9480
+type(
+  float
+)
+"src/geometry_tools.ml" 254 9421 9463 "src/geometry_tools.ml" 254 9421 9481
+type(
+  float
+)
+"src/geometry_tools.ml" 255 9482 9525 "src/geometry_tools.ml" 255 9482 9531
+type(
+  float
+)
+ident(
+  int_ref lambda "src/geometry_tools.ml" 250 9123 9131 "src/geometry_tools.ml" 250 9123 9137
+)
+"src/geometry_tools.ml" 255 9482 9531 "src/geometry_tools.ml" 255 9482 9533
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 255 9482 9533 "src/geometry_tools.ml" 255 9482 9539
+type(
+  point_3D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 246 8902 8910 "src/geometry_tools.ml" 246 8902 8916
+)
+"src/geometry_tools.ml" 255 9482 9533 "src/geometry_tools.ml" 255 9482 9541
+type(
+  float
+)
+"src/geometry_tools.ml" 255 9482 9524 "src/geometry_tools.ml" 255 9482 9542
+type(
+  float
+)
+"src/geometry_tools.ml" 256 9543 9586 "src/geometry_tools.ml" 256 9543 9592
+type(
+  float
+)
+ident(
+  int_ref lambda "src/geometry_tools.ml" 250 9123 9131 "src/geometry_tools.ml" 250 9123 9137
+)
+"src/geometry_tools.ml" 256 9543 9592 "src/geometry_tools.ml" 256 9543 9594
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 256 9543 9594 "src/geometry_tools.ml" 256 9543 9600
+type(
+  point_3D
+)
+ident(
+  int_ref vector "src/geometry_tools.ml" 246 8902 8910 "src/geometry_tools.ml" 246 8902 8916
+)
+"src/geometry_tools.ml" 256 9543 9594 "src/geometry_tools.ml" 256 9543 9602
+type(
+  float
+)
+"src/geometry_tools.ml" 256 9543 9585 "src/geometry_tools.ml" 256 9543 9603
+type(
+  float
+)
+"src/geometry_tools.ml" 254 9421 9443 "src/geometry_tools.ml" 256 9543 9604
+call(
+  stack
+)
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 257 9608 9612 "src/geometry_tools.ml" 257 9608 9616
+type(
+  point_3D -> point_3D -> 'a
+)
+ident(
+  int_ref dist "src/geometry_tools.ml" 242 8736 8768 "src/geometry_tools.ml" 242 8736 8772
+)
+"src/geometry_tools.ml" 257 9608 9618 "src/geometry_tools.ml" 257 9608 9624
+type(
+  point_3D -> point_3D -> point_3D
+)
+ident(
+  int_ref sum_3D "src/geometry_tools.ml" 153 5445 5449 "src/geometry_tools.ml" 153 5445 5455
+)
+"src/geometry_tools.ml" 257 9608 9625 "src/geometry_tools.ml" 257 9608 9627
+type(
+  line_3D
+)
+ident(
+  int_ref li "src/geometry_tools.ml" 242 8736 8763 "src/geometry_tools.ml" 242 8736 8765
+)
+"src/geometry_tools.ml" 257 9608 9625 "src/geometry_tools.ml" 257 9608 9631
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 257 9608 9632 "src/geometry_tools.ml" 257 9608 9643
+type(
+  point_3D
+)
+ident(
+  int_ref p_intermedi "src/geometry_tools.ml" 254 9421 9429 "src/geometry_tools.ml" 254 9421 9440
+)
+"src/geometry_tools.ml" 257 9608 9617 "src/geometry_tools.ml" 257 9608 9644
+call(
+  stack
+)
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 257 9608 9645 "src/geometry_tools.ml" 257 9608 9646
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 242 8736 8766 "src/geometry_tools.ml" 242 8736 8767
+)
+"src/geometry_tools.ml" 257 9608 9612 "src/geometry_tools.ml" 257 9608 9646
+call(
+  tail
+)
+type(
+  'a
+)
+"src/geometry_tools.ml" 254 9421 9425 "src/geometry_tools.ml" 257 9608 9646
+type(
+  'a
+)
+"src/geometry_tools.ml" 250 9123 9127 "src/geometry_tools.ml" 257 9608 9646
+type(
+  'a
+)
+"src/geometry_tools.ml" 249 9050 9054 "src/geometry_tools.ml" 257 9608 9646
+type(
+  'a
+)
+"src/geometry_tools.ml" 247 8927 8931 "src/geometry_tools.ml" 257 9608 9646
+type(
+  'a
+)
+"src/geometry_tools.ml" 246 8902 8906 "src/geometry_tools.ml" 257 9608 9646
+type(
+  'a
+)
+"src/geometry_tools.ml" 243 8775 8777 "src/geometry_tools.ml" 257 9608 9646
+type(
+  'a
+)
+"src/geometry_tools.ml" 261 9767 9771 "src/geometry_tools.ml" 261 9767 9786
+type(
+  point_3D -> point_3D -> float
+)
+ident(
+  def angle_vector_3D "src/geometry_tools.ml" 267 10008 10008 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 261 9767 9787 "src/geometry_tools.ml" 261 9767 9789
+type(
+  point_3D
+)
+ident(
+  def v1 "src/geometry_tools.ml" 261 9767 9790 "src/geometry_tools.ml" 265 9926 10006
+)
+"src/geometry_tools.ml" 261 9767 9790 "src/geometry_tools.ml" 261 9767 9792
+type(
+  point_3D
+)
+ident(
+  def v2 "src/geometry_tools.ml" 262 9795 9799 "src/geometry_tools.ml" 265 9926 10006
+)
+"src/geometry_tools.ml" 262 9795 9802 "src/geometry_tools.ml" 262 9795 9814
+type(
+  point_3D -> bool
+)
+ident(
+  int_ref is_origin_3D "src/geometry_tools.ml" 142 5047 5051 "src/geometry_tools.ml" 142 5047 5063
+)
+"src/geometry_tools.ml" 262 9795 9815 "src/geometry_tools.ml" 262 9795 9817
+type(
+  point_3D
+)
+ident(
+  int_ref v1 "src/geometry_tools.ml" 261 9767 9787 "src/geometry_tools.ml" 261 9767 9789
+)
+"src/geometry_tools.ml" 262 9795 9802 "src/geometry_tools.ml" 262 9795 9817
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 262 9795 9818 "src/geometry_tools.ml" 262 9795 9820
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/geometry_tools.ml" 262 9795 9821 "src/geometry_tools.ml" 262 9795 9833
+type(
+  point_3D -> bool
+)
+ident(
+  int_ref is_origin_3D "src/geometry_tools.ml" 142 5047 5051 "src/geometry_tools.ml" 142 5047 5063
+)
+"src/geometry_tools.ml" 262 9795 9834 "src/geometry_tools.ml" 262 9795 9836
+type(
+  point_3D
+)
+ident(
+  int_ref v2 "src/geometry_tools.ml" 261 9767 9790 "src/geometry_tools.ml" 261 9767 9792
+)
+"src/geometry_tools.ml" 262 9795 9821 "src/geometry_tools.ml" 262 9795 9836
+call(
+  stack
+)
+type(
+  bool
+)
+"src/geometry_tools.ml" 262 9795 9802 "src/geometry_tools.ml" 262 9795 9836
+type(
+  bool
+)
+"src/geometry_tools.ml" 263 9842 9848 "src/geometry_tools.ml" 263 9842 9856
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/geometry_tools.ml" 263 9842 9857 "src/geometry_tools.ml" 263 9842 9916
+type(
+  string
+)
+"src/geometry_tools.ml" 263 9842 9848 "src/geometry_tools.ml" 263 9842 9916
+call(
+  tail
+)
+type(
+  float
+)
+"src/geometry_tools.ml" 265 9926 9932 "src/geometry_tools.ml" 265 9926 9936
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.acos
+)
+"src/geometry_tools.ml" 265 9926 9938 "src/geometry_tools.ml" 265 9926 9940
+type(
+  point_3D
+)
+ident(
+  int_ref v1 "src/geometry_tools.ml" 261 9767 9787 "src/geometry_tools.ml" 261 9767 9789
+)
+"src/geometry_tools.ml" 265 9926 9938 "src/geometry_tools.ml" 265 9926 9942
+type(
+  float
+)
+"src/geometry_tools.ml" 265 9926 9942 "src/geometry_tools.ml" 265 9926 9944
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 265 9926 9944 "src/geometry_tools.ml" 265 9926 9946
+type(
+  point_3D
+)
+ident(
+  int_ref v2 "src/geometry_tools.ml" 261 9767 9790 "src/geometry_tools.ml" 261 9767 9792
+)
+"src/geometry_tools.ml" 265 9926 9944 "src/geometry_tools.ml" 265 9926 9948
+type(
+  float
+)
+"src/geometry_tools.ml" 265 9926 9938 "src/geometry_tools.ml" 265 9926 9948
+type(
+  float
+)
+"src/geometry_tools.ml" 265 9926 9948 "src/geometry_tools.ml" 265 9926 9950
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 265 9926 9950 "src/geometry_tools.ml" 265 9926 9952
+type(
+  point_3D
+)
+ident(
+  int_ref v1 "src/geometry_tools.ml" 261 9767 9787 "src/geometry_tools.ml" 261 9767 9789
+)
+"src/geometry_tools.ml" 265 9926 9950 "src/geometry_tools.ml" 265 9926 9954
+type(
+  float
+)
+"src/geometry_tools.ml" 265 9926 9954 "src/geometry_tools.ml" 265 9926 9956
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 265 9926 9956 "src/geometry_tools.ml" 265 9926 9958
+type(
+  point_3D
+)
+ident(
+  int_ref v2 "src/geometry_tools.ml" 261 9767 9790 "src/geometry_tools.ml" 261 9767 9792
+)
+"src/geometry_tools.ml" 265 9926 9956 "src/geometry_tools.ml" 265 9926 9960
+type(
+  float
+)
+"src/geometry_tools.ml" 265 9926 9950 "src/geometry_tools.ml" 265 9926 9960
+type(
+  float
+)
+"src/geometry_tools.ml" 265 9926 9938 "src/geometry_tools.ml" 265 9926 9960
+type(
+  float
+)
+"src/geometry_tools.ml" 265 9926 9960 "src/geometry_tools.ml" 265 9926 9962
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/geometry_tools.ml" 265 9926 9962 "src/geometry_tools.ml" 265 9926 9964
+type(
+  point_3D
+)
+ident(
+  int_ref v1 "src/geometry_tools.ml" 261 9767 9787 "src/geometry_tools.ml" 261 9767 9789
+)
+"src/geometry_tools.ml" 265 9926 9962 "src/geometry_tools.ml" 265 9926 9966
+type(
+  float
+)
+"src/geometry_tools.ml" 265 9926 9966 "src/geometry_tools.ml" 265 9926 9968
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 265 9926 9968 "src/geometry_tools.ml" 265 9926 9970
+type(
+  point_3D
+)
+ident(
+  int_ref v2 "src/geometry_tools.ml" 261 9767 9790 "src/geometry_tools.ml" 261 9767 9792
+)
+"src/geometry_tools.ml" 265 9926 9968 "src/geometry_tools.ml" 265 9926 9972
+type(
+  float
+)
+"src/geometry_tools.ml" 265 9926 9962 "src/geometry_tools.ml" 265 9926 9972
+type(
+  float
+)
+"src/geometry_tools.ml" 265 9926 9937 "src/geometry_tools.ml" 265 9926 9973
+type(
+  float
+)
+"src/geometry_tools.ml" 265 9926 9973 "src/geometry_tools.ml" 265 9926 9975
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/geometry_tools.ml" 265 9926 9977 "src/geometry_tools.ml" 265 9926 9985
+type(
+  point_3D -> float
+)
+ident(
+  int_ref norm2_3D "src/geometry_tools.ml" 147 5231 5235 "src/geometry_tools.ml" 147 5231 5243
+)
+"src/geometry_tools.ml" 265 9926 9986 "src/geometry_tools.ml" 265 9926 9988
+type(
+  point_3D
+)
+ident(
+  int_ref v1 "src/geometry_tools.ml" 261 9767 9787 "src/geometry_tools.ml" 261 9767 9789
+)
+"src/geometry_tools.ml" 265 9926 9976 "src/geometry_tools.ml" 265 9926 9989
+call(
+  stack
+)
+type(
+  float
+)
+"src/geometry_tools.ml" 265 9926 9989 "src/geometry_tools.ml" 265 9926 9991
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/geometry_tools.ml" 265 9926 9992 "src/geometry_tools.ml" 265 9926 10000
+type(
+  point_3D -> float
+)
+ident(
+  int_ref norm2_3D "src/geometry_tools.ml" 147 5231 5235 "src/geometry_tools.ml" 147 5231 5243
+)
+"src/geometry_tools.ml" 265 9926 10001 "src/geometry_tools.ml" 265 9926 10003
+type(
+  point_3D
+)
+ident(
+  int_ref v2 "src/geometry_tools.ml" 261 9767 9790 "src/geometry_tools.ml" 261 9767 9792
+)
+"src/geometry_tools.ml" 265 9926 9991 "src/geometry_tools.ml" 265 9926 10004
+call(
+  stack
+)
+type(
+  float
+)
+"src/geometry_tools.ml" 265 9926 9975 "src/geometry_tools.ml" 265 9926 10005
+type(
+  float
+)
+"src/geometry_tools.ml" 265 9926 9936 "src/geometry_tools.ml" 265 9926 10006
+type(
+  float
+)
+"src/geometry_tools.ml" 265 9926 9932 "src/geometry_tools.ml" 265 9926 10006
+type(
+  float
+)
+"src/geometry_tools.ml" 262 9795 9799 "src/geometry_tools.ml" 265 9926 10006
+type(
+  float
+)
+"src/geometry_tools.ml" 267 10008 10012 "src/geometry_tools.ml" 267 10008 10017
+type(
+  point_3D -> point_3D
+)
+ident(
+  def to_3D "src/geometry_tools.ml" 269 10046 10079 "src/geometry_tools.ml" 1 0 -1
+)
+"src/geometry_tools.ml" 267 10008 10018 "src/geometry_tools.ml" 267 10008 10019
+type(
+  point_3D
+)
+ident(
+  def p "src/geometry_tools.ml" 268 10022 10024 "src/geometry_tools.ml" 269 10046 10079
+)
+"src/geometry_tools.ml" 268 10022 10028 "src/geometry_tools.ml" 268 10022 10029
+type(
+  float
+)
+ident(
+  def a "src/geometry_tools.ml" 269 10046 10048 "src/geometry_tools.ml" 269 10046 10079
+)
+"src/geometry_tools.ml" 268 10022 10030 "src/geometry_tools.ml" 268 10022 10031
+type(
+  float
+)
+ident(
+  def b "src/geometry_tools.ml" 269 10046 10048 "src/geometry_tools.ml" 269 10046 10079
+)
+"src/geometry_tools.ml" 268 10022 10028 "src/geometry_tools.ml" 268 10022 10031
+type(
+  float * float
+)
+"src/geometry_tools.ml" 268 10022 10034 "src/geometry_tools.ml" 268 10022 10035
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 267 10008 10018 "src/geometry_tools.ml" 267 10008 10019
+)
+"src/geometry_tools.ml" 268 10022 10034 "src/geometry_tools.ml" 268 10022 10037
+type(
+  float
+)
+"src/geometry_tools.ml" 268 10022 10039 "src/geometry_tools.ml" 268 10022 10040
+type(
+  point_3D
+)
+ident(
+  int_ref p "src/geometry_tools.ml" 267 10008 10018 "src/geometry_tools.ml" 267 10008 10019
+)
+"src/geometry_tools.ml" 268 10022 10039 "src/geometry_tools.ml" 268 10022 10042
+type(
+  float
+)
+"src/geometry_tools.ml" 268 10022 10034 "src/geometry_tools.ml" 268 10022 10042
+type(
+  float * float
+)
+"src/geometry_tools.ml" 269 10046 10048 "src/geometry_tools.ml" 269 10046 10063
+type(
+  x:float -> y:float -> z:float -> point_3D
+)
+ident(
+  int_ref create_point_3D "src/geometry_tools.ml" 138 4934 4938 "src/geometry_tools.ml" 138 4934 4953
+)
+"src/geometry_tools.ml" 269 10046 10067 "src/geometry_tools.ml" 269 10046 10068
+type(
+  float
+)
+ident(
+  int_ref a "src/geometry_tools.ml" 268 10022 10028 "src/geometry_tools.ml" 268 10022 10029
+)
+"src/geometry_tools.ml" 269 10046 10072 "src/geometry_tools.ml" 269 10046 10073
+type(
+  float
+)
+ident(
+  int_ref b "src/geometry_tools.ml" 268 10022 10030 "src/geometry_tools.ml" 268 10022 10031
+)
+"src/geometry_tools.ml" 269 10046 10077 "src/geometry_tools.ml" 269 10046 10079
+type(
+  float
+)
+"src/geometry_tools.ml" 269 10046 10048 "src/geometry_tools.ml" 269 10046 10079
+call(
+  tail
+)
+type(
+  point_3D
+)
+"src/geometry_tools.ml" 268 10022 10024 "src/geometry_tools.ml" 269 10046 10079
+type(
+  point_3D
+)

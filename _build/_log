@@ -1,0 +1,98 @@
+### Starting build.
+# Target: src/geometry_tools.mli.depends, tags: { annot, bin_annot, debug, extension:mli, file:src/geometry_tools.mli, ocaml, ocamldep, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamldep -package batteries -modules src/geometry_tools.mli > src/geometry_tools.mli.depends # cached
+# Target: src/geometry_tools.cmi, tags: { annot, bin_annot, byte, compile, debug, extension:mli, file:src/geometry_tools.mli, interf, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I src -package batteries -I src -o src/geometry_tools.cmi src/geometry_tools.mli # cached
+# Target: src/geometry_tools.ml.depends, tags: { annot, bin_annot, debug, extension:ml, file:src/geometry_tools.ml, ocaml, ocamldep, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamldep -package batteries -modules src/geometry_tools.ml > src/geometry_tools.ml.depends # cached
+# Target: src/geometry_tools.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:src/geometry_tools.cmo, file:src/geometry_tools.ml, implem, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I src -package batteries -I src -o src/geometry_tools.cmo src/geometry_tools.ml # cached
+# Target: src/flatness_criterion.mli.depends, tags: { annot, bin_annot, debug, extension:mli, file:src/flatness_criterion.mli, ocaml, ocamldep, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamldep -package batteries -modules src/flatness_criterion.mli > src/flatness_criterion.mli.depends # cached
+# Target: src/flatness_criterion.cmi, tags: { annot, bin_annot, byte, compile, debug, extension:mli, file:src/flatness_criterion.mli, interf, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I src -package batteries -I src -o src/flatness_criterion.cmi src/flatness_criterion.mli # cached
+# Target: src/flatness_criterion.ml.depends, tags: { annot, bin_annot, debug, extension:ml, file:src/flatness_criterion.ml, ocaml, ocamldep, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamldep -package batteries -modules src/flatness_criterion.ml > src/flatness_criterion.ml.depends # cached
+# Target: src/flatness_criterion.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:src/flatness_criterion.cmo, file:src/flatness_criterion.ml, implem, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I src -package batteries -I src -o src/flatness_criterion.cmo src/flatness_criterion.ml # cached
+# Target: src/choice.mli.depends, tags: { annot, bin_annot, debug, extension:mli, file:src/choice.mli, ocaml, ocamldep, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamldep -package batteries -modules src/choice.mli > src/choice.mli.depends # cached
+# Target: src/choice.cmi, tags: { annot, bin_annot, byte, compile, debug, extension:mli, file:src/choice.mli, interf, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I src -package batteries -I src -o src/choice.cmi src/choice.mli # cached
+# Target: src/choice.ml.depends, tags: { annot, bin_annot, debug, extension:ml, file:src/choice.ml, ocaml, ocamldep, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamldep -package batteries -modules src/choice.ml > src/choice.ml.depends # cached
+# Target: src/choice.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:src/choice.cmo, file:src/choice.ml, implem, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I src -package batteries -I src -o src/choice.cmo src/choice.ml # cached
+# Target: src/utilities.mli.depends, tags: { annot, bin_annot, debug, extension:mli, file:src/utilities.mli, ocaml, ocamldep, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamldep -package batteries -modules src/utilities.mli > src/utilities.mli.depends # cached
+# Target: src/utilities.cmi, tags: { annot, bin_annot, byte, compile, debug, extension:mli, file:src/utilities.mli, interf, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I src -package batteries -I src -o src/utilities.cmi src/utilities.mli # cached
+# Target: src/utilities.ml.depends, tags: { annot, bin_annot, debug, extension:ml, file:src/utilities.ml, ocaml, ocamldep, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamldep -package batteries -modules src/utilities.ml > src/utilities.ml.depends # cached
+# Target: src/utilities.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:src/utilities.cmo, file:src/utilities.ml, implem, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I src -package batteries -I src -o src/utilities.cmo src/utilities.ml # cached
+# Target: src/lDlist_manipulation.mli.depends, tags: { annot, bin_annot, debug, extension:mli, file:src/lDlist_manipulation.mli, ocaml, ocamldep, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamldep -package batteries -modules src/lDlist_manipulation.mli > src/lDlist_manipulation.mli.depends # cached
+# Target: src/lDlist_manipulation.cmi, tags: { annot, bin_annot, byte, compile, debug, extension:mli, file:src/lDlist_manipulation.mli, interf, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I src -package batteries -I src -o src/lDlist_manipulation.cmi src/lDlist_manipulation.mli # cached
+# Target: src/lDlist_manipulation.ml.depends, tags: { annot, bin_annot, debug, extension:ml, file:src/lDlist_manipulation.ml, ocaml, ocamldep, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamldep -package batteries -modules src/lDlist_manipulation.ml > src/lDlist_manipulation.ml.depends # cached
+# Target: src/lDlist_manipulation.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:src/lDlist_manipulation.cmo, file:src/lDlist_manipulation.ml, implem, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I src -package batteries -I src -o src/lDlist_manipulation.cmo src/lDlist_manipulation.ml # cached
+# Target: src/recursions.mli.depends, tags: { annot, bin_annot, debug, extension:mli, file:src/recursions.mli, ocaml, ocamldep, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamldep -package batteries -modules src/recursions.mli > src/recursions.mli.depends # cached
+# Target: src/recursions.cmi, tags: { annot, bin_annot, byte, compile, debug, extension:mli, file:src/recursions.mli, interf, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I src -package batteries -I src -o src/recursions.cmi src/recursions.mli # cached
+# Target: src/recursions.ml.depends, tags: { annot, bin_annot, debug, extension:ml, file:src/recursions.ml, ocaml, ocamldep, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamldep -package batteries -modules src/recursions.ml > src/recursions.ml.depends # cached
+# Target: src/recursions.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:src/recursions.cmo, file:src/recursions.ml, implem, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I src -package batteries -I src -o src/recursions.cmo src/recursions.ml # cached
+# Target: src/tikz_trans.mli.depends, tags: { annot, bin_annot, debug, extension:mli, file:src/tikz_trans.mli, ocaml, ocamldep, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamldep -package batteries -modules src/tikz_trans.mli > src/tikz_trans.mli.depends # cached
+# Target: src/tikz_trans.cmi, tags: { annot, bin_annot, byte, compile, debug, extension:mli, file:src/tikz_trans.mli, interf, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I src -package batteries -I src -o src/tikz_trans.cmi src/tikz_trans.mli # cached
+# Target: src/tikz_trans.ml.depends, tags: { annot, bin_annot, debug, extension:ml, file:src/tikz_trans.ml, ocaml, ocamldep, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamldep -package batteries -modules src/tikz_trans.ml > src/tikz_trans.ml.depends # cached
+# Target: src/sampling.mli.depends, tags: { annot, bin_annot, debug, extension:mli, file:src/sampling.mli, ocaml, ocamldep, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamldep -package batteries -modules src/sampling.mli > src/sampling.mli.depends # cached
+# Target: src/sampling.cmi, tags: { annot, bin_annot, byte, compile, debug, extension:mli, file:src/sampling.mli, interf, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I src -package batteries -I src -o src/sampling.cmi src/sampling.mli # cached
+# Target: src/tikz_trans.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:src/tikz_trans.cmo, file:src/tikz_trans.ml, implem, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I src -package batteries -I src -o src/tikz_trans.cmo src/tikz_trans.ml # cached
+# Target: src/sampling.ml.depends, tags: { annot, bin_annot, debug, extension:ml, file:src/sampling.ml, ocaml, ocamldep, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamldep -package batteries -modules src/sampling.ml > src/sampling.ml.depends # cached
+# Target: src/sampling.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:src/sampling.cmo, file:src/sampling.ml, implem, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -c -g -annot -bin-annot -I src -package batteries -I src -o src/sampling.cmo src/sampling.ml # cached
+# Target: src/internals.cmo, tags: { annot, bin_annot, byte, debug, extension:cmo, file:src/internals.cmo, ocaml, pack, quiet, traverse }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -pack -g -annot -bin-annot src/geometry_tools.cmo src/flatness_criterion.cmo src/choice.cmo src/utilities.cmo src/lDlist_manipulation.cmo src/recursions.cmo src/sampling.cmo src/tikz_trans.cmo -o src/internals.cmo # cached
+# Target: src/internals.cma, tags: { annot, bin_annot, byte, debug, extension:cma, file:src/internals.cma, library, link, ocaml, quiet, traverse }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -a src/internals.cmo -o src/internals.cma # cached
+# Target: src/geometry_tools.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:src/geometry_tools.cmx, file:src/geometry_tools.ml, for-pack(Internals), implem, native, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlopt -c -g -annot -bin-annot -I src -package batteries -for-pack Internals -I src -o src/geometry_tools.cmx src/geometry_tools.ml # cached
+# Target: src/flatness_criterion.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:src/flatness_criterion.cmx, file:src/flatness_criterion.ml, for-pack(Internals), implem, native, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlopt -c -g -annot -bin-annot -I src -package batteries -for-pack Internals -I src -o src/flatness_criterion.cmx src/flatness_criterion.ml # cached
+# Target: src/choice.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:src/choice.cmx, file:src/choice.ml, for-pack(Internals), implem, native, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlopt -c -g -annot -bin-annot -I src -package batteries -for-pack Internals -I src -o src/choice.cmx src/choice.ml # cached
+# Target: src/utilities.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:src/utilities.cmx, file:src/utilities.ml, for-pack(Internals), implem, native, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlopt -c -g -annot -bin-annot -I src -package batteries -for-pack Internals -I src -o src/utilities.cmx src/utilities.ml # cached
+# Target: src/lDlist_manipulation.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:src/lDlist_manipulation.cmx, file:src/lDlist_manipulation.ml, for-pack(Internals), implem, native, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlopt -c -g -annot -bin-annot -I src -package batteries -for-pack Internals -I src -o src/lDlist_manipulation.cmx src/lDlist_manipulation.ml # cached
+# Target: src/recursions.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:src/recursions.cmx, file:src/recursions.ml, for-pack(Internals), implem, native, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlopt -c -g -annot -bin-annot -I src -package batteries -for-pack Internals -I src -o src/recursions.cmx src/recursions.ml # cached
+# Target: src/sampling.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:src/sampling.cmx, file:src/sampling.ml, for-pack(Internals), implem, native, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlopt -c -g -annot -bin-annot -I src -package batteries -for-pack Internals -I src -o src/sampling.cmx src/sampling.ml # cached
+# Target: src/tikz_trans.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:src/tikz_trans.cmx, file:src/tikz_trans.ml, for-pack(Internals), implem, native, ocaml, pkg_batteries, quiet, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlopt -c -g -annot -bin-annot -I src -package batteries -for-pack Internals -I src -o src/tikz_trans.cmx src/tikz_trans.ml # cached
+# Target: src/internals.cmx, tags: { annot, bin_annot, debug, extension:cmx, file:src/internals.cmx, native, ocaml, pack, quiet, traverse }
+touch src/internals.mli  ; if  /home/horace/.opam/4.02.3/bin/ocamlfind ocamlopt -pack -g -annot -bin-annot -I src src/geometry_tools.cmx src/flatness_criterion.cmx src/choice.cmx src/utilities.cmx src/lDlist_manipulation.cmx src/recursions.cmx src/sampling.cmx src/tikz_trans.cmx -o src/internals.cmx  ; then  rm -f src/internals.mli  ; else  rm -f src/internals.mli  ; exit 1; fi # cached
+# Target: src/internals.cmxa, tags: { annot, bin_annot, debug, extension:cmxa, file:src/internals.cmxa, library, link, native, ocaml, quiet, traverse }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlopt -a src/internals.cmx -o src/internals.cmxa # cached
+# Target: src/internals.cmxs, tags: { annot, bin_annot, debug, extension:cmxs, file:src/internals.cmxs, library, link, native, ocaml, quiet, shared, traverse, use_internals }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlopt -shared src/internals.cmxa src/internals.cmx -o src/internals.cmxs
+# Target: src/samplend.cma, tags: { annot, bin_annot, byte, debug, extension:cma, file:src/samplend.cma, library, link, ocaml, quiet, traverse }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlc -a src/sampling.cmo -o src/samplend.cma # cached
+# Target: src/samplend.cmxa, tags: { annot, bin_annot, debug, extension:cmxa, file:src/samplend.cmxa, library, link, native, ocaml, quiet, traverse }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlopt -a src/sampling.cmx -o src/samplend.cmxa # cached
+# Target: src/samplend.cmxs, tags: { annot, bin_annot, debug, extension:cmxs, file:src/samplend.cmxs, library, link, native, ocaml, quiet, shared, traverse, use_samplend }
+/home/horace/.opam/4.02.3/bin/ocamlfind ocamlopt -shared src/samplend.cmxa src/sampling.cmx -o src/samplend.cmxs
+# Compilation successful.

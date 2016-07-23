@@ -1,0 +1,31 @@
+# OASIS_START
+# DO NOT EDIT (digest: e54c0d8d8c7c77947d0f96acffad0db9)
+# Ignore VCS directories, you can use the same kind of rule outside
+# OASIS_START/STOP if you want to exclude directories that contains
+# useless stuff for the build process
+true: annot, bin_annot
+<**/.svn>: -traverse
+<**/.svn>: not_hygienic
+".bzr": -traverse
+".bzr": not_hygienic
+".hg": -traverse
+".hg": not_hygienic
+".git": -traverse
+".git": not_hygienic
+"_darcs": -traverse
+"_darcs": not_hygienic
+# Library internals
+"src/internals.cmxs": use_internals
+"src/geometry_tools.cmx": for-pack(Internals)
+"src/flatness_criterion.cmx": for-pack(Internals)
+"src/choice.cmx": for-pack(Internals)
+"src/utilities.cmx": for-pack(Internals)
+"src/lDlist_manipulation.cmx": for-pack(Internals)
+"src/recursions.cmx": for-pack(Internals)
+"src/tikz_trans.cmx": for-pack(Internals)
+"src/sampling.cmx": for-pack(Internals)
+# Library samplend
+"src/samplend.cmxs": use_samplend
+<src/*.ml{,i,y}>: pkg_batteries
+<src/*.ml{,i,y}>: use_internals
+# OASIS_STOP

@@ -1,0 +1,2743 @@
+"src/recursions.ml" 8 109 117 "src/recursions.ml" 8 109 129
+type(
+  fonction:(float -> float) ->
+  lDlist:(float option ref * float option ref) BatDllist.node_t ->
+  epsi:'a ->
+  test:(Geometry_tools.point_2D ->
+        Geometry_tools.point_2D ->
+        Geometry_tools.point_2D -> 'a -> 'b -> bool) ->
+  dist:'b -> unit
+)
+ident(
+  def recursion_2D "src/recursions.ml" 8 109 109 "src/recursions.ml" 1 0 -1
+)
+"src/recursions.ml" 8 109 140 "src/recursions.ml" 8 109 141
+type(
+  float -> float
+)
+ident(
+  def f "src/recursions.ml" 8 109 142 "src/recursions.ml" 34 1321 1327
+)
+"src/recursions.ml" 8 109 150 "src/recursions.ml" 8 109 152
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  def dl "src/recursions.ml" 8 109 153 "src/recursions.ml" 34 1321 1327
+)
+"src/recursions.ml" 8 109 159 "src/recursions.ml" 8 109 160
+type(
+  'a
+)
+ident(
+  def e "src/recursions.ml" 8 109 161 "src/recursions.ml" 34 1321 1327
+)
+"src/recursions.ml" 8 109 167 "src/recursions.ml" 8 109 168
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> 'a -> 'b -> bool
+)
+ident(
+  def t "src/recursions.ml" 8 109 169 "src/recursions.ml" 34 1321 1327
+)
+"src/recursions.ml" 8 109 175 "src/recursions.ml" 8 109 176
+type(
+  'b
+)
+ident(
+  def d "src/recursions.ml" 9 179 181 "src/recursions.ml" 34 1321 1327
+)
+"src/recursions.ml" 9 179 184 "src/recursions.ml" 9 179 187
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/recursions.ml" 9 179 188 "src/recursions.ml" 9 179 218
+type(
+  node:(float option ref * float option ref) BatDllist.node_t -> bool
+)
+ident(
+  ext_ref LDlist_manipulation.is_last_2D
+)
+"src/recursions.ml" 9 179 219 "src/recursions.ml" 9 179 221
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 8 109 150 "src/recursions.ml" 8 109 152
+)
+"src/recursions.ml" 9 179 187 "src/recursions.ml" 9 179 222
+call(
+  stack
+)
+type(
+  bool
+)
+"src/recursions.ml" 9 179 184 "src/recursions.ml" 9 179 222
+type(
+  bool
+)
+"src/recursions.ml" 10 234 237 "src/recursions.ml" 10 234 266
+type(
+  fonction:(float -> float) ->
+  node:(float option ref * float option ref) BatDllist.node_t -> unit
+)
+ident(
+  ext_ref LDlist_manipulation.update_2D
+)
+"src/recursions.ml" 10 234 267 "src/recursions.ml" 10 234 268
+type(
+  float -> float
+)
+ident(
+  int_ref f "src/recursions.ml" 8 109 140 "src/recursions.ml" 8 109 141
+)
+"src/recursions.ml" 10 234 269 "src/recursions.ml" 10 234 271
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 8 109 150 "src/recursions.ml" 8 109 152
+)
+"src/recursions.ml" 10 234 237 "src/recursions.ml" 10 234 271
+call(
+  stack
+)
+type(
+  unit
+)
+"src/recursions.ml" 11 273 276 "src/recursions.ml" 11 273 305
+type(
+  fonction:(float -> float) ->
+  node:(float option ref * float option ref) BatDllist.node_t -> unit
+)
+ident(
+  ext_ref LDlist_manipulation.update_2D
+)
+"src/recursions.ml" 11 273 306 "src/recursions.ml" 11 273 307
+type(
+  float -> float
+)
+ident(
+  int_ref f "src/recursions.ml" 8 109 140 "src/recursions.ml" 8 109 141
+)
+"src/recursions.ml" 11 273 309 "src/recursions.ml" 11 273 323
+type(
+  (float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref BatDllist.next
+)
+"src/recursions.ml" 11 273 324 "src/recursions.ml" 11 273 326
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 8 109 150 "src/recursions.ml" 8 109 152
+)
+"src/recursions.ml" 11 273 308 "src/recursions.ml" 11 273 327
+call(
+  stack
+)
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/recursions.ml" 11 273 276 "src/recursions.ml" 11 273 327
+call(
+  stack
+)
+type(
+  unit
+)
+"src/recursions.ml" 12 329 337 "src/recursions.ml" 12 329 347
+type(
+  float option ref
+)
+ident(
+  def ref_some_a "src/recursions.ml" 13 384 387 "src/recursions.ml" 33 1313 1320
+)
+"src/recursions.ml" 12 329 349 "src/recursions.ml" 12 329 360
+type(
+  float option ref
+)
+ident(
+  def ref_some_fa "src/recursions.ml" 13 384 387 "src/recursions.ml" 33 1313 1320
+)
+"src/recursions.ml" 12 329 336 "src/recursions.ml" 12 329 361
+type(
+  float option ref * float option ref
+)
+"src/recursions.ml" 12 329 364 "src/recursions.ml" 12 329 377
+type(
+  (float option ref * float option ref) BatDllist.node_t ->
+  float option ref * float option ref
+)
+ident(
+  ext_ref BatDllist.get
+)
+"src/recursions.ml" 12 329 378 "src/recursions.ml" 12 329 380
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 8 109 150 "src/recursions.ml" 8 109 152
+)
+"src/recursions.ml" 12 329 364 "src/recursions.ml" 12 329 380
+call(
+  stack
+)
+type(
+  float option ref * float option ref
+)
+"src/recursions.ml" 13 384 392 "src/recursions.ml" 13 384 402
+type(
+  float option ref
+)
+ident(
+  def ref_some_b "src/recursions.ml" 14 456 459 "src/recursions.ml" 33 1313 1320
+)
+"src/recursions.ml" 13 384 404 "src/recursions.ml" 13 384 415
+type(
+  float option ref
+)
+ident(
+  def ref_some_fb "src/recursions.ml" 14 456 459 "src/recursions.ml" 33 1313 1320
+)
+"src/recursions.ml" 13 384 391 "src/recursions.ml" 13 384 416
+type(
+  float option ref * float option ref
+)
+"src/recursions.ml" 13 384 419 "src/recursions.ml" 13 384 432
+type(
+  (float option ref * float option ref) BatDllist.node_t ->
+  float option ref * float option ref
+)
+ident(
+  ext_ref BatDllist.get
+)
+"src/recursions.ml" 13 384 434 "src/recursions.ml" 13 384 448
+type(
+  (float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref BatDllist.next
+)
+"src/recursions.ml" 13 384 449 "src/recursions.ml" 13 384 451
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 8 109 150 "src/recursions.ml" 8 109 152
+)
+"src/recursions.ml" 13 384 433 "src/recursions.ml" 13 384 452
+call(
+  stack
+)
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/recursions.ml" 13 384 419 "src/recursions.ml" 13 384 452
+call(
+  stack
+)
+type(
+  float option ref * float option ref
+)
+"src/recursions.ml" 14 456 463 "src/recursions.ml" 14 456 464
+type(
+  float
+)
+ident(
+  def a "src/recursions.ml" 15 498 501 "src/recursions.ml" 33 1313 1320
+)
+"src/recursions.ml" 14 456 467 "src/recursions.ml" 14 456 480
+type(
+  float option -> float
+)
+ident(
+  ext_ref BatOption.get
+)
+"src/recursions.ml" 14 456 482 "src/recursions.ml" 14 456 483
+type(
+  float option ref -> float option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/recursions.ml" 14 456 483 "src/recursions.ml" 14 456 493
+type(
+  float option ref
+)
+ident(
+  int_ref ref_some_a "src/recursions.ml" 12 329 337 "src/recursions.ml" 12 329 347
+)
+"src/recursions.ml" 14 456 481 "src/recursions.ml" 14 456 494
+type(
+  float option
+)
+"src/recursions.ml" 14 456 467 "src/recursions.ml" 14 456 494
+call(
+  stack
+)
+type(
+  float
+)
+"src/recursions.ml" 15 498 505 "src/recursions.ml" 15 498 506
+type(
+  float
+)
+ident(
+  def b "src/recursions.ml" 16 540 543 "src/recursions.ml" 33 1313 1320
+)
+"src/recursions.ml" 15 498 509 "src/recursions.ml" 15 498 522
+type(
+  float option -> float
+)
+ident(
+  ext_ref BatOption.get
+)
+"src/recursions.ml" 15 498 524 "src/recursions.ml" 15 498 525
+type(
+  float option ref -> float option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/recursions.ml" 15 498 525 "src/recursions.ml" 15 498 535
+type(
+  float option ref
+)
+ident(
+  int_ref ref_some_b "src/recursions.ml" 13 384 392 "src/recursions.ml" 13 384 402
+)
+"src/recursions.ml" 15 498 523 "src/recursions.ml" 15 498 536
+type(
+  float option
+)
+"src/recursions.ml" 15 498 509 "src/recursions.ml" 15 498 536
+call(
+  stack
+)
+type(
+  float
+)
+"src/recursions.ml" 16 540 547 "src/recursions.ml" 16 540 549
+type(
+  float
+)
+ident(
+  def fa "src/recursions.ml" 17 584 587 "src/recursions.ml" 33 1313 1320
+)
+"src/recursions.ml" 16 540 552 "src/recursions.ml" 16 540 565
+type(
+  float option -> float
+)
+ident(
+  ext_ref BatOption.get
+)
+"src/recursions.ml" 16 540 567 "src/recursions.ml" 16 540 568
+type(
+  float option ref -> float option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/recursions.ml" 16 540 568 "src/recursions.ml" 16 540 579
+type(
+  float option ref
+)
+ident(
+  int_ref ref_some_fa "src/recursions.ml" 12 329 349 "src/recursions.ml" 12 329 360
+)
+"src/recursions.ml" 16 540 566 "src/recursions.ml" 16 540 580
+type(
+  float option
+)
+"src/recursions.ml" 16 540 552 "src/recursions.ml" 16 540 580
+call(
+  stack
+)
+type(
+  float
+)
+"src/recursions.ml" 17 584 591 "src/recursions.ml" 17 584 593
+type(
+  float
+)
+ident(
+  def fb "src/recursions.ml" 18 628 631 "src/recursions.ml" 33 1313 1320
+)
+"src/recursions.ml" 17 584 596 "src/recursions.ml" 17 584 609
+type(
+  float option -> float
+)
+ident(
+  ext_ref BatOption.get
+)
+"src/recursions.ml" 17 584 611 "src/recursions.ml" 17 584 612
+type(
+  float option ref -> float option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/recursions.ml" 17 584 612 "src/recursions.ml" 17 584 623
+type(
+  float option ref
+)
+ident(
+  int_ref ref_some_fb "src/recursions.ml" 13 384 404 "src/recursions.ml" 13 384 415
+)
+"src/recursions.ml" 17 584 610 "src/recursions.ml" 17 584 624
+type(
+  float option
+)
+"src/recursions.ml" 17 584 596 "src/recursions.ml" 17 584 624
+call(
+  stack
+)
+type(
+  float
+)
+"src/recursions.ml" 18 628 635 "src/recursions.ml" 18 628 636
+type(
+  float
+)
+ident(
+  def m "src/recursions.ml" 19 679 682 "src/recursions.ml" 33 1313 1320
+)
+"src/recursions.ml" 18 628 639 "src/recursions.ml" 18 628 671
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Choice.perturbed_midpoint_choice
+)
+"src/recursions.ml" 18 628 672 "src/recursions.ml" 18 628 673
+type(
+  float
+)
+ident(
+  int_ref a "src/recursions.ml" 14 456 463 "src/recursions.ml" 14 456 464
+)
+"src/recursions.ml" 18 628 674 "src/recursions.ml" 18 628 675
+type(
+  float
+)
+ident(
+  int_ref b "src/recursions.ml" 15 498 505 "src/recursions.ml" 15 498 506
+)
+"src/recursions.ml" 18 628 639 "src/recursions.ml" 18 628 675
+call(
+  stack
+)
+type(
+  float
+)
+"src/recursions.ml" 19 679 686 "src/recursions.ml" 19 679 688
+type(
+  float
+)
+ident(
+  def fm "src/recursions.ml" 20 698 701 "src/recursions.ml" 33 1313 1320
+)
+"src/recursions.ml" 19 679 691 "src/recursions.ml" 19 679 692
+type(
+  float -> float
+)
+ident(
+  int_ref f "src/recursions.ml" 8 109 140 "src/recursions.ml" 8 109 141
+)
+"src/recursions.ml" 19 679 693 "src/recursions.ml" 19 679 694
+type(
+  float
+)
+ident(
+  int_ref m "src/recursions.ml" 18 628 635 "src/recursions.ml" 18 628 636
+)
+"src/recursions.ml" 19 679 691 "src/recursions.ml" 19 679 694
+call(
+  stack
+)
+type(
+  float
+)
+"src/recursions.ml" 20 698 705 "src/recursions.ml" 20 698 710
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  def p_f_a "src/recursions.ml" 21 758 761 "src/recursions.ml" 33 1313 1320
+)
+"src/recursions.ml" 20 698 713 "src/recursions.ml" 20 698 743
+type(
+  x:float -> y:float -> Geometry_tools.point_2D
+)
+ident(
+  ext_ref Geometry_tools.create_point_2D
+)
+"src/recursions.ml" 20 698 747 "src/recursions.ml" 20 698 748
+type(
+  float
+)
+ident(
+  int_ref a "src/recursions.ml" 14 456 463 "src/recursions.ml" 14 456 464
+)
+"src/recursions.ml" 20 698 752 "src/recursions.ml" 20 698 754
+type(
+  float
+)
+ident(
+  int_ref fa "src/recursions.ml" 16 540 547 "src/recursions.ml" 16 540 549
+)
+"src/recursions.ml" 20 698 713 "src/recursions.ml" 20 698 754
+call(
+  stack
+)
+type(
+  Geometry_tools.point_2D
+)
+"src/recursions.ml" 21 758 765 "src/recursions.ml" 21 758 770
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  def p_f_b "src/recursions.ml" 22 818 821 "src/recursions.ml" 33 1313 1320
+)
+"src/recursions.ml" 21 758 773 "src/recursions.ml" 21 758 803
+type(
+  x:float -> y:float -> Geometry_tools.point_2D
+)
+ident(
+  ext_ref Geometry_tools.create_point_2D
+)
+"src/recursions.ml" 21 758 807 "src/recursions.ml" 21 758 808
+type(
+  float
+)
+ident(
+  int_ref b "src/recursions.ml" 15 498 505 "src/recursions.ml" 15 498 506
+)
+"src/recursions.ml" 21 758 812 "src/recursions.ml" 21 758 814
+type(
+  float
+)
+ident(
+  int_ref fb "src/recursions.ml" 17 584 591 "src/recursions.ml" 17 584 593
+)
+"src/recursions.ml" 21 758 773 "src/recursions.ml" 21 758 814
+call(
+  stack
+)
+type(
+  Geometry_tools.point_2D
+)
+"src/recursions.ml" 22 818 825 "src/recursions.ml" 22 818 830
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  def p_f_m "src/recursions.ml" 23 878 881 "src/recursions.ml" 33 1313 1320
+)
+"src/recursions.ml" 22 818 833 "src/recursions.ml" 22 818 863
+type(
+  x:float -> y:float -> Geometry_tools.point_2D
+)
+ident(
+  ext_ref Geometry_tools.create_point_2D
+)
+"src/recursions.ml" 22 818 867 "src/recursions.ml" 22 818 868
+type(
+  float
+)
+ident(
+  int_ref m "src/recursions.ml" 18 628 635 "src/recursions.ml" 18 628 636
+)
+"src/recursions.ml" 22 818 872 "src/recursions.ml" 22 818 874
+type(
+  float
+)
+ident(
+  int_ref fm "src/recursions.ml" 19 679 686 "src/recursions.ml" 19 679 688
+)
+"src/recursions.ml" 22 818 833 "src/recursions.ml" 22 818 874
+call(
+  stack
+)
+type(
+  Geometry_tools.point_2D
+)
+"src/recursions.ml" 23 878 884 "src/recursions.ml" 23 878 887
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/recursions.ml" 23 878 889 "src/recursions.ml" 23 878 890
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> 'a -> 'b -> bool
+)
+ident(
+  int_ref t "src/recursions.ml" 8 109 167 "src/recursions.ml" 8 109 168
+)
+"src/recursions.ml" 23 878 891 "src/recursions.ml" 23 878 896
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_a "src/recursions.ml" 20 698 705 "src/recursions.ml" 20 698 710
+)
+"src/recursions.ml" 23 878 897 "src/recursions.ml" 23 878 902
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_b "src/recursions.ml" 21 758 765 "src/recursions.ml" 21 758 770
+)
+"src/recursions.ml" 23 878 903 "src/recursions.ml" 23 878 908
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_m "src/recursions.ml" 22 818 825 "src/recursions.ml" 22 818 830
+)
+"src/recursions.ml" 23 878 909 "src/recursions.ml" 23 878 910
+type(
+  'a
+)
+ident(
+  int_ref e "src/recursions.ml" 8 109 159 "src/recursions.ml" 8 109 160
+)
+"src/recursions.ml" 23 878 911 "src/recursions.ml" 23 878 912
+type(
+  'b
+)
+ident(
+  int_ref d "src/recursions.ml" 8 109 175 "src/recursions.ml" 8 109 176
+)
+"src/recursions.ml" 23 878 888 "src/recursions.ml" 23 878 913
+call(
+  stack
+)
+type(
+  bool
+)
+"src/recursions.ml" 23 878 884 "src/recursions.ml" 23 878 913
+type(
+  bool
+)
+"src/recursions.ml" 24 925 933 "src/recursions.ml" 24 925 939
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  def m_node "src/recursions.ml" 25 992 997 "src/recursions.ml" 28 1109 1174
+)
+"src/recursions.ml" 24 925 942 "src/recursions.ml" 24 925 958
+type(
+  float option ref * float option ref ->
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref BatDllist.create
+)
+"src/recursions.ml" 24 925 960 "src/recursions.ml" 24 925 963
+type(
+  float option -> float option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/recursions.ml" 24 925 970 "src/recursions.ml" 24 925 971
+type(
+  float
+)
+ident(
+  int_ref m "src/recursions.ml" 18 628 635 "src/recursions.ml" 18 628 636
+)
+"src/recursions.ml" 24 925 964 "src/recursions.ml" 24 925 972
+type(
+  float option
+)
+"src/recursions.ml" 24 925 960 "src/recursions.ml" 24 925 972
+type(
+  float option ref
+)
+"src/recursions.ml" 24 925 974 "src/recursions.ml" 24 925 977
+type(
+  float option -> float option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/recursions.ml" 24 925 984 "src/recursions.ml" 24 925 986
+type(
+  float
+)
+ident(
+  int_ref fm "src/recursions.ml" 19 679 686 "src/recursions.ml" 19 679 688
+)
+"src/recursions.ml" 24 925 978 "src/recursions.ml" 24 925 987
+type(
+  float option
+)
+"src/recursions.ml" 24 925 974 "src/recursions.ml" 24 925 987
+type(
+  float option ref
+)
+"src/recursions.ml" 24 925 959 "src/recursions.ml" 24 925 988
+type(
+  float option ref * float option ref
+)
+"src/recursions.ml" 24 925 942 "src/recursions.ml" 24 925 988
+call(
+  stack
+)
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/recursions.ml" 25 992 1001 "src/recursions.ml" 25 992 1011
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  def inter_node "src/recursions.ml" 26 1035 1040 "src/recursions.ml" 28 1109 1174
+)
+"src/recursions.ml" 25 992 1014 "src/recursions.ml" 25 992 1028
+type(
+  (float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref BatDllist.next
+)
+"src/recursions.ml" 25 992 1029 "src/recursions.ml" 25 992 1031
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 8 109 150 "src/recursions.ml" 8 109 152
+)
+"src/recursions.ml" 25 992 1014 "src/recursions.ml" 25 992 1031
+call(
+  stack
+)
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/recursions.ml" 26 1035 1040 "src/recursions.ml" 26 1035 1056
+type(
+  (float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref) BatDllist.node_t -> unit
+)
+ident(
+  ext_ref BatDllist.splice
+)
+"src/recursions.ml" 26 1035 1057 "src/recursions.ml" 26 1035 1059
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 8 109 150 "src/recursions.ml" 8 109 152
+)
+"src/recursions.ml" 26 1035 1060 "src/recursions.ml" 26 1035 1066
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref m_node "src/recursions.ml" 24 925 933 "src/recursions.ml" 24 925 939
+)
+"src/recursions.ml" 26 1035 1040 "src/recursions.ml" 26 1035 1066
+call(
+  stack
+)
+type(
+  unit
+)
+"src/recursions.ml" 27 1068 1073 "src/recursions.ml" 27 1068 1089
+type(
+  (float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref) BatDllist.node_t -> unit
+)
+ident(
+  ext_ref BatDllist.splice
+)
+"src/recursions.ml" 27 1068 1090 "src/recursions.ml" 27 1068 1096
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref m_node "src/recursions.ml" 24 925 933 "src/recursions.ml" 24 925 939
+)
+"src/recursions.ml" 27 1068 1097 "src/recursions.ml" 27 1068 1107
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref inter_node "src/recursions.ml" 25 992 1001 "src/recursions.ml" 25 992 1011
+)
+"src/recursions.ml" 27 1068 1073 "src/recursions.ml" 27 1068 1107
+call(
+  stack
+)
+type(
+  unit
+)
+"src/recursions.ml" 28 1109 1114 "src/recursions.ml" 28 1109 1126
+type(
+  fonction:(float -> float) ->
+  lDlist:(float option ref * float option ref) BatDllist.node_t ->
+  epsi:'a ->
+  test:(Geometry_tools.point_2D ->
+        Geometry_tools.point_2D ->
+        Geometry_tools.point_2D -> 'a -> 'b -> bool) ->
+  dist:'b -> unit
+)
+ident(
+  int_ref recursion_2D "src/recursions.ml" 8 109 117 "src/recursions.ml" 8 109 129
+)
+"src/recursions.ml" 28 1109 1137 "src/recursions.ml" 28 1109 1138
+type(
+  float -> float
+)
+ident(
+  int_ref f "src/recursions.ml" 8 109 140 "src/recursions.ml" 8 109 141
+)
+"src/recursions.ml" 28 1109 1147 "src/recursions.ml" 28 1109 1149
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 8 109 150 "src/recursions.ml" 8 109 152
+)
+"src/recursions.ml" 28 1109 1156 "src/recursions.ml" 28 1109 1157
+type(
+  'a
+)
+ident(
+  int_ref e "src/recursions.ml" 8 109 159 "src/recursions.ml" 8 109 160
+)
+"src/recursions.ml" 28 1109 1164 "src/recursions.ml" 28 1109 1165
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> 'a -> 'b -> bool
+)
+ident(
+  int_ref t "src/recursions.ml" 8 109 167 "src/recursions.ml" 8 109 168
+)
+"src/recursions.ml" 28 1109 1172 "src/recursions.ml" 28 1109 1173
+type(
+  'b
+)
+ident(
+  int_ref d "src/recursions.ml" 8 109 175 "src/recursions.ml" 8 109 176
+)
+"src/recursions.ml" 28 1109 1114 "src/recursions.ml" 28 1109 1174
+call(
+  tail
+)
+type(
+  unit
+)
+"src/recursions.ml" 27 1068 1073 "src/recursions.ml" 28 1109 1174
+type(
+  unit
+)
+"src/recursions.ml" 26 1035 1040 "src/recursions.ml" 28 1109 1174
+type(
+  unit
+)
+"src/recursions.ml" 25 992 997 "src/recursions.ml" 28 1109 1174
+type(
+  unit
+)
+"src/recursions.ml" 23 878 919 "src/recursions.ml" 29 1175 1181
+type(
+  unit
+)
+"src/recursions.ml" 31 1196 1205 "src/recursions.ml" 31 1196 1215
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  def inter_node "src/recursions.ml" 32 1239 1244 "src/recursions.ml" 32 1239 1312
+)
+"src/recursions.ml" 31 1196 1218 "src/recursions.ml" 31 1196 1232
+type(
+  (float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref BatDllist.next
+)
+"src/recursions.ml" 31 1196 1233 "src/recursions.ml" 31 1196 1235
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 8 109 150 "src/recursions.ml" 8 109 152
+)
+"src/recursions.ml" 31 1196 1218 "src/recursions.ml" 31 1196 1235
+call(
+  stack
+)
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/recursions.ml" 32 1239 1244 "src/recursions.ml" 32 1239 1256
+type(
+  fonction:(float -> float) ->
+  lDlist:(float option ref * float option ref) BatDllist.node_t ->
+  epsi:'a ->
+  test:(Geometry_tools.point_2D ->
+        Geometry_tools.point_2D ->
+        Geometry_tools.point_2D -> 'a -> 'b -> bool) ->
+  dist:'b -> unit
+)
+ident(
+  int_ref recursion_2D "src/recursions.ml" 8 109 117 "src/recursions.ml" 8 109 129
+)
+"src/recursions.ml" 32 1239 1267 "src/recursions.ml" 32 1239 1268
+type(
+  float -> float
+)
+ident(
+  int_ref f "src/recursions.ml" 8 109 140 "src/recursions.ml" 8 109 141
+)
+"src/recursions.ml" 32 1239 1277 "src/recursions.ml" 32 1239 1287
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref inter_node "src/recursions.ml" 31 1196 1205 "src/recursions.ml" 31 1196 1215
+)
+"src/recursions.ml" 32 1239 1294 "src/recursions.ml" 32 1239 1295
+type(
+  'a
+)
+ident(
+  int_ref e "src/recursions.ml" 8 109 159 "src/recursions.ml" 8 109 160
+)
+"src/recursions.ml" 32 1239 1302 "src/recursions.ml" 32 1239 1303
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> 'a -> 'b -> bool
+)
+ident(
+  int_ref t "src/recursions.ml" 8 109 167 "src/recursions.ml" 8 109 168
+)
+"src/recursions.ml" 32 1239 1310 "src/recursions.ml" 32 1239 1311
+type(
+  'b
+)
+ident(
+  int_ref d "src/recursions.ml" 8 109 175 "src/recursions.ml" 8 109 176
+)
+"src/recursions.ml" 32 1239 1244 "src/recursions.ml" 32 1239 1312
+call(
+  tail
+)
+type(
+  unit
+)
+"src/recursions.ml" 30 1182 1190 "src/recursions.ml" 33 1313 1320
+type(
+  unit
+)
+"src/recursions.ml" 23 878 881 "src/recursions.ml" 33 1313 1320
+type(
+  unit
+)
+"src/recursions.ml" 22 818 821 "src/recursions.ml" 33 1313 1320
+type(
+  unit
+)
+"src/recursions.ml" 21 758 761 "src/recursions.ml" 33 1313 1320
+type(
+  unit
+)
+"src/recursions.ml" 20 698 701 "src/recursions.ml" 33 1313 1320
+type(
+  unit
+)
+"src/recursions.ml" 19 679 682 "src/recursions.ml" 33 1313 1320
+type(
+  unit
+)
+"src/recursions.ml" 18 628 631 "src/recursions.ml" 33 1313 1320
+type(
+  unit
+)
+"src/recursions.ml" 17 584 587 "src/recursions.ml" 33 1313 1320
+type(
+  unit
+)
+"src/recursions.ml" 16 540 543 "src/recursions.ml" 33 1313 1320
+type(
+  unit
+)
+"src/recursions.ml" 15 498 501 "src/recursions.ml" 33 1313 1320
+type(
+  unit
+)
+"src/recursions.ml" 14 456 459 "src/recursions.ml" 33 1313 1320
+type(
+  unit
+)
+"src/recursions.ml" 13 384 387 "src/recursions.ml" 33 1313 1320
+type(
+  unit
+)
+"src/recursions.ml" 12 329 332 "src/recursions.ml" 33 1313 1320
+type(
+  unit
+)
+"src/recursions.ml" 11 273 276 "src/recursions.ml" 33 1313 1320
+type(
+  unit
+)
+"src/recursions.ml" 9 179 228 "src/recursions.ml" 34 1321 1327
+type(
+  unit
+)
+"src/recursions.ml" 9 179 181 "src/recursions.ml" 34 1321 1327
+type(
+  unit
+)
+"src/recursions.ml" 36 1329 1337 "src/recursions.ml" 36 1329 1349
+type(
+  fonction:(float -> float * float) ->
+  lDlist:(float option ref * float option ref * float option ref)
+         BatDllist.node_t ->
+  epsi:'a ->
+  test:(Geometry_tools.point_3D ->
+        Geometry_tools.point_3D ->
+        Geometry_tools.point_3D -> 'a -> 'b -> bool) ->
+  dist:'b -> unit
+)
+ident(
+  def recursion_3D "src/recursions.ml" 36 1329 1329 "src/recursions.ml" 1 0 -1
+)
+"src/recursions.ml" 36 1329 1360 "src/recursions.ml" 36 1329 1361
+type(
+  float -> float * float
+)
+ident(
+  def f "src/recursions.ml" 36 1329 1362 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 36 1329 1370 "src/recursions.ml" 36 1329 1372
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  def dl "src/recursions.ml" 36 1329 1373 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 36 1329 1379 "src/recursions.ml" 36 1329 1380
+type(
+  'a
+)
+ident(
+  def e "src/recursions.ml" 36 1329 1381 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 36 1329 1387 "src/recursions.ml" 36 1329 1388
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> 'a -> 'b -> bool
+)
+ident(
+  def t "src/recursions.ml" 36 1329 1389 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 36 1329 1395 "src/recursions.ml" 36 1329 1396
+type(
+  'b
+)
+ident(
+  def d "src/recursions.ml" 37 1399 1402 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 37 1399 1402 "src/recursions.ml" 37 1399 1431
+type(
+  fonction:(float -> float * float) ->
+  node:(float option ref * float option ref * float option ref)
+       BatDllist.node_t ->
+  unit
+)
+ident(
+  ext_ref LDlist_manipulation.update_3D
+)
+"src/recursions.ml" 37 1399 1432 "src/recursions.ml" 37 1399 1433
+type(
+  float -> float * float
+)
+ident(
+  int_ref f "src/recursions.ml" 36 1329 1360 "src/recursions.ml" 36 1329 1361
+)
+"src/recursions.ml" 37 1399 1434 "src/recursions.ml" 37 1399 1436
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 36 1329 1370 "src/recursions.ml" 36 1329 1372
+)
+"src/recursions.ml" 37 1399 1402 "src/recursions.ml" 37 1399 1436
+call(
+  stack
+)
+type(
+  unit
+)
+"src/recursions.ml" 38 1438 1441 "src/recursions.ml" 38 1438 1470
+type(
+  fonction:(float -> float * float) ->
+  node:(float option ref * float option ref * float option ref)
+       BatDllist.node_t ->
+  unit
+)
+ident(
+  ext_ref LDlist_manipulation.update_3D
+)
+"src/recursions.ml" 38 1438 1471 "src/recursions.ml" 38 1438 1472
+type(
+  float -> float * float
+)
+ident(
+  int_ref f "src/recursions.ml" 36 1329 1360 "src/recursions.ml" 36 1329 1361
+)
+"src/recursions.ml" 38 1438 1474 "src/recursions.ml" 38 1438 1488
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref BatDllist.next
+)
+"src/recursions.ml" 38 1438 1489 "src/recursions.ml" 38 1438 1491
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 36 1329 1370 "src/recursions.ml" 36 1329 1372
+)
+"src/recursions.ml" 38 1438 1473 "src/recursions.ml" 38 1438 1492
+call(
+  stack
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/recursions.ml" 38 1438 1441 "src/recursions.ml" 38 1438 1492
+call(
+  stack
+)
+type(
+  unit
+)
+"src/recursions.ml" 39 1494 1502 "src/recursions.ml" 39 1494 1512
+type(
+  float option ref
+)
+ident(
+  def ref_some_a "src/recursions.ml" 40 1564 1567 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 39 1494 1514 "src/recursions.ml" 39 1494 1526
+type(
+  float option ref
+)
+ident(
+  def ref_some_f1a "src/recursions.ml" 40 1564 1567 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 39 1494 1528 "src/recursions.ml" 39 1494 1540
+type(
+  float option ref
+)
+ident(
+  def ref_some_f2a "src/recursions.ml" 40 1564 1567 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 39 1494 1501 "src/recursions.ml" 39 1494 1541
+type(
+  float option ref * float option ref * float option ref
+)
+"src/recursions.ml" 39 1494 1544 "src/recursions.ml" 39 1494 1557
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  float option ref * float option ref * float option ref
+)
+ident(
+  ext_ref BatDllist.get
+)
+"src/recursions.ml" 39 1494 1558 "src/recursions.ml" 39 1494 1560
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 36 1329 1370 "src/recursions.ml" 36 1329 1372
+)
+"src/recursions.ml" 39 1494 1544 "src/recursions.ml" 39 1494 1560
+call(
+  stack
+)
+type(
+  float option ref * float option ref * float option ref
+)
+"src/recursions.ml" 40 1564 1572 "src/recursions.ml" 40 1564 1582
+type(
+  float option ref
+)
+ident(
+  def ref_some_b "src/recursions.ml" 42 1701 1704 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 40 1564 1584 "src/recursions.ml" 40 1564 1596
+type(
+  float option ref
+)
+ident(
+  def ref_some_f1b "src/recursions.ml" 42 1701 1704 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 40 1564 1598 "src/recursions.ml" 40 1564 1610
+type(
+  float option ref
+)
+ident(
+  def ref_some_f2b "src/recursions.ml" 42 1701 1704 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 40 1564 1571 "src/recursions.ml" 40 1564 1611
+type(
+  float option ref * float option ref * float option ref
+)
+"src/recursions.ml" 40 1564 1614 "src/recursions.ml" 40 1564 1627
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  float option ref * float option ref * float option ref
+)
+ident(
+  ext_ref BatDllist.get
+)
+"src/recursions.ml" 41 1628 1679 "src/recursions.ml" 41 1628 1693
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref BatDllist.next
+)
+"src/recursions.ml" 41 1628 1694 "src/recursions.ml" 41 1628 1696
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 36 1329 1370 "src/recursions.ml" 36 1329 1372
+)
+"src/recursions.ml" 41 1628 1678 "src/recursions.ml" 41 1628 1697
+call(
+  stack
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/recursions.ml" 40 1564 1614 "src/recursions.ml" 41 1628 1697
+call(
+  stack
+)
+type(
+  float option ref * float option ref * float option ref
+)
+"src/recursions.ml" 42 1701 1708 "src/recursions.ml" 42 1701 1709
+type(
+  float
+)
+ident(
+  def a "src/recursions.ml" 43 1743 1746 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 42 1701 1712 "src/recursions.ml" 42 1701 1725
+type(
+  float option -> float
+)
+ident(
+  ext_ref BatOption.get
+)
+"src/recursions.ml" 42 1701 1727 "src/recursions.ml" 42 1701 1728
+type(
+  float option ref -> float option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/recursions.ml" 42 1701 1728 "src/recursions.ml" 42 1701 1738
+type(
+  float option ref
+)
+ident(
+  int_ref ref_some_a "src/recursions.ml" 39 1494 1502 "src/recursions.ml" 39 1494 1512
+)
+"src/recursions.ml" 42 1701 1726 "src/recursions.ml" 42 1701 1739
+type(
+  float option
+)
+"src/recursions.ml" 42 1701 1712 "src/recursions.ml" 42 1701 1739
+call(
+  stack
+)
+type(
+  float
+)
+"src/recursions.ml" 43 1743 1750 "src/recursions.ml" 43 1743 1751
+type(
+  float
+)
+ident(
+  def b "src/recursions.ml" 44 1785 1788 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 43 1743 1754 "src/recursions.ml" 43 1743 1767
+type(
+  float option -> float
+)
+ident(
+  ext_ref BatOption.get
+)
+"src/recursions.ml" 43 1743 1769 "src/recursions.ml" 43 1743 1770
+type(
+  float option ref -> float option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/recursions.ml" 43 1743 1770 "src/recursions.ml" 43 1743 1780
+type(
+  float option ref
+)
+ident(
+  int_ref ref_some_b "src/recursions.ml" 40 1564 1572 "src/recursions.ml" 40 1564 1582
+)
+"src/recursions.ml" 43 1743 1768 "src/recursions.ml" 43 1743 1781
+type(
+  float option
+)
+"src/recursions.ml" 43 1743 1754 "src/recursions.ml" 43 1743 1781
+call(
+  stack
+)
+type(
+  float
+)
+"src/recursions.ml" 44 1785 1792 "src/recursions.ml" 44 1785 1795
+type(
+  float
+)
+ident(
+  def f1a "src/recursions.ml" 45 1831 1834 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 44 1785 1798 "src/recursions.ml" 44 1785 1811
+type(
+  float option -> float
+)
+ident(
+  ext_ref BatOption.get
+)
+"src/recursions.ml" 44 1785 1813 "src/recursions.ml" 44 1785 1814
+type(
+  float option ref -> float option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/recursions.ml" 44 1785 1814 "src/recursions.ml" 44 1785 1826
+type(
+  float option ref
+)
+ident(
+  int_ref ref_some_f1a "src/recursions.ml" 39 1494 1514 "src/recursions.ml" 39 1494 1526
+)
+"src/recursions.ml" 44 1785 1812 "src/recursions.ml" 44 1785 1827
+type(
+  float option
+)
+"src/recursions.ml" 44 1785 1798 "src/recursions.ml" 44 1785 1827
+call(
+  stack
+)
+type(
+  float
+)
+"src/recursions.ml" 45 1831 1838 "src/recursions.ml" 45 1831 1841
+type(
+  float
+)
+ident(
+  def f2a "src/recursions.ml" 46 1877 1880 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 45 1831 1844 "src/recursions.ml" 45 1831 1857
+type(
+  float option -> float
+)
+ident(
+  ext_ref BatOption.get
+)
+"src/recursions.ml" 45 1831 1859 "src/recursions.ml" 45 1831 1860
+type(
+  float option ref -> float option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/recursions.ml" 45 1831 1860 "src/recursions.ml" 45 1831 1872
+type(
+  float option ref
+)
+ident(
+  int_ref ref_some_f2a "src/recursions.ml" 39 1494 1528 "src/recursions.ml" 39 1494 1540
+)
+"src/recursions.ml" 45 1831 1858 "src/recursions.ml" 45 1831 1873
+type(
+  float option
+)
+"src/recursions.ml" 45 1831 1844 "src/recursions.ml" 45 1831 1873
+call(
+  stack
+)
+type(
+  float
+)
+"src/recursions.ml" 46 1877 1884 "src/recursions.ml" 46 1877 1887
+type(
+  float
+)
+ident(
+  def f1b "src/recursions.ml" 47 1923 1926 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 46 1877 1890 "src/recursions.ml" 46 1877 1903
+type(
+  float option -> float
+)
+ident(
+  ext_ref BatOption.get
+)
+"src/recursions.ml" 46 1877 1905 "src/recursions.ml" 46 1877 1906
+type(
+  float option ref -> float option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/recursions.ml" 46 1877 1906 "src/recursions.ml" 46 1877 1918
+type(
+  float option ref
+)
+ident(
+  int_ref ref_some_f1b "src/recursions.ml" 40 1564 1584 "src/recursions.ml" 40 1564 1596
+)
+"src/recursions.ml" 46 1877 1904 "src/recursions.ml" 46 1877 1919
+type(
+  float option
+)
+"src/recursions.ml" 46 1877 1890 "src/recursions.ml" 46 1877 1919
+call(
+  stack
+)
+type(
+  float
+)
+"src/recursions.ml" 47 1923 1930 "src/recursions.ml" 47 1923 1933
+type(
+  float
+)
+ident(
+  def f2b "src/recursions.ml" 48 1969 1972 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 47 1923 1936 "src/recursions.ml" 47 1923 1949
+type(
+  float option -> float
+)
+ident(
+  ext_ref BatOption.get
+)
+"src/recursions.ml" 47 1923 1951 "src/recursions.ml" 47 1923 1952
+type(
+  float option ref -> float option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/recursions.ml" 47 1923 1952 "src/recursions.ml" 47 1923 1964
+type(
+  float option ref
+)
+ident(
+  int_ref ref_some_f2b "src/recursions.ml" 40 1564 1598 "src/recursions.ml" 40 1564 1610
+)
+"src/recursions.ml" 47 1923 1950 "src/recursions.ml" 47 1923 1965
+type(
+  float option
+)
+"src/recursions.ml" 47 1923 1936 "src/recursions.ml" 47 1923 1965
+call(
+  stack
+)
+type(
+  float
+)
+"src/recursions.ml" 48 1969 1976 "src/recursions.ml" 48 1969 1977
+type(
+  float
+)
+ident(
+  def m "src/recursions.ml" 50 2116 2119 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 48 1969 1980 "src/recursions.ml" 48 1969 2012
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Choice.perturbed_midpoint_choice
+)
+"src/recursions.ml" 48 1969 2014 "src/recursions.ml" 48 1969 2027
+type(
+  float option -> float
+)
+ident(
+  ext_ref BatOption.get
+)
+"src/recursions.ml" 48 1969 2028 "src/recursions.ml" 48 1969 2029
+type(
+  float option ref -> float option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/recursions.ml" 48 1969 2029 "src/recursions.ml" 48 1969 2039
+type(
+  float option ref
+)
+ident(
+  int_ref ref_some_a "src/recursions.ml" 39 1494 1502 "src/recursions.ml" 39 1494 1512
+)
+"src/recursions.ml" 48 1969 2028 "src/recursions.ml" 48 1969 2039
+type(
+  float option
+)
+"src/recursions.ml" 48 1969 2013 "src/recursions.ml" 48 1969 2040
+call(
+  stack
+)
+type(
+  float
+)
+"src/recursions.ml" 49 2041 2086 "src/recursions.ml" 49 2041 2099
+type(
+  float option -> float
+)
+ident(
+  ext_ref BatOption.get
+)
+"src/recursions.ml" 49 2041 2100 "src/recursions.ml" 49 2041 2101
+type(
+  float option ref -> float option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/recursions.ml" 49 2041 2101 "src/recursions.ml" 49 2041 2111
+type(
+  float option ref
+)
+ident(
+  int_ref ref_some_b "src/recursions.ml" 40 1564 1572 "src/recursions.ml" 40 1564 1582
+)
+"src/recursions.ml" 49 2041 2100 "src/recursions.ml" 49 2041 2111
+type(
+  float option
+)
+"src/recursions.ml" 49 2041 2085 "src/recursions.ml" 49 2041 2112
+call(
+  stack
+)
+type(
+  float
+)
+"src/recursions.ml" 48 1969 1980 "src/recursions.ml" 49 2041 2112
+call(
+  stack
+)
+type(
+  float
+)
+"src/recursions.ml" 50 2116 2124 "src/recursions.ml" 50 2116 2127
+type(
+  float
+)
+ident(
+  def f1m "src/recursions.ml" 51 2142 2145 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 50 2116 2128 "src/recursions.ml" 50 2116 2131
+type(
+  float
+)
+ident(
+  def f2m "src/recursions.ml" 51 2142 2145 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 50 2116 2123 "src/recursions.ml" 50 2116 2132
+type(
+  float * float
+)
+"src/recursions.ml" 50 2116 2135 "src/recursions.ml" 50 2116 2136
+type(
+  float -> float * float
+)
+ident(
+  int_ref f "src/recursions.ml" 36 1329 1360 "src/recursions.ml" 36 1329 1361
+)
+"src/recursions.ml" 50 2116 2137 "src/recursions.ml" 50 2116 2138
+type(
+  float
+)
+ident(
+  int_ref m "src/recursions.ml" 48 1969 1976 "src/recursions.ml" 48 1969 1977
+)
+"src/recursions.ml" 50 2116 2135 "src/recursions.ml" 50 2116 2138
+call(
+  stack
+)
+type(
+  float * float
+)
+"src/recursions.ml" 51 2142 2149 "src/recursions.ml" 51 2142 2154
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  def p_f_a "src/recursions.ml" 52 2210 2213 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 51 2142 2157 "src/recursions.ml" 51 2142 2187
+type(
+  x:float -> y:float -> z:float -> Geometry_tools.point_3D
+)
+ident(
+  ext_ref Geometry_tools.create_point_3D
+)
+"src/recursions.ml" 51 2142 2191 "src/recursions.ml" 51 2142 2192
+type(
+  float
+)
+ident(
+  int_ref a "src/recursions.ml" 42 1701 1708 "src/recursions.ml" 42 1701 1709
+)
+"src/recursions.ml" 51 2142 2196 "src/recursions.ml" 51 2142 2199
+type(
+  float
+)
+ident(
+  int_ref f1a "src/recursions.ml" 44 1785 1792 "src/recursions.ml" 44 1785 1795
+)
+"src/recursions.ml" 51 2142 2203 "src/recursions.ml" 51 2142 2206
+type(
+  float
+)
+ident(
+  int_ref f2a "src/recursions.ml" 45 1831 1838 "src/recursions.ml" 45 1831 1841
+)
+"src/recursions.ml" 51 2142 2157 "src/recursions.ml" 51 2142 2206
+call(
+  stack
+)
+type(
+  Geometry_tools.point_3D
+)
+"src/recursions.ml" 52 2210 2217 "src/recursions.ml" 52 2210 2222
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  def p_f_b "src/recursions.ml" 53 2278 2281 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 52 2210 2225 "src/recursions.ml" 52 2210 2255
+type(
+  x:float -> y:float -> z:float -> Geometry_tools.point_3D
+)
+ident(
+  ext_ref Geometry_tools.create_point_3D
+)
+"src/recursions.ml" 52 2210 2259 "src/recursions.ml" 52 2210 2260
+type(
+  float
+)
+ident(
+  int_ref b "src/recursions.ml" 43 1743 1750 "src/recursions.ml" 43 1743 1751
+)
+"src/recursions.ml" 52 2210 2264 "src/recursions.ml" 52 2210 2267
+type(
+  float
+)
+ident(
+  int_ref f1b "src/recursions.ml" 46 1877 1884 "src/recursions.ml" 46 1877 1887
+)
+"src/recursions.ml" 52 2210 2271 "src/recursions.ml" 52 2210 2274
+type(
+  float
+)
+ident(
+  int_ref f2b "src/recursions.ml" 47 1923 1930 "src/recursions.ml" 47 1923 1933
+)
+"src/recursions.ml" 52 2210 2225 "src/recursions.ml" 52 2210 2274
+call(
+  stack
+)
+type(
+  Geometry_tools.point_3D
+)
+"src/recursions.ml" 53 2278 2285 "src/recursions.ml" 53 2278 2290
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  def p_f_m "src/recursions.ml" 54 2346 2349 "src/recursions.ml" 77 3424 3431
+)
+"src/recursions.ml" 53 2278 2293 "src/recursions.ml" 53 2278 2323
+type(
+  x:float -> y:float -> z:float -> Geometry_tools.point_3D
+)
+ident(
+  ext_ref Geometry_tools.create_point_3D
+)
+"src/recursions.ml" 53 2278 2327 "src/recursions.ml" 53 2278 2328
+type(
+  float
+)
+ident(
+  int_ref m "src/recursions.ml" 48 1969 1976 "src/recursions.ml" 48 1969 1977
+)
+"src/recursions.ml" 53 2278 2332 "src/recursions.ml" 53 2278 2335
+type(
+  float
+)
+ident(
+  int_ref f1m "src/recursions.ml" 50 2116 2124 "src/recursions.ml" 50 2116 2127
+)
+"src/recursions.ml" 53 2278 2339 "src/recursions.ml" 53 2278 2342
+type(
+  float
+)
+ident(
+  int_ref f2m "src/recursions.ml" 50 2116 2128 "src/recursions.ml" 50 2116 2131
+)
+"src/recursions.ml" 53 2278 2293 "src/recursions.ml" 53 2278 2342
+call(
+  stack
+)
+type(
+  Geometry_tools.point_3D
+)
+"src/recursions.ml" 54 2346 2352 "src/recursions.ml" 54 2346 2355
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/recursions.ml" 54 2346 2357 "src/recursions.ml" 54 2346 2358
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> 'a -> 'b -> bool
+)
+ident(
+  int_ref t "src/recursions.ml" 36 1329 1387 "src/recursions.ml" 36 1329 1388
+)
+"src/recursions.ml" 54 2346 2359 "src/recursions.ml" 54 2346 2364
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_a "src/recursions.ml" 51 2142 2149 "src/recursions.ml" 51 2142 2154
+)
+"src/recursions.ml" 54 2346 2365 "src/recursions.ml" 54 2346 2370
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_b "src/recursions.ml" 52 2210 2217 "src/recursions.ml" 52 2210 2222
+)
+"src/recursions.ml" 54 2346 2371 "src/recursions.ml" 54 2346 2376
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_m "src/recursions.ml" 53 2278 2285 "src/recursions.ml" 53 2278 2290
+)
+"src/recursions.ml" 54 2346 2377 "src/recursions.ml" 54 2346 2378
+type(
+  'a
+)
+ident(
+  int_ref e "src/recursions.ml" 36 1329 1379 "src/recursions.ml" 36 1329 1380
+)
+"src/recursions.ml" 54 2346 2379 "src/recursions.ml" 54 2346 2380
+type(
+  'b
+)
+ident(
+  int_ref d "src/recursions.ml" 36 1329 1395 "src/recursions.ml" 36 1329 1396
+)
+"src/recursions.ml" 54 2346 2356 "src/recursions.ml" 54 2346 2381
+call(
+  stack
+)
+type(
+  bool
+)
+"src/recursions.ml" 54 2346 2352 "src/recursions.ml" 54 2346 2381
+type(
+  bool
+)
+"src/recursions.ml" 54 2346 2382 "src/recursions.ml" 54 2346 2384
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/recursions.ml" 55 2385 2391 "src/recursions.ml" 55 2385 2394
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/recursions.ml" 55 2385 2395 "src/recursions.ml" 55 2385 2425
+type(
+  node:(float option ref * float option ref * float option ref)
+       BatDllist.node_t ->
+  bool
+)
+ident(
+  ext_ref LDlist_manipulation.is_last_3D
+)
+"src/recursions.ml" 55 2385 2433 "src/recursions.ml" 55 2385 2447
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref BatDllist.next
+)
+"src/recursions.ml" 55 2385 2448 "src/recursions.ml" 55 2385 2450
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 36 1329 1370 "src/recursions.ml" 36 1329 1372
+)
+"src/recursions.ml" 55 2385 2432 "src/recursions.ml" 55 2385 2451
+call(
+  stack
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/recursions.ml" 55 2385 2394 "src/recursions.ml" 55 2385 2452
+call(
+  stack
+)
+type(
+  bool
+)
+"src/recursions.ml" 55 2385 2391 "src/recursions.ml" 55 2385 2452
+type(
+  bool
+)
+"src/recursions.ml" 54 2346 2352 "src/recursions.ml" 55 2385 2452
+type(
+  bool
+)
+"src/recursions.ml" 56 2463 2472 "src/recursions.ml" 56 2463 2478
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  def m_node "src/recursions.ml" 58 2566 2571 "src/recursions.ml" 61 2683 2748
+)
+"src/recursions.ml" 56 2463 2481 "src/recursions.ml" 56 2463 2497
+type(
+  float option ref * float option ref * float option ref ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref BatDllist.create
+)
+"src/recursions.ml" 57 2498 2517 "src/recursions.ml" 57 2498 2520
+type(
+  float option -> float option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/recursions.ml" 57 2498 2527 "src/recursions.ml" 57 2498 2528
+type(
+  float
+)
+ident(
+  int_ref m "src/recursions.ml" 48 1969 1976 "src/recursions.ml" 48 1969 1977
+)
+"src/recursions.ml" 57 2498 2521 "src/recursions.ml" 57 2498 2529
+type(
+  float option
+)
+"src/recursions.ml" 57 2498 2517 "src/recursions.ml" 57 2498 2529
+type(
+  float option ref
+)
+"src/recursions.ml" 57 2498 2531 "src/recursions.ml" 57 2498 2534
+type(
+  float option -> float option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/recursions.ml" 57 2498 2541 "src/recursions.ml" 57 2498 2544
+type(
+  float
+)
+ident(
+  int_ref f1m "src/recursions.ml" 50 2116 2124 "src/recursions.ml" 50 2116 2127
+)
+"src/recursions.ml" 57 2498 2535 "src/recursions.ml" 57 2498 2545
+type(
+  float option
+)
+"src/recursions.ml" 57 2498 2531 "src/recursions.ml" 57 2498 2545
+type(
+  float option ref
+)
+"src/recursions.ml" 57 2498 2547 "src/recursions.ml" 57 2498 2550
+type(
+  float option -> float option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/recursions.ml" 57 2498 2557 "src/recursions.ml" 57 2498 2560
+type(
+  float
+)
+ident(
+  int_ref f2m "src/recursions.ml" 50 2116 2128 "src/recursions.ml" 50 2116 2131
+)
+"src/recursions.ml" 57 2498 2551 "src/recursions.ml" 57 2498 2561
+type(
+  float option
+)
+"src/recursions.ml" 57 2498 2547 "src/recursions.ml" 57 2498 2561
+type(
+  float option ref
+)
+"src/recursions.ml" 57 2498 2516 "src/recursions.ml" 57 2498 2562
+type(
+  float option ref * float option ref * float option ref
+)
+"src/recursions.ml" 56 2463 2481 "src/recursions.ml" 57 2498 2562
+call(
+  stack
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/recursions.ml" 58 2566 2575 "src/recursions.ml" 58 2566 2585
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  def inter_node "src/recursions.ml" 59 2609 2614 "src/recursions.ml" 61 2683 2748
+)
+"src/recursions.ml" 58 2566 2588 "src/recursions.ml" 58 2566 2602
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref BatDllist.next
+)
+"src/recursions.ml" 58 2566 2603 "src/recursions.ml" 58 2566 2605
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 36 1329 1370 "src/recursions.ml" 36 1329 1372
+)
+"src/recursions.ml" 58 2566 2588 "src/recursions.ml" 58 2566 2605
+call(
+  stack
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/recursions.ml" 59 2609 2614 "src/recursions.ml" 59 2609 2630
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  unit
+)
+ident(
+  ext_ref BatDllist.splice
+)
+"src/recursions.ml" 59 2609 2631 "src/recursions.ml" 59 2609 2633
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 36 1329 1370 "src/recursions.ml" 36 1329 1372
+)
+"src/recursions.ml" 59 2609 2634 "src/recursions.ml" 59 2609 2640
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref m_node "src/recursions.ml" 56 2463 2472 "src/recursions.ml" 56 2463 2478
+)
+"src/recursions.ml" 59 2609 2614 "src/recursions.ml" 59 2609 2640
+call(
+  stack
+)
+type(
+  unit
+)
+"src/recursions.ml" 60 2642 2647 "src/recursions.ml" 60 2642 2663
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  unit
+)
+ident(
+  ext_ref BatDllist.splice
+)
+"src/recursions.ml" 60 2642 2664 "src/recursions.ml" 60 2642 2670
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref m_node "src/recursions.ml" 56 2463 2472 "src/recursions.ml" 56 2463 2478
+)
+"src/recursions.ml" 60 2642 2671 "src/recursions.ml" 60 2642 2681
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref inter_node "src/recursions.ml" 58 2566 2575 "src/recursions.ml" 58 2566 2585
+)
+"src/recursions.ml" 60 2642 2647 "src/recursions.ml" 60 2642 2681
+call(
+  stack
+)
+type(
+  unit
+)
+"src/recursions.ml" 61 2683 2688 "src/recursions.ml" 61 2683 2700
+type(
+  fonction:(float -> float * float) ->
+  lDlist:(float option ref * float option ref * float option ref)
+         BatDllist.node_t ->
+  epsi:'a ->
+  test:(Geometry_tools.point_3D ->
+        Geometry_tools.point_3D ->
+        Geometry_tools.point_3D -> 'a -> 'b -> bool) ->
+  dist:'b -> unit
+)
+ident(
+  int_ref recursion_3D "src/recursions.ml" 36 1329 1337 "src/recursions.ml" 36 1329 1349
+)
+"src/recursions.ml" 61 2683 2711 "src/recursions.ml" 61 2683 2712
+type(
+  float -> float * float
+)
+ident(
+  int_ref f "src/recursions.ml" 36 1329 1360 "src/recursions.ml" 36 1329 1361
+)
+"src/recursions.ml" 61 2683 2721 "src/recursions.ml" 61 2683 2723
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 36 1329 1370 "src/recursions.ml" 36 1329 1372
+)
+"src/recursions.ml" 61 2683 2730 "src/recursions.ml" 61 2683 2731
+type(
+  'a
+)
+ident(
+  int_ref e "src/recursions.ml" 36 1329 1379 "src/recursions.ml" 36 1329 1380
+)
+"src/recursions.ml" 61 2683 2738 "src/recursions.ml" 61 2683 2739
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> 'a -> 'b -> bool
+)
+ident(
+  int_ref t "src/recursions.ml" 36 1329 1387 "src/recursions.ml" 36 1329 1388
+)
+"src/recursions.ml" 61 2683 2746 "src/recursions.ml" 61 2683 2747
+type(
+  'b
+)
+ident(
+  int_ref d "src/recursions.ml" 36 1329 1395 "src/recursions.ml" 36 1329 1396
+)
+"src/recursions.ml" 61 2683 2688 "src/recursions.ml" 61 2683 2748
+call(
+  tail
+)
+type(
+  unit
+)
+"src/recursions.ml" 60 2642 2647 "src/recursions.ml" 61 2683 2748
+type(
+  unit
+)
+"src/recursions.ml" 59 2609 2614 "src/recursions.ml" 61 2683 2748
+type(
+  unit
+)
+"src/recursions.ml" 58 2566 2571 "src/recursions.ml" 61 2683 2748
+type(
+  unit
+)
+"src/recursions.ml" 55 2385 2457 "src/recursions.ml" 62 2749 2755
+type(
+  unit
+)
+"src/recursions.ml" 63 2756 2767 "src/recursions.ml" 63 2756 2770
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/recursions.ml" 63 2756 2772 "src/recursions.ml" 63 2756 2773
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> 'a -> 'b -> bool
+)
+ident(
+  int_ref t "src/recursions.ml" 36 1329 1387 "src/recursions.ml" 36 1329 1388
+)
+"src/recursions.ml" 63 2756 2774 "src/recursions.ml" 63 2756 2779
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_a "src/recursions.ml" 51 2142 2149 "src/recursions.ml" 51 2142 2154
+)
+"src/recursions.ml" 63 2756 2780 "src/recursions.ml" 63 2756 2785
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_b "src/recursions.ml" 52 2210 2217 "src/recursions.ml" 52 2210 2222
+)
+"src/recursions.ml" 63 2756 2786 "src/recursions.ml" 63 2756 2791
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_m "src/recursions.ml" 53 2278 2285 "src/recursions.ml" 53 2278 2290
+)
+"src/recursions.ml" 63 2756 2792 "src/recursions.ml" 63 2756 2793
+type(
+  'a
+)
+ident(
+  int_ref e "src/recursions.ml" 36 1329 1379 "src/recursions.ml" 36 1329 1380
+)
+"src/recursions.ml" 63 2756 2794 "src/recursions.ml" 63 2756 2795
+type(
+  'b
+)
+ident(
+  int_ref d "src/recursions.ml" 36 1329 1395 "src/recursions.ml" 36 1329 1396
+)
+"src/recursions.ml" 63 2756 2771 "src/recursions.ml" 63 2756 2796
+call(
+  stack
+)
+type(
+  bool
+)
+"src/recursions.ml" 63 2756 2767 "src/recursions.ml" 63 2756 2796
+type(
+  bool
+)
+"src/recursions.ml" 63 2756 2797 "src/recursions.ml" 63 2756 2799
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/recursions.ml" 64 2800 2812 "src/recursions.ml" 64 2800 2842
+type(
+  node:(float option ref * float option ref * float option ref)
+       BatDllist.node_t ->
+  bool
+)
+ident(
+  ext_ref LDlist_manipulation.is_last_3D
+)
+"src/recursions.ml" 64 2800 2850 "src/recursions.ml" 64 2800 2864
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref BatDllist.next
+)
+"src/recursions.ml" 64 2800 2865 "src/recursions.ml" 64 2800 2867
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 36 1329 1370 "src/recursions.ml" 36 1329 1372
+)
+"src/recursions.ml" 64 2800 2849 "src/recursions.ml" 64 2800 2868
+call(
+  stack
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/recursions.ml" 64 2800 2811 "src/recursions.ml" 64 2800 2869
+call(
+  stack
+)
+type(
+  bool
+)
+"src/recursions.ml" 63 2756 2767 "src/recursions.ml" 64 2800 2869
+type(
+  bool
+)
+"src/recursions.ml" 65 2880 2889 "src/recursions.ml" 65 2880 2895
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  def m_node "src/recursions.ml" 67 2983 2988 "src/recursions.ml" 70 3100 3165
+)
+"src/recursions.ml" 65 2880 2898 "src/recursions.ml" 65 2880 2914
+type(
+  float option ref * float option ref * float option ref ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref BatDllist.create
+)
+"src/recursions.ml" 66 2915 2934 "src/recursions.ml" 66 2915 2937
+type(
+  float option -> float option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/recursions.ml" 66 2915 2944 "src/recursions.ml" 66 2915 2945
+type(
+  float
+)
+ident(
+  int_ref m "src/recursions.ml" 48 1969 1976 "src/recursions.ml" 48 1969 1977
+)
+"src/recursions.ml" 66 2915 2938 "src/recursions.ml" 66 2915 2946
+type(
+  float option
+)
+"src/recursions.ml" 66 2915 2934 "src/recursions.ml" 66 2915 2946
+type(
+  float option ref
+)
+"src/recursions.ml" 66 2915 2948 "src/recursions.ml" 66 2915 2951
+type(
+  float option -> float option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/recursions.ml" 66 2915 2958 "src/recursions.ml" 66 2915 2961
+type(
+  float
+)
+ident(
+  int_ref f1m "src/recursions.ml" 50 2116 2124 "src/recursions.ml" 50 2116 2127
+)
+"src/recursions.ml" 66 2915 2952 "src/recursions.ml" 66 2915 2962
+type(
+  float option
+)
+"src/recursions.ml" 66 2915 2948 "src/recursions.ml" 66 2915 2962
+type(
+  float option ref
+)
+"src/recursions.ml" 66 2915 2964 "src/recursions.ml" 66 2915 2967
+type(
+  float option -> float option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/recursions.ml" 66 2915 2974 "src/recursions.ml" 66 2915 2977
+type(
+  float
+)
+ident(
+  int_ref f2m "src/recursions.ml" 50 2116 2128 "src/recursions.ml" 50 2116 2131
+)
+"src/recursions.ml" 66 2915 2968 "src/recursions.ml" 66 2915 2978
+type(
+  float option
+)
+"src/recursions.ml" 66 2915 2964 "src/recursions.ml" 66 2915 2978
+type(
+  float option ref
+)
+"src/recursions.ml" 66 2915 2933 "src/recursions.ml" 66 2915 2979
+type(
+  float option ref * float option ref * float option ref
+)
+"src/recursions.ml" 65 2880 2898 "src/recursions.ml" 66 2915 2979
+call(
+  stack
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/recursions.ml" 67 2983 2992 "src/recursions.ml" 67 2983 3002
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  def inter_node "src/recursions.ml" 68 3026 3031 "src/recursions.ml" 70 3100 3165
+)
+"src/recursions.ml" 67 2983 3005 "src/recursions.ml" 67 2983 3019
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref BatDllist.next
+)
+"src/recursions.ml" 67 2983 3020 "src/recursions.ml" 67 2983 3022
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 36 1329 1370 "src/recursions.ml" 36 1329 1372
+)
+"src/recursions.ml" 67 2983 3005 "src/recursions.ml" 67 2983 3022
+call(
+  stack
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/recursions.ml" 68 3026 3031 "src/recursions.ml" 68 3026 3047
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  unit
+)
+ident(
+  ext_ref BatDllist.splice
+)
+"src/recursions.ml" 68 3026 3048 "src/recursions.ml" 68 3026 3050
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 36 1329 1370 "src/recursions.ml" 36 1329 1372
+)
+"src/recursions.ml" 68 3026 3051 "src/recursions.ml" 68 3026 3057
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref m_node "src/recursions.ml" 65 2880 2889 "src/recursions.ml" 65 2880 2895
+)
+"src/recursions.ml" 68 3026 3031 "src/recursions.ml" 68 3026 3057
+call(
+  stack
+)
+type(
+  unit
+)
+"src/recursions.ml" 69 3059 3064 "src/recursions.ml" 69 3059 3080
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  unit
+)
+ident(
+  ext_ref BatDllist.splice
+)
+"src/recursions.ml" 69 3059 3081 "src/recursions.ml" 69 3059 3087
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref m_node "src/recursions.ml" 65 2880 2889 "src/recursions.ml" 65 2880 2895
+)
+"src/recursions.ml" 69 3059 3088 "src/recursions.ml" 69 3059 3098
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref inter_node "src/recursions.ml" 67 2983 2992 "src/recursions.ml" 67 2983 3002
+)
+"src/recursions.ml" 69 3059 3064 "src/recursions.ml" 69 3059 3098
+call(
+  stack
+)
+type(
+  unit
+)
+"src/recursions.ml" 70 3100 3105 "src/recursions.ml" 70 3100 3117
+type(
+  fonction:(float -> float * float) ->
+  lDlist:(float option ref * float option ref * float option ref)
+         BatDllist.node_t ->
+  epsi:'a ->
+  test:(Geometry_tools.point_3D ->
+        Geometry_tools.point_3D ->
+        Geometry_tools.point_3D -> 'a -> 'b -> bool) ->
+  dist:'b -> unit
+)
+ident(
+  int_ref recursion_3D "src/recursions.ml" 36 1329 1337 "src/recursions.ml" 36 1329 1349
+)
+"src/recursions.ml" 70 3100 3128 "src/recursions.ml" 70 3100 3129
+type(
+  float -> float * float
+)
+ident(
+  int_ref f "src/recursions.ml" 36 1329 1360 "src/recursions.ml" 36 1329 1361
+)
+"src/recursions.ml" 70 3100 3138 "src/recursions.ml" 70 3100 3140
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 36 1329 1370 "src/recursions.ml" 36 1329 1372
+)
+"src/recursions.ml" 70 3100 3147 "src/recursions.ml" 70 3100 3148
+type(
+  'a
+)
+ident(
+  int_ref e "src/recursions.ml" 36 1329 1379 "src/recursions.ml" 36 1329 1380
+)
+"src/recursions.ml" 70 3100 3155 "src/recursions.ml" 70 3100 3156
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> 'a -> 'b -> bool
+)
+ident(
+  int_ref t "src/recursions.ml" 36 1329 1387 "src/recursions.ml" 36 1329 1388
+)
+"src/recursions.ml" 70 3100 3163 "src/recursions.ml" 70 3100 3164
+type(
+  'b
+)
+ident(
+  int_ref d "src/recursions.ml" 36 1329 1395 "src/recursions.ml" 36 1329 1396
+)
+"src/recursions.ml" 70 3100 3105 "src/recursions.ml" 70 3100 3165
+call(
+  tail
+)
+type(
+  unit
+)
+"src/recursions.ml" 69 3059 3064 "src/recursions.ml" 70 3100 3165
+type(
+  unit
+)
+"src/recursions.ml" 68 3026 3031 "src/recursions.ml" 70 3100 3165
+type(
+  unit
+)
+"src/recursions.ml" 67 2983 2988 "src/recursions.ml" 70 3100 3165
+type(
+  unit
+)
+"src/recursions.ml" 64 2800 2874 "src/recursions.ml" 71 3166 3172
+type(
+  unit
+)
+"src/recursions.ml" 72 3173 3185 "src/recursions.ml" 72 3173 3186
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> 'a -> 'b -> bool
+)
+ident(
+  int_ref t "src/recursions.ml" 36 1329 1387 "src/recursions.ml" 36 1329 1388
+)
+"src/recursions.ml" 72 3173 3187 "src/recursions.ml" 72 3173 3192
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_a "src/recursions.ml" 51 2142 2149 "src/recursions.ml" 51 2142 2154
+)
+"src/recursions.ml" 72 3173 3193 "src/recursions.ml" 72 3173 3198
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_b "src/recursions.ml" 52 2210 2217 "src/recursions.ml" 52 2210 2222
+)
+"src/recursions.ml" 72 3173 3199 "src/recursions.ml" 72 3173 3204
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_m "src/recursions.ml" 53 2278 2285 "src/recursions.ml" 53 2278 2290
+)
+"src/recursions.ml" 72 3173 3205 "src/recursions.ml" 72 3173 3206
+type(
+  'a
+)
+ident(
+  int_ref e "src/recursions.ml" 36 1329 1379 "src/recursions.ml" 36 1329 1380
+)
+"src/recursions.ml" 72 3173 3207 "src/recursions.ml" 72 3173 3208
+type(
+  'b
+)
+ident(
+  int_ref d "src/recursions.ml" 36 1329 1395 "src/recursions.ml" 36 1329 1396
+)
+"src/recursions.ml" 72 3173 3184 "src/recursions.ml" 72 3173 3209
+call(
+  stack
+)
+type(
+  bool
+)
+"src/recursions.ml" 72 3173 3210 "src/recursions.ml" 72 3173 3212
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/recursions.ml" 73 3213 3224 "src/recursions.ml" 73 3213 3227
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/recursions.ml" 73 3213 3228 "src/recursions.ml" 73 3213 3258
+type(
+  node:(float option ref * float option ref * float option ref)
+       BatDllist.node_t ->
+  bool
+)
+ident(
+  ext_ref LDlist_manipulation.is_last_3D
+)
+"src/recursions.ml" 74 3259 3277 "src/recursions.ml" 74 3259 3291
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref BatDllist.next
+)
+"src/recursions.ml" 74 3259 3292 "src/recursions.ml" 74 3259 3294
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 36 1329 1370 "src/recursions.ml" 36 1329 1372
+)
+"src/recursions.ml" 74 3259 3276 "src/recursions.ml" 74 3259 3295
+call(
+  stack
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/recursions.ml" 73 3213 3227 "src/recursions.ml" 74 3259 3296
+call(
+  stack
+)
+type(
+  bool
+)
+"src/recursions.ml" 73 3213 3224 "src/recursions.ml" 74 3259 3296
+type(
+  bool
+)
+"src/recursions.ml" 72 3173 3184 "src/recursions.ml" 74 3259 3296
+type(
+  bool
+)
+"src/recursions.ml" 75 3307 3316 "src/recursions.ml" 75 3307 3326
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  def inter_node "src/recursions.ml" 76 3350 3355 "src/recursions.ml" 76 3350 3423
+)
+"src/recursions.ml" 75 3307 3329 "src/recursions.ml" 75 3307 3343
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref BatDllist.next
+)
+"src/recursions.ml" 75 3307 3344 "src/recursions.ml" 75 3307 3346
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/recursions.ml" 36 1329 1370 "src/recursions.ml" 36 1329 1372
+)
+"src/recursions.ml" 75 3307 3329 "src/recursions.ml" 75 3307 3346
+call(
+  stack
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/recursions.ml" 76 3350 3355 "src/recursions.ml" 76 3350 3367
+type(
+  fonction:(float -> float * float) ->
+  lDlist:(float option ref * float option ref * float option ref)
+         BatDllist.node_t ->
+  epsi:'a ->
+  test:(Geometry_tools.point_3D ->
+        Geometry_tools.point_3D ->
+        Geometry_tools.point_3D -> 'a -> 'b -> bool) ->
+  dist:'b -> unit
+)
+ident(
+  int_ref recursion_3D "src/recursions.ml" 36 1329 1337 "src/recursions.ml" 36 1329 1349
+)
+"src/recursions.ml" 76 3350 3378 "src/recursions.ml" 76 3350 3379
+type(
+  float -> float * float
+)
+ident(
+  int_ref f "src/recursions.ml" 36 1329 1360 "src/recursions.ml" 36 1329 1361
+)
+"src/recursions.ml" 76 3350 3388 "src/recursions.ml" 76 3350 3398
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref inter_node "src/recursions.ml" 75 3307 3316 "src/recursions.ml" 75 3307 3326
+)
+"src/recursions.ml" 76 3350 3405 "src/recursions.ml" 76 3350 3406
+type(
+  'a
+)
+ident(
+  int_ref e "src/recursions.ml" 36 1329 1379 "src/recursions.ml" 36 1329 1380
+)
+"src/recursions.ml" 76 3350 3413 "src/recursions.ml" 76 3350 3414
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> 'a -> 'b -> bool
+)
+ident(
+  int_ref t "src/recursions.ml" 36 1329 1387 "src/recursions.ml" 36 1329 1388
+)
+"src/recursions.ml" 76 3350 3421 "src/recursions.ml" 76 3350 3422
+type(
+  'b
+)
+ident(
+  int_ref d "src/recursions.ml" 36 1329 1395 "src/recursions.ml" 36 1329 1396
+)
+"src/recursions.ml" 76 3350 3355 "src/recursions.ml" 76 3350 3423
+call(
+  tail
+)
+type(
+  unit
+)
+"src/recursions.ml" 74 3259 3301 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 72 3173 3181 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 63 2756 2764 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 54 2346 2349 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 53 2278 2281 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 52 2210 2213 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 51 2142 2145 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 50 2116 2119 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 48 1969 1972 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 47 1923 1926 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 46 1877 1880 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 45 1831 1834 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 44 1785 1788 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 43 1743 1746 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 42 1701 1704 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 40 1564 1567 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 39 1494 1497 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 38 1438 1441 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
+"src/recursions.ml" 37 1399 1402 "src/recursions.ml" 77 3424 3431
+type(
+  unit
+)
