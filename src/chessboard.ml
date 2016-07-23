@@ -1,4 +1,4 @@
-open Prinf
+open Printf
 
 type chessboard = {up_left_corner : float*float; width : float; height : float;
                    rows : int; columns : int}
@@ -15,25 +15,33 @@ let make_chessboard (u_l_c : float*float) (w : float) (h : float)
 
 let is_nan (x : float) = x<>x
 
+let is_nan_tuple (x : float * float) = x<>x
+
 let is_valid cb =
-  let {u_l_c; w; h; r; c} = cb in
-  if r<=1 || c<=1 || w=0. || h=0. || (is_nan u_l_c) then false else true 
+  let {up_left_corner = u_l_c; width = w; height = h;
+  rows = r; columns = c} = cb in
+  if r<=1 || c<=1 || w=0. || h=0. || (is_nan_tuple u_l_c) then false else true
 (*test if the the chessboard cb is a valid chessboard*)
 
 let up_left_corner cb =
-  let {u_l_c; w; h; r; c} = cb in u_l_c
+  let {up_left_corner = u_l_c; width = w; height = h;
+  rows = r; columns = c} =  cb in u_l_c
 
 let rows cb =
-  let {u_l_c; w; h; r; c} = cb in r
+  let {up_left_corner = u_l_c; width = w; height = h;
+  rows = r; columns = c} = cb in r
 
 let columns cb =
-  let {u_l_c; w; h; r; c} = cb in c
+  let {up_left_corner = u_l_c; width = w; height = h;
+  rows = r; columns = c} = cb in c
 
 let width cb =
-  let {u_l_c; w; h; r; c} = cb in w
+  let {up_left_corner = u_l_c; width = w; height = h;
+  rows = r; columns = c} = cb in w
 
 let height cb =
-  let {u_l_c; w; h; r; c} = cb in h
+  let {up_left_corner = u_l_c; width = w; height = h;
+  rows = r; columns = c} = cb in h
 
 let w_step cb =
   if is_valid cb then
@@ -43,7 +51,7 @@ let w_step cb =
 
 let h_step cb =
   if is_valid cb then
-  (heith cb) /. (float ((rows cb) - 1))
+  (height cb) /. (float ((rows cb) - 1))
   else failwith "Chessboard: invalid chessboard."
 (*the space between two adjacent elements in a row in the chessboard cb*)
 
@@ -64,7 +72,6 @@ let nb_points cb =
 (*returns the number of points in the chessboard cb*)
 
 let to_coor cb nb =
-  let r = rows cb in
   let c = columns cb in
   if nb mod c = 0 then
     (nb / c), c
@@ -87,14 +94,13 @@ let pick_point cb nb =
   else
     let x0,y0 = up_left_corner cb in
     let c = columns cb in
-    let r = rows cb in
     let w_s = w_step cb in
     let h_s = h_step cb in
     if nb mod c = 0 then
-      (x0 -. w_s*.(float (c-1))),
+      (x0 +. w_s*.(float (c-1))),
       (y0 -. h_s*.(float (nb/c - 1)))
     else
-      (x0 -. w_s*.(float ((nb mod c) -1))),
+      (x0 +. w_s*.(float ((nb mod c) -1))),
       (y0 -. h_s*.(float (nb/c)))
   end
   else failwith "Chessboard: invalid chessboard."
@@ -114,12 +120,12 @@ let pick_block cb nb =
     else begin
     if nb mod (c-1) = 0 then
       let n = nb + ((nb / (c-1))-1) in
-      (pick_point n), (pick_point (n+1)), (pick_point (n+c)),
-      (pick_point (n+c+1))
+      (pick_point cb n), (pick_point cb (n+1)), (pick_point cb (n+c)),
+      (pick_point cb (n+c+1))
     else
       let n = nb + (nb / (c-1)) in
-      (pick_point n), (pick_point (n+1)), (pick_point (n+c)),
-      (pick_point (n+c+1))
+      (pick_point cb n), (pick_point cb (n+1)), (pick_point cb (n+c)),
+      (pick_point cb (n+c+1))
     end
   end
   else failwith "Chessboard: invalid chessboard."
@@ -130,7 +136,7 @@ let test_block bk f =
   let a = f a1 a2 and b = f b1 b2 in
   let c = f c1 c2 and d = f d1 d2 in
   if a=0. || b=0. || c=0. || d=0. then 0
-  else if (a*b)>0. && (c*.d)>0. && (a*.c)>0. then 1
+  else if (a*.b)>0. && (c*.d)>0. && (a*.c)>0. then 1
   else -1
 (*test if the four vertices of the square have the same sign, that is, if the
  *function f has not sign change in the block, return -1 if the function
@@ -146,6 +152,7 @@ let print_elem cb (i,j) =
 let print_block cb nb =
   if nb > (nb_blocks cb) then failwith "Chessboard: index out of bonds"
   else
+  let bk = pick_block cb nb in
   let (a1,a2), (b1,b2), (c1,c2), (d1,d2) = bk in
   printf "(%f, %f) (%f, %f)\n(%f, %f) (%f, %f)" a1 a2 b1 b2 c1 c2 d1 d2
 
