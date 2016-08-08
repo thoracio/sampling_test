@@ -1,0 +1,2837 @@
+"src/sampling.ml" 29 511 515 "src/sampling.ml" 29 511 526
+type(
+  left:float ->
+  right:float ->
+  fonction:(float -> float) ->
+  epsi:float ->
+  ?test:(Geometry_tools.point_2D ->
+         Geometry_tools.point_2D ->
+         Geometry_tools.point_2D ->
+         float ->
+         (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) ->
+         bool) ->
+  ?dist:(Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) ->
+  ?d_points:float list ->
+  unit -> (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  def sampling_2D "src/sampling.ml" 40 1063 1063 "src/sampling.ml" 1 0 -1
+)
+"src/sampling.ml" 29 511 533 "src/sampling.ml" 29 511 534
+type(
+  float
+)
+ident(
+  def a "src/sampling.ml" 29 511 535 "src/sampling.ml" 38 1055 1061
+)
+"src/sampling.ml" 29 511 542 "src/sampling.ml" 29 511 543
+type(
+  float
+)
+ident(
+  def b "src/sampling.ml" 29 511 544 "src/sampling.ml" 38 1055 1061
+)
+"src/sampling.ml" 29 511 554 "src/sampling.ml" 29 511 555
+type(
+  float -> float
+)
+ident(
+  def f "src/sampling.ml" 29 511 556 "src/sampling.ml" 38 1055 1061
+)
+"src/sampling.ml" 29 511 562 "src/sampling.ml" 29 511 563
+type(
+  float
+)
+ident(
+  def e "src/sampling.ml" 30 564 580 "src/sampling.ml" 38 1055 1061
+)
+"src/sampling.ml" 30 564 587 "src/sampling.ml" 30 564 588
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  float ->
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> bool
+)
+"src/sampling.ml" 30 564 589 "src/sampling.ml" 30 564 635
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  float ->
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> bool
+)
+ident(
+  ext_ref Flatness_criterion.distance_point_cord_test_2D
+)
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  float ->
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> bool
+)
+ident(
+  int_ref *sth* "src/sampling.ml" 30 564 589 "src/sampling.ml" 30 564 635
+)
+type(
+  (Geometry_tools.point_2D ->
+   Geometry_tools.point_2D ->
+   Geometry_tools.point_2D ->
+   float ->
+   (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> bool)
+  option
+)
+type(
+  (Geometry_tools.point_2D ->
+   Geometry_tools.point_2D ->
+   Geometry_tools.point_2D ->
+   float ->
+   (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> bool)
+  option
+)
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  float ->
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> bool
+)
+"src/sampling.ml" 31 637 660 "src/sampling.ml" 31 637 661
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+"src/sampling.ml" 31 637 662 "src/sampling.ml" 31 637 693
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+ident(
+  ext_ref Geometry_tools.dist2_variant_2D
+)
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+ident(
+  int_ref *sth* "src/sampling.ml" 31 637 662 "src/sampling.ml" 31 637 693
+)
+type(
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) option
+)
+type(
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) option
+)
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+"src/sampling.ml" 31 637 706 "src/sampling.ml" 31 637 707
+type(
+  float list
+)
+"src/sampling.ml" 31 637 708 "src/sampling.ml" 31 637 710
+type(
+  float list
+)
+type(
+  float list
+)
+ident(
+  int_ref *sth* "src/sampling.ml" 31 637 708 "src/sampling.ml" 31 637 710
+)
+type(
+  float list option
+)
+type(
+  float list option
+)
+type(
+  float list
+)
+"src/sampling.ml" 31 637 712 "src/sampling.ml" 31 637 714
+type(
+  unit
+)
+"src/sampling.ml" 32 717 725 "src/sampling.ml" 32 717 727
+type(
+  float
+)
+ident(
+  def n1 "src/sampling.ml" 34 830 834 "src/sampling.ml" 38 1055 1061
+)
+"src/sampling.ml" 32 717 733 "src/sampling.ml" 32 717 736
+type(
+  float
+)
+"src/sampling.ml" 32 717 737 "src/sampling.ml" 32 717 738
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/sampling.ml" 32 717 741 "src/sampling.ml" 32 717 750
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/sampling.ml" 32 717 752 "src/sampling.ml" 32 717 753
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 29 511 542 "src/sampling.ml" 29 511 543
+)
+"src/sampling.ml" 32 717 753 "src/sampling.ml" 32 717 755
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/sampling.ml" 32 717 755 "src/sampling.ml" 32 717 756
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 29 511 533 "src/sampling.ml" 29 511 534
+)
+"src/sampling.ml" 32 717 751 "src/sampling.ml" 32 717 757
+type(
+  float
+)
+"src/sampling.ml" 32 717 740 "src/sampling.ml" 32 717 758
+type(
+  float
+)
+"src/sampling.ml" 32 717 758 "src/sampling.ml" 32 717 760
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/sampling.ml" 32 717 760 "src/sampling.ml" 32 717 763
+type(
+  float
+)
+"src/sampling.ml" 32 717 739 "src/sampling.ml" 32 717 764
+type(
+  float
+)
+"src/sampling.ml" 32 717 733 "src/sampling.ml" 32 717 764
+type(
+  bool
+)
+"src/sampling.ml" 32 717 770 "src/sampling.ml" 32 717 773
+type(
+  float
+)
+"src/sampling.ml" 33 779 803 "src/sampling.ml" 33 779 812
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/sampling.ml" 33 779 814 "src/sampling.ml" 33 779 815
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 29 511 542 "src/sampling.ml" 29 511 543
+)
+"src/sampling.ml" 33 779 815 "src/sampling.ml" 33 779 817
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/sampling.ml" 33 779 817 "src/sampling.ml" 33 779 818
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 29 511 533 "src/sampling.ml" 29 511 534
+)
+"src/sampling.ml" 33 779 813 "src/sampling.ml" 33 779 819
+type(
+  float
+)
+"src/sampling.ml" 33 779 802 "src/sampling.ml" 33 779 820
+type(
+  float
+)
+"src/sampling.ml" 33 779 820 "src/sampling.ml" 33 779 822
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/sampling.ml" 33 779 822 "src/sampling.ml" 33 779 825
+type(
+  float
+)
+"src/sampling.ml" 33 779 801 "src/sampling.ml" 33 779 826
+type(
+  float
+)
+"src/sampling.ml" 32 717 730 "src/sampling.ml" 33 779 826
+type(
+  float
+)
+"src/sampling.ml" 34 830 838 "src/sampling.ml" 34 830 839
+type(
+  int
+)
+ident(
+  def n "src/sampling.ml" 35 867 871 "src/sampling.ml" 38 1055 1061
+)
+"src/sampling.ml" 34 830 842 "src/sampling.ml" 34 830 854
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"src/sampling.ml" 34 830 856 "src/sampling.ml" 34 830 858
+type(
+  float
+)
+"src/sampling.ml" 34 830 858 "src/sampling.ml" 34 830 860
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/sampling.ml" 34 830 860 "src/sampling.ml" 34 830 862
+type(
+  float
+)
+ident(
+  int_ref n1 "src/sampling.ml" 32 717 725 "src/sampling.ml" 32 717 727
+)
+"src/sampling.ml" 34 830 855 "src/sampling.ml" 34 830 863
+type(
+  float
+)
+"src/sampling.ml" 34 830 842 "src/sampling.ml" 34 830 863
+type(
+  int
+)
+"src/sampling.ml" 35 867 875 "src/sampling.ml" 35 867 877
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  def dl "src/sampling.ml" 37 979 983 "src/sampling.ml" 38 1055 1061
+)
+"src/sampling.ml" 35 867 880 "src/sampling.ml" 35 867 915
+type(
+  cuts:int ->
+  left:float ->
+  right:float ->
+  fonction:(float -> float) ->
+  inlist:float list -> (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref LDlist_manipulation.create_dlist_2D
+)
+"src/sampling.ml" 35 867 922 "src/sampling.ml" 35 867 923
+type(
+  int
+)
+ident(
+  int_ref n "src/sampling.ml" 34 830 838 "src/sampling.ml" 34 830 839
+)
+"src/sampling.ml" 35 867 930 "src/sampling.ml" 35 867 931
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 29 511 533 "src/sampling.ml" 29 511 534
+)
+"src/sampling.ml" 35 867 939 "src/sampling.ml" 35 867 940
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 29 511 542 "src/sampling.ml" 29 511 543
+)
+"src/sampling.ml" 36 941 964 "src/sampling.ml" 36 941 965
+type(
+  float -> float
+)
+ident(
+  int_ref f "src/sampling.ml" 29 511 554 "src/sampling.ml" 29 511 555
+)
+"src/sampling.ml" 36 941 974 "src/sampling.ml" 36 941 975
+type(
+  float list
+)
+ident(
+  int_ref l "src/sampling.ml" 31 637 706 "src/sampling.ml" 31 637 707
+)
+"src/sampling.ml" 35 867 880 "src/sampling.ml" 36 941 975
+call(
+  stack
+)
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 37 979 983 "src/sampling.ml" 37 979 1006
+type(
+  fonction:(float -> float) ->
+  lDlist:(float option ref * float option ref) BatDllist.node_t ->
+  epsi:float ->
+  test:(Geometry_tools.point_2D ->
+        Geometry_tools.point_2D ->
+        Geometry_tools.point_2D ->
+        float ->
+        (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> bool) ->
+  dist:(Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> unit
+)
+ident(
+  ext_ref Recursions.recursion_2D
+)
+"src/sampling.ml" 37 979 1017 "src/sampling.ml" 37 979 1018
+type(
+  float -> float
+)
+ident(
+  int_ref f "src/sampling.ml" 29 511 554 "src/sampling.ml" 29 511 555
+)
+"src/sampling.ml" 37 979 1027 "src/sampling.ml" 37 979 1029
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/sampling.ml" 35 867 875 "src/sampling.ml" 35 867 877
+)
+"src/sampling.ml" 37 979 1036 "src/sampling.ml" 37 979 1037
+type(
+  float
+)
+ident(
+  int_ref e "src/sampling.ml" 29 511 562 "src/sampling.ml" 29 511 563
+)
+"src/sampling.ml" 37 979 1044 "src/sampling.ml" 37 979 1045
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  float ->
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> bool
+)
+ident(
+  int_ref t "src/sampling.ml" 30 564 587 "src/sampling.ml" 30 564 588
+)
+"src/sampling.ml" 37 979 1052 "src/sampling.ml" 37 979 1053
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+ident(
+  int_ref d "src/sampling.ml" 31 637 660 "src/sampling.ml" 31 637 661
+)
+"src/sampling.ml" 37 979 983 "src/sampling.ml" 37 979 1053
+call(
+  stack
+)
+type(
+  unit
+)
+"src/sampling.ml" 38 1055 1059 "src/sampling.ml" 38 1055 1061
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/sampling.ml" 35 867 875 "src/sampling.ml" 35 867 877
+)
+"src/sampling.ml" 37 979 983 "src/sampling.ml" 38 1055 1061
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 35 867 871 "src/sampling.ml" 38 1055 1061
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 34 830 834 "src/sampling.ml" 38 1055 1061
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 32 717 721 "src/sampling.ml" 38 1055 1061
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 40 1063 1067 "src/sampling.ml" 40 1063 1085
+type(
+  left:float ->
+  right:float ->
+  fonction:(float -> float) ->
+  ?test:int ->
+  ?mode:char ->
+  ?epsi:float ->
+  unit -> (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  def preset_sampling_2D "src/sampling.ml" 68 2529 2529 "src/sampling.ml" 1 0 -1
+)
+"src/sampling.ml" 40 1063 1092 "src/sampling.ml" 40 1063 1093
+type(
+  float
+)
+ident(
+  def a "src/sampling.ml" 40 1063 1094 "src/sampling.ml" 64 2485 2525
+)
+"src/sampling.ml" 40 1063 1101 "src/sampling.ml" 40 1063 1102
+type(
+  float
+)
+ident(
+  def b "src/sampling.ml" 40 1063 1103 "src/sampling.ml" 64 2485 2525
+)
+"src/sampling.ml" 40 1063 1113 "src/sampling.ml" 40 1063 1114
+type(
+  float -> float
+)
+ident(
+  def f "src/sampling.ml" 40 1063 1115 "src/sampling.ml" 64 2485 2525
+)
+"src/sampling.ml" 40 1063 1122 "src/sampling.ml" 40 1063 1123
+type(
+  int
+)
+"src/sampling.ml" 40 1063 1124 "src/sampling.ml" 40 1063 1125
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "src/sampling.ml" 40 1063 1124 "src/sampling.ml" 40 1063 1125
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+"src/sampling.ml" 40 1063 1134 "src/sampling.ml" 40 1063 1135
+type(
+  char
+)
+"src/sampling.ml" 40 1063 1136 "src/sampling.ml" 40 1063 1139
+type(
+  char
+)
+type(
+  char
+)
+ident(
+  int_ref *sth* "src/sampling.ml" 40 1063 1136 "src/sampling.ml" 40 1063 1139
+)
+type(
+  char option
+)
+type(
+  char option
+)
+type(
+  char
+)
+"src/sampling.ml" 41 1141 1171 "src/sampling.ml" 41 1141 1174
+type(
+  float
+)
+"src/sampling.ml" 41 1141 1175 "src/sampling.ml" 41 1141 1177
+type(
+  float
+)
+type(
+  float
+)
+ident(
+  int_ref *sth* "src/sampling.ml" 41 1141 1175 "src/sampling.ml" 41 1141 1177
+)
+type(
+  float option
+)
+type(
+  float option
+)
+type(
+  float
+)
+"src/sampling.ml" 41 1141 1179 "src/sampling.ml" 41 1141 1181
+type(
+  unit
+)
+"src/sampling.ml" 42 1183 1191 "src/sampling.ml" 42 1183 1192
+type(
+  int
+)
+ident(
+  def n "src/sampling.ml" 44 1305 1309 "src/sampling.ml" 64 2485 2525
+)
+"src/sampling.ml" 42 1183 1199 "src/sampling.ml" 42 1183 1200
+type(
+  char
+)
+ident(
+  int_ref m "src/sampling.ml" 40 1063 1134 "src/sampling.ml" 40 1063 1135
+)
+"src/sampling.ml" 42 1183 1200 "src/sampling.ml" 42 1183 1201
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/sampling.ml" 42 1183 1201 "src/sampling.ml" 42 1183 1204
+type(
+  char
+)
+"src/sampling.ml" 42 1183 1199 "src/sampling.ml" 42 1183 1204
+type(
+  bool
+)
+"src/sampling.ml" 42 1183 1210 "src/sampling.ml" 42 1183 1212
+type(
+  int
+)
+"src/sampling.ml" 42 1183 1221 "src/sampling.ml" 42 1183 1222
+type(
+  char
+)
+ident(
+  int_ref m "src/sampling.ml" 40 1063 1134 "src/sampling.ml" 40 1063 1135
+)
+"src/sampling.ml" 42 1183 1222 "src/sampling.ml" 42 1183 1223
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/sampling.ml" 42 1183 1223 "src/sampling.ml" 42 1183 1226
+type(
+  char
+)
+"src/sampling.ml" 42 1183 1221 "src/sampling.ml" 42 1183 1226
+type(
+  bool
+)
+"src/sampling.ml" 42 1183 1232 "src/sampling.ml" 42 1183 1235
+type(
+  int
+)
+"src/sampling.ml" 42 1183 1244 "src/sampling.ml" 42 1183 1245
+type(
+  char
+)
+ident(
+  int_ref m "src/sampling.ml" 40 1063 1134 "src/sampling.ml" 40 1063 1135
+)
+"src/sampling.ml" 42 1183 1245 "src/sampling.ml" 42 1183 1246
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/sampling.ml" 42 1183 1246 "src/sampling.ml" 42 1183 1249
+type(
+  char
+)
+"src/sampling.ml" 42 1183 1244 "src/sampling.ml" 42 1183 1249
+type(
+  bool
+)
+"src/sampling.ml" 43 1250 1268 "src/sampling.ml" 43 1250 1271
+type(
+  int
+)
+"src/sampling.ml" 43 1250 1277 "src/sampling.ml" 43 1250 1285
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/sampling.ml" 43 1250 1286 "src/sampling.ml" 43 1250 1300
+type(
+  string
+)
+"src/sampling.ml" 43 1250 1277 "src/sampling.ml" 43 1250 1300
+call(
+  stack
+)
+type(
+  int
+)
+"src/sampling.ml" 42 1183 1241 "src/sampling.ml" 43 1250 1300
+type(
+  int
+)
+"src/sampling.ml" 42 1183 1218 "src/sampling.ml" 43 1250 1300
+type(
+  int
+)
+"src/sampling.ml" 42 1183 1195 "src/sampling.ml" 43 1250 1301
+type(
+  int
+)
+"src/sampling.ml" 44 1305 1313 "src/sampling.ml" 44 1305 1316
+type(
+  float
+)
+ident(
+  def r_e "src/sampling.ml" 45 1337 1341 "src/sampling.ml" 64 2485 2525
+)
+"src/sampling.ml" 44 1305 1319 "src/sampling.ml" 44 1305 1321
+type(
+  float
+)
+"src/sampling.ml" 44 1305 1321 "src/sampling.ml" 44 1305 1323
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/sampling.ml" 44 1305 1325 "src/sampling.ml" 44 1305 1330
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"src/sampling.ml" 44 1305 1331 "src/sampling.ml" 44 1305 1332
+type(
+  int
+)
+ident(
+  int_ref n "src/sampling.ml" 42 1183 1191 "src/sampling.ml" 42 1183 1192
+)
+"src/sampling.ml" 44 1305 1324 "src/sampling.ml" 44 1305 1333
+type(
+  float
+)
+"src/sampling.ml" 44 1305 1319 "src/sampling.ml" 44 1305 1333
+type(
+  float
+)
+"src/sampling.ml" 45 1337 1347 "src/sampling.ml" 45 1337 1348
+type(
+  int
+)
+ident(
+  int_ref t "src/sampling.ml" 40 1063 1122 "src/sampling.ml" 40 1063 1123
+)
+"src/sampling.ml" 46 1354 1359 "src/sampling.ml" 46 1354 1360
+type(
+  int
+)
+"src/sampling.ml" 46 1354 1364 "src/sampling.ml" 46 1354 1375
+type(
+  left:float ->
+  right:float ->
+  fonction:(float -> float) ->
+  epsi:float ->
+  ?test:(Geometry_tools.point_2D ->
+         Geometry_tools.point_2D ->
+         Geometry_tools.point_2D ->
+         float ->
+         (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) ->
+         bool) ->
+  ?dist:(Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) ->
+  ?d_points:float list ->
+  unit -> (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref sampling_2D "src/sampling.ml" 29 511 515 "src/sampling.ml" 29 511 526
+)
+"src/sampling.ml" 46 1354 1382 "src/sampling.ml" 46 1354 1383
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 40 1063 1092 "src/sampling.ml" 40 1063 1093
+)
+"src/sampling.ml" 46 1354 1391 "src/sampling.ml" 46 1354 1392
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 40 1063 1101 "src/sampling.ml" 40 1063 1102
+)
+"src/sampling.ml" 46 1354 1403 "src/sampling.ml" 46 1354 1404
+type(
+  float -> float
+)
+ident(
+  int_ref f "src/sampling.ml" 40 1063 1113 "src/sampling.ml" 40 1063 1114
+)
+"src/sampling.ml" 46 1354 1412 "src/sampling.ml" 46 1354 1415
+type(
+  float
+)
+ident(
+  int_ref f_e "src/sampling.ml" 41 1141 1171 "src/sampling.ml" 41 1141 1174
+)
+"src/sampling.ml" 46 1354 1415 "src/sampling.ml" 46 1354 1417
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 46 1354 1417 "src/sampling.ml" 46 1354 1420
+type(
+  float
+)
+ident(
+  int_ref r_e "src/sampling.ml" 44 1305 1313 "src/sampling.ml" 44 1305 1316
+)
+"src/sampling.ml" 46 1354 1412 "src/sampling.ml" 46 1354 1420
+type(
+  float
+)
+"src/sampling.ml" 46 1354 1420 "src/sampling.ml" 46 1354 1422
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 46 1354 1422 "src/sampling.ml" 46 1354 1426
+type(
+  float
+)
+"src/sampling.ml" 46 1354 1411 "src/sampling.ml" 46 1354 1427
+type(
+  float
+)
+"src/sampling.ml" 47 1428 1449 "src/sampling.ml" 47 1428 1495
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  float ->
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> bool
+)
+ident(
+  ext_ref Flatness_criterion.distance_point_cord_test_2D
+)
+"src/sampling.ml" 48 1496 1518 "src/sampling.ml" 48 1496 1549
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+ident(
+  ext_ref Geometry_tools.dist2_variant_2D
+)
+"src/sampling.ml" 48 1496 1550 "src/sampling.ml" 48 1496 1552
+type(
+  unit
+)
+"src/sampling.ml" 46 1354 1364 "src/sampling.ml" 48 1496 1552
+call(
+  tail
+)
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 49 1553 1558 "src/sampling.ml" 49 1553 1559
+type(
+  int
+)
+"src/sampling.ml" 49 1553 1563 "src/sampling.ml" 49 1553 1574
+type(
+  left:float ->
+  right:float ->
+  fonction:(float -> float) ->
+  epsi:float ->
+  ?test:(Geometry_tools.point_2D ->
+         Geometry_tools.point_2D ->
+         Geometry_tools.point_2D ->
+         float ->
+         (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) ->
+         bool) ->
+  ?dist:(Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) ->
+  ?d_points:float list ->
+  unit -> (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref sampling_2D "src/sampling.ml" 29 511 515 "src/sampling.ml" 29 511 526
+)
+"src/sampling.ml" 49 1553 1581 "src/sampling.ml" 49 1553 1582
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 40 1063 1092 "src/sampling.ml" 40 1063 1093
+)
+"src/sampling.ml" 49 1553 1590 "src/sampling.ml" 49 1553 1591
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 40 1063 1101 "src/sampling.ml" 40 1063 1102
+)
+"src/sampling.ml" 49 1553 1602 "src/sampling.ml" 49 1553 1603
+type(
+  float -> float
+)
+ident(
+  int_ref f "src/sampling.ml" 40 1063 1113 "src/sampling.ml" 40 1063 1114
+)
+"src/sampling.ml" 49 1553 1611 "src/sampling.ml" 49 1553 1614
+type(
+  float
+)
+ident(
+  int_ref f_e "src/sampling.ml" 41 1141 1171 "src/sampling.ml" 41 1141 1174
+)
+"src/sampling.ml" 49 1553 1614 "src/sampling.ml" 49 1553 1616
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 49 1553 1616 "src/sampling.ml" 49 1553 1619
+type(
+  float
+)
+ident(
+  int_ref r_e "src/sampling.ml" 44 1305 1313 "src/sampling.ml" 44 1305 1316
+)
+"src/sampling.ml" 49 1553 1611 "src/sampling.ml" 49 1553 1619
+type(
+  float
+)
+"src/sampling.ml" 49 1553 1619 "src/sampling.ml" 49 1553 1621
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 49 1553 1621 "src/sampling.ml" 49 1553 1625
+type(
+  float
+)
+"src/sampling.ml" 49 1553 1610 "src/sampling.ml" 49 1553 1626
+type(
+  float
+)
+"src/sampling.ml" 50 1627 1649 "src/sampling.ml" 50 1627 1689
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  float ->
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> bool
+)
+ident(
+  ext_ref Flatness_criterion.triangle_area_test_2D
+)
+"src/sampling.ml" 51 1690 1712 "src/sampling.ml" 51 1690 1743
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+ident(
+  ext_ref Geometry_tools.dist_infinity_2D
+)
+"src/sampling.ml" 51 1690 1744 "src/sampling.ml" 51 1690 1746
+type(
+  unit
+)
+"src/sampling.ml" 49 1553 1563 "src/sampling.ml" 51 1690 1746
+call(
+  tail
+)
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 52 1747 1752 "src/sampling.ml" 52 1747 1753
+type(
+  int
+)
+"src/sampling.ml" 52 1747 1757 "src/sampling.ml" 52 1747 1768
+type(
+  left:float ->
+  right:float ->
+  fonction:(float -> float) ->
+  epsi:float ->
+  ?test:(Geometry_tools.point_2D ->
+         Geometry_tools.point_2D ->
+         Geometry_tools.point_2D ->
+         float ->
+         (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) ->
+         bool) ->
+  ?dist:(Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) ->
+  ?d_points:float list ->
+  unit -> (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref sampling_2D "src/sampling.ml" 29 511 515 "src/sampling.ml" 29 511 526
+)
+"src/sampling.ml" 52 1747 1775 "src/sampling.ml" 52 1747 1776
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 40 1063 1092 "src/sampling.ml" 40 1063 1093
+)
+"src/sampling.ml" 52 1747 1784 "src/sampling.ml" 52 1747 1785
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 40 1063 1101 "src/sampling.ml" 40 1063 1102
+)
+"src/sampling.ml" 52 1747 1796 "src/sampling.ml" 52 1747 1797
+type(
+  float -> float
+)
+ident(
+  int_ref f "src/sampling.ml" 40 1063 1113 "src/sampling.ml" 40 1063 1114
+)
+"src/sampling.ml" 52 1747 1805 "src/sampling.ml" 52 1747 1808
+type(
+  float
+)
+ident(
+  int_ref f_e "src/sampling.ml" 41 1141 1171 "src/sampling.ml" 41 1141 1174
+)
+"src/sampling.ml" 52 1747 1808 "src/sampling.ml" 52 1747 1810
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 52 1747 1810 "src/sampling.ml" 52 1747 1813
+type(
+  float
+)
+ident(
+  int_ref r_e "src/sampling.ml" 44 1305 1313 "src/sampling.ml" 44 1305 1316
+)
+"src/sampling.ml" 52 1747 1805 "src/sampling.ml" 52 1747 1813
+type(
+  float
+)
+"src/sampling.ml" 52 1747 1813 "src/sampling.ml" 52 1747 1815
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 52 1747 1815 "src/sampling.ml" 52 1747 1817
+type(
+  float
+)
+"src/sampling.ml" 52 1747 1804 "src/sampling.ml" 52 1747 1818
+type(
+  float
+)
+"src/sampling.ml" 53 1819 1841 "src/sampling.ml" 53 1819 1881
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  float ->
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> bool
+)
+ident(
+  ext_ref Flatness_criterion.triangle_area_test_2D
+)
+"src/sampling.ml" 54 1882 1904 "src/sampling.ml" 54 1882 1927
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+ident(
+  ext_ref Geometry_tools.dist1_2D
+)
+"src/sampling.ml" 54 1882 1928 "src/sampling.ml" 54 1882 1930
+type(
+  unit
+)
+"src/sampling.ml" 52 1747 1757 "src/sampling.ml" 54 1882 1930
+call(
+  tail
+)
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 55 1931 1936 "src/sampling.ml" 55 1931 1937
+type(
+  int
+)
+"src/sampling.ml" 55 1931 1941 "src/sampling.ml" 55 1931 1952
+type(
+  left:float ->
+  right:float ->
+  fonction:(float -> float) ->
+  epsi:float ->
+  ?test:(Geometry_tools.point_2D ->
+         Geometry_tools.point_2D ->
+         Geometry_tools.point_2D ->
+         float ->
+         (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) ->
+         bool) ->
+  ?dist:(Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) ->
+  ?d_points:float list ->
+  unit -> (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref sampling_2D "src/sampling.ml" 29 511 515 "src/sampling.ml" 29 511 526
+)
+"src/sampling.ml" 55 1931 1959 "src/sampling.ml" 55 1931 1960
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 40 1063 1092 "src/sampling.ml" 40 1063 1093
+)
+"src/sampling.ml" 55 1931 1968 "src/sampling.ml" 55 1931 1969
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 40 1063 1101 "src/sampling.ml" 40 1063 1102
+)
+"src/sampling.ml" 55 1931 1980 "src/sampling.ml" 55 1931 1981
+type(
+  float -> float
+)
+ident(
+  int_ref f "src/sampling.ml" 40 1063 1113 "src/sampling.ml" 40 1063 1114
+)
+"src/sampling.ml" 55 1931 1989 "src/sampling.ml" 55 1931 1992
+type(
+  float
+)
+ident(
+  int_ref f_e "src/sampling.ml" 41 1141 1171 "src/sampling.ml" 41 1141 1174
+)
+"src/sampling.ml" 55 1931 1992 "src/sampling.ml" 55 1931 1994
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 55 1931 1994 "src/sampling.ml" 55 1931 1997
+type(
+  float
+)
+ident(
+  int_ref r_e "src/sampling.ml" 44 1305 1313 "src/sampling.ml" 44 1305 1316
+)
+"src/sampling.ml" 55 1931 1989 "src/sampling.ml" 55 1931 1997
+type(
+  float
+)
+"src/sampling.ml" 55 1931 1997 "src/sampling.ml" 55 1931 1999
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 55 1931 1999 "src/sampling.ml" 55 1931 2003
+type(
+  float
+)
+"src/sampling.ml" 55 1931 1988 "src/sampling.ml" 55 1931 2004
+type(
+  float
+)
+"src/sampling.ml" 56 2005 2027 "src/sampling.ml" 56 2005 2073
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  float ->
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> bool
+)
+ident(
+  ext_ref Flatness_criterion.distance_point_cord_test_2D
+)
+"src/sampling.ml" 57 2074 2096 "src/sampling.ml" 57 2074 2127
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+ident(
+  ext_ref Geometry_tools.dist_infinity_2D
+)
+"src/sampling.ml" 57 2074 2128 "src/sampling.ml" 57 2074 2130
+type(
+  unit
+)
+"src/sampling.ml" 55 1931 1941 "src/sampling.ml" 57 2074 2130
+call(
+  tail
+)
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 58 2131 2136 "src/sampling.ml" 58 2131 2137
+type(
+  int
+)
+"src/sampling.ml" 58 2131 2141 "src/sampling.ml" 58 2131 2152
+type(
+  left:float ->
+  right:float ->
+  fonction:(float -> float) ->
+  epsi:float ->
+  ?test:(Geometry_tools.point_2D ->
+         Geometry_tools.point_2D ->
+         Geometry_tools.point_2D ->
+         float ->
+         (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) ->
+         bool) ->
+  ?dist:(Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) ->
+  ?d_points:float list ->
+  unit -> (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref sampling_2D "src/sampling.ml" 29 511 515 "src/sampling.ml" 29 511 526
+)
+"src/sampling.ml" 58 2131 2159 "src/sampling.ml" 58 2131 2160
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 40 1063 1092 "src/sampling.ml" 40 1063 1093
+)
+"src/sampling.ml" 58 2131 2168 "src/sampling.ml" 58 2131 2169
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 40 1063 1101 "src/sampling.ml" 40 1063 1102
+)
+"src/sampling.ml" 58 2131 2180 "src/sampling.ml" 58 2131 2181
+type(
+  float -> float
+)
+ident(
+  int_ref f "src/sampling.ml" 40 1063 1113 "src/sampling.ml" 40 1063 1114
+)
+"src/sampling.ml" 58 2131 2189 "src/sampling.ml" 58 2131 2192
+type(
+  float
+)
+ident(
+  int_ref f_e "src/sampling.ml" 41 1141 1171 "src/sampling.ml" 41 1141 1174
+)
+"src/sampling.ml" 58 2131 2192 "src/sampling.ml" 58 2131 2194
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 58 2131 2194 "src/sampling.ml" 58 2131 2198
+type(
+  float
+)
+"src/sampling.ml" 58 2131 2188 "src/sampling.ml" 58 2131 2199
+type(
+  float
+)
+"src/sampling.ml" 59 2200 2222 "src/sampling.ml" 59 2200 2254
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  float ->
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> bool
+)
+ident(
+  ext_ref Flatness_criterion.angle_test_2D
+)
+"src/sampling.ml" 60 2255 2277 "src/sampling.ml" 60 2255 2308
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+ident(
+  ext_ref Geometry_tools.dist2_variant_2D
+)
+"src/sampling.ml" 60 2255 2309 "src/sampling.ml" 60 2255 2311
+type(
+  unit
+)
+"src/sampling.ml" 58 2131 2141 "src/sampling.ml" 60 2255 2311
+call(
+  tail
+)
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 61 2312 2317 "src/sampling.ml" 61 2312 2318
+type(
+  int
+)
+"src/sampling.ml" 61 2312 2322 "src/sampling.ml" 61 2312 2333
+type(
+  left:float ->
+  right:float ->
+  fonction:(float -> float) ->
+  epsi:float ->
+  ?test:(Geometry_tools.point_2D ->
+         Geometry_tools.point_2D ->
+         Geometry_tools.point_2D ->
+         float ->
+         (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) ->
+         bool) ->
+  ?dist:(Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) ->
+  ?d_points:float list ->
+  unit -> (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref sampling_2D "src/sampling.ml" 29 511 515 "src/sampling.ml" 29 511 526
+)
+"src/sampling.ml" 61 2312 2340 "src/sampling.ml" 61 2312 2341
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 40 1063 1092 "src/sampling.ml" 40 1063 1093
+)
+"src/sampling.ml" 61 2312 2349 "src/sampling.ml" 61 2312 2350
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 40 1063 1101 "src/sampling.ml" 40 1063 1102
+)
+"src/sampling.ml" 61 2312 2361 "src/sampling.ml" 61 2312 2362
+type(
+  float -> float
+)
+ident(
+  int_ref f "src/sampling.ml" 40 1063 1113 "src/sampling.ml" 40 1063 1114
+)
+"src/sampling.ml" 61 2312 2370 "src/sampling.ml" 61 2312 2373
+type(
+  float
+)
+ident(
+  int_ref f_e "src/sampling.ml" 41 1141 1171 "src/sampling.ml" 41 1141 1174
+)
+"src/sampling.ml" 61 2312 2373 "src/sampling.ml" 61 2312 2375
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 61 2312 2375 "src/sampling.ml" 61 2312 2379
+type(
+  float
+)
+"src/sampling.ml" 61 2312 2369 "src/sampling.ml" 61 2312 2380
+type(
+  float
+)
+"src/sampling.ml" 62 2381 2403 "src/sampling.ml" 62 2381 2435
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  float ->
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> bool
+)
+ident(
+  ext_ref Flatness_criterion.angle_test_2D
+)
+"src/sampling.ml" 63 2436 2458 "src/sampling.ml" 63 2436 2481
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+ident(
+  ext_ref Geometry_tools.dist1_2D
+)
+"src/sampling.ml" 63 2436 2482 "src/sampling.ml" 63 2436 2484
+type(
+  unit
+)
+"src/sampling.ml" 61 2312 2322 "src/sampling.ml" 63 2436 2484
+call(
+  tail
+)
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 64 2485 2490 "src/sampling.ml" 64 2485 2491
+type(
+  int
+)
+"src/sampling.ml" 64 2485 2495 "src/sampling.ml" 64 2485 2503
+type(
+  string -> (float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/sampling.ml" 64 2485 2504 "src/sampling.ml" 64 2485 2525
+type(
+  string
+)
+"src/sampling.ml" 64 2485 2495 "src/sampling.ml" 64 2485 2525
+call(
+  tail
+)
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 45 1337 1341 "src/sampling.ml" 64 2485 2525
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 44 1305 1309 "src/sampling.ml" 64 2485 2525
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 42 1183 1187 "src/sampling.ml" 64 2485 2525
+type(
+  (float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 68 2529 2533 "src/sampling.ml" 68 2529 2544
+type(
+  left:float ->
+  right:float ->
+  fonction:(float -> float * float) ->
+  epsi:float ->
+  ?test:(Geometry_tools.point_3D ->
+         Geometry_tools.point_3D ->
+         Geometry_tools.point_3D ->
+         float ->
+         (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) ->
+         bool) ->
+  ?dist:(Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) ->
+  ?d_points:float list ->
+  unit ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  def sampling_3D "src/sampling.ml" 79 3081 3081 "src/sampling.ml" 1 0 -1
+)
+"src/sampling.ml" 68 2529 2551 "src/sampling.ml" 68 2529 2552
+type(
+  float
+)
+ident(
+  def a "src/sampling.ml" 68 2529 2553 "src/sampling.ml" 77 3073 3079
+)
+"src/sampling.ml" 68 2529 2560 "src/sampling.ml" 68 2529 2561
+type(
+  float
+)
+ident(
+  def b "src/sampling.ml" 68 2529 2562 "src/sampling.ml" 77 3073 3079
+)
+"src/sampling.ml" 68 2529 2572 "src/sampling.ml" 68 2529 2573
+type(
+  float -> float * float
+)
+ident(
+  def f "src/sampling.ml" 68 2529 2574 "src/sampling.ml" 77 3073 3079
+)
+"src/sampling.ml" 68 2529 2580 "src/sampling.ml" 68 2529 2581
+type(
+  float
+)
+ident(
+  def e "src/sampling.ml" 69 2582 2598 "src/sampling.ml" 77 3073 3079
+)
+"src/sampling.ml" 69 2582 2605 "src/sampling.ml" 69 2582 2606
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  float ->
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> bool
+)
+"src/sampling.ml" 69 2582 2607 "src/sampling.ml" 69 2582 2653
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  float ->
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> bool
+)
+ident(
+  ext_ref Flatness_criterion.distance_point_cord_test_3D
+)
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  float ->
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> bool
+)
+ident(
+  int_ref *sth* "src/sampling.ml" 69 2582 2607 "src/sampling.ml" 69 2582 2653
+)
+type(
+  (Geometry_tools.point_3D ->
+   Geometry_tools.point_3D ->
+   Geometry_tools.point_3D ->
+   float ->
+   (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> bool)
+  option
+)
+type(
+  (Geometry_tools.point_3D ->
+   Geometry_tools.point_3D ->
+   Geometry_tools.point_3D ->
+   float ->
+   (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> bool)
+  option
+)
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  float ->
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> bool
+)
+"src/sampling.ml" 70 2655 2678 "src/sampling.ml" 70 2655 2679
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+"src/sampling.ml" 70 2655 2680 "src/sampling.ml" 70 2655 2711
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+ident(
+  ext_ref Geometry_tools.dist2_variant_3D
+)
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+ident(
+  int_ref *sth* "src/sampling.ml" 70 2655 2680 "src/sampling.ml" 70 2655 2711
+)
+type(
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) option
+)
+type(
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) option
+)
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+"src/sampling.ml" 70 2655 2724 "src/sampling.ml" 70 2655 2725
+type(
+  float list
+)
+"src/sampling.ml" 70 2655 2726 "src/sampling.ml" 70 2655 2728
+type(
+  float list
+)
+type(
+  float list
+)
+ident(
+  int_ref *sth* "src/sampling.ml" 70 2655 2726 "src/sampling.ml" 70 2655 2728
+)
+type(
+  float list option
+)
+type(
+  float list option
+)
+type(
+  float list
+)
+"src/sampling.ml" 70 2655 2730 "src/sampling.ml" 70 2655 2732
+type(
+  unit
+)
+"src/sampling.ml" 71 2735 2743 "src/sampling.ml" 71 2735 2745
+type(
+  float
+)
+ident(
+  def n1 "src/sampling.ml" 73 2848 2852 "src/sampling.ml" 77 3073 3079
+)
+"src/sampling.ml" 71 2735 2751 "src/sampling.ml" 71 2735 2754
+type(
+  float
+)
+"src/sampling.ml" 71 2735 2755 "src/sampling.ml" 71 2735 2756
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/sampling.ml" 71 2735 2759 "src/sampling.ml" 71 2735 2768
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/sampling.ml" 71 2735 2770 "src/sampling.ml" 71 2735 2771
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 68 2529 2560 "src/sampling.ml" 68 2529 2561
+)
+"src/sampling.ml" 71 2735 2771 "src/sampling.ml" 71 2735 2773
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/sampling.ml" 71 2735 2773 "src/sampling.ml" 71 2735 2774
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 68 2529 2551 "src/sampling.ml" 68 2529 2552
+)
+"src/sampling.ml" 71 2735 2769 "src/sampling.ml" 71 2735 2775
+type(
+  float
+)
+"src/sampling.ml" 71 2735 2758 "src/sampling.ml" 71 2735 2776
+type(
+  float
+)
+"src/sampling.ml" 71 2735 2776 "src/sampling.ml" 71 2735 2778
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/sampling.ml" 71 2735 2778 "src/sampling.ml" 71 2735 2781
+type(
+  float
+)
+"src/sampling.ml" 71 2735 2757 "src/sampling.ml" 71 2735 2782
+type(
+  float
+)
+"src/sampling.ml" 71 2735 2751 "src/sampling.ml" 71 2735 2782
+type(
+  bool
+)
+"src/sampling.ml" 71 2735 2788 "src/sampling.ml" 71 2735 2791
+type(
+  float
+)
+"src/sampling.ml" 72 2797 2821 "src/sampling.ml" 72 2797 2830
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/sampling.ml" 72 2797 2832 "src/sampling.ml" 72 2797 2833
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 68 2529 2560 "src/sampling.ml" 68 2529 2561
+)
+"src/sampling.ml" 72 2797 2833 "src/sampling.ml" 72 2797 2835
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/sampling.ml" 72 2797 2835 "src/sampling.ml" 72 2797 2836
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 68 2529 2551 "src/sampling.ml" 68 2529 2552
+)
+"src/sampling.ml" 72 2797 2831 "src/sampling.ml" 72 2797 2837
+type(
+  float
+)
+"src/sampling.ml" 72 2797 2820 "src/sampling.ml" 72 2797 2838
+type(
+  float
+)
+"src/sampling.ml" 72 2797 2838 "src/sampling.ml" 72 2797 2840
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/sampling.ml" 72 2797 2840 "src/sampling.ml" 72 2797 2843
+type(
+  float
+)
+"src/sampling.ml" 72 2797 2819 "src/sampling.ml" 72 2797 2844
+type(
+  float
+)
+"src/sampling.ml" 71 2735 2748 "src/sampling.ml" 72 2797 2844
+type(
+  float
+)
+"src/sampling.ml" 73 2848 2856 "src/sampling.ml" 73 2848 2857
+type(
+  int
+)
+ident(
+  def n "src/sampling.ml" 74 2885 2889 "src/sampling.ml" 77 3073 3079
+)
+"src/sampling.ml" 73 2848 2860 "src/sampling.ml" 73 2848 2872
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"src/sampling.ml" 73 2848 2874 "src/sampling.ml" 73 2848 2876
+type(
+  float
+)
+"src/sampling.ml" 73 2848 2876 "src/sampling.ml" 73 2848 2878
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/sampling.ml" 73 2848 2878 "src/sampling.ml" 73 2848 2880
+type(
+  float
+)
+ident(
+  int_ref n1 "src/sampling.ml" 71 2735 2743 "src/sampling.ml" 71 2735 2745
+)
+"src/sampling.ml" 73 2848 2873 "src/sampling.ml" 73 2848 2881
+type(
+  float
+)
+"src/sampling.ml" 73 2848 2860 "src/sampling.ml" 73 2848 2881
+type(
+  int
+)
+"src/sampling.ml" 74 2885 2893 "src/sampling.ml" 74 2885 2895
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  def dl "src/sampling.ml" 76 2997 3001 "src/sampling.ml" 77 3073 3079
+)
+"src/sampling.ml" 74 2885 2898 "src/sampling.ml" 74 2885 2933
+type(
+  cuts:int ->
+  left:float ->
+  right:float ->
+  fonction:(float -> float * float) ->
+  inlist:float list ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref LDlist_manipulation.create_dlist_3D
+)
+"src/sampling.ml" 74 2885 2940 "src/sampling.ml" 74 2885 2941
+type(
+  int
+)
+ident(
+  int_ref n "src/sampling.ml" 73 2848 2856 "src/sampling.ml" 73 2848 2857
+)
+"src/sampling.ml" 74 2885 2948 "src/sampling.ml" 74 2885 2949
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 68 2529 2551 "src/sampling.ml" 68 2529 2552
+)
+"src/sampling.ml" 74 2885 2957 "src/sampling.ml" 74 2885 2958
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 68 2529 2560 "src/sampling.ml" 68 2529 2561
+)
+"src/sampling.ml" 75 2959 2982 "src/sampling.ml" 75 2959 2983
+type(
+  float -> float * float
+)
+ident(
+  int_ref f "src/sampling.ml" 68 2529 2572 "src/sampling.ml" 68 2529 2573
+)
+"src/sampling.ml" 75 2959 2992 "src/sampling.ml" 75 2959 2993
+type(
+  float list
+)
+ident(
+  int_ref l "src/sampling.ml" 70 2655 2724 "src/sampling.ml" 70 2655 2725
+)
+"src/sampling.ml" 74 2885 2898 "src/sampling.ml" 75 2959 2993
+call(
+  stack
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 76 2997 3001 "src/sampling.ml" 76 2997 3024
+type(
+  fonction:(float -> float * float) ->
+  lDlist:(float option ref * float option ref * float option ref)
+         BatDllist.node_t ->
+  epsi:float ->
+  test:(Geometry_tools.point_3D ->
+        Geometry_tools.point_3D ->
+        Geometry_tools.point_3D ->
+        float ->
+        (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> bool) ->
+  dist:(Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> unit
+)
+ident(
+  ext_ref Recursions.recursion_3D
+)
+"src/sampling.ml" 76 2997 3035 "src/sampling.ml" 76 2997 3036
+type(
+  float -> float * float
+)
+ident(
+  int_ref f "src/sampling.ml" 68 2529 2572 "src/sampling.ml" 68 2529 2573
+)
+"src/sampling.ml" 76 2997 3045 "src/sampling.ml" 76 2997 3047
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/sampling.ml" 74 2885 2893 "src/sampling.ml" 74 2885 2895
+)
+"src/sampling.ml" 76 2997 3054 "src/sampling.ml" 76 2997 3055
+type(
+  float
+)
+ident(
+  int_ref e "src/sampling.ml" 68 2529 2580 "src/sampling.ml" 68 2529 2581
+)
+"src/sampling.ml" 76 2997 3062 "src/sampling.ml" 76 2997 3063
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  float ->
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> bool
+)
+ident(
+  int_ref t "src/sampling.ml" 69 2582 2605 "src/sampling.ml" 69 2582 2606
+)
+"src/sampling.ml" 76 2997 3070 "src/sampling.ml" 76 2997 3071
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+ident(
+  int_ref d "src/sampling.ml" 70 2655 2678 "src/sampling.ml" 70 2655 2679
+)
+"src/sampling.ml" 76 2997 3001 "src/sampling.ml" 76 2997 3071
+call(
+  stack
+)
+type(
+  unit
+)
+"src/sampling.ml" 77 3073 3077 "src/sampling.ml" 77 3073 3079
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref dl "src/sampling.ml" 74 2885 2893 "src/sampling.ml" 74 2885 2895
+)
+"src/sampling.ml" 76 2997 3001 "src/sampling.ml" 77 3073 3079
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 74 2885 2889 "src/sampling.ml" 77 3073 3079
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 73 2848 2852 "src/sampling.ml" 77 3073 3079
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 71 2735 2739 "src/sampling.ml" 77 3073 3079
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 79 3081 3085 "src/sampling.ml" 79 3081 3103
+type(
+  left:float ->
+  right:float ->
+  fonction:(float -> float * float) ->
+  ?test:int ->
+  ?mode:char ->
+  ?epsi:float ->
+  unit ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  def preset_sampling_3D "src/sampling.ml" 103 4504 4544 "src/sampling.ml" 1 0 -1
+)
+"src/sampling.ml" 79 3081 3110 "src/sampling.ml" 79 3081 3111
+type(
+  float
+)
+ident(
+  def a "src/sampling.ml" 79 3081 3112 "src/sampling.ml" 103 4504 4544
+)
+"src/sampling.ml" 79 3081 3119 "src/sampling.ml" 79 3081 3120
+type(
+  float
+)
+ident(
+  def b "src/sampling.ml" 79 3081 3121 "src/sampling.ml" 103 4504 4544
+)
+"src/sampling.ml" 79 3081 3131 "src/sampling.ml" 79 3081 3132
+type(
+  float -> float * float
+)
+ident(
+  def f "src/sampling.ml" 79 3081 3133 "src/sampling.ml" 103 4504 4544
+)
+"src/sampling.ml" 79 3081 3140 "src/sampling.ml" 79 3081 3141
+type(
+  int
+)
+"src/sampling.ml" 79 3081 3142 "src/sampling.ml" 79 3081 3143
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "src/sampling.ml" 79 3081 3142 "src/sampling.ml" 79 3081 3143
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+"src/sampling.ml" 79 3081 3152 "src/sampling.ml" 79 3081 3153
+type(
+  char
+)
+"src/sampling.ml" 79 3081 3154 "src/sampling.ml" 79 3081 3157
+type(
+  char
+)
+type(
+  char
+)
+ident(
+  int_ref *sth* "src/sampling.ml" 79 3081 3154 "src/sampling.ml" 79 3081 3157
+)
+type(
+  char option
+)
+type(
+  char option
+)
+type(
+  char
+)
+"src/sampling.ml" 80 3159 3189 "src/sampling.ml" 80 3159 3192
+type(
+  float
+)
+"src/sampling.ml" 80 3159 3193 "src/sampling.ml" 80 3159 3195
+type(
+  float
+)
+type(
+  float
+)
+ident(
+  int_ref *sth* "src/sampling.ml" 80 3159 3193 "src/sampling.ml" 80 3159 3195
+)
+type(
+  float option
+)
+type(
+  float option
+)
+type(
+  float
+)
+"src/sampling.ml" 80 3159 3197 "src/sampling.ml" 80 3159 3199
+type(
+  unit
+)
+"src/sampling.ml" 81 3201 3209 "src/sampling.ml" 81 3201 3210
+type(
+  int
+)
+ident(
+  def n "src/sampling.ml" 83 3323 3327 "src/sampling.ml" 103 4504 4544
+)
+"src/sampling.ml" 81 3201 3217 "src/sampling.ml" 81 3201 3218
+type(
+  char
+)
+ident(
+  int_ref m "src/sampling.ml" 79 3081 3152 "src/sampling.ml" 79 3081 3153
+)
+"src/sampling.ml" 81 3201 3218 "src/sampling.ml" 81 3201 3219
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/sampling.ml" 81 3201 3219 "src/sampling.ml" 81 3201 3222
+type(
+  char
+)
+"src/sampling.ml" 81 3201 3217 "src/sampling.ml" 81 3201 3222
+type(
+  bool
+)
+"src/sampling.ml" 81 3201 3228 "src/sampling.ml" 81 3201 3230
+type(
+  int
+)
+"src/sampling.ml" 81 3201 3239 "src/sampling.ml" 81 3201 3240
+type(
+  char
+)
+ident(
+  int_ref m "src/sampling.ml" 79 3081 3152 "src/sampling.ml" 79 3081 3153
+)
+"src/sampling.ml" 81 3201 3240 "src/sampling.ml" 81 3201 3241
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/sampling.ml" 81 3201 3241 "src/sampling.ml" 81 3201 3244
+type(
+  char
+)
+"src/sampling.ml" 81 3201 3239 "src/sampling.ml" 81 3201 3244
+type(
+  bool
+)
+"src/sampling.ml" 81 3201 3250 "src/sampling.ml" 81 3201 3253
+type(
+  int
+)
+"src/sampling.ml" 81 3201 3262 "src/sampling.ml" 81 3201 3263
+type(
+  char
+)
+ident(
+  int_ref m "src/sampling.ml" 79 3081 3152 "src/sampling.ml" 79 3081 3153
+)
+"src/sampling.ml" 81 3201 3263 "src/sampling.ml" 81 3201 3264
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/sampling.ml" 81 3201 3264 "src/sampling.ml" 81 3201 3267
+type(
+  char
+)
+"src/sampling.ml" 81 3201 3262 "src/sampling.ml" 81 3201 3267
+type(
+  bool
+)
+"src/sampling.ml" 82 3268 3286 "src/sampling.ml" 82 3268 3289
+type(
+  int
+)
+"src/sampling.ml" 82 3268 3295 "src/sampling.ml" 82 3268 3303
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/sampling.ml" 82 3268 3304 "src/sampling.ml" 82 3268 3318
+type(
+  string
+)
+"src/sampling.ml" 82 3268 3295 "src/sampling.ml" 82 3268 3318
+call(
+  stack
+)
+type(
+  int
+)
+"src/sampling.ml" 81 3201 3259 "src/sampling.ml" 82 3268 3318
+type(
+  int
+)
+"src/sampling.ml" 81 3201 3236 "src/sampling.ml" 82 3268 3318
+type(
+  int
+)
+"src/sampling.ml" 81 3201 3213 "src/sampling.ml" 82 3268 3319
+type(
+  int
+)
+"src/sampling.ml" 83 3323 3331 "src/sampling.ml" 83 3323 3334
+type(
+  float
+)
+ident(
+  def r_e "src/sampling.ml" 84 3355 3359 "src/sampling.ml" 103 4504 4544
+)
+"src/sampling.ml" 83 3323 3337 "src/sampling.ml" 83 3323 3339
+type(
+  float
+)
+"src/sampling.ml" 83 3323 3339 "src/sampling.ml" 83 3323 3341
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/sampling.ml" 83 3323 3343 "src/sampling.ml" 83 3323 3348
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float
+)
+"src/sampling.ml" 83 3323 3349 "src/sampling.ml" 83 3323 3350
+type(
+  int
+)
+ident(
+  int_ref n "src/sampling.ml" 81 3201 3209 "src/sampling.ml" 81 3201 3210
+)
+"src/sampling.ml" 83 3323 3342 "src/sampling.ml" 83 3323 3351
+type(
+  float
+)
+"src/sampling.ml" 83 3323 3337 "src/sampling.ml" 83 3323 3351
+type(
+  float
+)
+"src/sampling.ml" 84 3355 3365 "src/sampling.ml" 84 3355 3366
+type(
+  int
+)
+ident(
+  int_ref t "src/sampling.ml" 79 3081 3140 "src/sampling.ml" 79 3081 3141
+)
+"src/sampling.ml" 85 3372 3377 "src/sampling.ml" 85 3372 3378
+type(
+  int
+)
+"src/sampling.ml" 85 3372 3382 "src/sampling.ml" 85 3372 3393
+type(
+  left:float ->
+  right:float ->
+  fonction:(float -> float * float) ->
+  epsi:float ->
+  ?test:(Geometry_tools.point_3D ->
+         Geometry_tools.point_3D ->
+         Geometry_tools.point_3D ->
+         float ->
+         (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) ->
+         bool) ->
+  ?dist:(Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) ->
+  ?d_points:float list ->
+  unit ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref sampling_3D "src/sampling.ml" 68 2529 2533 "src/sampling.ml" 68 2529 2544
+)
+"src/sampling.ml" 85 3372 3400 "src/sampling.ml" 85 3372 3401
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 79 3081 3110 "src/sampling.ml" 79 3081 3111
+)
+"src/sampling.ml" 85 3372 3409 "src/sampling.ml" 85 3372 3410
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 79 3081 3119 "src/sampling.ml" 79 3081 3120
+)
+"src/sampling.ml" 85 3372 3421 "src/sampling.ml" 85 3372 3422
+type(
+  float -> float * float
+)
+ident(
+  int_ref f "src/sampling.ml" 79 3081 3131 "src/sampling.ml" 79 3081 3132
+)
+"src/sampling.ml" 85 3372 3430 "src/sampling.ml" 85 3372 3433
+type(
+  float
+)
+ident(
+  int_ref f_e "src/sampling.ml" 80 3159 3189 "src/sampling.ml" 80 3159 3192
+)
+"src/sampling.ml" 85 3372 3433 "src/sampling.ml" 85 3372 3435
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 85 3372 3435 "src/sampling.ml" 85 3372 3438
+type(
+  float
+)
+ident(
+  int_ref r_e "src/sampling.ml" 83 3323 3331 "src/sampling.ml" 83 3323 3334
+)
+"src/sampling.ml" 85 3372 3430 "src/sampling.ml" 85 3372 3438
+type(
+  float
+)
+"src/sampling.ml" 85 3372 3438 "src/sampling.ml" 85 3372 3440
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 85 3372 3440 "src/sampling.ml" 85 3372 3444
+type(
+  float
+)
+"src/sampling.ml" 85 3372 3429 "src/sampling.ml" 85 3372 3445
+type(
+  float
+)
+"src/sampling.ml" 86 3446 3467 "src/sampling.ml" 86 3446 3513
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  float ->
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> bool
+)
+ident(
+  ext_ref Flatness_criterion.distance_point_cord_test_3D
+)
+"src/sampling.ml" 87 3514 3536 "src/sampling.ml" 87 3514 3567
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+ident(
+  ext_ref Geometry_tools.dist2_variant_3D
+)
+"src/sampling.ml" 87 3514 3568 "src/sampling.ml" 87 3514 3570
+type(
+  unit
+)
+"src/sampling.ml" 85 3372 3382 "src/sampling.ml" 87 3514 3570
+call(
+  tail
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 88 3571 3576 "src/sampling.ml" 88 3571 3577
+type(
+  int
+)
+"src/sampling.ml" 88 3571 3581 "src/sampling.ml" 88 3571 3592
+type(
+  left:float ->
+  right:float ->
+  fonction:(float -> float * float) ->
+  epsi:float ->
+  ?test:(Geometry_tools.point_3D ->
+         Geometry_tools.point_3D ->
+         Geometry_tools.point_3D ->
+         float ->
+         (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) ->
+         bool) ->
+  ?dist:(Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) ->
+  ?d_points:float list ->
+  unit ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref sampling_3D "src/sampling.ml" 68 2529 2533 "src/sampling.ml" 68 2529 2544
+)
+"src/sampling.ml" 88 3571 3599 "src/sampling.ml" 88 3571 3600
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 79 3081 3110 "src/sampling.ml" 79 3081 3111
+)
+"src/sampling.ml" 88 3571 3608 "src/sampling.ml" 88 3571 3609
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 79 3081 3119 "src/sampling.ml" 79 3081 3120
+)
+"src/sampling.ml" 88 3571 3620 "src/sampling.ml" 88 3571 3621
+type(
+  float -> float * float
+)
+ident(
+  int_ref f "src/sampling.ml" 79 3081 3131 "src/sampling.ml" 79 3081 3132
+)
+"src/sampling.ml" 88 3571 3629 "src/sampling.ml" 88 3571 3632
+type(
+  float
+)
+ident(
+  int_ref f_e "src/sampling.ml" 80 3159 3189 "src/sampling.ml" 80 3159 3192
+)
+"src/sampling.ml" 88 3571 3632 "src/sampling.ml" 88 3571 3634
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 88 3571 3634 "src/sampling.ml" 88 3571 3637
+type(
+  float
+)
+ident(
+  int_ref r_e "src/sampling.ml" 83 3323 3331 "src/sampling.ml" 83 3323 3334
+)
+"src/sampling.ml" 88 3571 3629 "src/sampling.ml" 88 3571 3637
+type(
+  float
+)
+"src/sampling.ml" 88 3571 3637 "src/sampling.ml" 88 3571 3639
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 88 3571 3639 "src/sampling.ml" 88 3571 3643
+type(
+  float
+)
+"src/sampling.ml" 88 3571 3628 "src/sampling.ml" 88 3571 3644
+type(
+  float
+)
+"src/sampling.ml" 89 3645 3667 "src/sampling.ml" 89 3645 3707
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  float ->
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> bool
+)
+ident(
+  ext_ref Flatness_criterion.triangle_area_test_3D
+)
+"src/sampling.ml" 90 3708 3730 "src/sampling.ml" 90 3708 3761
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+ident(
+  ext_ref Geometry_tools.dist_infinity_3D
+)
+"src/sampling.ml" 90 3708 3762 "src/sampling.ml" 90 3708 3764
+type(
+  unit
+)
+"src/sampling.ml" 88 3571 3581 "src/sampling.ml" 90 3708 3764
+call(
+  tail
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 91 3765 3770 "src/sampling.ml" 91 3765 3771
+type(
+  int
+)
+"src/sampling.ml" 91 3765 3775 "src/sampling.ml" 91 3765 3786
+type(
+  left:float ->
+  right:float ->
+  fonction:(float -> float * float) ->
+  epsi:float ->
+  ?test:(Geometry_tools.point_3D ->
+         Geometry_tools.point_3D ->
+         Geometry_tools.point_3D ->
+         float ->
+         (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) ->
+         bool) ->
+  ?dist:(Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) ->
+  ?d_points:float list ->
+  unit ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref sampling_3D "src/sampling.ml" 68 2529 2533 "src/sampling.ml" 68 2529 2544
+)
+"src/sampling.ml" 91 3765 3793 "src/sampling.ml" 91 3765 3794
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 79 3081 3110 "src/sampling.ml" 79 3081 3111
+)
+"src/sampling.ml" 91 3765 3802 "src/sampling.ml" 91 3765 3803
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 79 3081 3119 "src/sampling.ml" 79 3081 3120
+)
+"src/sampling.ml" 91 3765 3814 "src/sampling.ml" 91 3765 3815
+type(
+  float -> float * float
+)
+ident(
+  int_ref f "src/sampling.ml" 79 3081 3131 "src/sampling.ml" 79 3081 3132
+)
+"src/sampling.ml" 91 3765 3823 "src/sampling.ml" 91 3765 3826
+type(
+  float
+)
+ident(
+  int_ref f_e "src/sampling.ml" 80 3159 3189 "src/sampling.ml" 80 3159 3192
+)
+"src/sampling.ml" 91 3765 3826 "src/sampling.ml" 91 3765 3828
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 91 3765 3828 "src/sampling.ml" 91 3765 3831
+type(
+  float
+)
+ident(
+  int_ref r_e "src/sampling.ml" 83 3323 3331 "src/sampling.ml" 83 3323 3334
+)
+"src/sampling.ml" 91 3765 3823 "src/sampling.ml" 91 3765 3831
+type(
+  float
+)
+"src/sampling.ml" 91 3765 3831 "src/sampling.ml" 91 3765 3833
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 91 3765 3833 "src/sampling.ml" 91 3765 3836
+type(
+  float
+)
+"src/sampling.ml" 91 3765 3822 "src/sampling.ml" 91 3765 3837
+type(
+  float
+)
+"src/sampling.ml" 92 3838 3860 "src/sampling.ml" 92 3838 3900
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  float ->
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> bool
+)
+ident(
+  ext_ref Flatness_criterion.triangle_area_test_3D
+)
+"src/sampling.ml" 93 3901 3923 "src/sampling.ml" 93 3901 3946
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+ident(
+  ext_ref Geometry_tools.dist1_3D
+)
+"src/sampling.ml" 93 3901 3947 "src/sampling.ml" 93 3901 3949
+type(
+  unit
+)
+"src/sampling.ml" 91 3765 3775 "src/sampling.ml" 93 3901 3949
+call(
+  tail
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 94 3950 3955 "src/sampling.ml" 94 3950 3956
+type(
+  int
+)
+"src/sampling.ml" 94 3950 3960 "src/sampling.ml" 94 3950 3971
+type(
+  left:float ->
+  right:float ->
+  fonction:(float -> float * float) ->
+  epsi:float ->
+  ?test:(Geometry_tools.point_3D ->
+         Geometry_tools.point_3D ->
+         Geometry_tools.point_3D ->
+         float ->
+         (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) ->
+         bool) ->
+  ?dist:(Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) ->
+  ?d_points:float list ->
+  unit ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref sampling_3D "src/sampling.ml" 68 2529 2533 "src/sampling.ml" 68 2529 2544
+)
+"src/sampling.ml" 94 3950 3978 "src/sampling.ml" 94 3950 3979
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 79 3081 3110 "src/sampling.ml" 79 3081 3111
+)
+"src/sampling.ml" 94 3950 3987 "src/sampling.ml" 94 3950 3988
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 79 3081 3119 "src/sampling.ml" 79 3081 3120
+)
+"src/sampling.ml" 94 3950 3999 "src/sampling.ml" 94 3950 4000
+type(
+  float -> float * float
+)
+ident(
+  int_ref f "src/sampling.ml" 79 3081 3131 "src/sampling.ml" 79 3081 3132
+)
+"src/sampling.ml" 94 3950 4008 "src/sampling.ml" 94 3950 4011
+type(
+  float
+)
+ident(
+  int_ref f_e "src/sampling.ml" 80 3159 3189 "src/sampling.ml" 80 3159 3192
+)
+"src/sampling.ml" 94 3950 4011 "src/sampling.ml" 94 3950 4013
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 94 3950 4013 "src/sampling.ml" 94 3950 4016
+type(
+  float
+)
+ident(
+  int_ref r_e "src/sampling.ml" 83 3323 3331 "src/sampling.ml" 83 3323 3334
+)
+"src/sampling.ml" 94 3950 4008 "src/sampling.ml" 94 3950 4016
+type(
+  float
+)
+"src/sampling.ml" 94 3950 4016 "src/sampling.ml" 94 3950 4018
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 94 3950 4018 "src/sampling.ml" 94 3950 4022
+type(
+  float
+)
+"src/sampling.ml" 94 3950 4007 "src/sampling.ml" 94 3950 4023
+type(
+  float
+)
+"src/sampling.ml" 95 4024 4046 "src/sampling.ml" 95 4024 4092
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  float ->
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> bool
+)
+ident(
+  ext_ref Flatness_criterion.distance_point_cord_test_3D
+)
+"src/sampling.ml" 96 4093 4115 "src/sampling.ml" 96 4093 4146
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+ident(
+  ext_ref Geometry_tools.dist_infinity_3D
+)
+"src/sampling.ml" 96 4093 4147 "src/sampling.ml" 96 4093 4149
+type(
+  unit
+)
+"src/sampling.ml" 94 3950 3960 "src/sampling.ml" 96 4093 4149
+call(
+  tail
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 97 4150 4155 "src/sampling.ml" 97 4150 4156
+type(
+  int
+)
+"src/sampling.ml" 97 4150 4160 "src/sampling.ml" 97 4150 4171
+type(
+  left:float ->
+  right:float ->
+  fonction:(float -> float * float) ->
+  epsi:float ->
+  ?test:(Geometry_tools.point_3D ->
+         Geometry_tools.point_3D ->
+         Geometry_tools.point_3D ->
+         float ->
+         (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) ->
+         bool) ->
+  ?dist:(Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) ->
+  ?d_points:float list ->
+  unit ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref sampling_3D "src/sampling.ml" 68 2529 2533 "src/sampling.ml" 68 2529 2544
+)
+"src/sampling.ml" 97 4150 4178 "src/sampling.ml" 97 4150 4179
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 79 3081 3110 "src/sampling.ml" 79 3081 3111
+)
+"src/sampling.ml" 97 4150 4187 "src/sampling.ml" 97 4150 4188
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 79 3081 3119 "src/sampling.ml" 79 3081 3120
+)
+"src/sampling.ml" 97 4150 4199 "src/sampling.ml" 97 4150 4200
+type(
+  float -> float * float
+)
+ident(
+  int_ref f "src/sampling.ml" 79 3081 3131 "src/sampling.ml" 79 3081 3132
+)
+"src/sampling.ml" 97 4150 4208 "src/sampling.ml" 97 4150 4211
+type(
+  float
+)
+ident(
+  int_ref f_e "src/sampling.ml" 80 3159 3189 "src/sampling.ml" 80 3159 3192
+)
+"src/sampling.ml" 97 4150 4211 "src/sampling.ml" 97 4150 4213
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 97 4150 4213 "src/sampling.ml" 97 4150 4217
+type(
+  float
+)
+"src/sampling.ml" 97 4150 4207 "src/sampling.ml" 97 4150 4218
+type(
+  float
+)
+"src/sampling.ml" 98 4219 4241 "src/sampling.ml" 98 4219 4273
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  float ->
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> bool
+)
+ident(
+  ext_ref Flatness_criterion.angle_test_3D
+)
+"src/sampling.ml" 99 4274 4296 "src/sampling.ml" 99 4274 4327
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+ident(
+  ext_ref Geometry_tools.dist2_variant_3D
+)
+"src/sampling.ml" 99 4274 4328 "src/sampling.ml" 99 4274 4330
+type(
+  unit
+)
+"src/sampling.ml" 97 4150 4160 "src/sampling.ml" 99 4274 4330
+call(
+  tail
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 100 4331 4336 "src/sampling.ml" 100 4331 4337
+type(
+  int
+)
+"src/sampling.ml" 100 4331 4341 "src/sampling.ml" 100 4331 4352
+type(
+  left:float ->
+  right:float ->
+  fonction:(float -> float * float) ->
+  epsi:float ->
+  ?test:(Geometry_tools.point_3D ->
+         Geometry_tools.point_3D ->
+         Geometry_tools.point_3D ->
+         float ->
+         (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) ->
+         bool) ->
+  ?dist:(Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) ->
+  ?d_points:float list ->
+  unit ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  int_ref sampling_3D "src/sampling.ml" 68 2529 2533 "src/sampling.ml" 68 2529 2544
+)
+"src/sampling.ml" 100 4331 4359 "src/sampling.ml" 100 4331 4360
+type(
+  float
+)
+ident(
+  int_ref a "src/sampling.ml" 79 3081 3110 "src/sampling.ml" 79 3081 3111
+)
+"src/sampling.ml" 100 4331 4368 "src/sampling.ml" 100 4331 4369
+type(
+  float
+)
+ident(
+  int_ref b "src/sampling.ml" 79 3081 3119 "src/sampling.ml" 79 3081 3120
+)
+"src/sampling.ml" 100 4331 4380 "src/sampling.ml" 100 4331 4381
+type(
+  float -> float * float
+)
+ident(
+  int_ref f "src/sampling.ml" 79 3081 3131 "src/sampling.ml" 79 3081 3132
+)
+"src/sampling.ml" 100 4331 4389 "src/sampling.ml" 100 4331 4392
+type(
+  float
+)
+ident(
+  int_ref f_e "src/sampling.ml" 80 3159 3189 "src/sampling.ml" 80 3159 3192
+)
+"src/sampling.ml" 100 4331 4392 "src/sampling.ml" 100 4331 4394
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/sampling.ml" 100 4331 4394 "src/sampling.ml" 100 4331 4398
+type(
+  float
+)
+"src/sampling.ml" 100 4331 4388 "src/sampling.ml" 100 4331 4399
+type(
+  float
+)
+"src/sampling.ml" 101 4400 4422 "src/sampling.ml" 101 4400 4454
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  float ->
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> bool
+)
+ident(
+  ext_ref Flatness_criterion.angle_test_3D
+)
+"src/sampling.ml" 102 4455 4477 "src/sampling.ml" 102 4455 4500
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+ident(
+  ext_ref Geometry_tools.dist1_3D
+)
+"src/sampling.ml" 102 4455 4501 "src/sampling.ml" 102 4455 4503
+type(
+  unit
+)
+"src/sampling.ml" 100 4331 4341 "src/sampling.ml" 102 4455 4503
+call(
+  tail
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 103 4504 4509 "src/sampling.ml" 103 4504 4510
+type(
+  int
+)
+"src/sampling.ml" 103 4504 4514 "src/sampling.ml" 103 4504 4522
+type(
+  string ->
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/sampling.ml" 103 4504 4523 "src/sampling.ml" 103 4504 4544
+type(
+  string
+)
+"src/sampling.ml" 103 4504 4514 "src/sampling.ml" 103 4504 4544
+call(
+  tail
+)
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 84 3355 3359 "src/sampling.ml" 103 4504 4544
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 83 3323 3327 "src/sampling.ml" 103 4504 4544
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)
+"src/sampling.ml" 81 3201 3205 "src/sampling.ml" 103 4504 4544
+type(
+  (float option ref * float option ref * float option ref) BatDllist.node_t
+)

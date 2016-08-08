@@ -1,0 +1,65 @@
+#								-*-conf-*-
+OASISFormat: 0.3
+Name:        samplend
+Version:     0.1
+Synopsis:    Sampling for 2D and 3D functions library.
+Description: Samplend is a library for 2D and 3D functions
+             sampling, it permets visualisation of data with
+             tikz is also possible to use geogebra
+Authors:     Antoine Claux, Horacio Tellez
+Maintainers: Christophe Troestler <Christophe.Troestler@umons.ac.be>
+License:     LGPL-3.0 with OCaml linking exception
+Plugins:     META (0.3), StdFiles (0.3)
+
+Library "samplend"
+  Path:         src
+  BuildTools:   ocamlbuild
+  Modules:      Sampling
+  BuildDepends: batteries,  samplend.internals
+
+Library internals
+  Path:         src
+  BuildTools:   ocamlbuild
+  Pack:         true
+  Modules: Geometry_tools, Flatness_criterion, Choice, Utilities, LDlist_manipulation, Recursions, Tikz_trans, Sampling
+  BuildDepends: batteries
+  FindlibParent: samplend
+  FindlibName:   internals
+
+Document API
+  Title:           API reference for Samplens
+  Type:            OCamlbuild (0.3)
+  InstallDir:      $docdir/api
+  BuildTools:      ocamldoc, ocamlbuild
+  XOCamlbuildPath: src
+  XOCamlbuildLibraries: samplend
+
+#EXEMPLES
+#########################################
+Executable "test_2D_1"
+  Path:         examples/
+  BuildTools:   ocamlbuild
+  MainIs:       test_2D_1.ml
+  BuildDepends: samplend
+  Install:      false
+
+Executable "test_2D_2"
+  Path:         examples/
+  BuildTools:   ocamlbuild
+  MainIs:       test_2D_2.ml
+  BuildDepends: samplend
+  Install:      false
+
+Executable "test_2D_3"
+  Path:         examples/
+  BuildTools:   ocamlbuild
+  MainIs:       test_2D_3.ml
+  BuildDepends: samplend
+  Install:      false
+
+Executable "test_2D_4"
+  Path:         examples/
+  BuildTools:   ocamlbuild
+  MainIs:       test_2D_4.ml
+  BuildDepends: samplend
+  Install:      false

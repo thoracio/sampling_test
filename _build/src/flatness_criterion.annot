@@ -1,0 +1,1894 @@
+"src/flatness_criterion.ml" 15 389 393 "src/flatness_criterion.ml" 15 389 405
+type(
+  'a -> 'a -> 'a -> float -> ('a -> 'a -> float) -> bool
+)
+ident(
+  def cord_test_2D "src/flatness_criterion.ml" 24 760 760 "src/flatness_criterion.ml" 1 0 -1
+)
+"src/flatness_criterion.ml" 15 389 406 "src/flatness_criterion.ml" 15 389 411
+type(
+  'a
+)
+ident(
+  def p_f_a "src/flatness_criterion.ml" 15 389 412 "src/flatness_criterion.ml" 19 538 582
+)
+"src/flatness_criterion.ml" 15 389 412 "src/flatness_criterion.ml" 15 389 417
+type(
+  'a
+)
+ident(
+  def p_f_b "src/flatness_criterion.ml" 15 389 418 "src/flatness_criterion.ml" 19 538 582
+)
+"src/flatness_criterion.ml" 15 389 418 "src/flatness_criterion.ml" 15 389 423
+type(
+  'a
+)
+ident(
+  def p_f_m "src/flatness_criterion.ml" 15 389 424 "src/flatness_criterion.ml" 19 538 582
+)
+"src/flatness_criterion.ml" 15 389 424 "src/flatness_criterion.ml" 15 389 428
+type(
+  float
+)
+ident(
+  def epsi "src/flatness_criterion.ml" 15 389 429 "src/flatness_criterion.ml" 19 538 582
+)
+"src/flatness_criterion.ml" 15 389 429 "src/flatness_criterion.ml" 15 389 433
+type(
+  'a -> 'a -> float
+)
+ident(
+  def dist "src/flatness_criterion.ml" 16 436 438 "src/flatness_criterion.ml" 19 538 582
+)
+"src/flatness_criterion.ml" 16 436 442 "src/flatness_criterion.ml" 16 436 447
+type(
+  float
+)
+ident(
+  def d_a_m "src/flatness_criterion.ml" 17 470 472 "src/flatness_criterion.ml" 19 538 582
+)
+"src/flatness_criterion.ml" 16 436 450 "src/flatness_criterion.ml" 16 436 454
+type(
+  'a -> 'a -> float
+)
+ident(
+  int_ref dist "src/flatness_criterion.ml" 15 389 429 "src/flatness_criterion.ml" 15 389 433
+)
+"src/flatness_criterion.ml" 16 436 455 "src/flatness_criterion.ml" 16 436 460
+type(
+  'a
+)
+ident(
+  int_ref p_f_a "src/flatness_criterion.ml" 15 389 406 "src/flatness_criterion.ml" 15 389 411
+)
+"src/flatness_criterion.ml" 16 436 461 "src/flatness_criterion.ml" 16 436 466
+type(
+  'a
+)
+ident(
+  int_ref p_f_m "src/flatness_criterion.ml" 15 389 418 "src/flatness_criterion.ml" 15 389 423
+)
+"src/flatness_criterion.ml" 16 436 450 "src/flatness_criterion.ml" 16 436 466
+call(
+  stack
+)
+type(
+  float
+)
+"src/flatness_criterion.ml" 17 470 476 "src/flatness_criterion.ml" 17 470 481
+type(
+  float
+)
+ident(
+  def d_b_m "src/flatness_criterion.ml" 18 504 506 "src/flatness_criterion.ml" 19 538 582
+)
+"src/flatness_criterion.ml" 17 470 484 "src/flatness_criterion.ml" 17 470 488
+type(
+  'a -> 'a -> float
+)
+ident(
+  int_ref dist "src/flatness_criterion.ml" 15 389 429 "src/flatness_criterion.ml" 15 389 433
+)
+"src/flatness_criterion.ml" 17 470 489 "src/flatness_criterion.ml" 17 470 494
+type(
+  'a
+)
+ident(
+  int_ref p_f_m "src/flatness_criterion.ml" 15 389 418 "src/flatness_criterion.ml" 15 389 423
+)
+"src/flatness_criterion.ml" 17 470 495 "src/flatness_criterion.ml" 17 470 500
+type(
+  'a
+)
+ident(
+  int_ref p_f_b "src/flatness_criterion.ml" 15 389 412 "src/flatness_criterion.ml" 15 389 417
+)
+"src/flatness_criterion.ml" 17 470 484 "src/flatness_criterion.ml" 17 470 500
+call(
+  stack
+)
+type(
+  float
+)
+"src/flatness_criterion.ml" 18 504 510 "src/flatness_criterion.ml" 18 504 515
+type(
+  float
+)
+ident(
+  def d_a_b "src/flatness_criterion.ml" 19 538 540 "src/flatness_criterion.ml" 19 538 582
+)
+"src/flatness_criterion.ml" 18 504 518 "src/flatness_criterion.ml" 18 504 522
+type(
+  'a -> 'a -> float
+)
+ident(
+  int_ref dist "src/flatness_criterion.ml" 15 389 429 "src/flatness_criterion.ml" 15 389 433
+)
+"src/flatness_criterion.ml" 18 504 523 "src/flatness_criterion.ml" 18 504 528
+type(
+  'a
+)
+ident(
+  int_ref p_f_a "src/flatness_criterion.ml" 15 389 406 "src/flatness_criterion.ml" 15 389 411
+)
+"src/flatness_criterion.ml" 18 504 529 "src/flatness_criterion.ml" 18 504 534
+type(
+  'a
+)
+ident(
+  int_ref p_f_b "src/flatness_criterion.ml" 15 389 412 "src/flatness_criterion.ml" 15 389 417
+)
+"src/flatness_criterion.ml" 18 504 518 "src/flatness_criterion.ml" 18 504 534
+call(
+  stack
+)
+type(
+  float
+)
+"src/flatness_criterion.ml" 19 538 540 "src/flatness_criterion.ml" 19 538 549
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/flatness_criterion.ml" 19 538 551 "src/flatness_criterion.ml" 19 538 556
+type(
+  float
+)
+ident(
+  int_ref d_a_m "src/flatness_criterion.ml" 16 436 442 "src/flatness_criterion.ml" 16 436 447
+)
+"src/flatness_criterion.ml" 19 538 557 "src/flatness_criterion.ml" 19 538 559
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/flatness_criterion.ml" 19 538 560 "src/flatness_criterion.ml" 19 538 565
+type(
+  float
+)
+ident(
+  int_ref d_b_m "src/flatness_criterion.ml" 17 470 476 "src/flatness_criterion.ml" 17 470 481
+)
+"src/flatness_criterion.ml" 19 538 551 "src/flatness_criterion.ml" 19 538 565
+type(
+  float
+)
+"src/flatness_criterion.ml" 19 538 566 "src/flatness_criterion.ml" 19 538 568
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/flatness_criterion.ml" 19 538 569 "src/flatness_criterion.ml" 19 538 574
+type(
+  float
+)
+ident(
+  int_ref d_a_b "src/flatness_criterion.ml" 18 504 510 "src/flatness_criterion.ml" 18 504 515
+)
+"src/flatness_criterion.ml" 19 538 550 "src/flatness_criterion.ml" 19 538 575
+type(
+  float
+)
+"src/flatness_criterion.ml" 19 538 540 "src/flatness_criterion.ml" 19 538 575
+type(
+  float
+)
+"src/flatness_criterion.ml" 19 538 576 "src/flatness_criterion.ml" 19 538 577
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/flatness_criterion.ml" 19 538 578 "src/flatness_criterion.ml" 19 538 582
+type(
+  float
+)
+ident(
+  int_ref epsi "src/flatness_criterion.ml" 15 389 424 "src/flatness_criterion.ml" 15 389 428
+)
+"src/flatness_criterion.ml" 19 538 540 "src/flatness_criterion.ml" 19 538 582
+type(
+  bool
+)
+"src/flatness_criterion.ml" 18 504 506 "src/flatness_criterion.ml" 19 538 582
+type(
+  bool
+)
+"src/flatness_criterion.ml" 17 470 472 "src/flatness_criterion.ml" 19 538 582
+type(
+  bool
+)
+"src/flatness_criterion.ml" 16 436 438 "src/flatness_criterion.ml" 19 538 582
+type(
+  bool
+)
+"src/flatness_criterion.ml" 24 760 764 "src/flatness_criterion.ml" 24 760 791
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  float ->
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> bool
+)
+ident(
+  def distance_point_cord_test_2D "src/flatness_criterion.ml" 33 1141 1141 "src/flatness_criterion.ml" 1 0 -1
+)
+"src/flatness_criterion.ml" 24 760 792 "src/flatness_criterion.ml" 24 760 797
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  def p_f_a "src/flatness_criterion.ml" 24 760 798 "src/flatness_criterion.ml" 27 931 998
+)
+"src/flatness_criterion.ml" 24 760 798 "src/flatness_criterion.ml" 24 760 803
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  def p_f_b "src/flatness_criterion.ml" 24 760 804 "src/flatness_criterion.ml" 27 931 998
+)
+"src/flatness_criterion.ml" 24 760 804 "src/flatness_criterion.ml" 24 760 809
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  def p_f_m "src/flatness_criterion.ml" 24 760 810 "src/flatness_criterion.ml" 27 931 998
+)
+"src/flatness_criterion.ml" 24 760 810 "src/flatness_criterion.ml" 24 760 814
+type(
+  float
+)
+ident(
+  def epsi "src/flatness_criterion.ml" 24 760 815 "src/flatness_criterion.ml" 27 931 998
+)
+"src/flatness_criterion.ml" 24 760 815 "src/flatness_criterion.ml" 24 760 819
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+ident(
+  def dist "src/flatness_criterion.ml" 25 822 824 "src/flatness_criterion.ml" 27 931 998
+)
+"src/flatness_criterion.ml" 25 822 828 "src/flatness_criterion.ml" 25 822 835
+type(
+  Geometry_tools.line_2D
+)
+ident(
+  def l_f_a_b "src/flatness_criterion.ml" 27 931 933 "src/flatness_criterion.ml" 27 931 998
+)
+"src/flatness_criterion.ml" 25 822 838 "src/flatness_criterion.ml" 25 822 867
+type(
+  point:Geometry_tools.point_2D ->
+  vector:Geometry_tools.point_2D -> Geometry_tools.line_2D
+)
+ident(
+  ext_ref Geometry_tools.create_line_2D
+)
+"src/flatness_criterion.ml" 25 822 868 "src/flatness_criterion.ml" 25 822 873
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_a "src/flatness_criterion.ml" 24 760 792 "src/flatness_criterion.ml" 24 760 797
+)
+"src/flatness_criterion.ml" 26 874 891 "src/flatness_criterion.ml" 26 874 914
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D -> Geometry_tools.point_2D
+)
+ident(
+  ext_ref Geometry_tools.minus_2D
+)
+"src/flatness_criterion.ml" 26 874 915 "src/flatness_criterion.ml" 26 874 920
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_a "src/flatness_criterion.ml" 24 760 792 "src/flatness_criterion.ml" 24 760 797
+)
+"src/flatness_criterion.ml" 26 874 921 "src/flatness_criterion.ml" 26 874 926
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_b "src/flatness_criterion.ml" 24 760 798 "src/flatness_criterion.ml" 24 760 803
+)
+"src/flatness_criterion.ml" 26 874 890 "src/flatness_criterion.ml" 26 874 927
+call(
+  stack
+)
+type(
+  Geometry_tools.point_2D
+)
+"src/flatness_criterion.ml" 25 822 838 "src/flatness_criterion.ml" 26 874 927
+call(
+  stack
+)
+type(
+  Geometry_tools.line_2D
+)
+"src/flatness_criterion.ml" 27 931 934 "src/flatness_criterion.ml" 27 931 971
+type(
+  Geometry_tools.line_2D ->
+  Geometry_tools.point_2D ->
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> float
+)
+ident(
+  ext_ref Geometry_tools.distance_line_point_2D
+)
+"src/flatness_criterion.ml" 27 931 972 "src/flatness_criterion.ml" 27 931 979
+type(
+  Geometry_tools.line_2D
+)
+ident(
+  int_ref l_f_a_b "src/flatness_criterion.ml" 25 822 828 "src/flatness_criterion.ml" 25 822 835
+)
+"src/flatness_criterion.ml" 27 931 980 "src/flatness_criterion.ml" 27 931 985
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_m "src/flatness_criterion.ml" 24 760 804 "src/flatness_criterion.ml" 24 760 809
+)
+"src/flatness_criterion.ml" 27 931 986 "src/flatness_criterion.ml" 27 931 990
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+ident(
+  int_ref dist "src/flatness_criterion.ml" 24 760 815 "src/flatness_criterion.ml" 24 760 819
+)
+"src/flatness_criterion.ml" 27 931 933 "src/flatness_criterion.ml" 27 931 991
+call(
+  stack
+)
+type(
+  float
+)
+"src/flatness_criterion.ml" 27 931 992 "src/flatness_criterion.ml" 27 931 993
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/flatness_criterion.ml" 27 931 994 "src/flatness_criterion.ml" 27 931 998
+type(
+  float
+)
+ident(
+  int_ref epsi "src/flatness_criterion.ml" 24 760 810 "src/flatness_criterion.ml" 24 760 814
+)
+"src/flatness_criterion.ml" 27 931 933 "src/flatness_criterion.ml" 27 931 998
+type(
+  bool
+)
+"src/flatness_criterion.ml" 25 822 824 "src/flatness_criterion.ml" 27 931 998
+type(
+  bool
+)
+"src/flatness_criterion.ml" 33 1141 1145 "src/flatness_criterion.ml" 33 1141 1166
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D ->
+  float ->
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> bool
+)
+ident(
+  def triangle_area_test_2D "src/flatness_criterion.ml" 42 1591 1591 "src/flatness_criterion.ml" 1 0 -1
+)
+"src/flatness_criterion.ml" 33 1141 1167 "src/flatness_criterion.ml" 33 1141 1172
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  def p_f_a "src/flatness_criterion.ml" 33 1141 1173 "src/flatness_criterion.ml" 38 1441 1454
+)
+"src/flatness_criterion.ml" 33 1141 1173 "src/flatness_criterion.ml" 33 1141 1178
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  def p_f_b "src/flatness_criterion.ml" 33 1141 1179 "src/flatness_criterion.ml" 38 1441 1454
+)
+"src/flatness_criterion.ml" 33 1141 1179 "src/flatness_criterion.ml" 33 1141 1184
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  def p_f_m "src/flatness_criterion.ml" 33 1141 1185 "src/flatness_criterion.ml" 38 1441 1454
+)
+"src/flatness_criterion.ml" 33 1141 1185 "src/flatness_criterion.ml" 33 1141 1189
+type(
+  float
+)
+ident(
+  def epsi "src/flatness_criterion.ml" 33 1141 1190 "src/flatness_criterion.ml" 38 1441 1454
+)
+"src/flatness_criterion.ml" 33 1141 1190 "src/flatness_criterion.ml" 33 1141 1194
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+ident(
+  def dist "src/flatness_criterion.ml" 34 1196 1198 "src/flatness_criterion.ml" 38 1441 1454
+)
+"src/flatness_criterion.ml" 34 1196 1202 "src/flatness_criterion.ml" 34 1196 1209
+type(
+  Geometry_tools.line_2D
+)
+ident(
+  def l_f_a_b "src/flatness_criterion.ml" 36 1305 1307 "src/flatness_criterion.ml" 38 1441 1454
+)
+"src/flatness_criterion.ml" 34 1196 1212 "src/flatness_criterion.ml" 34 1196 1241
+type(
+  point:Geometry_tools.point_2D ->
+  vector:Geometry_tools.point_2D -> Geometry_tools.line_2D
+)
+ident(
+  ext_ref Geometry_tools.create_line_2D
+)
+"src/flatness_criterion.ml" 34 1196 1242 "src/flatness_criterion.ml" 34 1196 1247
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_a "src/flatness_criterion.ml" 33 1141 1167 "src/flatness_criterion.ml" 33 1141 1172
+)
+"src/flatness_criterion.ml" 35 1248 1265 "src/flatness_criterion.ml" 35 1248 1288
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D -> Geometry_tools.point_2D
+)
+ident(
+  ext_ref Geometry_tools.minus_2D
+)
+"src/flatness_criterion.ml" 35 1248 1289 "src/flatness_criterion.ml" 35 1248 1294
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_a "src/flatness_criterion.ml" 33 1141 1167 "src/flatness_criterion.ml" 33 1141 1172
+)
+"src/flatness_criterion.ml" 35 1248 1295 "src/flatness_criterion.ml" 35 1248 1300
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_b "src/flatness_criterion.ml" 33 1141 1173 "src/flatness_criterion.ml" 33 1141 1178
+)
+"src/flatness_criterion.ml" 35 1248 1264 "src/flatness_criterion.ml" 35 1248 1301
+call(
+  stack
+)
+type(
+  Geometry_tools.point_2D
+)
+"src/flatness_criterion.ml" 34 1196 1212 "src/flatness_criterion.ml" 35 1248 1301
+call(
+  stack
+)
+type(
+  Geometry_tools.line_2D
+)
+"src/flatness_criterion.ml" 36 1305 1311 "src/flatness_criterion.ml" 36 1305 1321
+type(
+  float
+)
+ident(
+  def dist_f_m_l "src/flatness_criterion.ml" 37 1384 1386 "src/flatness_criterion.ml" 38 1441 1454
+)
+"src/flatness_criterion.ml" 36 1305 1324 "src/flatness_criterion.ml" 36 1305 1361
+type(
+  Geometry_tools.line_2D ->
+  Geometry_tools.point_2D ->
+  (Geometry_tools.point_2D -> Geometry_tools.point_2D -> float) -> float
+)
+ident(
+  ext_ref Geometry_tools.distance_line_point_2D
+)
+"src/flatness_criterion.ml" 36 1305 1362 "src/flatness_criterion.ml" 36 1305 1369
+type(
+  Geometry_tools.line_2D
+)
+ident(
+  int_ref l_f_a_b "src/flatness_criterion.ml" 34 1196 1202 "src/flatness_criterion.ml" 34 1196 1209
+)
+"src/flatness_criterion.ml" 36 1305 1370 "src/flatness_criterion.ml" 36 1305 1375
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_m "src/flatness_criterion.ml" 33 1141 1179 "src/flatness_criterion.ml" 33 1141 1184
+)
+"src/flatness_criterion.ml" 36 1305 1376 "src/flatness_criterion.ml" 36 1305 1380
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+ident(
+  int_ref dist "src/flatness_criterion.ml" 33 1141 1190 "src/flatness_criterion.ml" 33 1141 1194
+)
+"src/flatness_criterion.ml" 36 1305 1324 "src/flatness_criterion.ml" 36 1305 1380
+call(
+  stack
+)
+type(
+  float
+)
+"src/flatness_criterion.ml" 37 1384 1390 "src/flatness_criterion.ml" 37 1384 1394
+type(
+  float
+)
+ident(
+  def area "src/flatness_criterion.ml" 38 1441 1443 "src/flatness_criterion.ml" 38 1441 1454
+)
+"src/flatness_criterion.ml" 37 1384 1399 "src/flatness_criterion.ml" 37 1384 1403
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+ident(
+  int_ref dist "src/flatness_criterion.ml" 33 1141 1190 "src/flatness_criterion.ml" 33 1141 1194
+)
+"src/flatness_criterion.ml" 37 1384 1404 "src/flatness_criterion.ml" 37 1384 1409
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_a "src/flatness_criterion.ml" 33 1141 1167 "src/flatness_criterion.ml" 33 1141 1172
+)
+"src/flatness_criterion.ml" 37 1384 1410 "src/flatness_criterion.ml" 37 1384 1415
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_b "src/flatness_criterion.ml" 33 1141 1173 "src/flatness_criterion.ml" 33 1141 1178
+)
+"src/flatness_criterion.ml" 37 1384 1398 "src/flatness_criterion.ml" 37 1384 1416
+call(
+  stack
+)
+type(
+  float
+)
+"src/flatness_criterion.ml" 37 1384 1417 "src/flatness_criterion.ml" 37 1384 1419
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/flatness_criterion.ml" 37 1384 1420 "src/flatness_criterion.ml" 37 1384 1432
+type(
+  float
+)
+ident(
+  int_ref dist_f_m_l "src/flatness_criterion.ml" 36 1305 1311 "src/flatness_criterion.ml" 36 1305 1321
+)
+"src/flatness_criterion.ml" 37 1384 1397 "src/flatness_criterion.ml" 37 1384 1433
+type(
+  float
+)
+"src/flatness_criterion.ml" 37 1384 1433 "src/flatness_criterion.ml" 37 1384 1435
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/flatness_criterion.ml" 37 1384 1435 "src/flatness_criterion.ml" 37 1384 1437
+type(
+  float
+)
+"src/flatness_criterion.ml" 37 1384 1397 "src/flatness_criterion.ml" 37 1384 1437
+type(
+  float
+)
+"src/flatness_criterion.ml" 38 1441 1443 "src/flatness_criterion.ml" 38 1441 1447
+type(
+  float
+)
+ident(
+  int_ref area "src/flatness_criterion.ml" 37 1384 1390 "src/flatness_criterion.ml" 37 1384 1394
+)
+"src/flatness_criterion.ml" 38 1441 1448 "src/flatness_criterion.ml" 38 1441 1449
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/flatness_criterion.ml" 38 1441 1450 "src/flatness_criterion.ml" 38 1441 1454
+type(
+  float
+)
+ident(
+  int_ref epsi "src/flatness_criterion.ml" 33 1141 1185 "src/flatness_criterion.ml" 33 1141 1189
+)
+"src/flatness_criterion.ml" 38 1441 1443 "src/flatness_criterion.ml" 38 1441 1454
+type(
+  bool
+)
+"src/flatness_criterion.ml" 37 1384 1386 "src/flatness_criterion.ml" 38 1441 1454
+type(
+  bool
+)
+"src/flatness_criterion.ml" 36 1305 1307 "src/flatness_criterion.ml" 38 1441 1454
+type(
+  bool
+)
+"src/flatness_criterion.ml" 34 1196 1198 "src/flatness_criterion.ml" 38 1441 1454
+type(
+  bool
+)
+"src/flatness_criterion.ml" 42 1591 1595 "src/flatness_criterion.ml" 42 1591 1608
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float -> 'a -> bool
+)
+ident(
+  def angle_test_2D "src/flatness_criterion.ml" 53 2159 2159 "src/flatness_criterion.ml" 1 0 -1
+)
+"src/flatness_criterion.ml" 42 1591 1609 "src/flatness_criterion.ml" 42 1591 1614
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  def p_f_a "src/flatness_criterion.ml" 42 1591 1615 "src/flatness_criterion.ml" 46 1816 1841
+)
+"src/flatness_criterion.ml" 42 1591 1615 "src/flatness_criterion.ml" 42 1591 1620
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  def p_f_b "src/flatness_criterion.ml" 42 1591 1621 "src/flatness_criterion.ml" 46 1816 1841
+)
+"src/flatness_criterion.ml" 42 1591 1621 "src/flatness_criterion.ml" 42 1591 1626
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  def p_f_m "src/flatness_criterion.ml" 42 1591 1627 "src/flatness_criterion.ml" 46 1816 1841
+)
+"src/flatness_criterion.ml" 42 1591 1627 "src/flatness_criterion.ml" 42 1591 1631
+type(
+  float
+)
+ident(
+  def epsi "src/flatness_criterion.ml" 42 1591 1632 "src/flatness_criterion.ml" 46 1816 1841
+)
+"src/flatness_criterion.ml" 42 1591 1632 "src/flatness_criterion.ml" 42 1591 1633
+type(
+  'a
+)
+ident(
+  def d "src/flatness_criterion.ml" 43 1636 1640 "src/flatness_criterion.ml" 46 1816 1841
+)
+"src/flatness_criterion.ml" 43 1636 1640 "src/flatness_criterion.ml" 43 1636 1649
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/flatness_criterion.ml" 43 1636 1653 "src/flatness_criterion.ml" 43 1636 1683
+type(
+  Geometry_tools.point_2D -> Geometry_tools.point_2D -> float
+)
+ident(
+  ext_ref Geometry_tools.angle_vector_2D
+)
+"src/flatness_criterion.ml" 44 1684 1704 "src/flatness_criterion.ml" 44 1684 1727
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D -> Geometry_tools.point_2D
+)
+ident(
+  ext_ref Geometry_tools.minus_2D
+)
+"src/flatness_criterion.ml" 44 1684 1728 "src/flatness_criterion.ml" 44 1684 1733
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_a "src/flatness_criterion.ml" 42 1591 1609 "src/flatness_criterion.ml" 42 1591 1614
+)
+"src/flatness_criterion.ml" 44 1684 1734 "src/flatness_criterion.ml" 44 1684 1739
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_m "src/flatness_criterion.ml" 42 1591 1621 "src/flatness_criterion.ml" 42 1591 1626
+)
+"src/flatness_criterion.ml" 44 1684 1703 "src/flatness_criterion.ml" 44 1684 1740
+call(
+  stack
+)
+type(
+  Geometry_tools.point_2D
+)
+"src/flatness_criterion.ml" 45 1741 1761 "src/flatness_criterion.ml" 45 1741 1784
+type(
+  Geometry_tools.point_2D ->
+  Geometry_tools.point_2D -> Geometry_tools.point_2D
+)
+ident(
+  ext_ref Geometry_tools.minus_2D
+)
+"src/flatness_criterion.ml" 45 1741 1785 "src/flatness_criterion.ml" 45 1741 1790
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_b "src/flatness_criterion.ml" 42 1591 1615 "src/flatness_criterion.ml" 42 1591 1620
+)
+"src/flatness_criterion.ml" 45 1741 1791 "src/flatness_criterion.ml" 45 1741 1796
+type(
+  Geometry_tools.point_2D
+)
+ident(
+  int_ref p_f_m "src/flatness_criterion.ml" 42 1591 1621 "src/flatness_criterion.ml" 42 1591 1626
+)
+"src/flatness_criterion.ml" 45 1741 1760 "src/flatness_criterion.ml" 45 1741 1797
+call(
+  stack
+)
+type(
+  Geometry_tools.point_2D
+)
+"src/flatness_criterion.ml" 43 1636 1652 "src/flatness_criterion.ml" 45 1741 1798
+call(
+  stack
+)
+type(
+  float
+)
+"src/flatness_criterion.ml" 45 1741 1799 "src/flatness_criterion.ml" 45 1741 1801
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/flatness_criterion.ml" 45 1741 1802 "src/flatness_criterion.ml" 45 1741 1813
+type(
+  float
+)
+ident(
+  ext_ref BatFloat.pi
+)
+"src/flatness_criterion.ml" 43 1636 1650 "src/flatness_criterion.ml" 45 1741 1815
+type(
+  float
+)
+"src/flatness_criterion.ml" 43 1636 1640 "src/flatness_criterion.ml" 45 1741 1815
+type(
+  float
+)
+"src/flatness_criterion.ml" 46 1816 1835 "src/flatness_criterion.ml" 46 1816 1836
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/flatness_criterion.ml" 46 1816 1837 "src/flatness_criterion.ml" 46 1816 1841
+type(
+  float
+)
+ident(
+  int_ref epsi "src/flatness_criterion.ml" 42 1591 1627 "src/flatness_criterion.ml" 42 1591 1631
+)
+"src/flatness_criterion.ml" 43 1636 1640 "src/flatness_criterion.ml" 46 1816 1841
+type(
+  bool
+)
+"src/flatness_criterion.ml" 53 2159 2163 "src/flatness_criterion.ml" 53 2159 2187
+type(
+  ('a -> float) -> 'a -> 'a -> float -> bool
+)
+ident(
+  def derivative_parallel_test "src/flatness_criterion.ml" 61 2354 2354 "src/flatness_criterion.ml" 1 0 -1
+)
+"src/flatness_criterion.ml" 53 2159 2188 "src/flatness_criterion.ml" 53 2159 2190
+type(
+  'a -> float
+)
+ident(
+  def f' "src/flatness_criterion.ml" 53 2159 2191 "src/flatness_criterion.ml" 58 2313 2351
+)
+"src/flatness_criterion.ml" 53 2159 2191 "src/flatness_criterion.ml" 53 2159 2192
+type(
+  'a
+)
+ident(
+  def a "src/flatness_criterion.ml" 53 2159 2193 "src/flatness_criterion.ml" 58 2313 2351
+)
+"src/flatness_criterion.ml" 53 2159 2193 "src/flatness_criterion.ml" 53 2159 2194
+type(
+  'a
+)
+ident(
+  def b "src/flatness_criterion.ml" 53 2159 2195 "src/flatness_criterion.ml" 58 2313 2351
+)
+"src/flatness_criterion.ml" 53 2159 2195 "src/flatness_criterion.ml" 53 2159 2199
+type(
+  float
+)
+ident(
+  def epsi "src/flatness_criterion.ml" 54 2202 2204 "src/flatness_criterion.ml" 58 2313 2351
+)
+"src/flatness_criterion.ml" 54 2202 2208 "src/flatness_criterion.ml" 54 2202 2211
+type(
+  float
+)
+ident(
+  def dfa "src/flatness_criterion.ml" 55 2222 2224 "src/flatness_criterion.ml" 58 2313 2351
+)
+"src/flatness_criterion.ml" 54 2202 2214 "src/flatness_criterion.ml" 54 2202 2216
+type(
+  'a -> float
+)
+ident(
+  int_ref f' "src/flatness_criterion.ml" 53 2159 2188 "src/flatness_criterion.ml" 53 2159 2190
+)
+"src/flatness_criterion.ml" 54 2202 2217 "src/flatness_criterion.ml" 54 2202 2218
+type(
+  'a
+)
+ident(
+  int_ref a "src/flatness_criterion.ml" 53 2159 2191 "src/flatness_criterion.ml" 53 2159 2192
+)
+"src/flatness_criterion.ml" 54 2202 2214 "src/flatness_criterion.ml" 54 2202 2218
+call(
+  stack
+)
+type(
+  float
+)
+"src/flatness_criterion.ml" 55 2222 2228 "src/flatness_criterion.ml" 55 2222 2231
+type(
+  float
+)
+ident(
+  def dfb "src/flatness_criterion.ml" 56 2242 2244 "src/flatness_criterion.ml" 58 2313 2351
+)
+"src/flatness_criterion.ml" 55 2222 2234 "src/flatness_criterion.ml" 55 2222 2236
+type(
+  'a -> float
+)
+ident(
+  int_ref f' "src/flatness_criterion.ml" 53 2159 2188 "src/flatness_criterion.ml" 53 2159 2190
+)
+"src/flatness_criterion.ml" 55 2222 2237 "src/flatness_criterion.ml" 55 2222 2238
+type(
+  'a
+)
+ident(
+  int_ref b "src/flatness_criterion.ml" 53 2159 2193 "src/flatness_criterion.ml" 53 2159 2194
+)
+"src/flatness_criterion.ml" 55 2222 2234 "src/flatness_criterion.ml" 55 2222 2238
+call(
+  stack
+)
+type(
+  float
+)
+"src/flatness_criterion.ml" 56 2242 2247 "src/flatness_criterion.ml" 56 2242 2250
+type(
+  float
+)
+ident(
+  int_ref dfa "src/flatness_criterion.ml" 54 2202 2208 "src/flatness_criterion.ml" 54 2202 2211
+)
+"src/flatness_criterion.ml" 56 2242 2250 "src/flatness_criterion.ml" 56 2242 2251
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/flatness_criterion.ml" 56 2242 2251 "src/flatness_criterion.ml" 56 2242 2253
+type(
+  float
+)
+"src/flatness_criterion.ml" 56 2242 2247 "src/flatness_criterion.ml" 56 2242 2253
+type(
+  bool
+)
+"src/flatness_criterion.ml" 56 2242 2254 "src/flatness_criterion.ml" 56 2242 2256
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/flatness_criterion.ml" 56 2242 2257 "src/flatness_criterion.ml" 56 2242 2260
+type(
+  float
+)
+ident(
+  int_ref dfb "src/flatness_criterion.ml" 55 2222 2228 "src/flatness_criterion.ml" 55 2222 2231
+)
+"src/flatness_criterion.ml" 56 2242 2260 "src/flatness_criterion.ml" 56 2242 2261
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/flatness_criterion.ml" 56 2242 2261 "src/flatness_criterion.ml" 56 2242 2263
+type(
+  float
+)
+"src/flatness_criterion.ml" 56 2242 2257 "src/flatness_criterion.ml" 56 2242 2263
+type(
+  bool
+)
+"src/flatness_criterion.ml" 56 2242 2247 "src/flatness_criterion.ml" 56 2242 2263
+type(
+  bool
+)
+"src/flatness_criterion.ml" 56 2242 2269 "src/flatness_criterion.ml" 56 2242 2273
+type(
+  bool
+)
+"src/flatness_criterion.ml" 57 2274 2284 "src/flatness_criterion.ml" 57 2274 2287
+type(
+  float
+)
+ident(
+  int_ref dfa "src/flatness_criterion.ml" 54 2202 2208 "src/flatness_criterion.ml" 54 2202 2211
+)
+"src/flatness_criterion.ml" 57 2274 2287 "src/flatness_criterion.ml" 57 2274 2288
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/flatness_criterion.ml" 57 2274 2288 "src/flatness_criterion.ml" 57 2274 2290
+type(
+  float
+)
+"src/flatness_criterion.ml" 57 2274 2284 "src/flatness_criterion.ml" 57 2274 2290
+type(
+  bool
+)
+"src/flatness_criterion.ml" 57 2274 2291 "src/flatness_criterion.ml" 57 2274 2293
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/flatness_criterion.ml" 57 2274 2294 "src/flatness_criterion.ml" 57 2274 2297
+type(
+  float
+)
+ident(
+  int_ref dfb "src/flatness_criterion.ml" 55 2222 2228 "src/flatness_criterion.ml" 55 2222 2231
+)
+"src/flatness_criterion.ml" 57 2274 2297 "src/flatness_criterion.ml" 57 2274 2299
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/flatness_criterion.ml" 57 2274 2299 "src/flatness_criterion.ml" 57 2274 2301
+type(
+  float
+)
+"src/flatness_criterion.ml" 57 2274 2294 "src/flatness_criterion.ml" 57 2274 2301
+type(
+  bool
+)
+"src/flatness_criterion.ml" 57 2274 2284 "src/flatness_criterion.ml" 57 2274 2301
+type(
+  bool
+)
+"src/flatness_criterion.ml" 57 2274 2307 "src/flatness_criterion.ml" 57 2274 2312
+type(
+  bool
+)
+"src/flatness_criterion.ml" 58 2313 2320 "src/flatness_criterion.ml" 58 2313 2329
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/flatness_criterion.ml" 58 2313 2330 "src/flatness_criterion.ml" 58 2313 2333
+type(
+  float
+)
+ident(
+  int_ref dfb "src/flatness_criterion.ml" 55 2222 2228 "src/flatness_criterion.ml" 55 2222 2231
+)
+"src/flatness_criterion.ml" 58 2313 2333 "src/flatness_criterion.ml" 58 2313 2335
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/flatness_criterion.ml" 58 2313 2335 "src/flatness_criterion.ml" 58 2313 2338
+type(
+  float
+)
+ident(
+  int_ref dfa "src/flatness_criterion.ml" 54 2202 2208 "src/flatness_criterion.ml" 54 2202 2211
+)
+"src/flatness_criterion.ml" 58 2313 2330 "src/flatness_criterion.ml" 58 2313 2338
+type(
+  float
+)
+"src/flatness_criterion.ml" 58 2313 2339 "src/flatness_criterion.ml" 58 2313 2341
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/flatness_criterion.ml" 58 2313 2341 "src/flatness_criterion.ml" 58 2313 2343
+type(
+  float
+)
+"src/flatness_criterion.ml" 58 2313 2329 "src/flatness_criterion.ml" 58 2313 2344
+type(
+  float
+)
+"src/flatness_criterion.ml" 58 2313 2320 "src/flatness_criterion.ml" 58 2313 2344
+type(
+  float
+)
+"src/flatness_criterion.ml" 58 2313 2345 "src/flatness_criterion.ml" 58 2313 2346
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/flatness_criterion.ml" 58 2313 2347 "src/flatness_criterion.ml" 58 2313 2351
+type(
+  float
+)
+ident(
+  int_ref epsi "src/flatness_criterion.ml" 53 2159 2195 "src/flatness_criterion.ml" 53 2159 2199
+)
+"src/flatness_criterion.ml" 58 2313 2320 "src/flatness_criterion.ml" 58 2313 2351
+type(
+  bool
+)
+"src/flatness_criterion.ml" 57 2274 2281 "src/flatness_criterion.ml" 58 2313 2351
+type(
+  bool
+)
+"src/flatness_criterion.ml" 56 2242 2244 "src/flatness_criterion.ml" 58 2313 2351
+type(
+  bool
+)
+"src/flatness_criterion.ml" 55 2222 2224 "src/flatness_criterion.ml" 58 2313 2351
+type(
+  bool
+)
+"src/flatness_criterion.ml" 54 2202 2204 "src/flatness_criterion.ml" 58 2313 2351
+type(
+  bool
+)
+"src/flatness_criterion.ml" 61 2354 2358 "src/flatness_criterion.ml" 61 2354 2370
+type(
+  'a -> 'a -> 'a -> float -> ('a -> 'a -> float) -> bool
+)
+ident(
+  def cord_test_3D "src/flatness_criterion.ml" 70 2725 2725 "src/flatness_criterion.ml" 1 0 -1
+)
+"src/flatness_criterion.ml" 61 2354 2371 "src/flatness_criterion.ml" 61 2354 2376
+type(
+  'a
+)
+ident(
+  def p_f_a "src/flatness_criterion.ml" 61 2354 2377 "src/flatness_criterion.ml" 65 2503 2547
+)
+"src/flatness_criterion.ml" 61 2354 2377 "src/flatness_criterion.ml" 61 2354 2382
+type(
+  'a
+)
+ident(
+  def p_f_b "src/flatness_criterion.ml" 61 2354 2383 "src/flatness_criterion.ml" 65 2503 2547
+)
+"src/flatness_criterion.ml" 61 2354 2383 "src/flatness_criterion.ml" 61 2354 2388
+type(
+  'a
+)
+ident(
+  def p_f_m "src/flatness_criterion.ml" 61 2354 2389 "src/flatness_criterion.ml" 65 2503 2547
+)
+"src/flatness_criterion.ml" 61 2354 2389 "src/flatness_criterion.ml" 61 2354 2393
+type(
+  float
+)
+ident(
+  def epsi "src/flatness_criterion.ml" 61 2354 2394 "src/flatness_criterion.ml" 65 2503 2547
+)
+"src/flatness_criterion.ml" 61 2354 2394 "src/flatness_criterion.ml" 61 2354 2398
+type(
+  'a -> 'a -> float
+)
+ident(
+  def dist "src/flatness_criterion.ml" 62 2401 2403 "src/flatness_criterion.ml" 65 2503 2547
+)
+"src/flatness_criterion.ml" 62 2401 2407 "src/flatness_criterion.ml" 62 2401 2412
+type(
+  float
+)
+ident(
+  def d_a_m "src/flatness_criterion.ml" 63 2435 2437 "src/flatness_criterion.ml" 65 2503 2547
+)
+"src/flatness_criterion.ml" 62 2401 2415 "src/flatness_criterion.ml" 62 2401 2419
+type(
+  'a -> 'a -> float
+)
+ident(
+  int_ref dist "src/flatness_criterion.ml" 61 2354 2394 "src/flatness_criterion.ml" 61 2354 2398
+)
+"src/flatness_criterion.ml" 62 2401 2420 "src/flatness_criterion.ml" 62 2401 2425
+type(
+  'a
+)
+ident(
+  int_ref p_f_a "src/flatness_criterion.ml" 61 2354 2371 "src/flatness_criterion.ml" 61 2354 2376
+)
+"src/flatness_criterion.ml" 62 2401 2426 "src/flatness_criterion.ml" 62 2401 2431
+type(
+  'a
+)
+ident(
+  int_ref p_f_m "src/flatness_criterion.ml" 61 2354 2383 "src/flatness_criterion.ml" 61 2354 2388
+)
+"src/flatness_criterion.ml" 62 2401 2415 "src/flatness_criterion.ml" 62 2401 2431
+call(
+  stack
+)
+type(
+  float
+)
+"src/flatness_criterion.ml" 63 2435 2441 "src/flatness_criterion.ml" 63 2435 2446
+type(
+  float
+)
+ident(
+  def d_b_m "src/flatness_criterion.ml" 64 2469 2471 "src/flatness_criterion.ml" 65 2503 2547
+)
+"src/flatness_criterion.ml" 63 2435 2449 "src/flatness_criterion.ml" 63 2435 2453
+type(
+  'a -> 'a -> float
+)
+ident(
+  int_ref dist "src/flatness_criterion.ml" 61 2354 2394 "src/flatness_criterion.ml" 61 2354 2398
+)
+"src/flatness_criterion.ml" 63 2435 2454 "src/flatness_criterion.ml" 63 2435 2459
+type(
+  'a
+)
+ident(
+  int_ref p_f_m "src/flatness_criterion.ml" 61 2354 2383 "src/flatness_criterion.ml" 61 2354 2388
+)
+"src/flatness_criterion.ml" 63 2435 2460 "src/flatness_criterion.ml" 63 2435 2465
+type(
+  'a
+)
+ident(
+  int_ref p_f_b "src/flatness_criterion.ml" 61 2354 2377 "src/flatness_criterion.ml" 61 2354 2382
+)
+"src/flatness_criterion.ml" 63 2435 2449 "src/flatness_criterion.ml" 63 2435 2465
+call(
+  stack
+)
+type(
+  float
+)
+"src/flatness_criterion.ml" 64 2469 2475 "src/flatness_criterion.ml" 64 2469 2480
+type(
+  float
+)
+ident(
+  def d_a_b "src/flatness_criterion.ml" 65 2503 2505 "src/flatness_criterion.ml" 65 2503 2547
+)
+"src/flatness_criterion.ml" 64 2469 2483 "src/flatness_criterion.ml" 64 2469 2487
+type(
+  'a -> 'a -> float
+)
+ident(
+  int_ref dist "src/flatness_criterion.ml" 61 2354 2394 "src/flatness_criterion.ml" 61 2354 2398
+)
+"src/flatness_criterion.ml" 64 2469 2488 "src/flatness_criterion.ml" 64 2469 2493
+type(
+  'a
+)
+ident(
+  int_ref p_f_a "src/flatness_criterion.ml" 61 2354 2371 "src/flatness_criterion.ml" 61 2354 2376
+)
+"src/flatness_criterion.ml" 64 2469 2494 "src/flatness_criterion.ml" 64 2469 2499
+type(
+  'a
+)
+ident(
+  int_ref p_f_b "src/flatness_criterion.ml" 61 2354 2377 "src/flatness_criterion.ml" 61 2354 2382
+)
+"src/flatness_criterion.ml" 64 2469 2483 "src/flatness_criterion.ml" 64 2469 2499
+call(
+  stack
+)
+type(
+  float
+)
+"src/flatness_criterion.ml" 65 2503 2505 "src/flatness_criterion.ml" 65 2503 2514
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/flatness_criterion.ml" 65 2503 2516 "src/flatness_criterion.ml" 65 2503 2521
+type(
+  float
+)
+ident(
+  int_ref d_a_m "src/flatness_criterion.ml" 62 2401 2407 "src/flatness_criterion.ml" 62 2401 2412
+)
+"src/flatness_criterion.ml" 65 2503 2522 "src/flatness_criterion.ml" 65 2503 2524
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/flatness_criterion.ml" 65 2503 2525 "src/flatness_criterion.ml" 65 2503 2530
+type(
+  float
+)
+ident(
+  int_ref d_b_m "src/flatness_criterion.ml" 63 2435 2441 "src/flatness_criterion.ml" 63 2435 2446
+)
+"src/flatness_criterion.ml" 65 2503 2516 "src/flatness_criterion.ml" 65 2503 2530
+type(
+  float
+)
+"src/flatness_criterion.ml" 65 2503 2531 "src/flatness_criterion.ml" 65 2503 2533
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/flatness_criterion.ml" 65 2503 2534 "src/flatness_criterion.ml" 65 2503 2539
+type(
+  float
+)
+ident(
+  int_ref d_a_b "src/flatness_criterion.ml" 64 2469 2475 "src/flatness_criterion.ml" 64 2469 2480
+)
+"src/flatness_criterion.ml" 65 2503 2515 "src/flatness_criterion.ml" 65 2503 2540
+type(
+  float
+)
+"src/flatness_criterion.ml" 65 2503 2505 "src/flatness_criterion.ml" 65 2503 2540
+type(
+  float
+)
+"src/flatness_criterion.ml" 65 2503 2541 "src/flatness_criterion.ml" 65 2503 2542
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/flatness_criterion.ml" 65 2503 2543 "src/flatness_criterion.ml" 65 2503 2547
+type(
+  float
+)
+ident(
+  int_ref epsi "src/flatness_criterion.ml" 61 2354 2389 "src/flatness_criterion.ml" 61 2354 2393
+)
+"src/flatness_criterion.ml" 65 2503 2505 "src/flatness_criterion.ml" 65 2503 2547
+type(
+  bool
+)
+"src/flatness_criterion.ml" 64 2469 2471 "src/flatness_criterion.ml" 65 2503 2547
+type(
+  bool
+)
+"src/flatness_criterion.ml" 63 2435 2437 "src/flatness_criterion.ml" 65 2503 2547
+type(
+  bool
+)
+"src/flatness_criterion.ml" 62 2401 2403 "src/flatness_criterion.ml" 65 2503 2547
+type(
+  bool
+)
+"src/flatness_criterion.ml" 70 2725 2729 "src/flatness_criterion.ml" 70 2725 2756
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  float ->
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> bool
+)
+ident(
+  def distance_point_cord_test_3D "src/flatness_criterion.ml" 79 3106 3106 "src/flatness_criterion.ml" 1 0 -1
+)
+"src/flatness_criterion.ml" 70 2725 2757 "src/flatness_criterion.ml" 70 2725 2762
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  def p_f_a "src/flatness_criterion.ml" 70 2725 2763 "src/flatness_criterion.ml" 73 2896 2963
+)
+"src/flatness_criterion.ml" 70 2725 2763 "src/flatness_criterion.ml" 70 2725 2768
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  def p_f_b "src/flatness_criterion.ml" 70 2725 2769 "src/flatness_criterion.ml" 73 2896 2963
+)
+"src/flatness_criterion.ml" 70 2725 2769 "src/flatness_criterion.ml" 70 2725 2774
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  def p_f_m "src/flatness_criterion.ml" 70 2725 2775 "src/flatness_criterion.ml" 73 2896 2963
+)
+"src/flatness_criterion.ml" 70 2725 2775 "src/flatness_criterion.ml" 70 2725 2779
+type(
+  float
+)
+ident(
+  def epsi "src/flatness_criterion.ml" 70 2725 2780 "src/flatness_criterion.ml" 73 2896 2963
+)
+"src/flatness_criterion.ml" 70 2725 2780 "src/flatness_criterion.ml" 70 2725 2784
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+ident(
+  def dist "src/flatness_criterion.ml" 71 2787 2789 "src/flatness_criterion.ml" 73 2896 2963
+)
+"src/flatness_criterion.ml" 71 2787 2793 "src/flatness_criterion.ml" 71 2787 2800
+type(
+  Geometry_tools.line_3D
+)
+ident(
+  def l_f_a_b "src/flatness_criterion.ml" 73 2896 2898 "src/flatness_criterion.ml" 73 2896 2963
+)
+"src/flatness_criterion.ml" 71 2787 2803 "src/flatness_criterion.ml" 71 2787 2832
+type(
+  point:Geometry_tools.point_3D ->
+  vector:Geometry_tools.point_3D -> Geometry_tools.line_3D
+)
+ident(
+  ext_ref Geometry_tools.create_line_3D
+)
+"src/flatness_criterion.ml" 71 2787 2833 "src/flatness_criterion.ml" 71 2787 2838
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_a "src/flatness_criterion.ml" 70 2725 2757 "src/flatness_criterion.ml" 70 2725 2762
+)
+"src/flatness_criterion.ml" 72 2839 2856 "src/flatness_criterion.ml" 72 2839 2879
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D -> Geometry_tools.point_3D
+)
+ident(
+  ext_ref Geometry_tools.minus_3D
+)
+"src/flatness_criterion.ml" 72 2839 2880 "src/flatness_criterion.ml" 72 2839 2885
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_a "src/flatness_criterion.ml" 70 2725 2757 "src/flatness_criterion.ml" 70 2725 2762
+)
+"src/flatness_criterion.ml" 72 2839 2886 "src/flatness_criterion.ml" 72 2839 2891
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_b "src/flatness_criterion.ml" 70 2725 2763 "src/flatness_criterion.ml" 70 2725 2768
+)
+"src/flatness_criterion.ml" 72 2839 2855 "src/flatness_criterion.ml" 72 2839 2892
+call(
+  stack
+)
+type(
+  Geometry_tools.point_3D
+)
+"src/flatness_criterion.ml" 71 2787 2803 "src/flatness_criterion.ml" 72 2839 2892
+call(
+  stack
+)
+type(
+  Geometry_tools.line_3D
+)
+"src/flatness_criterion.ml" 73 2896 2899 "src/flatness_criterion.ml" 73 2896 2936
+type(
+  Geometry_tools.line_3D ->
+  Geometry_tools.point_3D ->
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> float
+)
+ident(
+  ext_ref Geometry_tools.distance_line_point_3D
+)
+"src/flatness_criterion.ml" 73 2896 2937 "src/flatness_criterion.ml" 73 2896 2944
+type(
+  Geometry_tools.line_3D
+)
+ident(
+  int_ref l_f_a_b "src/flatness_criterion.ml" 71 2787 2793 "src/flatness_criterion.ml" 71 2787 2800
+)
+"src/flatness_criterion.ml" 73 2896 2945 "src/flatness_criterion.ml" 73 2896 2950
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_m "src/flatness_criterion.ml" 70 2725 2769 "src/flatness_criterion.ml" 70 2725 2774
+)
+"src/flatness_criterion.ml" 73 2896 2951 "src/flatness_criterion.ml" 73 2896 2955
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+ident(
+  int_ref dist "src/flatness_criterion.ml" 70 2725 2780 "src/flatness_criterion.ml" 70 2725 2784
+)
+"src/flatness_criterion.ml" 73 2896 2898 "src/flatness_criterion.ml" 73 2896 2956
+call(
+  stack
+)
+type(
+  float
+)
+"src/flatness_criterion.ml" 73 2896 2957 "src/flatness_criterion.ml" 73 2896 2958
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/flatness_criterion.ml" 73 2896 2959 "src/flatness_criterion.ml" 73 2896 2963
+type(
+  float
+)
+ident(
+  int_ref epsi "src/flatness_criterion.ml" 70 2725 2775 "src/flatness_criterion.ml" 70 2725 2779
+)
+"src/flatness_criterion.ml" 73 2896 2898 "src/flatness_criterion.ml" 73 2896 2963
+type(
+  bool
+)
+"src/flatness_criterion.ml" 71 2787 2789 "src/flatness_criterion.ml" 73 2896 2963
+type(
+  bool
+)
+"src/flatness_criterion.ml" 79 3106 3110 "src/flatness_criterion.ml" 79 3106 3131
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D ->
+  float ->
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> bool
+)
+ident(
+  def triangle_area_test_3D "src/flatness_criterion.ml" 88 3556 3556 "src/flatness_criterion.ml" 1 0 -1
+)
+"src/flatness_criterion.ml" 79 3106 3132 "src/flatness_criterion.ml" 79 3106 3137
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  def p_f_a "src/flatness_criterion.ml" 79 3106 3138 "src/flatness_criterion.ml" 84 3406 3419
+)
+"src/flatness_criterion.ml" 79 3106 3138 "src/flatness_criterion.ml" 79 3106 3143
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  def p_f_b "src/flatness_criterion.ml" 79 3106 3144 "src/flatness_criterion.ml" 84 3406 3419
+)
+"src/flatness_criterion.ml" 79 3106 3144 "src/flatness_criterion.ml" 79 3106 3149
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  def p_f_m "src/flatness_criterion.ml" 79 3106 3150 "src/flatness_criterion.ml" 84 3406 3419
+)
+"src/flatness_criterion.ml" 79 3106 3150 "src/flatness_criterion.ml" 79 3106 3154
+type(
+  float
+)
+ident(
+  def epsi "src/flatness_criterion.ml" 79 3106 3155 "src/flatness_criterion.ml" 84 3406 3419
+)
+"src/flatness_criterion.ml" 79 3106 3155 "src/flatness_criterion.ml" 79 3106 3159
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+ident(
+  def dist "src/flatness_criterion.ml" 80 3161 3163 "src/flatness_criterion.ml" 84 3406 3419
+)
+"src/flatness_criterion.ml" 80 3161 3167 "src/flatness_criterion.ml" 80 3161 3174
+type(
+  Geometry_tools.line_3D
+)
+ident(
+  def l_f_a_b "src/flatness_criterion.ml" 82 3270 3272 "src/flatness_criterion.ml" 84 3406 3419
+)
+"src/flatness_criterion.ml" 80 3161 3177 "src/flatness_criterion.ml" 80 3161 3206
+type(
+  point:Geometry_tools.point_3D ->
+  vector:Geometry_tools.point_3D -> Geometry_tools.line_3D
+)
+ident(
+  ext_ref Geometry_tools.create_line_3D
+)
+"src/flatness_criterion.ml" 80 3161 3207 "src/flatness_criterion.ml" 80 3161 3212
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_a "src/flatness_criterion.ml" 79 3106 3132 "src/flatness_criterion.ml" 79 3106 3137
+)
+"src/flatness_criterion.ml" 81 3213 3230 "src/flatness_criterion.ml" 81 3213 3253
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D -> Geometry_tools.point_3D
+)
+ident(
+  ext_ref Geometry_tools.minus_3D
+)
+"src/flatness_criterion.ml" 81 3213 3254 "src/flatness_criterion.ml" 81 3213 3259
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_a "src/flatness_criterion.ml" 79 3106 3132 "src/flatness_criterion.ml" 79 3106 3137
+)
+"src/flatness_criterion.ml" 81 3213 3260 "src/flatness_criterion.ml" 81 3213 3265
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_b "src/flatness_criterion.ml" 79 3106 3138 "src/flatness_criterion.ml" 79 3106 3143
+)
+"src/flatness_criterion.ml" 81 3213 3229 "src/flatness_criterion.ml" 81 3213 3266
+call(
+  stack
+)
+type(
+  Geometry_tools.point_3D
+)
+"src/flatness_criterion.ml" 80 3161 3177 "src/flatness_criterion.ml" 81 3213 3266
+call(
+  stack
+)
+type(
+  Geometry_tools.line_3D
+)
+"src/flatness_criterion.ml" 82 3270 3276 "src/flatness_criterion.ml" 82 3270 3286
+type(
+  float
+)
+ident(
+  def dist_f_m_l "src/flatness_criterion.ml" 83 3349 3351 "src/flatness_criterion.ml" 84 3406 3419
+)
+"src/flatness_criterion.ml" 82 3270 3289 "src/flatness_criterion.ml" 82 3270 3326
+type(
+  Geometry_tools.line_3D ->
+  Geometry_tools.point_3D ->
+  (Geometry_tools.point_3D -> Geometry_tools.point_3D -> float) -> float
+)
+ident(
+  ext_ref Geometry_tools.distance_line_point_3D
+)
+"src/flatness_criterion.ml" 82 3270 3327 "src/flatness_criterion.ml" 82 3270 3334
+type(
+  Geometry_tools.line_3D
+)
+ident(
+  int_ref l_f_a_b "src/flatness_criterion.ml" 80 3161 3167 "src/flatness_criterion.ml" 80 3161 3174
+)
+"src/flatness_criterion.ml" 82 3270 3335 "src/flatness_criterion.ml" 82 3270 3340
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_m "src/flatness_criterion.ml" 79 3106 3144 "src/flatness_criterion.ml" 79 3106 3149
+)
+"src/flatness_criterion.ml" 82 3270 3341 "src/flatness_criterion.ml" 82 3270 3345
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+ident(
+  int_ref dist "src/flatness_criterion.ml" 79 3106 3155 "src/flatness_criterion.ml" 79 3106 3159
+)
+"src/flatness_criterion.ml" 82 3270 3289 "src/flatness_criterion.ml" 82 3270 3345
+call(
+  stack
+)
+type(
+  float
+)
+"src/flatness_criterion.ml" 83 3349 3355 "src/flatness_criterion.ml" 83 3349 3359
+type(
+  float
+)
+ident(
+  def area "src/flatness_criterion.ml" 84 3406 3408 "src/flatness_criterion.ml" 84 3406 3419
+)
+"src/flatness_criterion.ml" 83 3349 3364 "src/flatness_criterion.ml" 83 3349 3368
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+ident(
+  int_ref dist "src/flatness_criterion.ml" 79 3106 3155 "src/flatness_criterion.ml" 79 3106 3159
+)
+"src/flatness_criterion.ml" 83 3349 3369 "src/flatness_criterion.ml" 83 3349 3374
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_a "src/flatness_criterion.ml" 79 3106 3132 "src/flatness_criterion.ml" 79 3106 3137
+)
+"src/flatness_criterion.ml" 83 3349 3375 "src/flatness_criterion.ml" 83 3349 3380
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_b "src/flatness_criterion.ml" 79 3106 3138 "src/flatness_criterion.ml" 79 3106 3143
+)
+"src/flatness_criterion.ml" 83 3349 3363 "src/flatness_criterion.ml" 83 3349 3381
+call(
+  stack
+)
+type(
+  float
+)
+"src/flatness_criterion.ml" 83 3349 3382 "src/flatness_criterion.ml" 83 3349 3384
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"src/flatness_criterion.ml" 83 3349 3385 "src/flatness_criterion.ml" 83 3349 3397
+type(
+  float
+)
+ident(
+  int_ref dist_f_m_l "src/flatness_criterion.ml" 82 3270 3276 "src/flatness_criterion.ml" 82 3270 3286
+)
+"src/flatness_criterion.ml" 83 3349 3362 "src/flatness_criterion.ml" 83 3349 3398
+type(
+  float
+)
+"src/flatness_criterion.ml" 83 3349 3398 "src/flatness_criterion.ml" 83 3349 3400
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/flatness_criterion.ml" 83 3349 3400 "src/flatness_criterion.ml" 83 3349 3402
+type(
+  float
+)
+"src/flatness_criterion.ml" 83 3349 3362 "src/flatness_criterion.ml" 83 3349 3402
+type(
+  float
+)
+"src/flatness_criterion.ml" 84 3406 3408 "src/flatness_criterion.ml" 84 3406 3412
+type(
+  float
+)
+ident(
+  int_ref area "src/flatness_criterion.ml" 83 3349 3355 "src/flatness_criterion.ml" 83 3349 3359
+)
+"src/flatness_criterion.ml" 84 3406 3413 "src/flatness_criterion.ml" 84 3406 3414
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/flatness_criterion.ml" 84 3406 3415 "src/flatness_criterion.ml" 84 3406 3419
+type(
+  float
+)
+ident(
+  int_ref epsi "src/flatness_criterion.ml" 79 3106 3150 "src/flatness_criterion.ml" 79 3106 3154
+)
+"src/flatness_criterion.ml" 84 3406 3408 "src/flatness_criterion.ml" 84 3406 3419
+type(
+  bool
+)
+"src/flatness_criterion.ml" 83 3349 3351 "src/flatness_criterion.ml" 84 3406 3419
+type(
+  bool
+)
+"src/flatness_criterion.ml" 82 3270 3272 "src/flatness_criterion.ml" 84 3406 3419
+type(
+  bool
+)
+"src/flatness_criterion.ml" 80 3161 3163 "src/flatness_criterion.ml" 84 3406 3419
+type(
+  bool
+)
+"src/flatness_criterion.ml" 88 3556 3560 "src/flatness_criterion.ml" 88 3556 3573
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float -> 'a -> bool
+)
+ident(
+  def angle_test_3D "src/flatness_criterion.ml" 91 3716 3792 "src/flatness_criterion.ml" 1 0 -1
+)
+"src/flatness_criterion.ml" 88 3556 3574 "src/flatness_criterion.ml" 88 3556 3579
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  def p_f_a "src/flatness_criterion.ml" 88 3556 3580 "src/flatness_criterion.ml" 91 3716 3792
+)
+"src/flatness_criterion.ml" 88 3556 3580 "src/flatness_criterion.ml" 88 3556 3585
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  def p_f_b "src/flatness_criterion.ml" 88 3556 3586 "src/flatness_criterion.ml" 91 3716 3792
+)
+"src/flatness_criterion.ml" 88 3556 3586 "src/flatness_criterion.ml" 88 3556 3591
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  def p_f_m "src/flatness_criterion.ml" 88 3556 3592 "src/flatness_criterion.ml" 91 3716 3792
+)
+"src/flatness_criterion.ml" 88 3556 3592 "src/flatness_criterion.ml" 88 3556 3596
+type(
+  float
+)
+ident(
+  def epsi "src/flatness_criterion.ml" 88 3556 3597 "src/flatness_criterion.ml" 91 3716 3792
+)
+"src/flatness_criterion.ml" 88 3556 3597 "src/flatness_criterion.ml" 88 3556 3598
+type(
+  'a
+)
+ident(
+  def d "src/flatness_criterion.ml" 89 3601 3605 "src/flatness_criterion.ml" 91 3716 3792
+)
+"src/flatness_criterion.ml" 89 3601 3606 "src/flatness_criterion.ml" 89 3601 3615
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.abs_float
+)
+"src/flatness_criterion.ml" 89 3601 3617 "src/flatness_criterion.ml" 89 3601 3647
+type(
+  Geometry_tools.point_3D -> Geometry_tools.point_3D -> float
+)
+ident(
+  ext_ref Geometry_tools.angle_vector_3D
+)
+"src/flatness_criterion.ml" 90 3648 3679 "src/flatness_criterion.ml" 90 3648 3702
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D -> Geometry_tools.point_3D
+)
+ident(
+  ext_ref Geometry_tools.minus_3D
+)
+"src/flatness_criterion.ml" 90 3648 3703 "src/flatness_criterion.ml" 90 3648 3708
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_a "src/flatness_criterion.ml" 88 3556 3574 "src/flatness_criterion.ml" 88 3556 3579
+)
+"src/flatness_criterion.ml" 90 3648 3709 "src/flatness_criterion.ml" 90 3648 3714
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_m "src/flatness_criterion.ml" 88 3556 3586 "src/flatness_criterion.ml" 88 3556 3591
+)
+"src/flatness_criterion.ml" 90 3648 3678 "src/flatness_criterion.ml" 90 3648 3715
+call(
+  stack
+)
+type(
+  Geometry_tools.point_3D
+)
+"src/flatness_criterion.ml" 91 3716 3747 "src/flatness_criterion.ml" 91 3716 3770
+type(
+  Geometry_tools.point_3D ->
+  Geometry_tools.point_3D -> Geometry_tools.point_3D
+)
+ident(
+  ext_ref Geometry_tools.minus_3D
+)
+"src/flatness_criterion.ml" 91 3716 3771 "src/flatness_criterion.ml" 91 3716 3776
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_b "src/flatness_criterion.ml" 88 3556 3580 "src/flatness_criterion.ml" 88 3556 3585
+)
+"src/flatness_criterion.ml" 91 3716 3777 "src/flatness_criterion.ml" 91 3716 3782
+type(
+  Geometry_tools.point_3D
+)
+ident(
+  int_ref p_f_m "src/flatness_criterion.ml" 88 3556 3586 "src/flatness_criterion.ml" 88 3556 3591
+)
+"src/flatness_criterion.ml" 91 3716 3746 "src/flatness_criterion.ml" 91 3716 3783
+call(
+  stack
+)
+type(
+  Geometry_tools.point_3D
+)
+"src/flatness_criterion.ml" 89 3601 3616 "src/flatness_criterion.ml" 91 3716 3784
+call(
+  stack
+)
+type(
+  float
+)
+"src/flatness_criterion.ml" 89 3601 3605 "src/flatness_criterion.ml" 91 3716 3785
+type(
+  float
+)
+"src/flatness_criterion.ml" 91 3716 3786 "src/flatness_criterion.ml" 91 3716 3787
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/flatness_criterion.ml" 91 3716 3788 "src/flatness_criterion.ml" 91 3716 3792
+type(
+  float
+)
+ident(
+  int_ref epsi "src/flatness_criterion.ml" 88 3556 3592 "src/flatness_criterion.ml" 88 3556 3596
+)
+"src/flatness_criterion.ml" 89 3601 3605 "src/flatness_criterion.ml" 91 3716 3792
+type(
+  bool
+)
