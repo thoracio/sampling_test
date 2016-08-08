@@ -1,5 +1,6 @@
 open Printf
 
+<<<<<<< HEAD
 type chessboard = {up_left_corner : float*float; size: float;
                    rows : int; columns : int}
 (*the chessboard can generate the elements of a matrix defining a zone in the
@@ -42,6 +43,50 @@ let width cb =
 
 let height cb =
   let {u_l_c; w; h; r; c} = cb in h
+=======
+type chessboard = {up_left_corner : float*float; width : float; height : float;
+                   rows : int; columns : int}
+(*the chessboard can generate the elements of a matrix defining a zone in the
+ *plane, we keep as data:
+ *the up left corner of the matrix, the width and height, and the number of
+ *elements by row and column
+ *)
+
+let make_chessboard (u_l_c : float*float) (w : float) (h : float)
+                    (r : int) (c : int) =
+    {up_left_corner = u_l_c; width = w; height = h; rows = r; columns = c}
+(*create a chessboard from the input data*)
+
+let is_nan (x : float) = x<>x
+
+let is_nan_tuple (x : float * float) = x<>x
+
+let is_valid cb =
+  let {up_left_corner = u_l_c; width = w; height = h;
+  rows = r; columns = c} = cb in
+  if r<=1 || c<=1 || w=0. || h=0. || (is_nan_tuple u_l_c) then false else true
+(*test if the the chessboard cb is a valid chessboard*)
+
+let up_left_corner cb =
+  let {up_left_corner = u_l_c; width = w; height = h;
+  rows = r; columns = c} =  cb in u_l_c
+
+let rows cb =
+  let {up_left_corner = u_l_c; width = w; height = h;
+  rows = r; columns = c} = cb in r
+
+let columns cb =
+  let {up_left_corner = u_l_c; width = w; height = h;
+  rows = r; columns = c} = cb in c
+
+let width cb =
+  let {up_left_corner = u_l_c; width = w; height = h;
+  rows = r; columns = c} = cb in w
+
+let height cb =
+  let {up_left_corner = u_l_c; width = w; height = h;
+  rows = r; columns = c} = cb in h
+>>>>>>> 4db6e58116047b3364f3c5130ce081dbb2fecb2b
 
 let w_step cb =
   if is_valid cb then
@@ -51,7 +96,11 @@ let w_step cb =
 
 let h_step cb =
   if is_valid cb then
+<<<<<<< HEAD
   (heith cb) /. (float ((rows cb) - 1))
+=======
+  (height cb) /. (float ((rows cb) - 1))
+>>>>>>> 4db6e58116047b3364f3c5130ce081dbb2fecb2b
   else failwith "Chessboard: invalid chessboard."
 (*the space between two adjacent elements in a row in the chessboard cb*)
 
@@ -72,7 +121,10 @@ let nb_points cb =
 (*returns the number of points in the chessboard cb*)
 
 let to_coor cb nb =
+<<<<<<< HEAD
   let r = rows cb in
+=======
+>>>>>>> 4db6e58116047b3364f3c5130ce081dbb2fecb2b
   let c = columns cb in
   if nb mod c = 0 then
     (nb / c), c
@@ -95,6 +147,7 @@ let pick_point cb nb =
   else
     let x0,y0 = up_left_corner cb in
     let c = columns cb in
+<<<<<<< HEAD
     let r = rows cb in
     let w_s = w_step cb in
     let h_s = h_step cb in
@@ -103,6 +156,15 @@ let pick_point cb nb =
       (y0 -. h_s*.(float (nb/c - 1)))
     else
       (x0 -. w_s*.(float ((nb mod c) -1))),
+=======
+    let w_s = w_step cb in
+    let h_s = h_step cb in
+    if nb mod c = 0 then
+      (x0 +. w_s*.(float (c-1))),
+      (y0 -. h_s*.(float (nb/c - 1)))
+    else
+      (x0 +. w_s*.(float ((nb mod c) -1))),
+>>>>>>> 4db6e58116047b3364f3c5130ce081dbb2fecb2b
       (y0 -. h_s*.(float (nb/c)))
   end
   else failwith "Chessboard: invalid chessboard."
@@ -122,17 +184,40 @@ let pick_block cb nb =
     else begin
     if nb mod (c-1) = 0 then
       let n = nb + ((nb / (c-1))-1) in
+<<<<<<< HEAD
       (pick_point n), (pick_point (n+1)), (pick_point (n+c)),
       (pick_point (n+c+1))
     else
       let n = nb + (nb / (c-1)) in
       (pick_point n), (pick_point (n+1)), (pick_point (n+c)),
       (pick_point (n+c+1))
+=======
+      (pick_point cb n), (pick_point cb (n+1)), (pick_point cb (n+c)),
+      (pick_point cb (n+c+1))
+    else
+      let n = nb + (nb / (c-1)) in
+      (pick_point cb n), (pick_point cb (n+1)), (pick_point cb (n+c)),
+      (pick_point cb (n+c+1))
+>>>>>>> 4db6e58116047b3364f3c5130ce081dbb2fecb2b
     end
   end
   else failwith "Chessboard: invalid chessboard."
 (*pick a whole block from the chessboard by his number identifiant*)
 
+<<<<<<< HEAD
+=======
+let test_block bk f =
+  let (a1,a2), (b1,b2), (c1,c2), (d1,d2) = bk in
+  let a = f a1 a2 and b = f b1 b2 in
+  let c = f c1 c2 and d = f d1 d2 in
+  if a=0. || b=0. || c=0. || d=0. then 0
+  else if (a*.b)>0. && (c*.d)>0. && (a*.c)>0. then 1
+  else -1
+(*test if the four vertices of the square have the same sign, that is, if the
+ *function f has not sign change in the block, return -1 if the function
+ *crosses the block, 1 if not and 0 if some of the vertices is a zero for f
+ *)
+>>>>>>> 4db6e58116047b3364f3c5130ce081dbb2fecb2b
 let print_elem cb (i,j) =
   if i>(rows cb) || j>(columns cb) then failwith "Chessboard: index out
                                                   of bonds"
@@ -143,6 +228,10 @@ let print_elem cb (i,j) =
 let print_block cb nb =
   if nb > (nb_blocks cb) then failwith "Chessboard: index out of bonds"
   else
+<<<<<<< HEAD
+=======
+  let bk = pick_block cb nb in
+>>>>>>> 4db6e58116047b3364f3c5130ce081dbb2fecb2b
   let (a1,a2), (b1,b2), (c1,c2), (d1,d2) = bk in
   printf "(%f, %f) (%f, %f)\n(%f, %f) (%f, %f)" a1 a2 b1 b2 c1 c2 d1 d2
 
@@ -161,6 +250,7 @@ let print_chessboard cb =
     printf "\n"
   done;
 
+<<<<<<< HEAD
 (*---------------------------------------------------------------------------*)
 (*---------------------block treatment---------------------------------------*)
 
@@ -429,4 +519,6 @@ let test_triangle tr f slope_tol =
 let end_treatemnt_trinagle tr =
   let p0, p1, p2 = tr in
   let (x0,y0), (x1,y1), (x2,y2) = p0, p1, p2 in
+=======
+>>>>>>> 4db6e58116047b3364f3c5130ce081dbb2fecb2b
 
